@@ -1,6 +1,6 @@
-# Isoform-Specific Localization Diversifies Human MSI2 Function
+# Alternative splicing switches human Musashi-2 between cytoplasmic and nuclear regulatory functions
 
-Data, analysis code, and supporting results for the manuscript by Kathryn Walters, Nadine Koertel, Amber Baldwin, Marcin Sajek, and Neelanjan Mukherjee.
+Data, analysis code, and supporting results for the manuscript by Kathryn Walters, Nadine Koertel, Amber Baldwin, Rachel Todebush, Marcin P. Sajek, and Neelanjan Mukherjee.
 
 **Manuscript status:** submitted for peer review.
 
@@ -44,6 +44,6 @@ Processed CLIP counts, sample annotations, result tables, and many reference inp
 
 ## Citation
 
-Walters K, Koertel N, Baldwin A, Sajek M, Mukherjee N. *Isoform-Specific Localization Diversifies Human MSI2 Function*. bioRxiv. 2026. [doi:10.64898/2026.05.16.725683](https://doi.org/10.64898/2026.05.16.725683). See the [submitted preprint version](https://www.biorxiv.org/content/10.64898/2026.05.16.725683v2).
+Walters K, Koertel N, Baldwin A, Todebush R, Sajek MP, Mukherjee N. *Alternative splicing switches human Musashi-2 between cytoplasmic and nuclear regulatory functions*. bioRxiv. 2026. [doi:10.64898/2026.05.16.725683](https://doi.org/10.64898/2026.05.16.725683). See the [submitted preprint version](https://www.biorxiv.org/content/10.64898/2026.05.16.725683v2).
 
 When referring to a repository analysis, also record the Git commit and the relevant script or result path so that the exact computational version can be identified.
