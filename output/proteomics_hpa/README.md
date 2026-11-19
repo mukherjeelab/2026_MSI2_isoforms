@@ -91,7 +91,7 @@ The reproduced cluster centers confirm cluster 2 is highest in 324 and cluster 3
 
 ## Reproduction and validation
 
-The requested exact-zero GSEA and annotated-background ORA follow-ups are saved separately in [sensitivity/README.md](sensitivity/README.md). Both preserve the no-significant-enrichment conclusion; the results above remain the primary analyses. Run `Rscript analysis/proteomics_hpa/run_sensitivities.R` after the primary workflow to reproduce the additional four GSEA and eight ORA runs, comparison tables and six figure pairs.
+The exact-zero GSEA and annotated-background ORA sensitivity analyses are saved separately in [sensitivity/README.md](sensitivity/README.md). Both preserve the no-significant-enrichment conclusion; the results above remain the primary analyses. Run `Rscript analysis/proteomics_hpa/run_sensitivities.R` after the primary workflow to reproduce the additional four GSEA and eight ORA runs, comparison tables and six figure pairs.
 
 Run from the repository root with R and the packages in `sessionInfo.txt`:
 

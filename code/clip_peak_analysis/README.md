@@ -64,5 +64,5 @@ Rscript code/clip_peak_analysis/scripts/audit_results.R
 It validates row/sample identity and count totals, then writes compact summaries
 to `data/results/peak_analysis/audit/`.
 
-See `data/results/peak_analysis/README.md` for the current result interpretation
+See `data/results/peak_analysis/README.md` for result interpretation
 and limitations.

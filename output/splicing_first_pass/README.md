@@ -1,6 +1,6 @@
-# MSI2 landmark enrichment first-pass analysis
+# MSI2 site-weighted landmark enrichment
 
-This directory contains the requested local first-pass analysis of the completed BAM-derived landmark bundle. No FASTQ or BAM file was accessed.
+This directory contains the site-weighted landmark analysis using the original normalization of the processed BAM-derived count tables. The common-CPM analysis is documented separately in [`../splicing_common_cpm_investigation/README.md`](../splicing_common_cpm_investigation/README.md). This workflow operates on exported tables and does not require access to FASTQ or BAM files.
 
 ## Inputs
 

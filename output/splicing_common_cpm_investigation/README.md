@@ -1,6 +1,6 @@
-# MSI2 common-CPM normalization and discrepancy investigation
+# MSI2 landmark enrichment with common-CPM normalization
 
-This analysis preserves `output/splicing_first_pass/` and writes a separate common-scale reanalysis. No FASTQ or BAM file was accessed.
+This analysis places CLIP and SMI coverage on a common primary-mapped-read CPM scale. Results from the original normalization are retained in `output/splicing_first_pass/` for methodological comparison. The workflow uses exported count tables and does not require access to FASTQ or BAM files.
 
 ## Common normalization
 

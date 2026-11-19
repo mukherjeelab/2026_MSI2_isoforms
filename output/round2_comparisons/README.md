@@ -1,6 +1,6 @@
-# Round-two comparisons
+# MSI2 read-selection and feature-profile comparisons
 
-Open `report.html` for a visual index of every plot. All figures are available as PNG and vector PDF in `figures/`; underlying values and comparisons are in `tables/`.
+The [HTML report](report.html) provides a visual index of the figures. All figures are available as PNG and vector PDF in `figures/`; underlying values and comparisons are in `tables/`.
 
 Run from the repository root: `Rscript analysis/compare_round2.R`.
 

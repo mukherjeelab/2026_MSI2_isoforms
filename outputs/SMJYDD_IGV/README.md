@@ -4,7 +4,7 @@ All reads in this package are at least 500 nt long. Only the reference(s) assign
 
 ## Open a prepared session in IGV Desktop
 
-An IGV application was found at `/Applications/IGV_2.8.13.app`. Automatic launch/inspection was blocked by missing computer-control permissions; sessions have been checked as files but not visually tested in IGV.
+The supplied sessions were prepared for IGV Desktop 2.8.13. Session files and alignment resources passed file-level checks; their visual appearance in IGV has not been independently verified.
 
 1. Open IGV.
 2. Choose **File > Open Session**.

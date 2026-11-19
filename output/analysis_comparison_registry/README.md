@@ -2,7 +2,7 @@
 
 Open `report.html` in a browser. Everything it links is inside this directory; no network or repository checkout is needed. The package contains 104 completed parameter-specific analysis variants across 9 families, one proposed interaction analysis, and 101 figure records (PNG/PDF pairs counted once).
 
-Repository commit: `ace0f5236b33493d7ea61a664cafd93e69e79449`. Analysis files include uncommitted/untracked work; the copied source files and `source_manifest.tsv` hashes define the actual evidence snapshot. Dates are output mtimes, not guaranteed execution dates.
+This registry is a historical evidence snapshot assembled when the repository HEAD was `ace0f5236b33493d7ea61a664cafd93e69e79449`, before the analysis files were committed. The copied source files and `source_manifest.tsv` hashes define the snapshot; the recorded commit alone does not identify its analysis contents. Dates are output modification times, not verified execution dates. See the [repository guide](../../README.md) for current navigation.
 
 ## Contents
 
