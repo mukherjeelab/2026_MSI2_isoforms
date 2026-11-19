@@ -1,0 +1,20 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+.snakemake/
+logs/
+work/
+
+# Local build environments and scratch files
+.codex-*/
+tmp/
+Rplots.pdf
+*.inspect.ndjson
+
+# Downloaded genome and generated bundles exceed GitHub's file-size limit.
+# Keep these local; analysis sources and unpacked reports are versioned.
+/data/reference_followup/hg38.2bit
+/output/analysis_comparison_registry.zip
+/output/analysis_comparison_registry_with_followups.zip

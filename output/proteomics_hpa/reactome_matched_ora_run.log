@@ -1,0 +1,34 @@
+Warning messages:
+1: package ‘dplyr’ was built under R version 4.4.3 
+2: package ‘tidyr’ was built under R version 4.4.3 
+3: package ‘readr’ was built under R version 4.4.3 
+'select()' returned 1:many mapping between keys and columns
+# A tibble: 12 × 10
+   pair   resolution isoform hit_set_size background_size tested significant_005
+   <chr>  <chr>      <chr>          <int>           <int>  <int>           <int>
+ 1 clust… collapsed  324              421            1638     15               0
+ 2 clust… collapsed  328              609            1638     15               0
+ 3 clust… fine       324              421            1638     41               0
+ 4 clust… fine       328              609            1638     41               0
+ 5 hits   collapsed  324              237            1638     15               0
+ 6 hits   collapsed  328              240            1638     15               0
+ 7 hits   fine       324              237            1638     41               0
+ 8 hits   fine       328              240            1638     41               0
+ 9 speci… collapsed  324              172            1638     15               0
+10 speci… collapsed  328              300            1638     15               0
+11 speci… fine       324              172            1638     41               0
+12 speci… fine       328              300            1638     41               0
+# ℹ 3 more variables: significant_010 <int>, minimum_p <dbl>, minimum_FDR <dbl>
+# A tibble: 6 × 4
+  set_name           mapped_hit_genes hpa_gene_mapped primary_localized
+  <chr>                         <int>           <int>             <int>
+1 genes_324_cluster               421             421               378
+2 genes_324_hits                  237             237               212
+3 genes_324_specific              172             172               156
+4 genes_328_cluster               609             608               541
+5 genes_328_hits                  240             239               216
+6 genes_328_specific              300             299               273
+# A tibble: 0 × 9
+# ℹ 9 variables: pair <chr>, resolution <chr>, isoform <chr>,
+#   localization <chr>, GeneRatio <chr>, BgRatio <chr>, odds_ratio <dbl>,
+#   p_value <dbl>, BH_FDR <dbl>

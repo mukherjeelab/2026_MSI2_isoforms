@@ -1,0 +1,389 @@
+{
+  "sha": "79b1aabfc985bdf750fa304bd1d217442da940b7",
+  "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/trees/79b1aabfc985bdf750fa304bd1d217442da940b7",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5489ab27051e297978e4af7f081e9cb8d0b7e59c",
+      "size": 18,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/5489ab27051e297978e4af7f081e9cb8d0b7e59c"
+    },
+    {
+      "path": "README",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ad91d9a9abdfd0427f8ff44f0feb6a133e1b61cd",
+      "size": 5517,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/ad91d9a9abdfd0427f8ff44f0feb6a133e1b61cd"
+    },
+    {
+      "path": "parclip_pipe.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebef8861efe2dc37cd352c4d33eb83f782bdcdf4",
+      "size": 7556,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/ebef8861efe2dc37cd352c4d33eb83f782bdcdf4"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "66d97b45014a8d8786ac4c329df9f36204c7ce5a",
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/trees/66d97b45014a8d8786ac4c329df9f36204c7ce5a"
+    },
+    {
+      "path": "scripts/Default_PARalyzer_Parameters.ini",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "924f29f087328b7e4831073d5be03b81f52874b5",
+      "size": 357,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/924f29f087328b7e4831073d5be03b81f52874b5"
+    },
+    {
+      "path": "scripts/LSD_2.5.tar.gz",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a860f041cf71be7b82ab653174098bf40e607ee2",
+      "size": 26557,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/a860f041cf71be7b82ab653174098bf40e607ee2"
+    },
+    {
+      "path": "scripts/Number-Format-1.73.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4af4a630865b478a6d31f71dc9813a114461699",
+      "size": 22742,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/e4af4a630865b478a6d31f71dc9813a114461699"
+    },
+    {
+      "path": "scripts/PARalyzer",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5d71df0ef8c0662a39f589f5ba3f933e56823d4a",
+      "size": 1546,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/5d71df0ef8c0662a39f589f5ba3f933e56823d4a"
+    },
+    {
+      "path": "scripts/PARclusters2bed.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "87fa17d63598f1bedfd0de21fa6cb969680c637c",
+      "size": 1870,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/87fa17d63598f1bedfd0de21fa6cb969680c637c"
+    },
+    {
+      "path": "scripts/RColorBrewer_1.1-2.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef04e6b81d393cb300b05c5ccf8dbf7fa6c7c5cc",
+      "size": 11532,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/ef04e6b81d393cb300b05c5ccf8dbf7fa6c7c5cc"
+    },
+    {
+      "path": "scripts/Spatial.R",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c2c8de6f7d515ab2972e420d4aed3b7b13460900",
+      "size": 29785,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/c2c8de6f7d515ab2972e420d4aed3b7b13460900"
+    },
+    {
+      "path": "scripts/Spatial.pl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e430f53f1f6c6759d10d52ce59195c3cf467667d",
+      "size": 46441,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/e430f53f1f6c6759d10d52ce59195c3cf467667d"
+    },
+    {
+      "path": "scripts/Statistics-Basic-1.6611.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8aa49d0819e469fdc3a34f6f6623aa0ad5e03a8",
+      "size": 30630,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/e8aa49d0819e469fdc3a34f6f6623aa0ad5e03a8"
+    },
+    {
+      "path": "scripts/annotate.pl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "726723b23550bdd1cab7d5c5bfd8fb1febcb4aeb",
+      "size": 20788,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/726723b23550bdd1cab7d5c5bfd8fb1febcb4aeb"
+    },
+    {
+      "path": "scripts/annotationRank.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a2b5670101205e35390a048534109ea7c698617b",
+      "size": 370,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/a2b5670101205e35390a048534109ea7c698617b"
+    },
+    {
+      "path": "scripts/collapseFA.pl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "56675be1fcec4c806fd0ee63224d7e489c33b778",
+      "size": 464,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/56675be1fcec4c806fd0ee63224d7e489c33b778"
+    },
+    {
+      "path": "scripts/colorRamps_2.3.tar.gz",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6d86a214a5ce933caee5c6e408527b2d5370c894",
+      "size": 3803,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/6d86a214a5ce933caee5c6e408527b2d5370c894"
+    },
+    {
+      "path": "scripts/editClustersTC.pl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a7d17a46ad7bac9b5d0c9ccd4dda4d8738a369ff",
+      "size": 6467,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/a7d17a46ad7bac9b5d0c9ccd4dda4d8738a369ff"
+    },
+    {
+      "path": "scripts/editPARalyzerINIfile.pl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6c155b79c9a3ac7596e91947c0213aa59a37d0a7",
+      "size": 622,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/6c155b79c9a3ac7596e91947c0213aa59a37d0a7"
+    },
+    {
+      "path": "scripts/ellipse_0.3-8.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "857b34dbdac1d38571fb22e8d8d7a40ec2a6dabe",
+      "size": 10939,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/857b34dbdac1d38571fb22e8d8d7a40ec2a6dabe"
+    },
+    {
+      "path": "scripts/extractDataTC.pl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5ded30d912ab54037bff98a8705b4378946b1804",
+      "size": 8755,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/5ded30d912ab54037bff98a8705b4378946b1804"
+    },
+    {
+      "path": "scripts/fastqToFASTA.pl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "71e1d8f26f14f910587c6eeafed9daa169545569",
+      "size": 597,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/71e1d8f26f14f910587c6eeafed9daa169545569"
+    },
+    {
+      "path": "scripts/geneLevel.pl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9110e5f8e43f35b022058af3e4c719502c30c066",
+      "size": 2686,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/9110e5f8e43f35b022058af3e4c719502c30c066"
+    },
+    {
+      "path": "scripts/gtools_3.4.1.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf00a295d268acfc8acd0014f3079c238c465b3c",
+      "size": 57119,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/bf00a295d268acfc8acd0014f3079c238c465b3c"
+    },
+    {
+      "path": "scripts/readAttributesTC.pl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f0d4f29d6c43c584a006bdf819c895dd25e8e8c6",
+      "size": 2341,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/f0d4f29d6c43c584a006bdf819c895dd25e8e8c6"
+    },
+    {
+      "path": "scripts/reads2bed.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5d14478df9670a72f966f53413fad235a494a627",
+      "size": 1113,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/5d14478df9670a72f966f53413fad235a494a627"
+    },
+    {
+      "path": "scripts/schoolmath_0.4.tar.gz",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5772745fa044f50ccdc5da7e43ad1eaeee1cf985",
+      "size": 710106,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/5772745fa044f50ccdc5da7e43ad1eaeee1cf985"
+    },
+    {
+      "path": "scripts/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4e327a2bae0e1c23657b78a344ef80850a2b684",
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/trees/b4e327a2bae0e1c23657b78a344ef80850a2b684"
+    },
+    {
+      "path": "scripts/src/AlignedPARCLIPread.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f17c5173a915263923e0f0ef470b3eda94a51ce8",
+      "size": 3933,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/f17c5173a915263923e0f0ef470b3eda94a51ce8"
+    },
+    {
+      "path": "scripts/src/Chromosome.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffe2c70c073a84bec4407ceb0a0d764a4be241ed",
+      "size": 1866,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/ffe2c70c073a84bec4407ceb0a0d764a4be241ed"
+    },
+    {
+      "path": "scripts/src/FilterBlock.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9967a774cd406071fbe62a209a11c862e9d60b2",
+      "size": 1895,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/d9967a774cd406071fbe62a209a11c862e9d60b2"
+    },
+    {
+      "path": "scripts/src/Genome.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d81a8321efad04039bfc364850134e44de7b7f18",
+      "size": 4003,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/d81a8321efad04039bfc364850134e44de7b7f18"
+    },
+    {
+      "path": "scripts/src/GenomicBlock.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83f46e1fe925ea867b862c597b65daa5f827aef4",
+      "size": 722,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/83f46e1fe925ea867b862c597b65daa5f827aef4"
+    },
+    {
+      "path": "scripts/src/KDECluster.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2110019a44539e4aab41776adce4d7c90f558a6",
+      "size": 8381,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/b2110019a44539e4aab41776adce4d7c90f558a6"
+    },
+    {
+      "path": "scripts/src/MIRNA.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88ce6db10d3d76fd153a825f8b537ff68424dcd5",
+      "size": 698,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/88ce6db10d3d76fd153a825f8b537ff68424dcd5"
+    },
+    {
+      "path": "scripts/src/MIRNAseedMatch.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "961425f79fea44131f5110428976bcb01b825a05",
+      "size": 1270,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/961425f79fea44131f5110428976bcb01b825a05"
+    },
+    {
+      "path": "scripts/src/MyTwoBitParser.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61230be2cf2826311d777d54551a15b6b06ce1c1",
+      "size": 5438,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/61230be2cf2826311d777d54551a15b6b06ce1c1"
+    },
+    {
+      "path": "scripts/src/PARCLIPbowtieParser.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "813d87f773b3e4c8be141c8344f0a463d53cef76",
+      "size": 4875,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/813d87f773b3e4c8be141c8344f0a463d53cef76"
+    },
+    {
+      "path": "scripts/src/PARCLIPread.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "211600572b4626acccc04cf6d9e5ec9e9edff3d3",
+      "size": 2058,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/211600572b4626acccc04cf6d9e5ec9e9edff3d3"
+    },
+    {
+      "path": "scripts/src/PARCLIPsamParser.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45e473da8d70e83836ca8ee66913d12a375168c1",
+      "size": 5530,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/45e473da8d70e83836ca8ee66913d12a375168c1"
+    },
+    {
+      "path": "scripts/src/PARalyze.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eab5c26d6ebc19e2d4307ac9f14f0db33ca2de57",
+      "size": 20550,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/eab5c26d6ebc19e2d4307ac9f14f0db33ca2de57"
+    },
+    {
+      "path": "scripts/src/ReadGroup.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f6e7ab6c6b587bf24affe2354a461bd9018bbc7",
+      "size": 14731,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/7f6e7ab6c6b587bf24affe2354a461bd9018bbc7"
+    },
+    {
+      "path": "scripts/src/Transliteration$Element.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5910b56e776583b51b70856b785459117ad17bbb",
+      "size": 597,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/5910b56e776583b51b70856b785459117ad17bbb"
+    },
+    {
+      "path": "scripts/src/Transliteration.class",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5f56d7027c17890acd12bb80ce57c690d19de13",
+      "size": 5388,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/b5f56d7027c17890acd12bb80ce57c690d19de13"
+    },
+    {
+      "path": "scripts/visclusterbed.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "30f4f6ce2e0e93cf30318e1667e13a8d1672f46b",
+      "size": 827,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/30f4f6ce2e0e93cf30318e1667e13a8d1672f46b"
+    },
+    {
+      "path": "scripts/wrap.pl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8878e4a3a10453636fa7c727d2e812eed89813d4",
+      "size": 3530,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/8878e4a3a10453636fa7c727d2e812eed89813d4"
+    },
+    {
+      "path": "setup.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f7f9e1a7bbf23fd399af3b615adf4157a89f1e73",
+      "size": 3115,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/f7f9e1a7bbf23fd399af3b615adf4157a89f1e73"
+    },
+    {
+      "path": "wrap.pl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8878e4a3a10453636fa7c727d2e812eed89813d4",
+      "size": 3530,
+      "url": "https://api.github.com/repos/ohlerlab/PARpipe/git/blobs/8878e4a3a10453636fa7c727d2e812eed89813d4"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,55 @@
+check	passed
+NM2026_0081 fractional mass=1	True
+NM2026_0082 fractional mass=1	True
+NM2026_0083 fractional mass=1	True
+NM2026_0084 fractional mass=1	True
+NM2026_0085 fractional mass=1	True
+NM2026_0086 fractional mass=1	True
+NM2026_0087 fractional mass=1	True
+NM2026_0088 fractional mass=1	True
+raw_count_quantile/continuous_delta_delta_peaks.tsv fixed16046	True
+tables/downsampling_peak_summary.tsv fixed16046	True
+NM2026_0088 shape Q0	True
+NM2026_0088 shape Q1	True
+NM2026_0088 shape Q2	True
+NM2026_0088 shape Q3	True
+NM2026_0088 shape Q4	True
+NM2026_0084 shape Q0	True
+NM2026_0084 shape Q1	True
+NM2026_0084 shape Q2	True
+NM2026_0084 shape Q3	True
+NM2026_0084 shape Q4	True
+NM2026_0085 shape Q0	True
+NM2026_0085 shape Q1	True
+NM2026_0085 shape Q2	True
+NM2026_0085 shape Q3	True
+NM2026_0085 shape Q4	True
+NM2026_0087 shape Q0	True
+NM2026_0087 shape Q1	True
+NM2026_0087 shape Q2	True
+NM2026_0087 shape Q3	True
+NM2026_0087 shape Q4	True
+NM2026_0081 shape Q0	True
+NM2026_0081 shape Q1	True
+NM2026_0081 shape Q2	True
+NM2026_0081 shape Q3	True
+NM2026_0081 shape Q4	True
+NM2026_0083 shape Q0	True
+NM2026_0083 shape Q1	True
+NM2026_0083 shape Q2	True
+NM2026_0083 shape Q3	True
+NM2026_0083 shape Q4	True
+NM2026_0086 shape Q0	True
+NM2026_0086 shape Q1	True
+NM2026_0086 shape Q2	True
+NM2026_0086 shape Q3	True
+NM2026_0086 shape Q4	True
+NM2026_0082 shape Q0	True
+NM2026_0082 shape Q1	True
+NM2026_0082 shape Q2	True
+NM2026_0082 shape Q3	True
+NM2026_0082 shape Q4	True
+QKI liftover mass balance	True
+PUM2 liftover mass balance	True
+ELAVL1 liftover mass balance	True
+4 RBP x2 boundaries x200bins	True

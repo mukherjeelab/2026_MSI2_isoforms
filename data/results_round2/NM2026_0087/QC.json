@@ -1,0 +1,45 @@
+{
+  "sample": "NM2026_0087",
+  "seed": 1729,
+  "census": {
+    "all": {
+      "genome": 103812,
+      "peaks": 11138
+    },
+    "uag": {
+      "genome": 48870,
+      "peaks": 8495
+    }
+  },
+  "targets": {
+    "all": {
+      "genome": 93659,
+      "peaks": 8503
+    },
+    "uag": {
+      "genome": 40992,
+      "peaks": 6111
+    }
+  },
+  "selected": {
+    "all__genome_full": 103812,
+    "all__genome_equal": 93659,
+    "all__peaks_full": 11138,
+    "all__peaks_after_genome_equal": 10089,
+    "all__peaks_equal": 8503,
+    "uag__genome_full": 48870,
+    "uag__genome_equal": 40992,
+    "uag__peaks_full": 8495,
+    "uag__peaks_after_genome_equal": 7123,
+    "uag__peaks_equal": 6111
+  },
+  "annotation_qc": {
+    "transcripts_with_exons": 199391
+  },
+  "bin_size": 10,
+  "scaled_bins": 100,
+  "eligible_definition": "single-end primary, MAPQ threshold, NH absent or <=1",
+  "mapq": 10,
+  "motif": "TAG in original read orientation, including stored soft clips",
+  "group_by": "all"
+}

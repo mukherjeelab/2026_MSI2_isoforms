@@ -1,0 +1,12 @@
+metric	value
+merged_peaks_total	43794
+peaks_with_any_count	16046
+peaks_zero_in_all_libraries	27748
+PCA_PC1_percent_variance	30.44406482085877
+PCA_PC2_percent_variance	19.153377966027644
+LFC_Pearson_r_328WT_vs_324WT	0.14256416604392994
+LFC_Spearman_rho_328WT_vs_324WT	0.15442951622314463
+DESeq2_enriched_both	86
+DESeq2_enriched_only_328WT	407
+DESeq2_enriched_only_324WT	58
+DESeq2_not_significantly_enriched	15495

@@ -1,0 +1,33 @@
+executor: slurm
+jobs: 100
+latency-wait: 60
+rerun-incomplete: true
+printshellcmds: true
+software-deployment-method:
+  - conda
+
+default-resources:
+  mem_mb: 2000
+  runtime: 60
+
+set-resources:
+  prepare_peaks:
+    mem_mb: 2000
+    runtime: 30
+  count_reads_in_peaks:
+    mem_mb: 8000
+    runtime: 240
+  count_primary_mapped_alignments:
+    mem_mb: 2000
+    runtime: 60
+  combine_library_sizes:
+    mem_mb: 1000
+    runtime: 15
+  write_peak_count_matrix:
+    mem_mb: 2000
+    runtime: 30
+  deseq2_peak_enrichment:
+    mem_mb: 16000
+    runtime: 120
+
+slurm-logdir: logs/slurm

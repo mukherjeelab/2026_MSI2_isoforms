@@ -1,0 +1,1 @@
+PASS: Independent reconstruction of all read spliced offsets, 12 observed replicate profiles, six replicate means, and the endogenous equal-feature curve. Agreement tolerance 1e-12. Counts use unique feature IDs and sum distinct library records.

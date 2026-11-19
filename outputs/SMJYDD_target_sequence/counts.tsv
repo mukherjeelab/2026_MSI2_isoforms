@@ -1,0 +1,8 @@
+sample	total_reads	exact_forward	exact_reverse_complement	both_orientations	matching_reads	nonmatching_reads	reads_shorter_than_target	matching_percent
+SMJYDD_1_L2_HEK	5332	29	31	1	59	5273	0	1.1065
+SMJYDD_2_L2_H295R	5427	2	1	0	3	5424	0	0.0553
+SMJYDD_3_L4_HEK	4524	0	0	0	0	4524	0	0.0000
+SMJYDD_4_L4_H295R	4216	11	11	0	22	4194	0	0.5218
+SMJYDD_5_L8_HEK	5476	0	0	0	0	5476	0	0.0000
+SMJYDD_6_L8_H295R	5047	0	0	0	0	5047	0	0.0000
+TOTAL	30022	42	43	1	84	29938	0	0.2798

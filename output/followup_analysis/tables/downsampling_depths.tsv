@@ -1,0 +1,9 @@
+sample_id	construct	assay	biological_replicate	pair_id	comparison	bam	original_depth	target_depth	seed	iterations
+NM2026_0081	328	CLIP	A	MSI2_328_A	MSI2_328WT	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0081.mapped.sorted.bam	148054	93659	260921	50
+NM2026_0082	328	SMI	A	MSI2_328_A	MSI2_328WT	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0082.mapped.sorted.bam	257457	257457	260921	50
+NM2026_0083	328	CLIP	B	MSI2_328_B	MSI2_328WT	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0083.mapped.sorted.bam	173852	93659	260921	50
+NM2026_0084	328	SMI	B	MSI2_328_B	MSI2_328WT	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0084.mapped.sorted.bam	320014	257457	260921	50
+NM2026_0085	324	CLIP	A	MSI2_324_A	MSI2_324WT	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0085.mapped.sorted.bam	93659	93659	260921	50
+NM2026_0086	324	SMI	A	MSI2_324_A	MSI2_324WT	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0086.mapped.sorted.bam	571306	257457	260921	50
+NM2026_0087	324	CLIP	B	MSI2_324_B	MSI2_324WT	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0087.mapped.sorted.bam	103812	93659	260921	50
+NM2026_0088	324	SMI	B	MSI2_324_B	MSI2_324WT	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0088.mapped.sorted.bam	512565	257457	260921	50

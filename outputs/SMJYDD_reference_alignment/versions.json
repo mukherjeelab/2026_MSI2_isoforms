@@ -1,0 +1,10 @@
+{
+  "biopython": "1.83",
+  "mappy": "2.31",
+  "preset": "map-ont",
+  "reference_score_margin": 20,
+  "minimum_alignment_identity": 0.85,
+  "minimum_aligned_query_bases": 80,
+  "flank_identity": 0.85,
+  "strict_flank_identity": 0.9
+}

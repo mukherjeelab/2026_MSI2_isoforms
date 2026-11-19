@@ -1,0 +1,1218 @@
+---
+title: "DualLuciferase"
+author: "Kathryn Walters"
+date: "2026-05-11"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+```{r}
+
+library(here)
+library(drc) # modeling tools
+library(tidyverse) # your go to set of functions for messing w/data
+library(RColorBrewer) # to make color schemes
+#library(ggpubr) # publication quality ggplots ha ha ha
+library(ggthemes) # additional themes for ggplot-ing
+library(gridExtra) # allows arranging of plots (rows/columns...)
+library(splitstackshape)
+library(ggpubr)
+library(readxl)
+
+df <- read_excel(here::here("data", "DLAssay_ALLData.xlsx"))
+
+
+data_summary <- function(data, varname, groupnames){
+  require(plyr)
+  summary_func <- function(x, col){
+    c(mean = mean(x[[col]], na.rm=TRUE),
+      sd = sd(x[[col]], na.rm=TRUE))
+  }
+  data_sum<-ddply(data, groupnames, .fun=summary_func,
+                  varname)
+  data_sum <- rename(data_sum, c("mean" = varname))
+ return(data_sum)
+}
+```
+
+
+# Figure 1C - OG Tether experiments
+
+```{r}
+construct_order <- c(
+  "328 tethered",
+  "GFP tethered",
+  "328 No Tether",
+  "GFP No Tether"
+)
+
+df_kab152 <- df %>%
+  filter(Exp == "KAB152") %>%
+  mutate(
+    Nano_FF = NanoGlo / Firefly,
+    construct_plot = case_when(
+      MSI2_Exp %in% c("328_Tether", "WT_Tether", "FullLength_Tether") ~ "328 tethered",
+      MSI2_Exp == "GFP_Tether" ~ "GFP tethered",
+      MSI2_Exp %in% c("328_NoTether", "WT_NoTether", "FullLength_NoTether") ~ "328 No Tether",
+      MSI2_Exp == "GFP_NoTether" ~ "GFP No Tether",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  filter(!is.na(construct_plot)) %>%
+  mutate(
+    construct_plot = factor(construct_plot, levels = construct_order)
+  )
+
+# normalize everything to GFP tethered
+gfp_tether_mean <- df_kab152 %>%
+  filter(construct_plot == "GFP tethered") %>%
+  summarise(mean_gfp = mean(Nano_FF, na.rm = TRUE)) %>%
+  pull(mean_gfp)
+
+df_norm <- df_kab152 %>%
+  mutate(Norm = Nano_FF / gfp_tether_mean)
+
+
+#stats
+df_stats <- df_norm %>%
+  filter(construct_plot != "GFP tethered") %>%
+  group_by(construct_plot) %>%
+  summarise(
+    GFP_tether_mean = mean(df_norm$Norm[df_norm$construct_plot == "GFP tethered"], na.rm = TRUE),
+    construct_mean = mean(Norm, na.rm = TRUE),
+    FC_vs_GFP_tether = construct_mean / GFP_tether_mean,
+    p_value = tryCatch(
+      t.test(
+        Norm,
+        df_norm$Norm[df_norm$construct_plot == "GFP tethered"],
+        alternative = "two.sided",
+        var.equal = FALSE
+      )$p.value,
+      error = function(e) NA_real_
+    ),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    p_adj = p.adjust(p_value, method = "BH"),
+    FC_label = paste0(round(FC_vs_GFP_tether, 2), "x"),
+    p_label = case_when(
+      p_adj < 0.001 ~ "p_adj < 0.001",
+      p_adj < 0.01  ~ "p_adj < 0.01",
+      p_adj < 0.05  ~ "p_adj < 0.05",
+      TRUE ~ paste0("p_adj = ", signif(p_adj, 2))
+    ),
+    sig_label = case_when(
+      p_adj < 0.001 ~ "***",
+      p_adj < 0.01  ~ "**",
+      p_adj < 0.05  ~ "*",
+      TRUE ~ "ns"
+    )
+  )
+
+df_stats
+
+df_summary <- df_norm %>%
+  group_by(construct_plot) %>%
+  summarise(
+    mean = mean(Norm, na.rm = TRUE),
+    sd = sd(Norm, na.rm = TRUE),
+    n = n(),
+    .groups = "drop"
+  ) %>%
+  left_join(df_stats, by = "construct_plot")
+
+fig1 <- ggplot(df_summary, aes(x = construct_plot, y = mean)) +
+  geom_col() +
+  geom_errorbar(
+    aes(ymin = mean - sd, ymax = mean + sd),
+    width = 0.2
+  ) +
+  geom_hline(yintercept = 1, color = "red") +
+  geom_text(
+    aes(
+      label = ifelse(
+        construct_plot == "GFP tethered",
+        "",
+        paste0(FC_label, "\n", sig_label)
+      ),
+      y = mean + sd + 0.15
+    ),
+    size = 4
+  ) +
+  coord_cartesian(ylim = c(0, 8)) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(
+    x = "",
+    y = "NanoLuc:Firefly normalized to GFP tethered",
+    title = "KAB152 method proof"
+  )
+
+ggsave(here::here("figures", "fig1C_DLmethodProof.pdf"))
+
+```
+
+# Fig 1D - qPCR data
+```{r}
+OD4 <- read_csv(here::here("data", "KAB152_Reps2-3.csv"))
+OD4 <- OD4[,c(3,5)]
+
+OD4 <- OD4 %>% separate(col = "Sample", into = c("Sample",  "Rep", "RT", "Primer"), sep = "_" )
+OD4 <- OD4 %>% tidyr::unite("Sample", c("Sample", "Rep", "RT"), remove = FALSE)  %>% na.omit()
+
+df_qpcr_clean <- OD4 %>%
+  filter(RT == "RT") %>%                 # keep only +RT samples
+  filter(!str_detect(Sample, "H2O|H20|NTC")) %>%
+  select(Sample, Rep, RT, Primer, Cq) %>%
+  pivot_wider(
+    names_from = Primer,
+    values_from = Cq,
+    values_fn = mean
+  ) %>%
+  mutate(
+    deltaCt = Nano - FF,
+    expression = 2^(-deltaCt),
+    construct_plot = case_when(
+      str_detect(Sample, "WT28Tether|328Tether") ~ "328 tethered",
+      str_detect(Sample, "GFPTether") ~ "GFP tethered",
+      str_detect(Sample, "WT28NT|328NT") ~ "328 No Tether",
+      str_detect(Sample, "GFPNT") ~ "GFP No Tether",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  filter(!is.na(construct_plot)) %>%
+  mutate(
+    construct_plot = factor(
+      construct_plot,
+      levels = c(
+        "328 tethered",
+        "GFP tethered",
+        "328 No Tether",
+        "GFP No Tether"
+      )
+    )
+  )
+
+gfp_tether_mean <- df_qpcr_clean %>%
+  filter(construct_plot == "GFP tethered") %>%
+  summarise(mean_gfp = mean(expression, na.rm = TRUE)) %>%
+  pull(mean_gfp)
+
+df_qpcr_norm <- df_qpcr_clean %>%
+  mutate(Norm = expression / gfp_tether_mean)
+
+df_qpcr_stats <- df_qpcr_norm %>%
+  filter(construct_plot != "GFP tethered") %>%
+  group_by(construct_plot) %>%
+  summarise(
+    FC_vs_GFP_tether = mean(Norm, na.rm = TRUE),
+    p_value = tryCatch(
+      t.test(
+        Norm,
+        df_qpcr_norm$Norm[df_qpcr_norm$construct_plot == "GFP tethered"]
+      )$p.value,
+      error = function(e) NA_real_
+    ),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    p_adj = p.adjust(p_value, method = "BH"),
+    sig_label = case_when(
+      p_adj < 0.001 ~ "***",
+      p_adj < 0.01 ~ "**",
+      p_adj < 0.05 ~ "*",
+      TRUE ~ "ns"
+    ),
+    label = paste0(round(FC_vs_GFP_tether, 2), "x\n", sig_label)
+  )
+
+df_qpcr_stats
+
+df_qpcr_summary <- df_qpcr_norm %>%
+  group_by(construct_plot) %>%
+  summarise(
+    mean = mean(Norm, na.rm = TRUE),
+    sd = sd(Norm, na.rm = TRUE),
+    n = n(),
+    .groups = "drop"
+  ) %>%
+  left_join(df_qpcr_stats, by = "construct_plot")
+
+ggplot(df_qpcr_summary, aes(x = construct_plot, y = mean)) +
+  geom_col() +
+  geom_errorbar(
+    aes(ymin = mean - sd, ymax = mean + sd),
+    width = 0.2
+  ) +
+  geom_hline(yintercept = 1, color = "red") +
+  geom_text(
+    aes(
+      label = ifelse(construct_plot == "GFP tethered", "", label),
+      y = mean + sd + 0.2
+    ),
+    size = 4
+  ) +
+  coord_cartesian(ylim = c(0, 8)) +   # 👈 MATCH THIS
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(
+    x = "",
+    y = "Relative RNA expression (normalized to GFP tethered)"
+  )
+
+ggsave(here::here("figures", "fig1D_qPCRmethodProof.pdf"))
+
+```
+
+
+
+# Figure 1F - KD experiments
+
+```{r}
+
+df_kd_wt <- df %>%
+  filter(Exp %in% c("KAB151", "KAB153", "KAB154")) %>%
+  mutate(
+    Nano_FF = NanoGlo / Firefly,
+    Background = case_when(
+      str_detect(Cell_Line, "^WT") | MSI2_Exp == "WT" ~ "WT",
+      str_detect(Cell_Line, "^KD") | MSI2_Exp == "KD" ~ "KD",
+      TRUE ~ NA_character_
+    ),
+    Cell = case_when(
+      str_detect(Cell_Line, "H295R") ~ "H295R",
+      str_detect(Cell_Line, "HEK") ~ "HEK",
+      str_detect(Cell_Line, "HeLa") ~ "HeLa",
+      TRUE ~ Cell_Line
+    )
+  ) %>%
+  filter(
+    !is.na(Background),
+    MSI2_Exp %in% c("WT", "KD"),     # removes rescues / dox / 328 constructs
+    !is.na(Reporter),
+    Reporter != "NA"
+  )
+
+
+
+#normalize within experiment + cell line + reporter to the WT mean
+df_norm <- df_kd_wt %>%
+  group_by(Exp, Cell, Reporter) %>%
+  mutate(
+    WT_mean = mean(Nano_FF[Background == "WT"], na.rm = TRUE),
+    Norm = Nano_FF / WT_mean
+  ) %>%
+  ungroup() %>%
+  filter(!is.na(Norm), is.finite(Norm))
+
+#Plot WT vs KD, faceted by cell line:
+df_summary <- df_norm %>%
+  group_by(Cell, Reporter, Background) %>%
+  summarise(
+    mean = mean(Norm, na.rm = TRUE),
+    sd = sd(Norm, na.rm = TRUE),
+    n = n(),
+    .groups = "drop"
+  )
+
+ggplot(df_summary, aes(x = Reporter, y = mean, fill = Background)) +
+  geom_col(position = position_dodge()) +
+  geom_errorbar(
+    aes(ymin = mean - sd, ymax = mean + sd),
+    width = 0.2,
+    position = position_dodge(0.9)
+  ) +
+  geom_hline(yintercept = 1, color = "red") +
+  facet_wrap(~Cell) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
+  labs(
+    x = "",
+    y = "NanoLuc:Firefly normalized to WT",
+    title = "WT vs KD background"
+  )
+
+ggplot(df_summary %>% filter(Reporter == "Syn" | Reporter == "SCD"), aes(x = Reporter, y = mean, fill = Background)) +
+  geom_col(position = position_dodge()) +
+  geom_errorbar(
+    aes(ymin = mean - sd, ymax = mean + sd),
+    width = 0.2,
+    position = position_dodge(0.9)
+  ) +
+  geom_hline(yintercept = 1, color = "red") +
+  facet_wrap(~Cell) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
+  labs(
+    x = "",
+    y = "NanoLuc:Firefly normalized to WT",
+    title = "WT vs KD background"
+  )
+
+#need stats
+df_stats <- df_norm %>%
+  filter(Background %in% c("WT", "KD")) %>%
+  group_by(Cell, Reporter) %>%
+  summarise(
+    WT_mean = mean(Norm[Background == "WT"], na.rm = TRUE),
+    KD_mean = mean(Norm[Background == "KD"], na.rm = TRUE),
+    FC = KD_mean / WT_mean,
+    
+    p_value = tryCatch(
+      t.test(Norm ~ Background)$p.value,
+      error = function(e) NA
+    ),
+    
+    .groups = "drop"
+  ) %>%
+  mutate(
+    p_adj = p.adjust(p_value, method = "BH"),
+    
+    # nice labels
+    FC_label = paste0(round(FC, 2), "x"),
+    p_label = case_when(
+      p_adj < 0.001 ~ "p < 0.001",
+      p_adj < 0.01  ~ "p < 0.01",
+      p_adj < 0.05  ~ "p < 0.05",
+      TRUE ~ paste0("p = ", signif(p_adj, 2))
+    ),
+    
+    label_full = paste0(FC_label, "\n", p_label)
+  )
+```
+
+
+# Fig 2C - 328 Mutants DL assay
+
+```{r}
+group1_order <- c(
+  "WT 328 Tether",
+  "delRNA tether",
+  "delN tether",
+  "258 Tether",
+  "204 Tether",
+  "delPABP Tether"
+)
+
+df_group1 <- df %>%
+  filter(Cell_Line == "WT_H295R", Conc_MSI2 == 25) %>%
+  mutate(
+    Nano_FF = NanoGlo / Firefly,
+    construct_plot = case_when(
+      MSI2_Exp %in% c("328_Tether", "WT_Tether", "FullLength_Tether") ~ "WT 328 Tether",
+      MSI2_Exp == "delRNA_Tether" ~ "delRNA tether",
+      MSI2_Exp == "delN_Tether" ~ "delN tether",
+      MSI2_Exp == "258_Tether" ~ "258 Tether",
+      MSI2_Exp == "204_Tether" ~ "204 Tether",
+      MSI2_Exp == "delPABP_Tether" ~ "delPABP Tether",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  group_by(Exp) %>%
+  mutate(
+    GFP_Tether_mean = mean(Nano_FF[MSI2_Exp == "GFP_Tether"], na.rm = TRUE),
+    GFP_norm = Nano_FF / GFP_Tether_mean
+  ) %>%
+  ungroup() %>%
+  filter(!is.na(construct_plot), is.finite(GFP_norm)) %>%
+  mutate(construct_plot = factor(construct_plot, levels = group1_order))
+
+df_group1 <- df_group1 %>% filter(Exp != "KAB157")
+
+df_group1_summary <- df_group1 %>%
+  group_by(construct_plot) %>%
+  summarise(
+    n = n(),
+    mean = mean(GFP_norm, na.rm = TRUE),
+    sd = sd(GFP_norm, na.rm = TRUE),
+    se = sd / sqrt(n),
+    FC_vs_GFP = mean,
+    experiments = paste(sort(unique(Exp)), collapse = ", "),
+    .groups = "drop"
+  )
+
+group1_stats <- df_group1 %>%
+  group_by(construct_plot) %>%
+  summarise(
+    p_value = tryCatch(
+      t.test(GFP_norm, mu = 1)$p.value,
+      error = function(e) NA_real_
+    ),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    p_adj = p.adjust(p_value, method = "BH"),
+    sig_label = case_when(
+      p_adj < 0.001 ~ "***",
+      p_adj < 0.01  ~ "**",
+      p_adj < 0.05  ~ "*",
+      TRUE ~ "ns"
+    )
+  )
+
+df_group1_plot <- df_group1_summary %>%
+  left_join(group1_stats, by = "construct_plot") %>%
+  mutate(
+    label = paste0(round(FC_vs_GFP, 2), "x\n", sig_label)
+  )
+
+ggplot(df_group1_plot, aes(x = construct_plot, y = mean)) +
+  geom_col() +
+  geom_errorbar(
+    aes(ymin = mean - sd, ymax = mean + sd),
+    width = 0.2
+  ) +
+  geom_hline(yintercept = 1, color = "red") +
+  geom_text(
+    aes(label = label, y = mean + sd + 0.2),
+    size = 4
+  ) +
+  theme_minimal() +
+  labs(
+    x = "",
+    y = "NanoLuc:Firefly normalized to GFP tether",
+    title = "H295R tether assay"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+ggsave(here::here("figures", "fig2C_DL328mutants.pdf"))
+
+```
+
+
+# Fig 2E - 328 sufficiency DL assay
+
+```{r}
+group2_order <- c(
+  "WT 328 Tether",
+  "CtermIDR_Tether",
+  "PBD_Tether",
+  "AllCterm_Tether"
+)
+
+df_group2 <- df %>%
+  filter(Cell_Line == "WT_H295R", Conc_MSI2 == 25, Exp == "KAB157") %>%
+  mutate(
+    Nano_FF = NanoGlo / Firefly,
+    construct_plot = case_when(
+      MSI2_Exp %in% c("328_Tether", "WT_Tether", "FullLength_Tether") ~ "WT 328 Tether",
+      MSI2_Exp == "328-CtermIDR_Tether" ~ "CtermIDR_Tether",
+      MSI2_Exp == "328-PBD_Tether" ~ "PBD_Tether",
+      MSI2_Exp == "328-AllCterm_Tether" ~ "AllCterm_Tether",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  group_by(Exp) %>%
+  mutate(
+    GFP_Tether_mean = mean(Nano_FF[MSI2_Exp == "GFP_Tether"], na.rm = TRUE),
+    GFP_norm = Nano_FF / GFP_Tether_mean
+  ) %>%
+  ungroup() %>%
+  filter(!is.na(construct_plot)) %>%
+  mutate(construct_plot = factor(construct_plot, levels = group2_order))
+
+
+df_group2_summary <- df_group2 %>%
+  group_by(construct_plot) %>%
+  summarise(
+    n = n(),
+    mean = mean(GFP_norm, na.rm = TRUE),
+    sd = sd(GFP_norm, na.rm = TRUE),
+    se = sd / sqrt(n),
+    FC_vs_GFP = mean,
+    .groups = "drop"
+  )
+
+group2_stats <- df_group2 %>%
+  group_by(construct_plot) %>%
+  summarise(
+    p_value = tryCatch(
+      t.test(GFP_norm, mu = 1)$p.value,
+      error = function(e) NA
+    ),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    p_adj = p.adjust(p_value, method = "BH"),
+    sig_label = case_when(
+      p_adj < 0.001 ~ "***",
+      p_adj < 0.01  ~ "**",
+      p_adj < 0.05  ~ "*",
+      TRUE ~ "ns"
+    )
+  )
+
+df_group2_plot <- df_group2_summary %>%
+  left_join(group2_stats, by = "construct_plot") %>%
+  mutate(
+    label = paste0(round(FC_vs_GFP, 2), "x\n", sig_label)
+  )
+
+df_group2_plot
+
+ggplot(df_group2_plot, aes(x = construct_plot, y = mean)) +
+  geom_col() +
+  geom_errorbar(
+    aes(ymin = mean - sd, ymax = mean + sd),
+    width = 0.2
+  ) +
+  geom_hline(yintercept = 1, color = "red") +
+  geom_text(
+    aes(label = label, y = mean + sd + 0.2),
+    size = 4
+  ) +
+  theme_minimal() +
+  labs(
+    x = "",
+    y = "NanoLuc:Firefly normalized to GFP tether",
+    title = "H295R tether assay"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+ggsave(here::here("figures", "fig2E_DL328sufficiency.pdf"))
+```
+
+
+# Supp Fig 2B - 328 mutants all, DL assay
+
+```{r}
+order_kab142 <- c(
+  "WT28Tether",
+  "WT28NoTether",
+  "delRNATether",
+  "delRNANoTether",
+  "delNTether",
+  "delNNoTether",
+  "258Tether",
+  "258NoTether",
+  "204Tether",
+  "204NoTether",
+  "delPABPTether",
+  "delPABPNoTether"
+)
+
+df_kab142 <- df %>%
+  filter(Exp == "KAB142") %>%
+  mutate(
+    Nano_FF = NanoGlo / Firefly,
+    construct_plot = case_when(
+      MSI2_Exp == "GFP_Tether" ~ "GFP_Tether",
+      MSI2_Exp == "328_Tether" ~ "WT28Tether",
+      MSI2_Exp == "328_NoTether" ~ "WT28NoTether",
+      MSI2_Exp == "delRNA_Tether" ~ "delRNATether",
+      MSI2_Exp == "delRNA_NoTether" ~ "delRNANoTether",
+      MSI2_Exp == "delN_Tether" ~ "delNTether",
+      MSI2_Exp == "delN_NoTether" ~ "delNNoTether",
+      MSI2_Exp == "258_Tether" ~ "258Tether",
+      MSI2_Exp == "258_NoTether" ~ "258NoTether",
+      MSI2_Exp == "204_Tether" ~ "204Tether",
+      MSI2_Exp == "204_NoTether" ~ "204NoTether",
+      MSI2_Exp == "delPABP_Tether" ~ "delPABPTether",
+      MSI2_Exp == "delPABP_NoTether" ~ "delPABPNoTether",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  filter(!is.na(construct_plot)) %>%
+  mutate(
+    construct_plot = factor(construct_plot, levels = order_kab142)
+  )
+
+gfp_mean <- df_kab142 %>%
+  filter(MSI2_Exp == "GFPTether" | MSI2_Exp == "GFP_Tether") %>%
+  summarise(m = mean(Nano_FF, na.rm = TRUE)) %>%
+  pull(m)
+
+df_kab142 <- df_kab142 %>%
+  mutate(GFP_norm = Nano_FF / gfp_mean)
+
+df_kab142_summary <- df_kab142 %>%
+  group_by(construct_plot) %>%
+  summarise(
+    n = n(),
+    mean = mean(GFP_norm),
+    sd = sd(GFP_norm),
+    se = sd / sqrt(n),
+    FC = mean,
+    .groups = "drop"
+  )
+
+stats_kab142 <- df_kab142 %>%
+  group_by(construct_plot) %>%
+  summarise(
+    p_value = tryCatch(
+      t.test(GFP_norm, mu = 1)$p.value,
+      error = function(e) NA
+    ),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    p_adj = p.adjust(p_value, method = "BH"),
+    sig = case_when(
+      p_adj < 0.001 ~ "***",
+      p_adj < 0.01 ~ "**",
+      p_adj < 0.05 ~ "*",
+      TRUE ~ "ns"
+    )
+  )
+
+df_plot_kab142 <- df_kab142_summary %>%
+  left_join(stats_kab142, by = "construct_plot") %>%
+  mutate(
+    label = paste0(round(FC, 2), "x\n", sig)
+  )
+
+ggplot(df_plot_kab142, aes(y = construct_plot, x = mean)) +
+  geom_col(fill = "grey40") +
+  geom_errorbarh(
+    aes(xmin = mean - sd, xmax = mean + sd),
+    height = 0.2
+  ) +
+  geom_vline(xintercept = 1, color = "red") +
+  geom_text(
+    aes(label = label, x = mean + 0.4),
+    size = 4
+  ) +
+  theme_minimal() +
+  labs(
+    x = "GFP Norm. NanoLUC:FireflyLUC Ratio",
+    y = "",
+    title = "KAB142"
+  )
+
+ggsave(here::here("figures", "suppfig2B_DL328mutantsALL.pdf"))
+```
+
+# Fig 2G, Supp 2F - PABP KD DL assay
+
+```{r}
+df_pabp <- df %>%
+  filter(Exp == "KAB165")
+
+df_pabp$Nano_FF <- df_pabp$NanoGlo/df_pabp$Firefly
+
+df_pabp <- df_pabp %>% filter(Sample_Name2 != "Lipo")
+
+df_pabp <- separate(df_pabp, col = "Sample_Name2", into = c("Protein", "siRNA2"), sep = "_", remove = F)
+
+
+df_pabp <- df_pabp %>%
+  mutate(
+    Nano_FF_norm = Nano_FF / mean(Nano_FF[Sample_Name2 == "GFP_noSI"], na.rm = TRUE)
+  )
+
+ggplot(df_pabp, aes(x = Sample_Name2, y = Nano_FF_norm, fill = Protein)) +
+  geom_bar(stat = "summary", fun = "mean", color = "black", width = 0.7, position = position_dodge()) +
+  stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), 
+               geom = "errorbar", color = "black", width = 0.2, position = position_dodge(0.7)) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
+  labs(
+    title = "",
+    subtitle = "",
+    y = "NanoLUC:FireflyLUC Ratio",
+    x = ""
+  ) +
+  geom_hline(yintercept = 1, linetype = "dashed", color = "darkblue")
+
+
+sampleList <- c("P1hi","P2hi", "conSI")
+
+#filtered
+
+ggplot(df_pabp %>% filter(siRNA2 %in% sampleList & Protein != "ntMSI2"), aes(x = Sample_Name2, y = Nano_FF_norm, fill = Protein)) +
+  geom_bar(stat = "summary", fun = "mean", color = "black", width = 0.7, position = position_dodge()) +
+  stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), 
+               geom = "errorbar", color = "black", width = 0.2, position = position_dodge(0.7)) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
+  labs(
+    title = "",
+    subtitle = "",
+    y = "NanoLUC:FireflyLUC Ratio",
+    x = ""
+  ) +
+  geom_hline(yintercept = 1, linetype = "dashed", color = "darkblue")
+
+ggsave(here::here("figures", "fig2G_DLpabpKD.pdf"))
+
+stats_pabp_long <- df_pabp %>%
+  filter(siRNA2 %in% c("conSI", "P1hi", "P2hi")) %>%
+  group_by(Protein) %>%
+  summarise(
+    p_P1hi_vs_conSI = tryCatch(
+      t.test(
+        Nano_FF_norm[siRNA2 == "P1hi"],
+        Nano_FF_norm[siRNA2 == "conSI"]
+      )$p.value,
+      error = function(e) NA_real_
+    ),
+    p_P2hi_vs_conSI = tryCatch(
+      t.test(
+        Nano_FF_norm[siRNA2 == "P2hi"],
+        Nano_FF_norm[siRNA2 == "conSI"]
+      )$p.value,
+      error = function(e) NA_real_
+    ),
+    FC_P1hi_vs_conSI = mean(Nano_FF_norm[siRNA2 == "P1hi"], na.rm = TRUE) /
+                       mean(Nano_FF_norm[siRNA2 == "conSI"], na.rm = TRUE),
+    FC_P2hi_vs_conSI = mean(Nano_FF_norm[siRNA2 == "P2hi"], na.rm = TRUE) /
+                       mean(Nano_FF_norm[siRNA2 == "conSI"], na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    p_adj_P1hi = p.adjust(p_P1hi_vs_conSI, method = "BH"),
+    p_adj_P2hi = p.adjust(p_P2hi_vs_conSI, method = "BH")
+  )
+
+stats_pabp_long
+
+stats_pabp_labels <- stats_pabp_long %>%
+  select(Protein,
+         FC_P1hi_vs_conSI, p_adj_P1hi,
+         FC_P2hi_vs_conSI, p_adj_P2hi) %>%
+  pivot_longer(
+    cols = -Protein,
+    names_to = "metric",
+    values_to = "value"
+  ) %>%
+  mutate(
+    siRNA2 = case_when(
+      grepl("P1hi", metric) ~ "P1hi",
+      grepl("P2hi", metric) ~ "P2hi"
+    ),
+    type = case_when(
+      grepl("^FC", metric) ~ "FC",
+      grepl("^p_adj", metric) ~ "p_adj"
+    )
+  ) %>%
+  select(-metric) %>%
+  pivot_wider(names_from = type, values_from = value) %>%
+  mutate(
+    label = paste0(
+      round(FC, 2), "x\n",
+      case_when(
+        p_adj < 0.001 ~ "***",
+        p_adj < 0.01  ~ "**",
+        p_adj < 0.05  ~ "*",
+        TRUE ~ "ns"
+      )
+    )
+  )
+
+df_pabp_labels <- df_pabp_summary %>%
+  left_join(stats_pabp_labels, by = c("Protein", "siRNA2")) %>%
+  mutate(
+    label = ifelse(siRNA2 == "conSI", "", label)
+  )
+
+ggplot(df_pabp_summary, aes(x = Protein, y = mean, fill = siRNA2)) +
+  geom_col(
+    color = "black",
+    width = 0.7,
+    position = position_dodge(0.8)
+  ) +
+  geom_errorbar(
+    aes(ymin = mean - sd, ymax = mean + sd),
+    width = 0.2,
+    position = position_dodge(0.8)
+  ) +
+  geom_text(
+    data = df_pabp_labels,
+    aes(label = label, y = mean + sd + 0.15),
+    position = position_dodge(0.8),
+    size = 4
+  ) +
+  theme_minimal() +
+  labs(
+    y = "NanoLUC:FireflyLUC Ratio",
+    x = ""
+  ) +
+  geom_hline(yintercept = 1, linetype = "dashed", color = "darkblue")
+
+
+ggsave(here::here("figures", "fig2G_DLpabpKD.pdf"))
+
+```
+
+#Supp Fig 2F - qPCR PABP KD
+
+```{r}
+OD3 <- read_xlsx(here::here("data", "KAB165_qPCRII.xlsx"))
+
+OD3 <- OD3 %>% separate(col = "Sample", into = c("Sample3", "Primer", "RT"), sep = "_" )
+OD3 <- OD3 %>% tidyr::unite("Sample", c("Sample3", "RT"), remove = FALSE)
+
+OD3 <- OD3 %>% filter(Sample2 != "Sample15" & Sample2 != "Sample16")
+
+#need to get a delta for PABP vs GAPDH for each sample..
+
+OD_ratio <- OD3 %>% na.omit() %>% dplyr::select(c(RT, Primer, Cq, Sample3, Sample2)) %>% pivot_wider(names_from = Primer, values_from = Cq, values_fn = mean)
+
+OD_ratio$delta_PB_GP <- OD_ratio$GAPDH - OD_ratio$PABP
+
+OD_ratio2 <- OD_ratio %>% filter(RT == "RT")
+
+
+OD_ratio2 <- OD_ratio2 %>% separate(col = "Sample2", into = c("Protein", "siRNA"), sep = "_" ) %>% na.omit()
+#now do delta delta.. compare to each noSI?
+
+
+
+
+#2^(-ΔΔCt)
+
+OD_ratio2 <- OD_ratio2 %>% group_by(Protein) %>% mutate(delta_delta = delta_PB_GP - delta_PB_GP[siRNA == "conSI"])
+
+OD_ratio2$expression <- 2^-(OD_ratio2$delta_delta)
+
+OD_ratio2$percent_KD <- (1 - OD_ratio2$expression) * 100
+
+OD_ratio2$siRNA <- factor(OD_ratio2$siRNA, levels = c("noSI", "conSI", "P1lo", "P1hi", "P2lo", "P2hi"))
+
+ggbarplot(data = OD_ratio2, x = "siRNA",  y = "expression") + geom_point() +
+  labs(title = "",
+      y = "Fold Change Expression - PABP KD",
+      x = "siRNA") +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) + geom_hline(yintercept = 1) + facet_grid(~Protein) + theme_minimal()
+
+ggbarplot(data = OD_ratio2 %>% filter(siRNA %in% sampleList & Protein != "ntMSI2"), x = "siRNA",  y = "expression") + geom_point() +
+  labs(title = "",
+      y = "Fold Change Expression - PABP KD",
+      x = "siRNA") +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) + geom_hline(yintercept = 1) + facet_grid(~Protein) + theme_minimal()
+
+ggsave(here::here("figures", "suppfig2F_qPCRpabpKD.pdf"))
+
+```
+
+
+
+
+# Fig 4E - 324 mutants DL assay
+
+```{r}
+plot_order <- c(
+  "328 tether",
+  "324 tether",
+  "delN tether",
+  "324_Unique",
+  "324_PBDplusUnique"
+)
+
+df_h295r <- df %>%
+  filter(Cell_Line == "WT_H295R" & Conc_MSI2 == 25) %>%
+  mutate(
+    Nano_FF = NanoGlo / Firefly,
+    construct_plot = case_when(
+      MSI2_Exp %in% c("328_Tether", "WT_Tether", "FullLength_Tether", "Full length_Tether") ~ "328 tether",
+      MSI2_Exp == "324_Tether" ~ "324 tether",
+      MSI2_Exp == "delN_Tether" ~ "delN tether",
+      MSI2_Exp == "324-Unique_Tether" ~ "324_Unique",
+      MSI2_Exp == "324-PBDplusUnique_Tether" ~ "324_PBDplusUnique",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  group_by(Exp) %>%
+  mutate(
+    GFP_Tether_mean = mean(Nano_FF[MSI2_Exp == "GFP_Tether"], na.rm = TRUE),
+    GFP_norm = Nano_FF / GFP_Tether_mean
+  ) %>%
+  ungroup() %>%
+  filter(!is.na(construct_plot)) %>%
+  mutate(construct_plot = factor(construct_plot, levels = plot_order))
+
+df_h295r_summary <- df_h295r %>%
+  group_by(construct_plot) %>%
+  summarise(
+    n = n(),
+    mean = mean(GFP_norm, na.rm = TRUE),
+    sd = sd(GFP_norm, na.rm = TRUE),
+    se = sd / sqrt(n),
+    experiments = paste(sort(unique(Exp)), collapse = ", "),
+    .groups = "drop"
+  )
+
+df_h295r_summary
+
+ggplot(df_h295r_summary, aes(x = construct_plot, y = mean)) +
+  geom_col() +
+  geom_errorbar(
+    aes(ymin = mean - sd, ymax = mean + sd),
+    width = 0.2
+  ) +
+  geom_hline(yintercept = 1, color = "red") +
+  theme_minimal() +
+  labs(
+    x = "",
+    y = "NanoLuc:Firefly normalized to GFP tether",
+    title = "H295R tether assay"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+stats_df <- df_h295r %>%
+  group_by(construct_plot) %>%
+  summarise(
+    p_value = tryCatch(
+      t.test(GFP_norm, mu = 1)$p.value,
+      error = function(e) NA
+    ),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    p_adj = p.adjust(p_value, method = "BH"),
+    label = case_when(
+      p_adj < 0.001 ~ "***",
+      p_adj < 0.01  ~ "**",
+      p_adj < 0.05  ~ "*",
+      TRUE ~ "ns"
+    )
+  )
+
+df_plot <- df_h295r_summary %>%
+  left_join(stats_df, by = "construct_plot")
+
+df_plot <- df_plot %>%
+  mutate(
+    mean_log2 = log2(mean),
+    ymin_log2 = log2(mean - sd),
+    ymax_log2 = log2(mean + sd)
+  )
+
+ggplot(df_plot, aes(x = construct_plot, y = mean_log2)) +
+  geom_col() +
+  geom_errorbar(
+    aes(ymin = ymin_log2, ymax = ymax_log2),
+    width = 0.2
+  ) +
+  geom_hline(yintercept = 0, color = "red") +  # GFP baseline (log2(1)=0)
+  geom_text(
+    aes(label = label, y = ymax_log2 + 0.2),
+    size = 5
+  ) +
+  theme_minimal() +
+  labs(
+    x = "",
+    y = "log2(NanoLuc:Firefly normalized to GFP tether)",
+    title = "H295R tether assay"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+ggsave(here::here("figures", "fig4E_324DLassay.pdf"))
+
+```
+
+# Figure 6B - DL assay, all cell lines
+
+```{r}
+plot_order <- c(
+  "MSI2-328",
+  "delPBD",
+  "MSI2-324",
+  "delN"
+)
+
+df_multi <- df %>%
+  filter(Conc_MSI2 == 25, Reporter == "BoxB") %>%
+  mutate(
+    Nano_FF = NanoGlo / Firefly,
+    
+    construct_plot = case_when(
+      MSI2_Exp == "GFP_Tether" ~ "GFP tether",
+      MSI2_Exp %in% c("328_Tether", "WT_Tether", "FullLength_Tether") ~ "MSI2-328",
+      MSI2_Exp == "324_Tether" ~ "MSI2-324",
+      MSI2_Exp %in% c("delPBD_Tether", "delPABP_Tether") ~ "delPBD",
+      MSI2_Exp == "delN_Tether" ~ "delN",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  filter(!is.na(construct_plot)) %>%
+  group_by(Exp, Cell_Line) %>%
+  mutate(
+    GFP_mean = mean(Nano_FF[construct_plot == "GFP tether"], na.rm = TRUE),
+    GFP_norm = Nano_FF / GFP_mean
+  ) %>%
+  ungroup() %>%
+  filter(construct_plot != "GFP tether")
+
+df_multi <- df_multi %>%
+  mutate(
+    Cell = case_when(
+      str_detect(Cell_Line, "MCF7") ~ "MCF7",
+      str_detect(Cell_Line, "HeLa") ~ "HeLa",
+      str_detect(Cell_Line, "HEK") ~ "HEK293FT",
+      str_detect(Cell_Line, "H295R") ~ "H295R",
+      TRUE ~ Cell_Line
+    )
+  )
+
+df_summary <- df_multi %>%
+  group_by(construct_plot, Cell) %>%
+  summarise(
+    mean = mean(GFP_norm, na.rm = TRUE),
+    sd = sd(GFP_norm, na.rm = TRUE),
+    n = n(),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    construct_plot = factor(construct_plot, levels = plot_order)
+  )
+
+stats_df <- df_multi %>%
+  group_by(construct_plot, Cell) %>%
+  summarise(
+    p_value = tryCatch(
+      t.test(GFP_norm, mu = 1)$p.value,
+      error = function(e) NA
+    ),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    p_adj = p.adjust(p_value, method = "BH"),
+    label = case_when(
+      p_adj < 0.001 ~ "***",
+      p_adj < 0.01  ~ "**",
+      p_adj < 0.05  ~ "*",
+      TRUE ~ "N.S."
+    )
+  )
+
+df_plot <- df_summary %>%
+  left_join(stats_df, by = c("construct_plot", "Cell"))
+
+
+df_domain <- df_plot %>%
+  filter(construct_plot %in% c("MSI2-328", "delPBD", "MSI2-324", "delN")) %>%
+  mutate(
+    comparison = case_when(
+      construct_plot %in% c("MSI2-328", "delPBD") ~ "328 / delPBD",
+      construct_plot %in% c("MSI2-324", "delN") ~ "324 / delN"
+    ),
+    construct_plot = factor(
+      construct_plot,
+      levels = c("MSI2-328", "delPBD", "MSI2-324", "delN")
+    )
+  )
+
+ggplot(df_domain, aes(x = Cell, y = mean, fill = construct_plot)) +
+  geom_col(position = position_dodge(0.8), color = "black", width = 0.7) +
+  geom_errorbar(
+    aes(ymin = mean - sd, ymax = mean + sd),
+    width = 0.2,
+    position = position_dodge(0.8)
+  ) +
+  geom_hline(yintercept = 1, color = "red") +
+  facet_wrap(~comparison, scales = "free_x") +
+  scale_fill_manual(
+    values = c(
+      "MSI2-328" = "#377EB8",
+      "delPBD"   = "#A6CEE3",
+      "MSI2-324" = "#E69F00",
+      "delN"     = "#FDD49E"
+    )
+  ) +
+  theme_minimal() +
+  labs(
+    x = "",
+    y = "GFP Norm. NanoLUC:FireflyLUC Ratio",
+    fill = ""
+  )
+
+#let's split into two plots. 
+
+y_breaks <- c(0.25, 0.5, 1, 2, 4, 8, 16)
+y_limits <- c(0.25, 16)
+
+
+df_328 <- df_domain %>%
+  filter(comparison == "328 / delPBD") %>%
+  mutate(
+    construct_plot = factor(construct_plot, levels = c("MSI2-328", "delPBD")),
+    label_y = pmin(mean + sd * 1.3, 14)
+  )
+
+df_324 <- df_domain %>%
+  filter(comparison == "324 / delN") %>%
+  mutate(
+    construct_plot = factor(construct_plot, levels = c("MSI2-324", "delN")),
+    label_y = pmin(mean + sd * 1.3, 14)
+  )
+
+#328 plot
+p_328 <- ggplot(df_328, aes(x = Cell, y = mean, fill = construct_plot)) +
+  geom_col(position = position_dodge(0.8), color = "black", width = 0.7) +
+  geom_errorbar(
+    aes(ymin = mean - sd, ymax = mean + sd),
+    width = 0.2,
+    position = position_dodge(0.8)
+  ) +
+  geom_text(
+    aes(label = label, y = label_y),
+    position = position_dodge(0.8),
+    size = 3.5
+  ) +
+  geom_hline(yintercept = 1, color = "red") +
+  scale_y_continuous(
+    trans = "log2",
+    limits = y_limits,
+    breaks = y_breaks
+  ) +
+  scale_fill_manual(
+    values = c(
+      "MSI2-328" = "#377EB8",
+      "delPBD" = "#A6CEE3"
+    )
+  ) +
+  theme_minimal() +
+  labs(
+    x = "",
+    y = "GFP Norm. NanoLUC:FireflyLUC Ratio",
+    fill = "",
+    title = "MSI2-328 / delPBD"
+  )
+
+p_328
+
+#324 plot
+p_324 <- ggplot(df_324, aes(x = Cell, y = mean, fill = construct_plot)) +
+  geom_col(position = position_dodge(0.8), color = "black", width = 0.7) +
+  geom_errorbar(
+    aes(ymin = mean - sd, ymax = mean + sd),
+    width = 0.2,
+    position = position_dodge(0.8)
+  ) +
+  geom_text(
+    aes(label = label, y = label_y),
+    position = position_dodge(0.8),
+    size = 3.5
+  ) +
+  geom_hline(yintercept = 1, color = "red") +
+  scale_y_continuous(
+    trans = "log2",
+    limits = y_limits,
+    breaks = y_breaks
+  ) +
+  scale_fill_manual(
+    values = c(
+      "MSI2-324" = "#E69F00",
+      "delN" = "#FDD49E"
+    )
+  ) +
+  theme_minimal() +
+  labs(
+    x = "",
+    y = "GFP Norm. NanoLUC:FireflyLUC Ratio",
+    fill = "",
+    title = "MSI2-324 / delN"
+  )
+
+p_324
+
+ggsave(here::here("figures", "fig6B_DL_328_delPBD_celllines.pdf"), p_328, width = 5, height = 4)
+ggsave(here::here("figures", "fig6C_DL_324_delN_celllines.pdf"), p_324, width = 5, height = 4)
+
+```
+
+

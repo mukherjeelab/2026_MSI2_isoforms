@@ -1,0 +1,7 @@
+sample	allowed_references	total_reads	mapping_324_altUTR	mapping_328_ref	mapping_346_MSI2	mapping_251_Exon1	mapping_ambiguous	mapping_no_qualifying_alignment	target_present_spanning	target_absent_spanning	other_locus_sequence	conflicting_locus_calls	not_callable	not_applicable	strict_target_present_spanning	strict_target_absent_spanning	target_present_percent_of_resolved
+SMJYDD_1_L2_HEK	328_ref|346_MSI2	5332	0	1287	89	0	43	3913	74	1192	7	2	4057	0	75	1179	5.845
+SMJYDD_2_L2_H295R	328_ref|346_MSI2	5427	0	744	13	0	90	4580	4	555	4	1	4863	0	4	549	0.716
+SMJYDD_3_L4_HEK	324_altUTR	4524	0	0	0	0	0	4524	0	0	0	0	4524	0	0	0	NA
+SMJYDD_4_L4_H295R	324_altUTR	4216	294	0	0	0	0	3922	30	237	0	0	3949	0	30	234	11.236
+SMJYDD_5_L8_HEK	251_Exon1	5476	0	0	0	4754	0	722	0	0	0	0	0	5476	0	0	NA
+SMJYDD_6_L8_H295R	251_Exon1	5047	0	0	0	2695	0	2352	0	0	0	0	0	5047	0	0	NA

@@ -1,0 +1,7 @@
+check	passed
+Original input files unchanged	TRUE
+48 tests: eight categories for each of six original sets	TRUE
+Fisher matches hypergeometric tail	TRUE
+BH applied independently across eight tests per original set	TRUE
+Nucleolus and mitochondrial counts and nominal p-values unchanged	TRUE
+Multilabel membership preserved	TRUE

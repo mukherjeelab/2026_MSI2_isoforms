@@ -1,0 +1,4 @@
+site_type	bin_count	delta_delta_sign_change_bins	enrichment_324_sign_change_bins	enrichment_328_sign_change_bins	delta_profile_pearson_r	delta_profile_spearman_rho	previous_mean_delta_delta	common_cpm_mean_delta_delta	mean_delta_delta_change	previous_strongest_negative_position	common_cpm_strongest_negative_position	requested_extremum_position	requested_extremum_remains
+splice_donor_5prime	50	0	0	0	0.999993151626535	0.998943577430972	-0.100364496314399	-0.176016016689048	-0.0756515203746484	-5	-5	-5	TRUE
+splice_acceptor_3prime	50	0	0	0	0.999956646249012	0.999807923169268	-0.108029355733939	-0.187576839383562	-0.0795474836496222	15	15	15	TRUE
+annotated_transcript_3prime_end	10	0	0	0	0.999654053320578	1	-0.35741609340489	-0.59525776911818	-0.23784167571329	-45	-45	NA	NA

@@ -1,0 +1,7 @@
+check	passed
+Frozen input files unchanged	TRUE
+24 comparisons and eight per pair	TRUE
+No shared gene counted as independent observations in both test rows	TRUE
+Independent two-sided hypergeometric p-values	TRUE
+BH independently applied per pair	TRUE
+All CI directions consistent with odds ratios	TRUE

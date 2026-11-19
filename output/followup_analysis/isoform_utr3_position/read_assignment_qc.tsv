@@ -1,0 +1,5 @@
+sample_id	construct	replicate	eligible_alignments	assigned_read_centers	supported_features	centers_within_12_5nt_of_end
+NM2026_0085	324	A	93659	22879	3205	251
+NM2026_0087	324	B	103812	29589	3679	370
+NM2026_0081	328	A	148054	77976	7095	695
+NM2026_0083	328	B	173852	88739	6534	720

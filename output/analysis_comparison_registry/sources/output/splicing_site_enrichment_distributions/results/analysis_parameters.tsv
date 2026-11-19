@@ -1,0 +1,13 @@
+parameter	value
+site_universe	retained_for_bin_counts == yes
+site_level_enrichment	mean of 10-nt bin log2((CLIP_CPM+p)/(SMI_CPM+p)) within region
+construct_site_summary	mean of biological replicate A and B site-level enrichments
+measurable_both_definition	at least one raw regional CLIP count and one raw regional SMI count across construct replicates
+positive_definition	construct site-level enrichment > 0
+normalization	raw_count / primary_mapped_reads * 1e6
+pseudocount_cpm	0.1
+peak_foreground	DESeq2 padj < 0.05 and log2FoldChange > 0
+peak_background	other peaks in the same construct-specific DESeq2 tested universe
+peak_proximity	same-strand peak midpoint within 50 nt of a splice boundary
+peak_boundary_universe	all valid annotated donor or acceptor sites, independent of read coverage
+peak_stratified_sensitivity	Mantel-Haenszel common odds ratio stratified by primary peak gene ID

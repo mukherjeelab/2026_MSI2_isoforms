@@ -1,0 +1,739 @@
+---
+title: "SpliceAnalysis"
+author: "Kathryn Walters"
+date: "2026-05-11"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+
+```{r}
+library(data.table)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+df <- fread(here::here("data", "MSI2_two_junctions_with_header.tsv"))
+colnames(df)[1:2] <- c("junction", "gene")
+
+df_long <- df %>%
+  pivot_longer(
+    cols = -c(junction, gene),
+    names_to = "sample",
+    values_to = "count"
+  ) %>%
+  pivot_wider(
+    names_from = junction,
+    values_from = count
+  )
+
+meta <- fread(here::here("data","GTEx_Analysis_v11_Annotations_SampleAttributesDS.txt"))
+
+j_short <- "chr17:57652162-57674917:+"
+j_long  <- "chr17:57652162-57674971:+"
+
+df_long <- df %>%
+  pivot_longer(
+    cols = -c(junction, gene),
+    names_to = "sample",
+    values_to = "count"
+  ) %>%
+  pivot_wider(
+    names_from = junction,
+    values_from = count
+  ) %>%
+  mutate(
+    total = .data[[j_short]] + .data[[j_long]],
+    frac_short = .data[[j_short]] / total,
+    frac_long  = .data[[j_long]] / total
+  ) %>%
+  filter(total > 0) %>%
+  left_join(meta, by = c("sample" = "SAMPID"))
+
+ggplot(df_long %>% filter(total >= 10), aes(x = SMTS, y = frac_short)) +
+  geom_boxplot() +
+  theme_minimal() +
+ theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(y = "Fraction 324 Splice Junction vs 328 Splice Junction")
+
+```
+
+
+```{r}
+#the previous just had the 2 junctions I was interested in, but there are actually 4 junctions that GTEx has. I want to make sure those other 2 junctions are skewing the results. 
+
+library(data.table)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+
+df <- fread(here::here("data", "MSI2_donor_all_junctions.tsv"))
+colnames(df)[1:2] <- c("junction", "gene")
+
+long_j  <- "chr17:57652162-57674971:+"
+short_j <- "chr17:57652162-57674917:+"
+
+# move to long format
+df_long <- df %>%
+  pivot_longer(
+    cols = -c(junction, gene),
+    names_to = "sample",
+    values_to = "count"
+  ) %>%
+  mutate(
+    junction_class = case_when(
+      junction == long_j  ~ "long",
+      junction == short_j ~ "short",
+      TRUE                ~ "other"
+    )
+  ) %>%
+  group_by(sample, junction_class) %>%
+  summarise(count = sum(count), .groups = "drop") %>%
+  pivot_wider(
+    names_from = junction_class,
+    values_from = count,
+    values_fill = 0
+  )
+
+df_long <- df_long %>%
+  mutate(
+    total = short + long + other,
+    psi_short = short / total,
+    psi_long  = long / total,
+    frac_short_2iso = short / (short + long),
+    frac_long_2iso  = long / (short + long)
+  )
+
+df_filt <- df_long %>%
+  filter(total >= 10)
+
+
+df_filt <- df_filt %>%
+  left_join(meta, by = c("sample" = "SAMPID"))
+
+ggplot(df_filt, aes(x = SMTS, y = psi_short)) +
+  geom_boxplot() +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(
+    x = "Tissue",
+    y = "PSI-like fraction",
+    title = "MSI2 324 splice acceptor usage across GTEx tissues"
+  )
+
+ggplot(df_filt, aes(x = SMTS, y = psi_long)) +
+  geom_boxplot() +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(
+    x = "Tissue",
+    y = "PSI-like fraction",
+    title = "MSI2 328 splice acceptor usage across GTEx tissues"
+  )
+
+ggplot(df_filt, aes(x = SMTS, y = other / total)) +
+  geom_boxplot() +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(
+    x = "Tissue",
+    y = "Other acceptors / total",
+    title = "Competing MSI2 donor-sharing splice acceptors across GTEx tissues"
+  )
+
+
+stack_ex11 <- df_filt %>%
+  mutate(other_frac = other / total) %>%
+  group_by(SMTS) %>%
+  summarise(
+    ENST00000284073 = median(psi_long, na.rm = TRUE),
+    ENST00000416426 = median(psi_short, na.rm = TRUE),
+    other = median(other_frac, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  pivot_longer(
+    cols = -SMTS,
+    names_to = "isoform",
+    values_to = "fraction"
+  )
+
+stack_ex11$isoform <- factor(
+  stack_ex11$isoform,
+  levels = c("other", "ENST00000284073", "ENST00000416426")
+)
+
+cols <- c(
+  "ENST00000284073" = "#4C78A8",  # muted blue
+  "ENST00000416426" = "#F58518",  # soft orange
+  "other" = "grey70"
+)
+
+
+order_levels <- stack_ex11 %>%
+  filter(isoform == "ENST00000416426") %>%
+  arrange(desc(fraction)) %>%
+  pull(SMTS)
+
+stack_ex11$SMTS <- factor(stack_ex11$SMTS, levels = order_levels)
+
+ggplot(stack_ex11, aes(x = SMTS, y = fraction, fill = isoform)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = cols) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    legend.title = element_blank()
+  ) +
+  labs(
+    x = "Tissue",
+    y = "Median fraction of exon 11 donor usage",
+    title = "MSI2 exon 11 donor splice choices across GTEx tissues"
+  )
+
+ggsave(here("figures", "fig6D_GTExSplice.pdf"))
+```
+
+
+
+
+```{r}
+#TCGA
+library(dplyr)
+library(tidyr)
+library(tibble)
+library(stringr)
+library(purrr)
+
+read_spliceseq_file <- function(path, gene = "MSI2") {
+  lines <- readLines(path, warn = FALSE)
+  lines <- gsub("^<<|>>$", "", lines)
+
+  spl <- strsplit(lines, "\t", fixed = TRUE)
+
+  # first row is header
+  header <- spl[[1]]
+
+  # columns 1:10 are event metadata
+  # sample IDs start at 11 and go until the last 2 columns
+  sample_ids <- header[11:(length(header) - 2)]
+
+  clinical_names <- c(
+    "Gender", "Age", "Height_cm", "Weight_kg", "Tumor_Status",
+    "Vital_Status", "Pathologic_Tumor_Stage", "Pathologic_N", "Pathologic_T",
+    "Absolute_Purity_Value", "Tissue_Specific_Attribute_1",
+    "Tissue_Specific_Attribute_2", "Tissue_Specific_Attribute_3"
+  )
+
+  # cohort name from filename
+  cohort <- basename(path) |>
+    str_remove("^PSI_download_") |>
+    str_remove("\\.txt$") |>
+    str_remove("\\(1\\)$")
+
+  # find clinical rows
+  clinical_idx <- which(vapply(
+    spl,
+    function(x) length(x) > 0 && x[1] %in% clinical_names,
+    logical(1)
+  ))
+
+  # find event rows for gene
+  event_idx <- which(vapply(
+    spl,
+    function(x) length(x) > 2 && x[1] == gene,
+    logical(1)
+  ))
+
+  if (length(event_idx) == 0) {
+    warning("No rows found for ", gene, " in ", basename(path))
+    return(NULL)
+  }
+
+  # clinical block
+  clinical_wide <- lapply(clinical_idx, function(i) {
+    x <- spl[[i]]
+    tibble(
+      variable = x[1],
+      sample = sample_ids,
+      value = x[11:(10 + length(sample_ids))]
+    )
+  }) |>
+    bind_rows() |>
+    pivot_wider(names_from = variable, values_from = value) |>
+    mutate(
+      across(where(is.character), ~na_if(., "null")),
+      Age = suppressWarnings(as.numeric(Age)),
+      Height_cm = suppressWarnings(as.numeric(Height_cm)),
+      Weight_kg = suppressWarnings(as.numeric(Weight_kg)),
+      Absolute_Purity_Value = suppressWarnings(as.numeric(Absolute_Purity_Value))
+    )
+
+  # event block
+  event_tbl <- lapply(event_idx, function(i) {
+    x <- spl[[i]]
+
+    psi_vals <- x[11:(10 + length(sample_ids))]
+    psi_vals[psi_vals %in% c("null", "", "NA")] <- NA
+
+    tibble(
+      cohort = cohort,
+      sample = sample_ids,
+      symbol = x[1],
+      as_id = x[2],
+      splice_type = x[3],
+      exons = x[4],
+      from_exon = x[5],
+      to_exon = x[6],
+      novel_splice = x[7],
+      pct_with_values = suppressWarnings(as.numeric(x[8])),
+      psi_range = suppressWarnings(as.numeric(x[9])),
+      std_psi = suppressWarnings(as.numeric(x[10])),
+      PSI = suppressWarnings(as.numeric(psi_vals)),
+      avg_exp_pct = suppressWarnings(as.numeric(x[length(x) - 1])),
+      annotation = x[length(x)]
+    )
+  }) |>
+    bind_rows()
+
+  event_tbl |>
+    left_join(clinical_wide, by = "sample")
+}
+
+here::here()
+spliceseq_dir <- here::here("data", "TCGA")
+
+files <-list.files(
+  path = here::here(),
+  pattern = "^PSI_download_.*\\.txt$",
+  recursive = TRUE,
+  full.names = TRUE
+)
+
+files
+
+tcga_all <- map_dfr(files, read_spliceseq_file, gene = "MSI2")
+
+#tidy columns
+tcga_all <- tcga_all |>
+  mutate(
+    Tumor_Status = na_if(Tumor_Status, "null"),
+    Vital_Status = na_if(Vital_Status, "null"),
+    Pathologic_Tumor_Stage = na_if(Pathologic_Tumor_Stage, "null"),
+    Pathologic_N = na_if(Pathologic_N, "null"),
+    Pathologic_T = na_if(Pathologic_T, "null"),
+    Gender = na_if(Gender, "null"),
+    cohort = factor(cohort)
+  )
+
+
+ggplot(tcga_all, aes(x = cohort, y = PSI)) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.15, alpha = 0.4, size = 0.8) +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(
+    x = "TCGA cohort",
+    y = "MSI2 PSI",
+    title = "MSI2 splice usage across TCGA cohorts"
+  )
+
+cohort_order <- tcga_all |>
+  group_by(cohort) |>
+  summarise(med_psi = median(PSI, na.rm = TRUE), .groups = "drop") |>
+  arrange(desc(med_psi)) |>
+  pull(cohort)
+
+tcga_all <- tcga_all |>
+  mutate(cohort = factor(cohort, levels = cohort_order))
+
+ggplot(tcga_all, aes(x = cohort, y = PSI)) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(width = 0.15, alpha = 0.35, size = 0.8) +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(
+    x = "TCGA cohort",
+    y = "MSI2 PSI",
+    title = "MSI2 splice usage across TCGA cohorts"
+  )
+
+ggsave(here("figures", "fig6E_TCGAsplice.pdf"))
+
+
+#for later. 
+plot_tcga_clinical <- function(df, cohort_name, xvar) {
+  df |>
+    filter(cohort == cohort_name, !is.na(.data[[xvar]]), !is.na(PSI)) |>
+    ggplot(aes(x = .data[[xvar]], y = PSI)) +
+    geom_boxplot(outlier.shape = NA) +
+    geom_jitter(width = 0.15, alpha = 0.5, size = 1) +
+    theme_bw() +
+    labs(
+      x = xvar,
+      y = "MSI2 PSI",
+      title = paste("MSI2 PSI in", cohort_name, "by", xvar)
+    )
+}
+
+
+#those null bars should be NA
+tcga_all <- tcga_all %>%
+  mutate(across(where(is.character), ~na_if(., "null")))
+```
+
+
+```{r}
+#stats
+library(dplyr)
+
+run_stats <- function(df) {
+  
+  df <- df %>% filter(!is.na(PSI))
+  
+  # helper to check valid groups
+  get_valid_groups <- function(data, var) {
+    data %>%
+      filter(!is.na(.data[[var]])) %>%
+      pull(.data[[var]]) %>%
+      unique()
+  }
+  
+  # Tumor Status
+  tumor_p <- tryCatch({
+    sub <- df %>% filter(!is.na(Tumor_Status))
+    if (length(unique(sub$Tumor_Status)) == 2) {
+      wilcox.test(PSI ~ Tumor_Status, data = sub)$p.value
+    } else NA
+  }, error = function(e) NA)
+  
+  # Vital Status
+  vital_p <- tryCatch({
+    sub <- df %>% filter(!is.na(Vital_Status))
+    if (length(unique(sub$Vital_Status)) == 2) {
+      wilcox.test(PSI ~ Vital_Status, data = sub)$p.value
+    } else NA
+  }, error = function(e) NA)
+  
+  # Stage
+  stage_p <- tryCatch({
+    sub <- df %>% filter(!is.na(Pathologic_Tumor_Stage))
+    if (length(unique(sub$Pathologic_Tumor_Stage)) > 1) {
+      kruskal.test(PSI ~ Pathologic_Tumor_Stage, data = sub)$p.value
+    } else NA
+  }, error = function(e) NA)
+  
+  tibble(
+    tumor_status_p = tumor_p,
+    vital_status_p = vital_p,
+    stage_p = stage_p
+  )
+}
+
+tcga_all <- tcga_all %>%
+  mutate(across(where(is.character), ~trimws(.))) %>%
+  mutate(across(where(is.character), ~na_if(., "null"))) %>%
+  mutate(across(where(is.character), ~na_if(., "~~~~~~~~"))) %>%
+  mutate(across(where(is.character), ~na_if(., "")))
+
+stats_df <- tcga_all %>%
+  group_by(cohort) %>%
+  group_modify(~run_stats(.x)) %>%
+  ungroup()
+
+#multiple test correction
+stats_df <- stats_df %>%
+  mutate(
+    tumor_status_fdr = p.adjust(tumor_status_p, method = "BH"),
+    vital_status_fdr = p.adjust(vital_status_p, method = "BH"),
+    stage_fdr = p.adjust(stage_p, method = "BH")
+  )
+
+
+run_stats <- function(df) {
+  
+  df <- df %>% filter(!is.na(PSI))
+  
+  tumor_sub <- df %>% filter(!is.na(Tumor_Status))
+  vital_sub <- df %>% filter(!is.na(Vital_Status))
+  stage_sub <- df %>% filter(!is.na(Pathologic_Tumor_Stage))
+  
+  tumor_p <- tryCatch({
+    if (length(unique(tumor_sub$Tumor_Status)) == 2) {
+      wilcox.test(PSI ~ Tumor_Status, data = tumor_sub)$p.value
+    } else NA_real_
+  }, error = function(e) NA_real_)
+  
+  vital_p <- tryCatch({
+    if (length(unique(vital_sub$Vital_Status)) == 2) {
+      wilcox.test(PSI ~ Vital_Status, data = vital_sub)$p.value
+    } else NA_real_
+  }, error = function(e) NA_real_)
+  
+  stage_p <- tryCatch({
+    if (length(unique(stage_sub$Pathologic_Tumor_Stage)) > 1) {
+      kruskal.test(PSI ~ Pathologic_Tumor_Stage, data = stage_sub)$p.value
+    } else NA_real_
+  }, error = function(e) NA_real_)
+  
+  tibble(
+    tumor_status_p = tumor_p,
+    vital_status_p = vital_p,
+    stage_p = stage_p,
+    n_tumor_status = nrow(tumor_sub),
+    n_vital_status = nrow(vital_sub),
+    n_stage = nrow(stage_sub)
+  )
+}
+
+tumor_tumor <- tcga_all %>%
+  filter(!is.na(PSI), !is.na(Tumor_Status)) %>%
+  group_by(cohort, Tumor_Status) %>%
+  summarise(median_PSI = median(PSI, na.rm = TRUE), .groups = "drop")
+
+tumor_vitals <- tcga_all %>%
+  filter(!is.na(PSI), !is.na(Vital_Status)) %>%
+  group_by(cohort, Tumor_Status) %>%
+  summarise(median_PSI = median(PSI, na.rm = TRUE), .groups = "drop")
+
+plot_tcga_clinical(tcga_all, "COAD", "Tumor_Status") #colon, very malignant
+plot_tcga_clinical(tcga_all, "READ", "Tumor_Status") #rectum
+
+plot_tcga_clinical(tcga_all, "LUAD", "Pathologic_Tumor_Stage") #lung
+plot_tcga_clinical(tcga_all, "STAD", "Pathologic_Tumor_Stage") #stomach
+
+plot_tcga_clinical(tcga_all, "COAD", "Pathologic_T") #lung
+plot_tcga_clinical(tcga_all, "STAD", "Pathologic_Tumor_Stage") #stomach
+
+```
+
+
+```{r}
+#let's combine TCGA and GTEx if we can. 
+
+gtex_compare <- df_filt %>%
+  mutate(
+    PSI = psi_short,
+    dataset = "GTEx"
+  )
+
+gtex_map <- tribble(
+  ~SMTS, ~organ,
+
+  "Brain", "Brain",
+  "Pituitary", "Brain",
+
+  "Testis", "Testis",
+
+  "Blood", "Blood",
+  "Blood Vessel", "Blood Vessel",
+
+  "Skin", "Skin",
+
+  "Lung", "Lung",
+
+  "Nerve", "Nerve",
+
+  "Fallopian Tube", "Gynecologic",
+
+  "Liver", "Liver",
+
+  "Vagina", "Gynecologic",
+  "Uterus", "Gynecologic",
+  "Cervix Uteri", "Gynecologic",
+  "Ovary", "Gynecologic",
+
+  "Spleen", "Immune",
+
+  "Breast", "Breast",
+
+  "Small Intestine", "GI",
+  "Esophagus", "GI",
+  "Colon", "GI",
+  "Stomach", "GI",
+  "Pancreas", "GI",
+
+  "Salivary Gland", "HeadNeck",
+
+  "Thyroid", "Thyroid",
+
+  "Prostate", "Prostate",
+
+  "Adrenal Gland", "Adrenal",
+
+  "Bladder", "Bladder",
+
+  "Adipose Tissue", "Adipose",
+
+  "Kidney", "Kidney",
+
+  "Heart", "Heart",
+
+  "Muscle", "Muscle"
+)
+gtex_compare <- gtex_compare %>%
+  left_join(gtex_map, by = "SMTS") %>%
+  filter(!is.na(organ))
+
+tcga_map <- tribble(
+  ~cohort, ~organ,
+
+  # Brain
+  "GBM", "Brain",
+  "LGG", "Brain",
+
+  # Hematologic
+  "LAML", "Blood",
+
+  # Testis
+  "TGCT", "Testis",
+
+  # Adrenal
+  "ACC", "Adrenal",
+  "PCPG", "Adrenal",
+
+  # GI
+  "STAD", "GI",
+  "ESCA", "GI",
+  "COAD", "GI",
+  "READ", "GI",
+  "PAAD", "GI",
+
+  # Skin
+  "SKCM", "Skin",
+
+  # Gynecologic
+  "UCEC", "Gynecologic",
+  "OV", "Gynecologic",
+  "CESC", "Gynecologic",
+  "UCS", "Gynecologic",
+
+  # Head/Neck
+  "HNSC", "HeadNeck",
+
+  # Breast
+  "BRCA", "Breast",
+
+  # Sarcoma
+  "SARC", "Muscle",
+
+  # Lung
+  "LUAD", "Lung",
+  "LUSC", "Lung",
+
+  # Kidney
+  "KICH", "Kidney",
+  "KIRC", "Kidney",
+  "KIRP", "Kidney",
+
+  # Prostate
+  "PRAD", "Prostate",
+
+  # Thyroid
+  "THCA", "Thyroid",
+
+  # Liver
+  "LIHC", "Liver",
+
+  # Bladder
+  "BLCA", "Bladder",
+
+  # Cholangiocarcinoma
+  "CHOL", "GI",
+
+  # Mesothelioma
+  "MESO", "Lung",
+
+  # Uveal melanoma
+  "UVM", "Eye",
+
+  # DLBC
+  "DLBC", "Immune"
+)
+
+tcga_compare <- tcga_all %>%
+  mutate(
+    PSI = PSI,
+    dataset = "TCGA"
+  ) %>%
+  left_join(tcga_map, by = "cohort") %>%
+  filter(!is.na(organ))
+
+combined_compare <- bind_rows(
+  gtex_compare,
+  tcga_compare
+) %>%
+  filter(!is.na(organ))
+
+summary_df <- combined_compare %>%
+  group_by(organ, dataset) %>%
+  summarise(
+    median_PSI = median(PSI, na.rm = TRUE),
+    q25 = quantile(PSI, 0.25, na.rm = TRUE),
+    q75 = quantile(PSI, 0.75, na.rm = TRUE),
+    n = n(),
+    .groups = "drop"
+  )
+
+
+shared_organs <- summary_df %>%
+  count(organ) %>%
+  filter(n == 2) %>%
+  pull(organ)
+
+summary_df <- summary_df %>%
+  filter(organ %in% shared_organs)
+
+organ_order <- summary_df %>%
+  filter(dataset == "GTEx") %>%
+  arrange(desc(median_PSI)) %>%
+  pull(organ)
+
+summary_df$organ <- factor(
+  summary_df$organ,
+  levels = organ_order
+)
+
+cols <- c(
+  "GTEx" = "#4C78A8",
+  "TCGA" = "#E45756"
+)
+
+ggplot(summary_df,
+       aes(x = organ,
+           y = median_PSI,
+           fill = dataset)) +
+
+  geom_col(
+    position = position_dodge(width = 0.8),
+    width = 0.7
+  ) +
+
+  geom_errorbar(
+    aes(ymin = q25, ymax = q75),
+    position = position_dodge(width = 0.8),
+    width = 0.2
+  ) +
+
+  scale_fill_manual(values = cols) +
+
+  theme_bw() +
+
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    legend.title = element_blank()
+  ) +
+
+  labs(
+    x = "Organ system",
+    y = "Relative ENST00000416426 usage",
+    title = "MSI2 isoform balance in normal tissues and cancer"
+  )
+
+ggsave(here("figures", "Fig6F_TCGAvGTExcombo.pdf"))
+```
+
+

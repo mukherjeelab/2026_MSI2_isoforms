@@ -1,0 +1,2 @@
+analysis	summit_windows	unique_UTR_models	observed_motif_per_possible_start	background_motif_per_possible_start	fold	randomizations	background
+ZFP36-style UTR sequence exposure sensitivity	26504	8869	0.0371364815168446	0.0133701691846446	2.7775625726184	0	Full sequence of each assigned longest matching spliced UTR; weighted by number of summits assigned to it; analytic sequence exposure,not PARpipe shuffle

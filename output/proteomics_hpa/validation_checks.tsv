@@ -1,0 +1,10 @@
+check	passed	detail
+No comparison significance filter	TRUE	1677 tested rows; only 23 unresolved identifier rows excluded
+Rank direction and duplicate median	TRUE	Independent median of negative log2 source 328/324 ratios
+Gene rank uniqueness	TRUE	1641 unique genes
+Independent running-sum enrichment scores	TRUE	Maximum absolute ES difference 1.7e-14
+ORA equals hypergeometric upper-tail test	TRUE	Fisher greater-tail p-values independently checked with phyper
+BH correction families	TRUE	Separate GSEA collections; separate ORA collections and isoform sets
+ORA background is measured HPA-mapped genes	TRUE	No unmeasured HPA genes in Fisher background
+No significant results	TRUE	All four GSEA and all eight ORA families checked
+Paired PDF and PNG figures	TRUE	14 figure pairs

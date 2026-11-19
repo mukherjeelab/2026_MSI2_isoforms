@@ -1,0 +1,13 @@
+construct	replicate	pair_id	regional_enrichment	region	region_start	region_end	site_type	landmark	sample_label
+328	A	MSI2_328_A	-0.237591761585643	Upstream	-50	0	annotated_transcript_3prime_end	annotated transcript 3' end	328 replicate A
+328	B	MSI2_328_B	-0.350849376267417	Upstream	-50	0	annotated_transcript_3prime_end	annotated transcript 3' end	328 replicate B
+324	A	MSI2_324_A	-1.01172868401986	Upstream	-50	0	annotated_transcript_3prime_end	annotated transcript 3' end	324 replicate A
+324	B	MSI2_324_B	-0.907837030224376	Upstream	-50	0	annotated_transcript_3prime_end	annotated transcript 3' end	324 replicate B
+328	A	MSI2_328_A	-0.131020187701001	Downstream	0	50	annotated_transcript_3prime_end	annotated transcript 3' end	328 replicate A
+328	B	MSI2_328_B	-0.215834052427168	Downstream	0	50	annotated_transcript_3prime_end	annotated transcript 3' end	328 replicate B
+324	A	MSI2_324_A	-0.74129917219723	Downstream	0	50	annotated_transcript_3prime_end	annotated transcript 3' end	324 replicate A
+324	B	MSI2_324_B	-0.655461568012345	Downstream	0	50	annotated_transcript_3prime_end	annotated transcript 3' end	324 replicate B
+328	A	MSI2_328_A	-0.184305974643318	Full region	-50	50	annotated_transcript_3prime_end	annotated transcript 3' end	328 replicate A
+328	B	MSI2_328_B	-0.283341714347209	Full region	-50	50	annotated_transcript_3prime_end	annotated transcript 3' end	328 replicate B
+324	A	MSI2_324_A	-0.876513928108607	Full region	-50	50	annotated_transcript_3prime_end	annotated transcript 3' end	324 replicate A
+324	B	MSI2_324_B	-0.781649299118538	Full region	-50	50	annotated_transcript_3prime_end	annotated transcript 3' end	324 replicate B

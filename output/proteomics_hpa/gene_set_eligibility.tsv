@@ -1,0 +1,129 @@
+localization	hpa_size	measured_size	analysis	status
+Acrosome	111	10	fine_primary	tested
+Actin filaments	211	25	fine_primary	tested
+Aggresome	17	0	fine_primary	fewer_than_5_measured_genes
+Annulus	49	9	fine_primary	tested
+Basal body	298	33	fine_primary	tested
+Calyx	68	13	fine_primary	tested
+Cell Junctions	281	25	fine_primary	tested
+Centriolar satellite	165	13	fine_primary	tested
+Centrosome	418	39	fine_primary	tested
+Cleavage furrow	1	0	fine_primary	fewer_than_5_measured_genes
+Connecting piece	87	13	fine_primary	tested
+Cytokinetic bridge	191	21	fine_primary	tested
+Cytoplasmic bodies	67	12	fine_primary	tested
+Cytosol	4513	592	fine_primary	tested
+End piece	190	30	fine_primary	tested
+Endoplasmic reticulum	540	105	fine_primary	tested
+Endosomes	16	10	fine_primary	tested
+Equatorial segment	82	10	fine_primary	tested
+Flagellar centriole	114	19	fine_primary	tested
+Focal adhesion sites	125	13	fine_primary	tested
+Golgi apparatus	1116	68	fine_primary	tested
+Intermediate filaments	123	21	fine_primary	tested
+Kinetochore	7	0	fine_primary	fewer_than_5_measured_genes
+Lipid droplets	37	4	fine_primary	fewer_than_5_measured_genes
+Lysosomes	18	9	fine_primary	tested
+Microtubule ends	6	1	fine_primary	fewer_than_5_measured_genes
+Microtubules	291	37	fine_primary	tested
+Mid piece	347	43	fine_primary	tested
+Midbody	43	7	fine_primary	tested
+Midbody ring	21	1	fine_primary	fewer_than_5_measured_genes
+Mitochondria	1038	186	fine_primary	tested
+Mitotic chromosome	71	6	fine_primary	tested
+Mitotic spindle	111	12	fine_primary	tested
+Nuclear bodies	561	59	fine_primary	tested
+Nuclear membrane	255	25	fine_primary	tested
+Nuclear speckles	454	57	fine_primary	tested
+Nucleoli	942	90	fine_primary	tested
+Nucleoli fibrillar center	291	29	fine_primary	tested
+Nucleoli rim	139	17	fine_primary	tested
+Nucleoplasm	5552	565	fine_primary	tested
+Perinuclear theca	66	16	fine_primary	tested
+Peroxisomes	23	6	fine_primary	tested
+Plasma membrane	1932	145	fine_primary	tested
+Primary cilium	285	31	fine_primary	tested
+Primary cilium tip	69	10	fine_primary	tested
+Primary cilium transition zone	50	2	fine_primary	fewer_than_5_measured_genes
+Principal piece	363	47	fine_primary	tested
+Rods & Rings	17	2	fine_primary	fewer_than_5_measured_genes
+Vesicles	2076	145	fine_primary	tested
+Actin-filament associated	315	35	collapsed_primary	tested
+Centrosome	565	51	collapsed_primary	tested
+Cytosol	4580	599	collapsed_primary	tested
+Endoplasmic reticulum	540	105	collapsed_primary	tested
+Golgi apparatus	1116	68	collapsed_primary	tested
+Intermediate filaments	123	21	collapsed_primary	tested
+Microtubule associated	462	54	collapsed_primary	tested
+Mitochondria	1038	186	collapsed_primary	tested
+Nuclear membrane	255	25	collapsed_primary	tested
+Nucleoli	1265	122	collapsed_primary	tested
+Nucleoplasm	6068	626	collapsed_primary	tested
+Plasma membrane/cell junctions	2107	160	collapsed_primary	tested
+Primary cilium	495	49	collapsed_primary	tested
+Sperm structures	614	82	collapsed_primary	tested
+Vesicular system	2144	168	collapsed_primary	tested
+Acrosome	9	0	fine_high_confidence	fewer_than_5_measured_genes
+Actin filaments	54	11	fine_high_confidence	tested
+Aggresome	0	0	fine_high_confidence	fewer_than_5_measured_genes
+Annulus	5	0	fine_high_confidence	fewer_than_5_measured_genes
+Basal body	76	10	fine_high_confidence	tested
+Calyx	4	0	fine_high_confidence	fewer_than_5_measured_genes
+Cell Junctions	109	11	fine_high_confidence	tested
+Centriolar satellite	39	3	fine_high_confidence	fewer_than_5_measured_genes
+Centrosome	112	12	fine_high_confidence	tested
+Cleavage furrow	0	0	fine_high_confidence	fewer_than_5_measured_genes
+Connecting piece	4	0	fine_high_confidence	fewer_than_5_measured_genes
+Cytokinetic bridge	29	9	fine_high_confidence	tested
+Cytoplasmic bodies	26	6	fine_high_confidence	tested
+Cytosol	1850	356	fine_high_confidence	tested
+End piece	27	4	fine_high_confidence	fewer_than_5_measured_genes
+Endoplasmic reticulum	249	70	fine_high_confidence	tested
+Endosomes	15	9	fine_high_confidence	tested
+Equatorial segment	2	0	fine_high_confidence	fewer_than_5_measured_genes
+Flagellar centriole	18	1	fine_high_confidence	fewer_than_5_measured_genes
+Focal adhesion sites	37	7	fine_high_confidence	tested
+Golgi apparatus	279	32	fine_high_confidence	tested
+Intermediate filaments	30	9	fine_high_confidence	tested
+Kinetochore	5	0	fine_high_confidence	fewer_than_5_measured_genes
+Lipid droplets	17	4	fine_high_confidence	fewer_than_5_measured_genes
+Lysosomes	15	8	fine_high_confidence	tested
+Microtubule ends	2	0	fine_high_confidence	fewer_than_5_measured_genes
+Microtubules	60	16	fine_high_confidence	tested
+Mid piece	27	0	fine_high_confidence	fewer_than_5_measured_genes
+Midbody	12	5	fine_high_confidence	tested
+Midbody ring	2	0	fine_high_confidence	fewer_than_5_measured_genes
+Mitochondria	523	147	fine_high_confidence	tested
+Mitotic chromosome	28	3	fine_high_confidence	fewer_than_5_measured_genes
+Mitotic spindle	33	6	fine_high_confidence	tested
+Nuclear bodies	270	40	fine_high_confidence	tested
+Nuclear membrane	86	13	fine_high_confidence	tested
+Nuclear speckles	225	40	fine_high_confidence	tested
+Nucleoli	384	50	fine_high_confidence	tested
+Nucleoli fibrillar center	104	18	fine_high_confidence	tested
+Nucleoli rim	74	12	fine_high_confidence	tested
+Nucleoplasm	2631	389	fine_high_confidence	tested
+Perinuclear theca	4	0	fine_high_confidence	fewer_than_5_measured_genes
+Peroxisomes	17	6	fine_high_confidence	tested
+Plasma membrane	827	69	fine_high_confidence	tested
+Primary cilium	71	9	fine_high_confidence	tested
+Primary cilium tip	19	5	fine_high_confidence	tested
+Primary cilium transition zone	12	0	fine_high_confidence	fewer_than_5_measured_genes
+Principal piece	40	3	fine_high_confidence	fewer_than_5_measured_genes
+Rods & Rings	1	0	fine_high_confidence	fewer_than_5_measured_genes
+Vesicles	451	43	fine_high_confidence	tested
+Actin-filament associated	84	17	collapsed_high_confidence	tested
+Centrosome	147	15	collapsed_high_confidence	tested
+Cytosol	1871	358	collapsed_high_confidence	tested
+Endoplasmic reticulum	249	70	collapsed_high_confidence	tested
+Golgi apparatus	279	32	collapsed_high_confidence	tested
+Intermediate filaments	30	9	collapsed_high_confidence	tested
+Microtubule associated	97	23	collapsed_high_confidence	tested
+Mitochondria	523	147	collapsed_high_confidence	tested
+Nuclear membrane	86	13	collapsed_high_confidence	tested
+Nucleoli	501	71	collapsed_high_confidence	tested
+Nucleoplasm	2863	424	collapsed_high_confidence	tested
+Plasma membrane/cell junctions	883	74	collapsed_high_confidence	tested
+Primary cilium	145	19	collapsed_high_confidence	tested
+Sperm structures	81	5	collapsed_high_confidence	tested
+Vesicular system	501	65	collapsed_high_confidence	tested

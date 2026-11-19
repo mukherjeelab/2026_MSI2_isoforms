@@ -1,0 +1,73 @@
+coverage_quartile	region	region_start	region_end	weighting	mean_delta_delta	mean_ci_low	mean_ci_high	site_type
+Q1 lowest	Exon side	-50	0	Site-weighted	-0.334750358278195	-0.344819343875884	-0.325429407758599	splice_donor_5prime
+Q1 lowest	Intron side	0	50	Site-weighted	-0.0768372433850931	-0.081164866025837	-0.0725662309631654	splice_donor_5prime
+Q1 lowest	Full immediate	-50	50	Site-weighted	-0.205793800831644	-0.2115258026152	-0.200875424381302	splice_donor_5prime
+Q2	Exon side	-50	0	Site-weighted	-0.353336842554856	-0.369930148680702	-0.33675185440398	splice_donor_5prime
+Q2	Intron side	0	50	Site-weighted	-0.0737967547865783	-0.0799565095966336	-0.067362746010903	splice_donor_5prime
+Q2	Full immediate	-50	50	Site-weighted	-0.213566798670716	-0.222523487020307	-0.205508443223744	splice_donor_5prime
+Q4 highest	Exon side	-50	0	Site-weighted	-0.692852103880764	-0.730399157956143	-0.657538367024549	splice_donor_5prime
+Q4 highest	Intron side	0	50	Site-weighted	-0.0972394950043046	-0.109110208069194	-0.0848197924179701	splice_donor_5prime
+Q4 highest	Full immediate	-50	50	Site-weighted	-0.395045799442534	-0.416503041477729	-0.372872091735958	splice_donor_5prime
+Q3	Exon side	-50	0	Site-weighted	-0.368159847073837	-0.39148889829502	-0.345477617454526	splice_donor_5prime
+Q3	Intron side	0	50	Site-weighted	-0.0671360652381724	-0.0748296057031307	-0.0598698248847638	splice_donor_5prime
+Q3	Full immediate	-50	50	Site-weighted	-0.217647956156005	-0.230457041701595	-0.205252746920391	splice_donor_5prime
+Q1 lowest	Exon side	-50	0	Read-weighted aggregate	-2.28745121065264	NA	NA	splice_donor_5prime
+Q2	Exon side	-50	0	Read-weighted aggregate	-2.68022498420453	NA	NA	splice_donor_5prime
+Q3	Exon side	-50	0	Read-weighted aggregate	-1.29507872839795	NA	NA	splice_donor_5prime
+Q4 highest	Exon side	-50	0	Read-weighted aggregate	0.494421666166338	NA	NA	splice_donor_5prime
+Q1 lowest	Intron side	0	50	Read-weighted aggregate	-3.11557049175779	NA	NA	splice_donor_5prime
+Q2	Intron side	0	50	Read-weighted aggregate	-1.78926028445979	NA	NA	splice_donor_5prime
+Q3	Intron side	0	50	Read-weighted aggregate	-0.549774695211191	NA	NA	splice_donor_5prime
+Q4 highest	Intron side	0	50	Read-weighted aggregate	0.8172634730708	NA	NA	splice_donor_5prime
+Q1 lowest	Full immediate	-50	50	Read-weighted aggregate	-2.70151085120521	NA	NA	splice_donor_5prime
+Q2	Full immediate	-50	50	Read-weighted aggregate	-2.23474263433216	NA	NA	splice_donor_5prime
+Q3	Full immediate	-50	50	Read-weighted aggregate	-0.922426711804568	NA	NA	splice_donor_5prime
+Q4 highest	Full immediate	-50	50	Read-weighted aggregate	0.655842569618569	NA	NA	splice_donor_5prime
+Q1 lowest	Intron side	-50	0	Site-weighted	-0.0443912601522424	-0.0479876399963994	-0.0410817080466014	splice_acceptor_3prime
+Q1 lowest	Exon side	0	50	Site-weighted	-0.333537123151281	-0.343640944178234	-0.323521206456667	splice_acceptor_3prime
+Q1 lowest	Full immediate	-50	50	Site-weighted	-0.188964191651763	-0.194232486645443	-0.183558673320151	splice_acceptor_3prime
+Q2	Intron side	-50	0	Site-weighted	-0.0450262691988043	-0.0501127237307764	-0.0400213745631844	splice_acceptor_3prime
+Q2	Exon side	0	50	Site-weighted	-0.366404961618925	-0.38479641004057	-0.348865074504103	splice_acceptor_3prime
+Q2	Full immediate	-50	50	Site-weighted	-0.205715615408865	-0.214867385280428	-0.196123478335614	splice_acceptor_3prime
+Q3	Intron side	-50	0	Site-weighted	-0.0442989524248889	-0.0501449708153722	-0.0382377672437076	splice_acceptor_3prime
+Q3	Exon side	0	50	Site-weighted	-0.404632333871276	-0.428482245299457	-0.381447114366199	splice_acceptor_3prime
+Q3	Full immediate	-50	50	Site-weighted	-0.224465643148084	-0.236883169150249	-0.212438952252895	splice_acceptor_3prime
+Q4 highest	Intron side	-50	0	Site-weighted	-0.0880732774574816	-0.098019717102833	-0.0775877731677355	splice_acceptor_3prime
+Q4 highest	Exon side	0	50	Site-weighted	-0.741397543635729	-0.780013602859821	-0.701683585512552	splice_acceptor_3prime
+Q4 highest	Full immediate	-50	50	Site-weighted	-0.414735410546605	-0.435331698209581	-0.393858089670138	splice_acceptor_3prime
+Q1 lowest	Intron side	-50	0	Read-weighted aggregate	-2.88760882531845	NA	NA	splice_acceptor_3prime
+Q2	Intron side	-50	0	Read-weighted aggregate	-1.78821813451703	NA	NA	splice_acceptor_3prime
+Q3	Intron side	-50	0	Read-weighted aggregate	-0.845240899762644	NA	NA	splice_acceptor_3prime
+Q4 highest	Intron side	-50	0	Read-weighted aggregate	0.453122136242959	NA	NA	splice_acceptor_3prime
+Q1 lowest	Exon side	0	50	Read-weighted aggregate	-2.03358104664549	NA	NA	splice_acceptor_3prime
+Q2	Exon side	0	50	Read-weighted aggregate	-2.70491277558751	NA	NA	splice_acceptor_3prime
+Q3	Exon side	0	50	Read-weighted aggregate	-1.45113777905027	NA	NA	splice_acceptor_3prime
+Q4 highest	Exon side	0	50	Read-weighted aggregate	0.453549017264953	NA	NA	splice_acceptor_3prime
+Q1 lowest	Full immediate	-50	50	Read-weighted aggregate	-2.46059493598197	NA	NA	splice_acceptor_3prime
+Q2	Full immediate	-50	50	Read-weighted aggregate	-2.24656545505227	NA	NA	splice_acceptor_3prime
+Q3	Full immediate	-50	50	Read-weighted aggregate	-1.14818933940645	NA	NA	splice_acceptor_3prime
+Q4 highest	Full immediate	-50	50	Read-weighted aggregate	0.453335576753956	NA	NA	splice_acceptor_3prime
+Q4 highest	Upstream	-50	0	Site-weighted	-1.04632127957109	-1.13080473986903	-0.95932073927674	annotated_transcript_3prime_end
+Q4 highest	Downstream	0	50	Site-weighted	-0.868221892608217	-0.948154104360951	-0.788876905990826	annotated_transcript_3prime_end
+Q4 highest	Full region	-50	50	Site-weighted	-0.957271586089652	-1.02479148361582	-0.889416051928378	annotated_transcript_3prime_end
+Q1 lowest	Upstream	-50	0	Site-weighted	-0.523848411515388	-0.548207887166304	-0.500704221676894	annotated_transcript_3prime_end
+Q1 lowest	Downstream	0	50	Site-weighted	-0.420964351691261	-0.441856291802637	-0.399772514123393	annotated_transcript_3prime_end
+Q1 lowest	Full region	-50	50	Site-weighted	-0.472406381603324	-0.489997808750346	-0.456107514091862	annotated_transcript_3prime_end
+Q2	Upstream	-50	0	Site-weighted	-0.602763920846947	-0.639316079966485	-0.569407463308428	annotated_transcript_3prime_end
+Q2	Downstream	0	50	Site-weighted	-0.452626716707249	-0.481162666433642	-0.42128401420458	annotated_transcript_3prime_end
+Q2	Full region	-50	50	Site-weighted	-0.527695318777098	-0.553627214514297	-0.500955665966943	annotated_transcript_3prime_end
+Q3	Upstream	-50	0	Site-weighted	-0.489272959883708	-0.541790093625596	-0.435593935079892	annotated_transcript_3prime_end
+Q3	Downstream	0	50	Site-weighted	-0.357961650804503	-0.399306302075466	-0.311033284255794	annotated_transcript_3prime_end
+Q3	Full region	-50	50	Site-weighted	-0.423617305344105	-0.464228458271943	-0.382802747480129	annotated_transcript_3prime_end
+Q1 lowest	Upstream	-50	0	Read-weighted aggregate	-1.66150532658879	NA	NA	annotated_transcript_3prime_end
+Q2	Upstream	-50	0	Read-weighted aggregate	-3.42370332317557	NA	NA	annotated_transcript_3prime_end
+Q3	Upstream	-50	0	Read-weighted aggregate	-1.76146769137616	NA	NA	annotated_transcript_3prime_end
+Q4 highest	Upstream	-50	0	Read-weighted aggregate	0.72387746566145	NA	NA	annotated_transcript_3prime_end
+Q1 lowest	Downstream	0	50	Read-weighted aggregate	-1.85965366914571	NA	NA	annotated_transcript_3prime_end
+Q2	Downstream	0	50	Read-weighted aggregate	-3.78052622142612	NA	NA	annotated_transcript_3prime_end
+Q3	Downstream	0	50	Read-weighted aggregate	-1.61617638188666	NA	NA	annotated_transcript_3prime_end
+Q4 highest	Downstream	0	50	Read-weighted aggregate	0.212311368529875	NA	NA	annotated_transcript_3prime_end
+Q1 lowest	Full region	-50	50	Read-weighted aggregate	-1.76057949786725	NA	NA	annotated_transcript_3prime_end
+Q2	Full region	-50	50	Read-weighted aggregate	-3.60211477230085	NA	NA	annotated_transcript_3prime_end
+Q3	Full region	-50	50	Read-weighted aggregate	-1.68882203663141	NA	NA	annotated_transcript_3prime_end
+Q4 highest	Full region	-50	50	Read-weighted aggregate	0.468094417095663	NA	NA	annotated_transcript_3prime_end

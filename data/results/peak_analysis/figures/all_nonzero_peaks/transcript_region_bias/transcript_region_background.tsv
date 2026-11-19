@@ -1,0 +1,16 @@
+background_id	background_label	peak_unit	transcript_region	background_region_n	background_total	background_fraction	background_percent
+source_score_ge1	46,108 source BED peaks (score >= 1)	unmerged source peaks	5' UTR	172	46108	0.0037303721696885575	0.3730372169688557
+source_score_ge1	46,108 source BED peaks (score >= 1)	unmerged source peaks	CDS	1926	46108	0.04177149301639629	4.177149301639629
+source_score_ge1	46,108 source BED peaks (score >= 1)	unmerged source peaks	3' UTR	27600	46108	0.5985946039732801	59.859460397328014
+source_score_ge1	46,108 source BED peaks (score >= 1)	unmerged source peaks	Intron	13548	46108	0.29383187299384056	29.383187299384055
+source_score_ge1	46,108 source BED peaks (score >= 1)	unmerged source peaks	Other	2862	46108	0.062071657846794484	6.207165784679448
+merged_score_ge1	43,794 merged peak regions	merged peak regions	5' UTR	159	43794	0.0036306343334703384	0.36306343334703384
+merged_score_ge1	43,794 merged peak regions	merged peak regions	CDS	1830	43794	0.04178654610220578	4.178654610220578
+merged_score_ge1	43,794 merged peak regions	merged peak regions	3' UTR	26237	43794	0.5991003333790017	59.910033337900174
+merged_score_ge1	43,794 merged peak regions	merged peak regions	Intron	12866	43794	0.29378453669452437	29.378453669452437
+merged_score_ge1	43,794 merged peak regions	merged peak regions	Other	2702	43794	0.06169794949079783	6.169794949079783
+counted_nonzero	16,046 merged peaks with any count	merged peak regions	5' UTR	62	16046	0.0038638913124766296	0.38638913124766294
+counted_nonzero	16,046 merged peaks with any count	merged peak regions	CDS	1023	16046	0.06375420665586438	6.3754206655864385
+counted_nonzero	16,046 merged peaks with any count	merged peak regions	3' UTR	13122	16046	0.8177739000373925	81.77739000373924
+counted_nonzero	16,046 merged peaks with any count	merged peak regions	Intron	934	16046	0.05820765299763181	5.820765299763181
+counted_nonzero	16,046 merged peaks with any count	merged peak regions	Other	905	16046	0.056400348996634674	5.640034899663467

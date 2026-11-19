@@ -1,0 +1,2 @@
+test	comparison	statistic	degrees_of_freedom	p_value	epsilon_squared	peak_count	nonindependence_note
+Kruskal-Wallis rank-sum test	quantile-normalized delta_delta by transcript region	60.85691342716175	4	1.9160737100661108e-12	0.0035444743736152205	16046	Peak-level exploratory test; peaks from the same gene/transcript may not be independent

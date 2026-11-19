@@ -1,0 +1,29 @@
+Warning messages:
+1: package ‘dplyr’ was built under R version 4.4.3 
+2: package ‘tidyr’ was built under R version 4.4.3 
+3: package ‘readr’ was built under R version 4.4.3 
+# A tibble: 6 × 9
+  pair     isoform hit_set_size background_size tests significant_005
+  <chr>    <chr>          <int>           <int> <int>           <int>
+1 cluster  324              421            1638     8               0
+2 cluster  328              609            1638     8               0
+3 hits     324              237            1638     8               0
+4 hits     328              240            1638     8               0
+5 specific 324              172            1638     8               0
+6 specific 328              300            1638     8               0
+# ℹ 3 more variables: significant_010 <int>, minimum_p <dbl>, minimum_FDR <dbl>
+# A tibble: 12 × 8
+   pair     isoform localization     GeneRatio BgRatio odds_ratio p_value BH_FDR
+   <chr>    <chr>   <chr>            <chr>     <chr>        <dbl>   <dbl>  <dbl>
+ 1 hits     328     Mitochondrial    37/240    186/16…       1.53  0.0237  0.190
+ 2 cluster  324     Mitochondrial    59/421    186/16…       1.40  0.0300  0.240
+ 3 hits     324     Mitochondrial    36/237    186/16…       1.49  0.0317  0.254
+ 4 cluster  324     Nuclear/nucleop… 176/421   641/16…       1.16  0.107   0.427
+ 5 specific 328     ER/Golgi         39/300    170/16…       1.38  0.0641  0.513
+ 6 specific 328     Mitochondrial    40/300    186/16…       1.26  0.138   0.550
+ 7 specific 328     Nucleolus        26/300    122/16…       1.23  0.219   0.583
+ 8 hits     328     ER/Golgi         30/240    170/16…       1.28  0.147   0.587
+ 9 cluster  324     Nucleolus        34/421    122/16…       1.13  0.318   0.651
+10 cluster  324     ER/Golgi         46/421    170/16…       1.08  0.365   0.651
+11 cluster  324     Cytosolic        155/421   598/16…       1.02  0.461   0.651
+12 cluster  324     Cytoskeletal     43/421    165/16…       1.02  0.488   0.651

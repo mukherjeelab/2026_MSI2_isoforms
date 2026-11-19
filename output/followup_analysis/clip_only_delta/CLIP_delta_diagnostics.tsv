@@ -1,0 +1,5 @@
+dataset	method	n_peaks	n_zero_all_CLIP	n_zero_all_CLIP_nonzero_delta	overall_median	mean_delta	positive	negative	zero
+peaks_16046	CPM_only	16046	6212	0	-0.526769215747059	-1.42459670167302	1562	8272	6212
+peaks_16046	quantile_normalized	16046	6212	0	0	-0.66430933960851	2122	7687	6237
+peaks_4385	CPM_only	4385	174	0	-3.03622726331686	-2.72952172578179	718	3493	174
+peaks_4385	quantile_normalized	4385	174	174	0.236316267072889	0.452543277723034	2377	1990	18

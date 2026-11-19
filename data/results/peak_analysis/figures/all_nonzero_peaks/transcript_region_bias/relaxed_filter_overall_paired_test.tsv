@@ -1,0 +1,2 @@
+comparison	peak_count	median_324_LFC	median_328_LFC	median_delta_delta	wilcoxon_signed_rank_statistic	wilcoxon_p_value
+324WT LFC vs 328WT LFC after retaining (delta >= 0 and 324WT LFC > 0) or (delta <= 0 and 328WT LFC > 0)	9369	0	3.3999169944056447	-3.858834888046209	6215924	0

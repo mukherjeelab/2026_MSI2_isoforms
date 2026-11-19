@@ -1,0 +1,2629 @@
+ENTREZID	hpa_gene_id	hpa_symbol	localization	collapsed_localization
+1000	ENSG00000170558	CDH2	Cell Junctions	Plasma membrane/cell junctions
+1000	ENSG00000170558	CDH2	Plasma membrane	Plasma membrane/cell junctions
+100101490	ENSG00000101898	MCTS2	Cytosol	Cytosol
+100101490	ENSG00000101898	MCTS2	Plasma membrane	Plasma membrane/cell junctions
+10011	ENSG00000213523	SRA1	Cytosol	Cytosol
+10011	ENSG00000213523	SRA1	Nucleoplasm	Nucleoplasm
+10011	ENSG00000213523	SRA1	Cytokinetic bridge	Microtubule associated
+10011	ENSG00000213523	SRA1	Microtubules	Microtubule associated
+100129271	ENSG00000198854	C1orf68	Cytosol	Cytosol
+100129271	ENSG00000198854	C1orf68	Plasma membrane	Plasma membrane/cell junctions
+10015	ENSG00000170248	PDCD6IP	Centrosome	Centrosome
+10015	ENSG00000170248	PDCD6IP	Vesicles	Vesicular system
+10016	ENSG00000249915	PDCD6	Cytosol	Cytosol
+10016	ENSG00000249915	PDCD6	Nucleoplasm	Nucleoplasm
+10048	ENSG00000010017	RANBP9	Cytosol	Cytosol
+10048	ENSG00000010017	RANBP9	Nuclear bodies	Nucleoplasm
+10048	ENSG00000010017	RANBP9	Nucleoplasm	Nucleoplasm
+100526740	ENSG00000248919	ATP5MF-PTCD1	Mitochondria	Mitochondria
+100526842	ENSG00000215472	RPL17-C18orf32	Cytosol	Cytosol
+100526842	ENSG00000215472	RPL17-C18orf32	Endoplasmic reticulum	Endoplasmic reticulum
+10055	ENSG00000142230	SAE1	Cytosol	Cytosol
+10055	ENSG00000142230	SAE1	Nucleoplasm	Nucleoplasm
+10056	ENSG00000116120	FARSB	Cytosol	Cytosol
+10056	ENSG00000116120	FARSB	Nucleoplasm	Nucleoplasm
+10058	ENSG00000115657	ABCB6	Golgi apparatus	Golgi apparatus
+10058	ENSG00000115657	ABCB6	Plasma membrane	Plasma membrane/cell junctions
+10058	ENSG00000115657	ABCB6	Cytosol	Cytosol
+10058	ENSG00000115657	ABCB6	Mid piece	Sperm structures
+10058	ENSG00000115657	ABCB6	Mitochondria	Mitochondria
+10058	ENSG00000115657	ABCB6	Nucleoplasm	Nucleoplasm
+10058	ENSG00000115657	ABCB6	Principal piece	Sperm structures
+10059	ENSG00000087470	DNM1L	Cytosol	Cytosol
+10059	ENSG00000087470	DNM1L	Vesicles	Vesicular system
+10061	ENSG00000033050	ABCF2	Cytosol	Cytosol
+10075	ENSG00000086758	HUWE1	Cytosol	Cytosol
+10075	ENSG00000086758	HUWE1	Nuclear membrane	Nuclear membrane
+10075	ENSG00000086758	HUWE1	Nucleoplasm	Nucleoplasm
+10075	ENSG00000086758	HUWE1	End piece	Sperm structures
+10075	ENSG00000086758	HUWE1	Mid piece	Sperm structures
+10075	ENSG00000086758	HUWE1	Principal piece	Sperm structures
+10105	ENSG00000108179	PPIF	Mitochondria	Mitochondria
+10109	ENSG00000163466	ARPC2	Nucleoplasm	Nucleoplasm
+10111	ENSG00000113522	RAD50	Nuclear bodies	Nucleoplasm
+10111	ENSG00000113522	RAD50	Nucleoplasm	Nucleoplasm
+10128	ENSG00000138095	LRPPRC	Mitochondria	Mitochondria
+10128	ENSG00000138095	LRPPRC	Acrosome	Sperm structures
+10128	ENSG00000138095	LRPPRC	End piece	Sperm structures
+10128	ENSG00000138095	LRPPRC	Mid piece	Sperm structures
+10130	ENSG00000143870	PDIA6	Endoplasmic reticulum	Endoplasmic reticulum
+10131	ENSG00000126602	TRAP1	Mitochondria	Mitochondria
+10134	ENSG00000185825	BCAP31	Endoplasmic reticulum	Endoplasmic reticulum
+10146	ENSG00000145907	G3BP1	Cytosol	Cytosol
+10155	ENSG00000130726	TRIM28	Nucleoplasm	Nucleoplasm
+10157	ENSG00000008311	AASS	Mitochondria	Mitochondria
+10157	ENSG00000008311	AASS	Nucleoplasm	Nucleoplasm
+10157	ENSG00000008311	AASS	Vesicles	Vesicular system
+10160	ENSG00000152767	FARP1	Cytosol	Cytosol
+10169	ENSG00000140264	SERF2	Nucleoli	Nucleoli
+10169	ENSG00000140264	SERF2	Nucleoplasm	Nucleoplasm
+10171	ENSG00000120158	RCL1	Nucleoplasm	Nucleoplasm
+10179	ENSG00000076053	RBM7	Nucleoplasm	Nucleoplasm
+10180	ENSG00000004534	RBM6	Cytoplasmic bodies	Cytosol
+10180	ENSG00000004534	RBM6	Nuclear speckles	Nucleoplasm
+10189	ENSG00000183684	ALYREF	Nuclear speckles	Nucleoplasm
+10189	ENSG00000183684	ALYREF	Nucleoplasm	Nucleoplasm
+10190	ENSG00000115514	TXNDC9	Cytosol	Cytosol
+10212	ENSG00000123136	DDX39A	Nuclear speckles	Nucleoplasm
+10213	ENSG00000115233	PSMD14	Nucleoplasm	Nucleoplasm
+10226	ENSG00000105355	PLIN3	Lipid droplets	Vesicular system
+10236	ENSG00000125944	HNRNPR	Nucleoplasm	Nucleoplasm
+1025	ENSG00000136807	CDK9	Nucleoplasm	Nucleoplasm
+10262	ENSG00000143368	SF3B4	Nuclear speckles	Nucleoplasm
+10283	ENSG00000153015	CWC27	Nucleoplasm	Nucleoplasm
+10284	ENSG00000150459	SAP18	Cytosol	Cytosol
+10284	ENSG00000150459	SAP18	Nuclear bodies	Nucleoplasm
+10284	ENSG00000150459	SAP18	Nucleoplasm	Nucleoplasm
+10285	ENSG00000119953	SMNDC1	Nucleoplasm	Nucleoplasm
+10285	ENSG00000119953	SMNDC1	Nuclear bodies	Nucleoplasm
+10286	ENSG00000116752	BCAS2	Nuclear speckles	Nucleoplasm
+10286	ENSG00000116752	BCAS2	Centrosome	Centrosome
+10291	ENSG00000099995	SF3A1	Nuclear speckles	Nucleoplasm
+10291	ENSG00000099995	SF3A1	Nucleoplasm	Nucleoplasm
+10294	ENSG00000069345	DNAJA2	Cytosol	Cytosol
+10294	ENSG00000069345	DNAJA2	Nucleoli	Nucleoli
+10296	ENSG00000090316	MAEA	Nucleoplasm	Nucleoplasm
+103	ENSG00000160710	ADAR	Nucleoli	Nucleoli
+103	ENSG00000160710	ADAR	Nucleoplasm	Nucleoplasm
+1031	ENSG00000123080	CDKN2C	Cytosol	Cytosol
+1031	ENSG00000123080	CDKN2C	Nucleoplasm	Nucleoplasm
+10342	ENSG00000114354	TFG	Vesicles	Vesicular system
+10367	ENSG00000107745	MICU1	Mitochondria	Mitochondria
+10376	ENSG00000123416	TUBA1B	Microtubules	Microtubule associated
+10376	ENSG00000123416	TUBA1B	Primary cilium	Primary cilium
+10380	ENSG00000162813	BPNT1	Nuclear speckles	Nucleoplasm
+10382	ENSG00000104833	TUBB4A	Cytokinetic bridge	Microtubule associated
+10382	ENSG00000104833	TUBB4A	End piece	Sperm structures
+10382	ENSG00000104833	TUBB4A	Microtubules	Microtubule associated
+10382	ENSG00000104833	TUBB4A	Mitotic spindle	Microtubule associated
+10382	ENSG00000104833	TUBB4A	Primary cilium	Primary cilium
+10382	ENSG00000104833	TUBB4A	Primary cilium tip	Primary cilium
+10382	ENSG00000104833	TUBB4A	Principal piece	Sperm structures
+10382	ENSG00000104833	TUBB4A	Basal body	Primary cilium
+10382	ENSG00000104833	TUBB4A	Flagellar centriole	Sperm structures
+10383	ENSG00000188229	TUBB4B	Basal body	Primary cilium
+10383	ENSG00000188229	TUBB4B	Cytokinetic bridge	Microtubule associated
+10383	ENSG00000188229	TUBB4B	End piece	Sperm structures
+10383	ENSG00000188229	TUBB4B	Flagellar centriole	Sperm structures
+10383	ENSG00000188229	TUBB4B	Microtubules	Microtubule associated
+10383	ENSG00000188229	TUBB4B	Mitotic spindle	Microtubule associated
+10383	ENSG00000188229	TUBB4B	Primary cilium	Primary cilium
+10383	ENSG00000188229	TUBB4B	Primary cilium tip	Primary cilium
+10383	ENSG00000188229	TUBB4B	Principal piece	Sperm structures
+10399	ENSG00000204628	RACK1	Cytosol	Cytosol
+10399	ENSG00000204628	RACK1	Nucleoplasm	Nucleoplasm
+10409	ENSG00000176788	BASP1	Plasma membrane	Plasma membrane/cell junctions
+10413	ENSG00000137693	YAP1	Cytosol	Cytosol
+10413	ENSG00000137693	YAP1	Nucleoli	Nucleoli
+10413	ENSG00000137693	YAP1	Nucleoplasm	Nucleoplasm
+10419	ENSG00000100462	PRMT5	Cytosol	Cytosol
+10419	ENSG00000100462	PRMT5	Nucleoplasm	Nucleoplasm
+10421	ENSG00000169217	CD2BP2	Nuclear speckles	Nucleoplasm
+10421	ENSG00000169217	CD2BP2	Cytosol	Cytosol
+10423	ENSG00000103502	CDIPT	Nuclear membrane	Nuclear membrane
+10423	ENSG00000103502	CDIPT	Nucleoplasm	Nucleoplasm
+10423	ENSG00000103502	CDIPT	Plasma membrane	Plasma membrane/cell junctions
+10424	ENSG00000164040	PGRMC2	Cytosol	Cytosol
+10424	ENSG00000164040	PGRMC2	Nuclear bodies	Nucleoplasm
+10424	ENSG00000164040	PGRMC2	Plasma membrane	Plasma membrane/cell junctions
+10447	ENSG00000196937	FAM3C	Golgi apparatus	Golgi apparatus
+10452	ENSG00000130204	TOMM40	Mitochondria	Mitochondria
+10452	ENSG00000130204	TOMM40	Cytosol	Cytosol
+10455	ENSG00000198721	ECI2	Mitochondria	Mitochondria
+10455	ENSG00000198721	ECI2	Peroxisomes	Vesicular system
+10460	ENSG00000013810	TACC3	Basal body	Primary cilium
+10460	ENSG00000013810	TACC3	Centriolar satellite	Centrosome
+10469	ENSG00000104980	TIMM44	Mitochondria	Mitochondria
+10473	ENSG00000182952	HMGN4	Nucleoli	Nucleoli
+10473	ENSG00000182952	HMGN4	Nucleoplasm	Nucleoplasm
+10476	ENSG00000167863	ATP5PD	Mitochondria	Mitochondria
+10480	ENSG00000149100	EIF3M	Cytosol	Cytosol
+10482	ENSG00000162231	NXF1	Nucleoplasm	Nucleoplasm
+10484	ENSG00000100934	SEC23A	Cytosol	Cytosol
+10484	ENSG00000100934	SEC23A	Endoplasmic reticulum	Endoplasmic reticulum
+10486	ENSG00000112186	CAP2	Cytosol	Cytosol
+10486	ENSG00000112186	CAP2	Nucleoplasm	Nucleoplasm
+10486	ENSG00000112186	CAP2	Plasma membrane	Plasma membrane/cell junctions
+10487	ENSG00000131236	CAP1	Cytosol	Cytosol
+10492	ENSG00000135316	SYNCRIP	Cytosol	Cytosol
+10492	ENSG00000135316	SYNCRIP	Vesicles	Vesicular system
+10514	ENSG00000132382	MYBBP1A	Nucleoli	Nucleoli
+10521	ENSG00000100201	DDX17	Nuclear speckles	Nucleoplasm
+10526	ENSG00000133704	IPO8	End piece	Sperm structures
+10526	ENSG00000133704	IPO8	Nucleoplasm	Nucleoplasm
+10526	ENSG00000133704	IPO8	Vesicles	Vesicular system
+10533	ENSG00000197548	ATG7	Connecting piece	Sperm structures
+10533	ENSG00000197548	ATG7	Cytosol	Cytosol
+10533	ENSG00000197548	ATG7	Flagellar centriole	Sperm structures
+10533	ENSG00000197548	ATG7	Mid piece	Sperm structures
+10533	ENSG00000197548	ATG7	Nucleoplasm	Nucleoplasm
+10533	ENSG00000197548	ATG7	Plasma membrane	Plasma membrane/cell junctions
+10540	ENSG00000175203	DCTN2	Basal body	Primary cilium
+10540	ENSG00000175203	DCTN2	Centrosome	Centrosome
+10540	ENSG00000175203	DCTN2	Connecting piece	Sperm structures
+10540	ENSG00000175203	DCTN2	End piece	Sperm structures
+10540	ENSG00000175203	DCTN2	Mid piece	Sperm structures
+10540	ENSG00000175203	DCTN2	Principal piece	Sperm structures
+10541	ENSG00000136938	ANP32B	Cytosol	Cytosol
+10541	ENSG00000136938	ANP32B	Nucleoplasm	Nucleoplasm
+10541	ENSG00000136938	ANP32B	Centrosome	Centrosome
+10550	ENSG00000144746	ARL6IP5	Endoplasmic reticulum	Endoplasmic reticulum
+10558	ENSG00000090054	SPTLC1	Endoplasmic reticulum	Endoplasmic reticulum
+10570	ENSG00000151640	DPYSL4	Mitochondria	Mitochondria
+10570	ENSG00000151640	DPYSL4	Vesicles	Vesicular system
+10574	ENSG00000135624	CCT7	Cytosol	Cytosol
+10575	ENSG00000115484	CCT4	Cytosol	Cytosol
+10576	ENSG00000166226	CCT2	Cytosol	Cytosol
+10576	ENSG00000166226	CCT2	Connecting piece	Sperm structures
+10576	ENSG00000166226	CCT2	Mid piece	Sperm structures
+10576	ENSG00000166226	CCT2	Principal piece	Sperm structures
+10587	ENSG00000184470	TXNRD2	Mitochondria	Mitochondria
+10589	ENSG00000175550	DRAP1	Cytosol	Cytosol
+10591	ENSG00000112667	DNPH1	Cytosol	Cytosol
+10591	ENSG00000112667	DNPH1	Nucleoplasm	Nucleoplasm
+10594	ENSG00000174231	PRPF8	Nuclear speckles	Nucleoplasm
+10594	ENSG00000174231	PRPF8	Nucleoplasm	Nucleoplasm
+10606	ENSG00000128050	PAICS	Cytosol	Cytosol
+10611	ENSG00000163110	PDLIM5	Focal adhesion sites	Actin-filament associated
+10611	ENSG00000163110	PDLIM5	Plasma membrane	Plasma membrane/cell junctions
+10617	ENSG00000124356	STAMBP	Cytosol	Cytosol
+10617	ENSG00000124356	STAMBP	Nucleoplasm	Nucleoplasm
+10617	ENSG00000124356	STAMBP	Plasma membrane	Plasma membrane/cell junctions
+10618	ENSG00000152291	TGOLN2	Golgi apparatus	Golgi apparatus
+10625	ENSG00000116679	IVNS1ABP	Cytosol	Cytosol
+10642	ENSG00000159217	IGF2BP1	Cytosol	Cytosol
+10643	ENSG00000136231	IGF2BP3	Cytosol	Cytosol
+10652	ENSG00000106636	YKT6	Cytosol	Cytosol
+10652	ENSG00000106636	YKT6	Mitochondria	Mitochondria
+10656	ENSG00000131773	KHDRBS3	Nucleoplasm	Nucleoplasm
+10657	ENSG00000121774	KHDRBS1	Nucleoplasm	Nucleoplasm
+10658	ENSG00000149187	CELF1	Nucleoplasm	Nucleoplasm
+10671	ENSG00000104671	DCTN6	Cytosol	Cytosol
+10694	ENSG00000156261	CCT8	Cytosol	Cytosol
+10694	ENSG00000156261	CCT8	Connecting piece	Sperm structures
+10694	ENSG00000156261	CCT8	End piece	Sperm structures
+10694	ENSG00000156261	CCT8	Mid piece	Sperm structures
+10694	ENSG00000156261	CCT8	Principal piece	Sperm structures
+10713	ENSG00000168883	USP39	Nucleoplasm	Nucleoplasm
+10715	ENSG00000223802	CERS1	Endoplasmic reticulum	Endoplasmic reticulum
+1072	ENSG00000172757	CFL1	Plasma membrane	Plasma membrane/cell junctions
+1073	ENSG00000165410	CFL2	Cytosol	Cytosol
+1073	ENSG00000165410	CFL2	Nucleoplasm	Nucleoplasm
+1073	ENSG00000165410	CFL2	Plasma membrane	Plasma membrane/cell junctions
+10776	ENSG00000128989	ARPP19	Basal body	Primary cilium
+10776	ENSG00000128989	ARPP19	Cytosol	Cytosol
+10776	ENSG00000128989	ARPP19	Nucleoli	Nucleoli
+10776	ENSG00000128989	ARPP19	Vesicles	Vesicular system
+10788	ENSG00000145703	IQGAP2	Plasma membrane	Plasma membrane/cell junctions
+10788	ENSG00000145703	IQGAP2	Vesicles	Vesicular system
+10801	ENSG00000184640	SEPTIN9	Actin filaments	Actin-filament associated
+10801	ENSG00000184640	SEPTIN9	Cytokinetic bridge	Microtubule associated
+10801	ENSG00000184640	SEPTIN9	Microtubules	Microtubule associated
+10801	ENSG00000184640	SEPTIN9	Primary cilium	Primary cilium
+10845	ENSG00000166855	CLPX	Mitochondria	Mitochondria
+10845	ENSG00000166855	CLPX	Equatorial segment	Sperm structures
+10845	ENSG00000166855	CLPX	Perinuclear theca	Sperm structures
+10856	ENSG00000183207	RUVBL2	Cytosol	Cytosol
+10856	ENSG00000183207	RUVBL2	Nucleoplasm	Nucleoplasm
+10856	ENSG00000183207	RUVBL2	Centrosome	Centrosome
+10857	ENSG00000101856	PGRMC1	Endoplasmic reticulum	Endoplasmic reticulum
+10857	ENSG00000101856	PGRMC1	Mid piece	Sperm structures
+10857	ENSG00000101856	PGRMC1	Nucleoli	Nucleoli
+10857	ENSG00000101856	PGRMC1	Principal piece	Sperm structures
+10916	ENSG00000102316	MAGED2	Cytosol	Cytosol
+10916	ENSG00000102316	MAGED2	Nucleoli	Nucleoli
+10916	ENSG00000102316	MAGED2	Nucleoplasm	Nucleoplasm
+10923	ENSG00000113387	SUB1	Nucleoli	Nucleoli
+10923	ENSG00000113387	SUB1	Nucleoplasm	Nucleoplasm
+10927	ENSG00000106723	SPIN1	Nucleoplasm	Nucleoplasm
+10929	ENSG00000263465	SRSF8	Nucleoplasm	Nucleoplasm
+10929	ENSG00000263465	SRSF8	Cytosol	Cytosol
+10939	ENSG00000141385	AFG3L2	Mitochondria	Mitochondria
+10939	ENSG00000141385	AFG3L2	Calyx	Sperm structures
+10939	ENSG00000141385	AFG3L2	Connecting piece	Sperm structures
+10939	ENSG00000141385	AFG3L2	Mid piece	Sperm structures
+10939	ENSG00000141385	AFG3L2	Perinuclear theca	Sperm structures
+10939	ENSG00000141385	AFG3L2	Principal piece	Sperm structures
+10946	ENSG00000183431	SF3A3	Nuclear speckles	Nucleoplasm
+10946	ENSG00000183431	SF3A3	Nucleoplasm	Nucleoplasm
+10949	ENSG00000177733	HNRNPA0	Nucleoplasm	Nucleoplasm
+10959	ENSG00000086598	TMED2	Vesicles	Vesicular system
+10960	ENSG00000169223	LMAN2	Golgi apparatus	Golgi apparatus
+10963	ENSG00000168439	STIP1	Cytosol	Cytosol
+10963	ENSG00000168439	STIP1	Nucleoplasm	Nucleoplasm
+10963	ENSG00000168439	STIP1	Plasma membrane	Plasma membrane/cell junctions
+10970	ENSG00000136026	CKAP4	Endoplasmic reticulum	Endoplasmic reticulum
+10970	ENSG00000136026	CKAP4	Mitochondria	Mitochondria
+10971	ENSG00000134308	YWHAQ	Cytosol	Cytosol
+10978	ENSG00000172409	CLP1	Nucleoplasm	Nucleoplasm
+10979	ENSG00000073712	FERMT2	Cytosol	Cytosol
+10979	ENSG00000073712	FERMT2	Focal adhesion sites	Actin-filament associated
+10979	ENSG00000073712	FERMT2	Nucleoplasm	Nucleoplasm
+10985	ENSG00000089154	GCN1	Cytosol	Cytosol
+10989	ENSG00000132305	IMMT	Mitochondria	Mitochondria
+10992	ENSG00000087365	SF3B2	Nuclear speckles	Nucleoplasm
+1104	ENSG00000180198	RCC1	Nucleoplasm	Nucleoplasm
+11047	ENSG00000130706	ADRM1	Cytosol	Cytosol
+11047	ENSG00000130706	ADRM1	Nucleoplasm	Nucleoplasm
+11051	ENSG00000167005	NUDT21	Nuclear bodies	Nucleoplasm
+1108	ENSG00000111642	CHD4	Nucleoplasm	Nucleoplasm
+11083	ENSG00000101191	DIDO1	Cytosol	Cytosol
+11083	ENSG00000101191	DIDO1	Nucleoplasm	Nucleoplasm
+11083	ENSG00000101191	DIDO1	Vesicles	Vesicular system
+11100	ENSG00000105323	HNRNPUL1	Nucleoplasm	Nucleoplasm
+11124	ENSG00000185104	FAF1	Nucleoplasm	Nucleoplasm
+11124	ENSG00000185104	FAF1	Acrosome	Sperm structures
+11124	ENSG00000185104	FAF1	Equatorial segment	Sperm structures
+11124	ENSG00000185104	FAF1	Perinuclear theca	Sperm structures
+11127	ENSG00000131437	KIF3A	Basal body	Primary cilium
+11127	ENSG00000131437	KIF3A	Primary cilium	Primary cilium
+11140	ENSG00000105401	CDC37	Cytosol	Cytosol
+11164	ENSG00000165609	NUDT5	Centrosome	Centrosome
+11164	ENSG00000165609	NUDT5	Mid piece	Sperm structures
+11164	ENSG00000165609	NUDT5	Nucleoplasm	Nucleoplasm
+11164	ENSG00000165609	NUDT5	Vesicles	Vesicular system
+11169	ENSG00000198554	WDHD1	Nucleoplasm	Nucleoplasm
+11190	ENSG00000126001	CEP250	Centrosome	Centrosome
+11190	ENSG00000126001	CEP250	Basal body	Primary cilium
+11196	ENSG00000107651	SEC23IP	Vesicles	Vesicular system
+1121	ENSG00000188419	CHM	Cytosol	Cytosol
+11231	ENSG00000025796	SEC63	Endoplasmic reticulum	Endoplasmic reticulum
+11258	ENSG00000137100	DCTN3	Cytosol	Cytosol
+11258	ENSG00000137100	DCTN3	Calyx	Sperm structures
+11258	ENSG00000137100	DCTN3	Mid piece	Sperm structures
+11258	ENSG00000137100	DCTN3	Perinuclear theca	Sperm structures
+11258	ENSG00000137100	DCTN3	Principal piece	Sperm structures
+112724	ENSG00000160439	RDH13	Mitochondria	Mitochondria
+112724	ENSG00000160439	RDH13	Cytosol	Cytosol
+112970	ENSG00000198841	KTI12	Cytoplasmic bodies	Cytosol
+112970	ENSG00000198841	KTI12	Nuclear speckles	Nucleoplasm
+11311	ENSG00000136631	VPS45	Microtubules	Microtubule associated
+113201	ENSG00000166734	GOLM2	Golgi apparatus	Golgi apparatus
+11321	ENSG00000198522	GPN1	Cytosol	Cytosol
+11321	ENSG00000198522	GPN1	Nucleoplasm	Nucleoplasm
+11321	ENSG00000198522	GPN1	Mitochondria	Mitochondria
+11329	ENSG00000112079	STK38	Cytosol	Cytosol
+11331	ENSG00000215021	PHB2	Mitochondria	Mitochondria
+11333	ENSG00000106244	PDAP1	Cytosol	Cytosol
+11333	ENSG00000106244	PDAP1	Plasma membrane	Plasma membrane/cell junctions
+11338	ENSG00000063244	U2AF2	Nuclear speckles	Nucleoplasm
+11338	ENSG00000063244	U2AF2	Nucleoplasm	Nucleoplasm
+114984	ENSG00000162076	FLYWCH2	Nucleoplasm	Nucleoplasm
+1153	ENSG00000099622	CIRBP	Nucleoplasm	Nucleoplasm
+1155	ENSG00000105254	TBCB	Cytosol	Cytosol
+116028	ENSG00000175643	RMI2	Nuclear speckles	Nucleoplasm
+116228	ENSG00000203667	COX20	Mitochondria	Mitochondria
+116540	ENSG00000204822	MRPL53	Mitochondria	Mitochondria
+1173	ENSG00000161203	AP2M1	Plasma membrane	Plasma membrane/cell junctions
+1176	ENSG00000177879	AP3S1	Vesicles	Vesicular system
+118	ENSG00000087274	ADD1	Nucleoplasm	Nucleoplasm
+118	ENSG00000087274	ADD1	Plasma membrane	Plasma membrane/cell junctions
+118487	ENSG00000172586	CHCHD1	Mitochondria	Mitochondria
+118487	ENSG00000172586	CHCHD1	Nucleoli fibrillar center	Nucleoli
+118487	ENSG00000172586	CHCHD1	Nucleoplasm	Nucleoplasm
+1192	ENSG00000213719	CLIC1	Cytosol	Cytosol
+119559	ENSG00000183605	SFXN4	Mitochondria	Mitochondria
+1207	ENSG00000074201	CLNS1A	Cytosol	Cytosol
+1207	ENSG00000074201	CLNS1A	Microtubules	Microtubule associated
+1207	ENSG00000074201	CLNS1A	Nucleoplasm	Nucleoplasm
+1207	ENSG00000074201	CLNS1A	Connecting piece	Sperm structures
+1207	ENSG00000074201	CLNS1A	Mid piece	Sperm structures
+1207	ENSG00000074201	CLNS1A	Primary cilium	Primary cilium
+1207	ENSG00000074201	CLNS1A	Principal piece	Sperm structures
+1209	ENSG00000104853	CLPTM1	Endoplasmic reticulum	Endoplasmic reticulum
+1211	ENSG00000122705	CLTA	Endosomes	Vesicular system
+1211	ENSG00000122705	CLTA	Lysosomes	Vesicular system
+1211	ENSG00000122705	CLTA	Plasma membrane	Plasma membrane/cell junctions
+1212	ENSG00000175416	CLTB	Plasma membrane	Plasma membrane/cell junctions
+1212	ENSG00000175416	CLTB	Vesicles	Vesicular system
+1212	ENSG00000175416	CLTB	Cytosol	Cytosol
+1213	ENSG00000141367	CLTC	Endosomes	Vesicular system
+1213	ENSG00000141367	CLTC	Lysosomes	Vesicular system
+1213	ENSG00000141367	CLTC	Mitotic spindle	Microtubule associated
+1213	ENSG00000141367	CLTC	Mid piece	Sperm structures
+121391	ENSG00000170484	KRT74	Cytosol	Cytosol
+121391	ENSG00000170484	KRT74	Intermediate filaments	Intermediate filaments
+123169	ENSG00000166477	LEO1	Nucleoli fibrillar center	Nucleoli
+123169	ENSG00000166477	LEO1	Nucleoplasm	Nucleoplasm
+123169	ENSG00000166477	LEO1	Centrosome	Centrosome
+124245	ENSG00000158545	ZC3H18	Nuclear speckles	Nucleoplasm
+124454	ENSG00000103356	EARS2	Mitochondria	Mitochondria
+124454	ENSG00000103356	EARS2	Nucleoplasm	Nucleoplasm
+124540	ENSG00000153944	MSI2	Cytosol	Cytosol
+125950	ENSG00000161847	RAVER1	Nucleoplasm	Nucleoplasm
+126208	ENSG00000142409	ZNF787	Mitochondria	Mitochondria
+126208	ENSG00000142409	ZNF787	Nucleoli	Nucleoli
+126208	ENSG00000142409	ZNF787	Nucleoplasm	Nucleoplasm
+126298	ENSG00000167378	IRGQ	Vesicles	Vesicular system
+1266	ENSG00000117519	CNN3	Actin filaments	Actin-filament associated
+1266	ENSG00000117519	CNN3	Cytosol	Cytosol
+127018	ENSG00000143353	LYPLAL1	Cytosol	Cytosol
+1277	ENSG00000108821	COL1A1	Endoplasmic reticulum	Endoplasmic reticulum
+1277	ENSG00000108821	COL1A1	Vesicles	Vesicular system
+1278	ENSG00000164692	COL1A2	Endoplasmic reticulum	Endoplasmic reticulum
+128312	ENSG00000196890	H2BC26	Cytosol	Cytosol
+128312	ENSG00000196890	H2BC26	Nucleoplasm	Nucleoplasm
+129138	ENSG00000100124	ANKRD54	Microtubules	Microtubule associated
+129138	ENSG00000100124	ANKRD54	Midbody	Microtubule associated
+129138	ENSG00000100124	ANKRD54	Nucleoplasm	Nucleoplasm
+1301	ENSG00000060718	COL11A1	Endoplasmic reticulum	Endoplasmic reticulum
+1312	ENSG00000093010	COMT	Endoplasmic reticulum	Endoplasmic reticulum
+1312	ENSG00000093010	COMT	Vesicles	Vesicular system
+1314	ENSG00000122218	COPA	Cytosol	Cytosol
+1314	ENSG00000122218	COPA	Golgi apparatus	Golgi apparatus
+1314	ENSG00000122218	COPA	Nucleoplasm	Nucleoplasm
+1315	ENSG00000129083	COPB1	Cytosol	Cytosol
+1315	ENSG00000129083	COPB1	Golgi apparatus	Golgi apparatus
+1315	ENSG00000129083	COPB1	Vesicles	Vesicular system
+1327	ENSG00000131143	COX4I1	Mitochondria	Mitochondria
+132954	ENSG00000163440	PDCL2	Centrosome	Centrosome
+132954	ENSG00000163440	PDCL2	Microtubules	Microtubule associated
+134353	ENSG00000155858	LSM11	Nuclear bodies	Nucleoplasm
+134353	ENSG00000155858	LSM11	Nucleoplasm	Nucleoplasm
+1362	ENSG00000108582	CPD	Cytosol	Cytosol
+1362	ENSG00000108582	CPD	Nucleoli	Nucleoli
+136319	ENSG00000105887	MTPN	Cytosol	Cytosol
+136319	ENSG00000105887	MTPN	Plasma membrane	Plasma membrane/cell junctions
+136647	ENSG00000168303	MPLKIP	Nucleoplasm	Nucleoplasm
+136647	ENSG00000168303	MPLKIP	Golgi apparatus	Golgi apparatus
+136647	ENSG00000168303	MPLKIP	Vesicles	Vesicular system
+1384	ENSG00000095321	CRAT	Cytosol	Cytosol
+1384	ENSG00000095321	CRAT	Golgi apparatus	Golgi apparatus
+139324	ENSG00000165259	HDX	Cytosol	Cytosol
+1398	ENSG00000167193	CRK	Actin filaments	Actin-filament associated
+1398	ENSG00000167193	CRK	Basal body	Primary cilium
+1398	ENSG00000167193	CRK	Plasma membrane	Plasma membrane/cell junctions
+1399	ENSG00000099942	CRKL	Nucleoplasm	Nucleoplasm
+1399	ENSG00000099942	CRKL	Cytosol	Cytosol
+1400	ENSG00000072832	CRMP1	Centrosome	Centrosome
+1400	ENSG00000072832	CRMP1	Cytosol	Cytosol
+140690	ENSG00000124092	CTCFL	Cytosol	Cytosol
+140690	ENSG00000124092	CTCFL	Nuclear bodies	Nucleoplasm
+140690	ENSG00000124092	CTCFL	Nucleoplasm	Nucleoplasm
+140707	ENSG00000184992	BRI3BP	Mitochondria	Mitochondria
+140707	ENSG00000184992	BRI3BP	Nucleoplasm	Nucleoplasm
+140890	ENSG00000153914	SREK1	Nuclear speckles	Nucleoplasm
+140890	ENSG00000153914	SREK1	Nucleoplasm	Nucleoplasm
+1431	ENSG00000062485	CS	Mitochondria	Mitochondria
+143187	ENSG00000151532	VTI1A	Golgi apparatus	Golgi apparatus
+143187	ENSG00000151532	VTI1A	Vesicles	Vesicular system
+1434	ENSG00000124207	CSE1L	Cytosol	Cytosol
+1434	ENSG00000124207	CSE1L	Nucleoplasm	Nucleoplasm
+144097	ENSG00000168005	SPINDOC	Nuclear speckles	Nucleoplasm
+144455	ENSG00000165891	E2F7	Nucleoplasm	Nucleoplasm
+144501	ENSG00000167767	KRT80	Intermediate filaments	Intermediate filaments
+1474	ENSG00000175315	CST6	Cytosol	Cytosol
+1474	ENSG00000175315	CST6	Plasma membrane	Plasma membrane/cell junctions
+1475	ENSG00000121552	CSTA	Cytosol	Cytosol
+1475	ENSG00000121552	CSTA	Nucleoplasm	Nucleoplasm
+1488	ENSG00000175029	CTBP2	Nucleoplasm	Nucleoplasm
+1495	ENSG00000044115	CTNNA1	Cell Junctions	Plasma membrane/cell junctions
+1495	ENSG00000044115	CTNNA1	Plasma membrane	Plasma membrane/cell junctions
+1495	ENSG00000044115	CTNNA1	Connecting piece	Sperm structures
+1495	ENSG00000044115	CTNNA1	Mid piece	Sperm structures
+1495	ENSG00000044115	CTNNA1	Principal piece	Sperm structures
+1499	ENSG00000168036	CTNNB1	Plasma membrane	Plasma membrane/cell junctions
+1499	ENSG00000168036	CTNNB1	Basal body	Primary cilium
+1499	ENSG00000168036	CTNNB1	Cell Junctions	Plasma membrane/cell junctions
+1499	ENSG00000168036	CTNNB1	Primary cilium	Primary cilium
+149986	ENSG00000149657	LSM14B	Vesicles	Vesicular system
+1500	ENSG00000198561	CTNND1	Plasma membrane	Plasma membrane/cell junctions
+1500	ENSG00000198561	CTNND1	Basal body	Primary cilium
+152137	ENSG00000152492	CCDC50	Cytosol	Cytosol
+153443	ENSG00000151304	SRFBP1	Nucleoli rim	Nucleoli
+158471	ENSG00000106772	PRUNE2	Cytosol	Cytosol
+1586	ENSG00000148795	CYP17A1	Vesicles	Vesicular system
+16	ENSG00000090861	AARS1	Cytosol	Cytosol
+160	ENSG00000196961	AP2A1	Vesicles	Vesicular system
+1601	ENSG00000153071	DAB2	Plasma membrane	Plasma membrane/cell junctions
+1601	ENSG00000153071	DAB2	Vesicles	Vesicular system
+1601	ENSG00000153071	DAB2	Nucleoli fibrillar center	Nucleoli
+1603	ENSG00000129562	DAD1	Endoplasmic reticulum	Endoplasmic reticulum
+1615	ENSG00000115866	DARS1	Cytosol	Cytosol
+162	ENSG00000100280	AP1B1	Golgi apparatus	Golgi apparatus
+162	ENSG00000100280	AP1B1	Vesicles	Vesicular system
+162	ENSG00000100280	AP1B1	Cytosol	Cytosol
+162427	ENSG00000141699	RETREG3	Cytosol	Cytosol
+162427	ENSG00000141699	RETREG3	Nuclear membrane	Nuclear membrane
+162427	ENSG00000141699	RETREG3	Nucleoplasm	Nucleoplasm
+1627	ENSG00000113758	DBN1	Actin filaments	Actin-filament associated
+1627	ENSG00000113758	DBN1	Plasma membrane	Plasma membrane/cell junctions
+1632	ENSG00000167969	ECI1	Mitochondria	Mitochondria
+1639	ENSG00000204843	DCTN1	Cytokinetic bridge	Microtubule associated
+1639	ENSG00000204843	DCTN1	Microtubules	Microtubule associated
+1639	ENSG00000204843	DCTN1	Acrosome	Sperm structures
+1639	ENSG00000204843	DCTN1	Perinuclear theca	Sperm structures
+1642	ENSG00000167986	DDB1	Nucleoplasm	Nucleoplasm
+1642	ENSG00000167986	DDB1	End piece	Sperm structures
+1642	ENSG00000167986	DDB1	Mid piece	Sperm structures
+1642	ENSG00000167986	DDB1	Principal piece	Sperm structures
+1653	ENSG00000079785	DDX1	Cytosol	Cytosol
+1653	ENSG00000079785	DDX1	Nucleoplasm	Nucleoplasm
+1654	ENSG00000215301	DDX3X	Cytosol	Cytosol
+1654	ENSG00000215301	DDX3X	Plasma membrane	Plasma membrane/cell junctions
+1655	ENSG00000108654	DDX5	Nucleoli	Nucleoli
+1655	ENSG00000108654	DDX5	Nucleoplasm	Nucleoplasm
+1656	ENSG00000110367	DDX6	Cytoplasmic bodies	Cytosol
+1656	ENSG00000110367	DDX6	Cytosol	Cytosol
+1660	ENSG00000135829	DHX9	Nucleoplasm	Nucleoplasm
+1660	ENSG00000135829	DHX9	Nucleoli	Nucleoli
+1665	ENSG00000109606	DHX15	Nuclear speckles	Nucleoplasm
+1666	ENSG00000104325	DECR1	Mitochondria	Mitochondria
+1719	ENSG00000228716	DHFR	Mitochondria	Mitochondria
+1725	ENSG00000095059	DHPS	Cytosol	Cytosol
+1725	ENSG00000095059	DHPS	Nucleoplasm	Nucleoplasm
+1736	ENSG00000130826	DKC1	Nucleoli fibrillar center	Nucleoli
+1736	ENSG00000130826	DKC1	Nucleoplasm	Nucleoplasm
+1738	ENSG00000091140	DLD	Nucleoplasm	Nucleoplasm
+1738	ENSG00000091140	DLD	Mitochondria	Mitochondria
+1739	ENSG00000075711	DLG1	Plasma membrane	Plasma membrane/cell junctions
+1739	ENSG00000075711	DLG1	Vesicles	Vesicular system
+1743	ENSG00000119689	DLST	Nucleoplasm	Nucleoplasm
+1778	ENSG00000197102	DYNC1H1	Annulus	Sperm structures
+1778	ENSG00000197102	DYNC1H1	Centrosome	Centrosome
+1778	ENSG00000197102	DYNC1H1	Cytosol	Cytosol
+1778	ENSG00000197102	DYNC1H1	Flagellar centriole	Sperm structures
+1778	ENSG00000197102	DYNC1H1	Mid piece	Sperm structures
+1781	ENSG00000077380	DYNC1I2	Centrosome	Centrosome
+1781	ENSG00000077380	DYNC1I2	Cytosol	Cytosol
+1781	ENSG00000077380	DYNC1I2	End piece	Sperm structures
+1781	ENSG00000077380	DYNC1I2	Flagellar centriole	Sperm structures
+1781	ENSG00000077380	DYNC1I2	Microtubules	Microtubule associated
+1781	ENSG00000077380	DYNC1I2	Mid piece	Sperm structures
+1781	ENSG00000077380	DYNC1I2	Principal piece	Sperm structures
+1783	ENSG00000135720	DYNC1LI2	Centrosome	Centrosome
+1783	ENSG00000135720	DYNC1LI2	Cytosol	Cytosol
+1783	ENSG00000135720	DYNC1LI2	End piece	Sperm structures
+1785	ENSG00000079805	DNM2	Cytosol	Cytosol
+1785	ENSG00000079805	DNM2	Golgi apparatus	Golgi apparatus
+1810	ENSG00000117505	DR1	Nucleoplasm	Nucleoplasm
+1832	ENSG00000096696	DSP	Cell Junctions	Plasma membrane/cell junctions
+1854	ENSG00000128951	DUT	Nucleoplasm	Nucleoplasm
+1891	ENSG00000104823	ECH1	Mitochondria	Mitochondria
+191	ENSG00000101444	AHCY	Cytosol	Cytosol
+1915	ENSG00000156508	EEF1A1	Cytosol	Cytosol
+192111	ENSG00000247077	PGAM5	Mitochondria	Mitochondria
+1933	ENSG00000114942	EEF1B2	Cytosol	Cytosol
+1933	ENSG00000114942	EEF1B2	Nucleoli fibrillar center	Nucleoli
+1937	ENSG00000254772	EEF1G	Cytosol	Cytosol
+1937	ENSG00000254772	EEF1G	Golgi apparatus	Golgi apparatus
+1938	ENSG00000167658	EEF2	Cytosol	Cytosol
+1965	ENSG00000134001	EIF2S1	Cytosol	Cytosol
+1967	ENSG00000111361	EIF2B1	Cytosol	Cytosol
+1973	ENSG00000161960	EIF4A1	Cytosol	Cytosol
+1974	ENSG00000156976	EIF4A2	Cytosol	Cytosol
+1975	ENSG00000063046	EIF4B	Cytosol	Cytosol
+1975	ENSG00000063046	EIF4B	Endoplasmic reticulum	Endoplasmic reticulum
+1975	ENSG00000063046	EIF4B	Plasma membrane	Plasma membrane/cell junctions
+1977	ENSG00000151247	EIF4E	Cytoplasmic bodies	Cytosol
+1977	ENSG00000151247	EIF4E	Cytosol	Cytosol
+1977	ENSG00000151247	EIF4E	Nucleoplasm	Nucleoplasm
+1978	ENSG00000187840	EIF4EBP1	Cytosol	Cytosol
+1978	ENSG00000187840	EIF4EBP1	Nucleoplasm	Nucleoplasm
+1981	ENSG00000114867	EIF4G1	Cytosol	Cytosol
+1982	ENSG00000110321	EIF4G2	Cytosol	Cytosol
+1983	ENSG00000100664	EIF5	Cytosol	Cytosol
+1983	ENSG00000100664	EIF5	Plasma membrane	Plasma membrane/cell junctions
+1983	ENSG00000100664	EIF5	Primary cilium	Primary cilium
+1983	ENSG00000100664	EIF5	Primary cilium tip	Primary cilium
+1984	ENSG00000132507	EIF5A	Cytosol	Cytosol
+1984	ENSG00000132507	EIF5A	Nucleoplasm	Nucleoplasm
+2010	ENSG00000102119	EMD	Endoplasmic reticulum	Endoplasmic reticulum
+2010	ENSG00000102119	EMD	Nuclear membrane	Nuclear membrane
+201475	ENSG00000206418	RAB12	Vesicles	Vesicular system
+2017	ENSG00000085733	CTTN	Plasma membrane	Plasma membrane/cell junctions
+2017	ENSG00000085733	CTTN	Golgi apparatus	Golgi apparatus
+2017	ENSG00000085733	CTTN	Vesicles	Vesicular system
+201965	ENSG00000182552	RWDD4	Intermediate filaments	Intermediate filaments
+2023	ENSG00000074800	ENO1	Cytosol	Cytosol
+2023	ENSG00000074800	ENO1	Plasma membrane	Plasma membrane/cell junctions
+2029	ENSG00000143420	ENSA	Cytosol	Cytosol
+2029	ENSG00000143420	ENSA	Microtubules	Microtubule associated
+2029	ENSG00000143420	ENSA	Nucleoli	Nucleoli
+2029	ENSG00000143420	ENSA	Nucleoplasm	Nucleoplasm
+203	ENSG00000106992	AK1	Annulus	Sperm structures
+203	ENSG00000106992	AK1	Cytosol	Cytosol
+203068	ENSG00000196230	TUBB	Cytokinetic bridge	Microtubule associated
+203068	ENSG00000196230	TUBB	End piece	Sperm structures
+203068	ENSG00000196230	TUBB	Microtubules	Microtubule associated
+203068	ENSG00000196230	TUBB	Mitotic spindle	Microtubule associated
+203068	ENSG00000196230	TUBB	Primary cilium	Primary cilium
+203068	ENSG00000196230	TUBB	Primary cilium tip	Primary cilium
+203068	ENSG00000196230	TUBB	Principal piece	Sperm structures
+203068	ENSG00000196230	TUBB	Basal body	Primary cilium
+203068	ENSG00000196230	TUBB	Flagellar centriole	Sperm structures
+2035	ENSG00000159023	EPB41	Cytokinetic bridge	Microtubule associated
+2035	ENSG00000159023	EPB41	Cytosol	Cytosol
+2035	ENSG00000159023	EPB41	Mitotic spindle	Microtubule associated
+2035	ENSG00000159023	EPB41	Cell Junctions	Plasma membrane/cell junctions
+2035	ENSG00000159023	EPB41	Plasma membrane	Plasma membrane/cell junctions
+2036	ENSG00000088367	EPB41L1	Plasma membrane	Plasma membrane/cell junctions
+2037	ENSG00000079819	EPB41L2	Plasma membrane	Plasma membrane/cell junctions
+2037	ENSG00000079819	EPB41L2	Cell Junctions	Plasma membrane/cell junctions
+2037	ENSG00000079819	EPB41L2	Nucleoplasm	Nucleoplasm
+204	ENSG00000004455	AK2	Mitochondria	Mitochondria
+2040	ENSG00000148175	STOM	Plasma membrane	Plasma membrane/cell junctions
+2040	ENSG00000148175	STOM	Vesicles	Vesicular system
+2058	ENSG00000136628	EPRS1	Cytosol	Cytosol
+2058	ENSG00000136628	EPRS1	Mid piece	Sperm structures
+2072	ENSG00000175595	ERCC4	Nuclear bodies	Nucleoplasm
+2072	ENSG00000175595	ERCC4	Nucleoplasm	Nucleoplasm
+2079	ENSG00000100632	ERH	Cytosol	Cytosol
+2079	ENSG00000100632	ERH	Nucleoplasm	Nucleoplasm
+2091	ENSG00000105202	FBL	Nucleoli fibrillar center	Nucleoli
+2091	ENSG00000105202	FBL	Nucleoplasm	Nucleoplasm
+2108	ENSG00000140374	ETFA	Mitochondria	Mitochondria
+2109	ENSG00000105379	ETFB	Mitochondria	Mitochondria
+2130	ENSG00000182944	EWSR1	Nucleoplasm	Nucleoplasm
+2130	ENSG00000182944	EWSR1	Nucleoli	Nucleoli
+216	ENSG00000165092	ALDH1A1	Cytosol	Cytosol
+2171	ENSG00000164687	FABP5	Cytosol	Cytosol
+2171	ENSG00000164687	FABP5	Plasma membrane	Plasma membrane/cell junctions
+2201	ENSG00000138829	FBN2	Cytosol	Cytosol
+2201	ENSG00000138829	FBN2	Nucleoplasm	Nucleoplasm
+2201	ENSG00000138829	FBN2	Primary cilium	Primary cilium
+220134	ENSG00000154839	SKA1	Microtubules	Microtubule associated
+220134	ENSG00000154839	SKA1	Basal body	Primary cilium
+220134	ENSG00000154839	SKA1	Centriolar satellite	Centrosome
+220134	ENSG00000154839	SKA1	Cytokinetic bridge	Microtubule associated
+220134	ENSG00000154839	SKA1	Primary cilium	Primary cilium
+220988	ENSG00000170144	HNRNPA3	Nucleoplasm	Nucleoplasm
+221092	ENSG00000214753	HNRNPUL2	Nucleoplasm	Nucleoplasm
+221496	ENSG00000161904	LEMD2	Nuclear membrane	Nuclear membrane
+221937	ENSG00000164916	FOXK1	Nucleoplasm	Nucleoplasm
+221937	ENSG00000164916	FOXK1	Nucleoli fibrillar center	Nucleoli
+2224	ENSG00000160752	FDPS	Cytosol	Cytosol
+2224	ENSG00000160752	FDPS	Nucleoplasm	Nucleoplasm
+223	ENSG00000143149	ALDH9A1	Cytosol	Cytosol
+2230	ENSG00000137714	FDX1	Mitochondria	Mitochondria
+2232	ENSG00000161513	FDXR	Mitochondria	Mitochondria
+2237	ENSG00000168496	FEN1	Nucleoli	Nucleoli
+2237	ENSG00000168496	FEN1	Nucleoplasm	Nucleoplasm
+224	ENSG00000072210	ALDH3A2	Cytosol	Cytosol
+224	ENSG00000072210	ALDH3A2	Endoplasmic reticulum	Endoplasmic reticulum
+226	ENSG00000149925	ALDOA	Cytosol	Cytosol
+2271	ENSG00000091483	FH	Mitochondria	Mitochondria
+2280	ENSG00000088832	FKBP1A	Cytosol	Cytosol
+2280	ENSG00000088832	FKBP1A	Golgi apparatus	Golgi apparatus
+22803	ENSG00000088930	XRN2	Nucleoli	Nucleoli
+22803	ENSG00000088930	XRN2	Nucleoplasm	Nucleoplasm
+22820	ENSG00000181789	COPG1	Golgi apparatus	Golgi apparatus
+22820	ENSG00000181789	COPG1	Cytosol	Cytosol
+22820	ENSG00000181789	COPG1	Nucleoplasm	Nucleoplasm
+22826	ENSG00000126698	DNAJC8	Nucleoplasm	Nucleoplasm
+22827	ENSG00000179950	PUF60	Nucleoplasm	Nucleoplasm
+22841	ENSG00000107560	RAB11FIP2	Vesicles	Vesicular system
+22868	ENSG00000118246	FASTKD2	Mitochondria	Mitochondria
+2287	ENSG00000100442	FKBP3	Cytosol	Cytosol
+2288	ENSG00000004478	FKBP4	Cytosol	Cytosol
+22880	ENSG00000133422	MORC2	Cytosol	Cytosol
+22880	ENSG00000133422	MORC2	Nucleoplasm	Nucleoplasm
+22908	ENSG00000211456	SACM1L	Golgi apparatus	Golgi apparatus
+22908	ENSG00000211456	SACM1L	Nucleoplasm	Nucleoplasm
+22913	ENSG00000125970	RALY	Nucleoplasm	Nucleoplasm
+22913	ENSG00000125970	RALY	Vesicles	Vesicular system
+22916	ENSG00000114503	NCBP2	Cytosol	Cytosol
+22916	ENSG00000114503	NCBP2	Nucleoplasm	Nucleoplasm
+22916	ENSG00000114503	NCBP2	Basal body	Primary cilium
+22919	ENSG00000101367	MAPRE1	Basal body	Primary cilium
+22919	ENSG00000101367	MAPRE1	Centrosome	Centrosome
+22919	ENSG00000101367	MAPRE1	Cytosol	Cytosol
+22930	ENSG00000115839	RAB3GAP1	Cytosol	Cytosol
+22930	ENSG00000115839	RAB3GAP1	Nucleoplasm	Nucleoplasm
+22948	ENSG00000150753	CCT5	Annulus	Sperm structures
+22948	ENSG00000150753	CCT5	Mid piece	Sperm structures
+22948	ENSG00000150753	CCT5	Principal piece	Sperm structures
+22950	ENSG00000163798	SLC4A1AP	Nucleoplasm	Nucleoplasm
+22950	ENSG00000163798	SLC4A1AP	Vesicles	Vesicular system
+23012	ENSG00000211455	STK38L	Cytosol	Cytosol
+23016	ENSG00000075914	EXOSC7	Nuclear speckles	Nucleoplasm
+23020	ENSG00000144028	SNRNP200	Nucleoplasm	Nucleoplasm
+23028	ENSG00000004487	KDM1A	Nucleoplasm	Nucleoplasm
+23035	ENSG00000040199	PHLPP2	Cytokinetic bridge	Microtubule associated
+23035	ENSG00000040199	PHLPP2	Cytosol	Cytosol
+23035	ENSG00000040199	PHLPP2	Mitotic spindle	Microtubule associated
+23035	ENSG00000040199	PHLPP2	Vesicles	Vesicular system
+23042	ENSG00000179889	PDXDC1	Golgi apparatus	Golgi apparatus
+23042	ENSG00000179889	PDXDC1	Vesicles	Vesicular system
+23070	ENSG00000137200	CMTR1	Nucleoplasm	Nucleoplasm
+23070	ENSG00000137200	CMTR1	Vesicles	Vesicular system
+23085	ENSG00000082805	ERC1	Centrosome	Centrosome
+23085	ENSG00000082805	ERC1	Plasma membrane	Plasma membrane/cell junctions
+23107	ENSG00000113048	MRPS27	Mitochondria	Mitochondria
+2312	ENSG00000143631	FLG	Cytoplasmic bodies	Cytosol
+23122	ENSG00000163539	CLASP2	Golgi apparatus	Golgi apparatus
+23122	ENSG00000163539	CLASP2	Cytosol	Cytosol
+23155	ENSG00000121940	CLCC1	Endoplasmic reticulum	Endoplasmic reticulum
+2316	ENSG00000196924	FLNA	Cytosol	Cytosol
+2316	ENSG00000196924	FLNA	Actin filaments	Actin-filament associated
+2316	ENSG00000196924	FLNA	Plasma membrane	Plasma membrane/cell junctions
+23176	ENSG00000164402	SEPTIN8	Actin filaments	Actin-filament associated
+23176	ENSG00000164402	SEPTIN8	Annulus	Sperm structures
+23176	ENSG00000164402	SEPTIN8	Cytosol	Cytosol
+23176	ENSG00000164402	SEPTIN8	Mid piece	Sperm structures
+23176	ENSG00000164402	SEPTIN8	Primary cilium	Primary cilium
+23176	ENSG00000164402	SEPTIN8	Principal piece	Sperm structures
+23184	ENSG00000117899	MESD	Cytosol	Cytosol
+23184	ENSG00000117899	MESD	Endoplasmic reticulum	Endoplasmic reticulum
+23184	ENSG00000117899	MESD	Nuclear bodies	Nucleoplasm
+23190	ENSG00000144224	UBXN4	Endoplasmic reticulum	Endoplasmic reticulum
+23193	ENSG00000089597	GANAB	Endoplasmic reticulum	Endoplasmic reticulum
+23196	ENSG00000048828	FAM120A	Cytosol	Cytosol
+23203	ENSG00000165688	PMPCA	Mitochondria	Mitochondria
+23215	ENSG00000117523	PRRC2C	Cytosol	Cytosol
+23223	ENSG00000052749	RRP12	Nucleoli	Nucleoli
+23223	ENSG00000052749	RRP12	Plasma membrane	Plasma membrane/cell junctions
+23223	ENSG00000052749	RRP12	Cytosol	Cytosol
+23223	ENSG00000052749	RRP12	Vesicles	Vesicular system
+23244	ENSG00000121892	PDS5A	Nucleoplasm	Nucleoplasm
+23248	ENSG00000163125	RPRD2	Nucleoplasm	Nucleoplasm
+23248	ENSG00000163125	RPRD2	Vesicles	Vesicular system
+23269	ENSG00000174197	MGA	Cytosol	Cytosol
+23269	ENSG00000174197	MGA	Nucleoplasm	Nucleoplasm
+23291	ENSG00000072803	FBXW11	Nucleoplasm	Nucleoplasm
+23291	ENSG00000072803	FBXW11	Plasma membrane	Plasma membrane/cell junctions
+23291	ENSG00000072803	FBXW11	Vesicles	Vesicular system
+23304	ENSG00000024048	UBR2	Nucleoplasm	Nucleoplasm
+23304	ENSG00000024048	UBR2	Plasma membrane	Plasma membrane/cell junctions
+23307	ENSG00000119321	FKBP15	Cytosol	Cytosol
+23307	ENSG00000119321	FKBP15	Nucleoli	Nucleoli
+23317	ENSG00000138246	DNAJC13	Vesicles	Vesicular system
+23317	ENSG00000138246	DNAJC13	Cytosol	Cytosol
+2332	ENSG00000102081	FMR1	Cytosol	Cytosol
+23350	ENSG00000163714	U2SURP	Nucleoplasm	Nucleoplasm
+23352	ENSG00000127481	UBR4	Cytosol	Cytosol
+23352	ENSG00000127481	UBR4	Nucleoplasm	Nucleoplasm
+23352	ENSG00000127481	UBR4	Acrosome	Sperm structures
+23352	ENSG00000127481	UBR4	Centrosome	Centrosome
+23352	ENSG00000127481	UBR4	Flagellar centriole	Sperm structures
+23352	ENSG00000127481	UBR4	Perinuclear theca	Sperm structures
+23352	ENSG00000127481	UBR4	Principal piece	Sperm structures
+23367	ENSG00000155506	LARP1	Cytosol	Cytosol
+23367	ENSG00000155506	LARP1	Endoplasmic reticulum	Endoplasmic reticulum
+23367	ENSG00000155506	LARP1	Nucleoplasm	Nucleoplasm
+23376	ENSG00000014123	UFL1	Endoplasmic reticulum	Endoplasmic reticulum
+23386	ENSG00000015676	NUDCD3	Cytosol	Cytosol
+23386	ENSG00000015676	NUDCD3	Plasma membrane	Plasma membrane/cell junctions
+23386	ENSG00000015676	NUDCD3	Primary cilium	Primary cilium
+23386	ENSG00000015676	NUDCD3	Primary cilium tip	Primary cilium
+23386	ENSG00000015676	NUDCD3	Principal piece	Sperm structures
+23392	ENSG00000136813	ECPAS	Nucleoplasm	Nucleoplasm
+23394	ENSG00000101126	ADNP	Basal body	Primary cilium
+23394	ENSG00000101126	ADNP	Centrosome	Centrosome
+23394	ENSG00000101126	ADNP	Nucleoplasm	Nucleoplasm
+23394	ENSG00000101126	ADNP	Primary cilium	Primary cilium
+23394	ENSG00000101126	ADNP	Primary cilium tip	Primary cilium
+23398	ENSG00000113593	PPWD1	Nuclear bodies	Nucleoplasm
+23404	ENSG00000130713	EXOSC2	Nucleoli	Nucleoli
+23404	ENSG00000130713	EXOSC2	Nucleoplasm	Nucleoplasm
+23406	ENSG00000103187	COTL1	Cytosol	Cytosol
+23408	ENSG00000124523	SIRT5	Mitochondria	Mitochondria
+23420	ENSG00000103512	NOMO1	Endoplasmic reticulum	Endoplasmic reticulum
+23435	ENSG00000120948	TARDBP	Nucleoplasm	Nucleoplasm
+23450	ENSG00000189091	SF3B3	Nucleoli	Nucleoli
+23450	ENSG00000189091	SF3B3	Nucleoli rim	Nucleoli
+23450	ENSG00000189091	SF3B3	Nucleoplasm	Nucleoplasm
+23451	ENSG00000115524	SF3B1	Nuclear speckles	Nucleoplasm
+23466	ENSG00000183741	CBX6	Nuclear bodies	Nucleoplasm
+23466	ENSG00000183741	CBX6	Nucleoplasm	Nucleoplasm
+23478	ENSG00000140612	SEC11A	Golgi apparatus	Golgi apparatus
+23478	ENSG00000140612	SEC11A	Nuclear membrane	Nuclear membrane
+23479	ENSG00000136003	ISCU	Cytosol	Cytosol
+23479	ENSG00000136003	ISCU	Mitochondria	Mitochondria
+23499	ENSG00000127603	MACF1	Actin filaments	Actin-filament associated
+23499	ENSG00000127603	MACF1	Plasma membrane	Plasma membrane/cell junctions
+23513	ENSG00000180900	SCRIB	Cell Junctions	Plasma membrane/cell junctions
+23513	ENSG00000180900	SCRIB	Nucleoplasm	Nucleoplasm
+23513	ENSG00000180900	SCRIB	Plasma membrane	Plasma membrane/cell junctions
+23513	ENSG00000180900	SCRIB	Rods & Rings	Cytosol
+23521	ENSG00000142541	RPL13A	Cytosol	Cytosol
+23521	ENSG00000142541	RPL13A	Nucleoli	Nucleoli
+23527	ENSG00000114331	ACAP2	Endosomes	Vesicular system
+23530	ENSG00000112992	NNT	Mitochondria	Mitochondria
+23545	ENSG00000185344	ATP6V0A2	Plasma membrane	Plasma membrane/cell junctions
+23545	ENSG00000185344	ATP6V0A2	Connecting piece	Sperm structures
+23545	ENSG00000185344	ATP6V0A2	End piece	Sperm structures
+23545	ENSG00000185344	ATP6V0A2	Mid piece	Sperm structures
+23545	ENSG00000185344	ATP6V0A2	Principal piece	Sperm structures
+23557	ENSG00000143553	SNAPIN	Golgi apparatus	Golgi apparatus
+23581	ENSG00000105141	CASP14	Cytosol	Cytosol
+23581	ENSG00000105141	CASP14	Nucleoplasm	Nucleoplasm
+23581	ENSG00000105141	CASP14	Mitochondria	Mitochondria
+23588	ENSG00000165516	KLHDC2	Nuclear bodies	Nucleoplasm
+23588	ENSG00000165516	KLHDC2	Nuclear membrane	Nuclear membrane
+23588	ENSG00000165516	KLHDC2	Nucleoplasm	Nucleoplasm
+23607	ENSG00000198087	CD2AP	Plasma membrane	Plasma membrane/cell junctions
+23637	ENSG00000011454	RABGAP1	Cytosol	Cytosol
+23640	ENSG00000133265	HSPBP1	Centrosome	Centrosome
+23640	ENSG00000133265	HSPBP1	Cytosol	Cytosol
+23640	ENSG00000133265	HSPBP1	Vesicles	Vesicular system
+23708	ENSG00000189369	GSPT2	Cytosol	Cytosol
+23760	ENSG00000180957	PITPNB	Cytosol	Cytosol
+23760	ENSG00000180957	PITPNB	Vesicles	Vesicular system
+24148	ENSG00000101161	PRPF6	Nuclear speckles	Nucleoplasm
+24148	ENSG00000101161	PRPF6	Nucleoplasm	Nucleoplasm
+24149	ENSG00000171467	ZNF318	Nucleoplasm	Nucleoplasm
+242	ENSG00000179477	ALOX12B	Cytosol	Cytosol
+242	ENSG00000179477	ALOX12B	Vesicles	Vesicular system
+249	ENSG00000162551	ALPL	Cytosol	Cytosol
+2495	ENSG00000167996	FTH1	Cytosol	Cytosol
+2495	ENSG00000167996	FTH1	Vesicles	Vesicular system
+2521	ENSG00000089280	FUS	Nucleoplasm	Nucleoplasm
+2539	ENSG00000160211	G6PD	Cytosol	Cytosol
+2539	ENSG00000160211	G6PD	Centriolar satellite	Centrosome
+2547	ENSG00000196419	XRCC6	Nucleoplasm	Nucleoplasm
+257397	ENSG00000157625	TAB3	Cytosol	Cytosol
+257397	ENSG00000157625	TAB3	Nuclear speckles	Nucleoplasm
+25764	ENSG00000242028	HYPK	Nucleoplasm	Nucleoplasm
+25764	ENSG00000242028	HYPK	Microtubules	Microtubule associated
+25777	ENSG00000100242	SUN2	Nuclear membrane	Nuclear membrane
+25797	ENSG00000115828	QPCT	Cytosol	Cytosol
+2580	ENSG00000178950	GAK	Golgi apparatus	Golgi apparatus
+2580	ENSG00000178950	GAK	Vesicles	Vesicular system
+25804	ENSG00000130520	LSM4	Vesicles	Vesicular system
+25844	ENSG00000137207	YIPF3	Golgi apparatus	Golgi apparatus
+25844	ENSG00000137207	YIPF3	Nucleoplasm	Nucleoplasm
+25920	ENSG00000188986	NELFB	Nucleoplasm	Nucleoplasm
+25940	ENSG00000119812	FAM98A	Vesicles	Vesicular system
+25942	ENSG00000169375	SIN3A	Nucleoplasm	Nucleoplasm
+25962	ENSG00000164944	VIRMA	Nuclear bodies	Nucleoplasm
+25962	ENSG00000164944	VIRMA	Nucleoplasm	Nucleoplasm
+2597	ENSG00000111640	GAPDH	Cytosol	Cytosol
+2597	ENSG00000111640	GAPDH	Plasma membrane	Plasma membrane/cell junctions
+2597	ENSG00000111640	GAPDH	Vesicles	Vesicular system
+25980	ENSG00000131043	AAR2	Cytosol	Cytosol
+25984	ENSG00000108244	KRT23	Cytosol	Cytosol
+25984	ENSG00000108244	KRT23	Intermediate filaments	Intermediate filaments
+25994	ENSG00000181061	HIGD1A	Mitochondria	Mitochondria
+25994	ENSG00000181061	HIGD1A	Nucleoplasm	Nucleoplasm
+26001	ENSG00000108523	RNF167	Centriolar satellite	Centrosome
+26001	ENSG00000108523	RNF167	Cytosol	Cytosol
+26001	ENSG00000108523	RNF167	Mitotic spindle	Microtubule associated
+26001	ENSG00000108523	RNF167	Vesicles	Vesicular system
+26007	ENSG00000149476	TKFC	Cytosol	Cytosol
+26007	ENSG00000149476	TKFC	Nucleoplasm	Nucleoplasm
+26017	ENSG00000105058	FAM32A	Nucleoli	Nucleoli
+26017	ENSG00000105058	FAM32A	Nucleoplasm	Nucleoplasm
+26064	ENSG00000039560	RAI14	Nucleoplasm	Nucleoplasm
+26064	ENSG00000039560	RAI14	Actin filaments	Actin-filament associated
+26065	ENSG00000257103	LSM14A	Cytoplasmic bodies	Cytosol
+26065	ENSG00000257103	LSM14A	Cytosol	Cytosol
+26073	ENSG00000004142	POLDIP2	Mitochondria	Mitochondria
+26097	ENSG00000160679	CHTOP	Nuclear speckles	Nucleoplasm
+26121	ENSG00000105618	PRPF31	Nucleoplasm	Nucleoplasm
+26122	ENSG00000135999	EPC2	Nuclear speckles	Nucleoplasm
+26135	ENSG00000142864	SERBP1	Cytosol	Cytosol
+26145	ENSG00000170604	IRF2BP1	Nucleoplasm	Nucleoplasm
+26156	ENSG00000171490	RSL1D1	Nucleoli rim	Nucleoli
+2617	ENSG00000106105	GARS1	Cytosol	Cytosol
+26173	ENSG00000164880	INTS1	Nucleoplasm	Nucleoplasm
+26227	ENSG00000092621	PHGDH	Cytosol	Cytosol
+26227	ENSG00000092621	PHGDH	Mitotic spindle	Microtubule associated
+26227	ENSG00000092621	PHGDH	Nucleoplasm	Nucleoplasm
+26227	ENSG00000092621	PHGDH	Plasma membrane	Plasma membrane/cell junctions
+26227	ENSG00000092621	PHGDH	Primary cilium	Primary cilium
+26284	ENSG00000132591	ERAL1	Cytosol	Cytosol
+26284	ENSG00000132591	ERAL1	Mitochondria	Mitochondria
+2632	ENSG00000114480	GBE1	Cytosol	Cytosol
+26517	ENSG00000099800	TIMM13	Mitochondria	Mitochondria
+26520	ENSG00000100575	TIMM9	Mitochondria	Mitochondria
+26589	ENSG00000259494	MRPL46	Mitochondria	Mitochondria
+26986	ENSG00000070756	PABPC1	Cytosol	Cytosol
+27044	ENSG00000197157	SND1	Cytosol	Cytosol
+27069	ENSG00000165678	GHITM	Mitochondria	Mitochondria
+271	ENSG00000116337	AMPD2	Cytosol	Cytosol
+27131	ENSG00000089006	SNX5	Cytosol	Cytosol
+27131	ENSG00000089006	SNX5	Vesicles	Vesicular system
+27158	ENSG00000188566	NDOR1	Cytosol	Cytosol
+27158	ENSG00000188566	NDOR1	Intermediate filaments	Intermediate filaments
+27158	ENSG00000188566	NDOR1	Nucleoplasm	Nucleoplasm
+27166	ENSG00000169230	PRELID1	Mitochondria	Mitochondria
+27250	ENSG00000150593	PDCD4	Nucleoplasm	Nucleoplasm
+27258	ENSG00000170860	LSM3	Nucleoli	Nucleoli
+27258	ENSG00000170860	LSM3	Nucleoplasm	Nucleoplasm
+27316	ENSG00000147274	RBMX	Nucleoplasm	Nucleoplasm
+27333	ENSG00000173905	GOLIM4	Golgi apparatus	Golgi apparatus
+27335	ENSG00000178982	EIF3K	Cytosol	Cytosol
+27336	ENSG00000102241	HTATSF1	Nucleoplasm	Nucleoplasm
+27338	ENSG00000108106	UBE2S	Nucleoplasm	Nucleoplasm
+27338	ENSG00000108106	UBE2S	Plasma membrane	Plasma membrane/cell junctions
+27339	ENSG00000110107	PRPF19	Nuclear speckles	Nucleoplasm
+2734	ENSG00000090863	GLG1	Golgi apparatus	Golgi apparatus
+2734	ENSG00000090863	GLG1	End piece	Sperm structures
+2734	ENSG00000090863	GLG1	Mid piece	Sperm structures
+2734	ENSG00000090863	GLG1	Principal piece	Sperm structures
+27436	ENSG00000143924	EML4	Cytokinetic bridge	Microtubule associated
+27436	ENSG00000143924	EML4	Cytosol	Cytosol
+27436	ENSG00000143924	EML4	Microtubules	Microtubule associated
+27436	ENSG00000143924	EML4	Annulus	Sperm structures
+27436	ENSG00000143924	EML4	Calyx	Sperm structures
+27436	ENSG00000143924	EML4	Perinuclear theca	Sperm structures
+27436	ENSG00000143924	EML4	Primary cilium	Primary cilium
+27436	ENSG00000143924	EML4	Principal piece	Sperm structures
+2744	ENSG00000115419	GLS	Mitochondria	Mitochondria
+2746	ENSG00000148672	GLUD1	Mitochondria	Mitochondria
+2760	ENSG00000196743	GM2A	Vesicles	Vesicular system
+2764	ENSG00000197045	GMFB	Cytosol	Cytosol
+2764	ENSG00000197045	GMFB	Nuclear bodies	Nucleoplasm
+2764	ENSG00000197045	GMFB	Nucleoplasm	Nucleoplasm
+2768	ENSG00000146535	GNA12	Cytosol	Cytosol
+2778	ENSG00000087460	GNAS	Plasma membrane	Plasma membrane/cell junctions
+2783	ENSG00000172354	GNB2	Plasma membrane	Plasma membrane/cell junctions
+2804	ENSG00000173230	GOLGB1	Golgi apparatus	Golgi apparatus
+2810	ENSG00000175793	SFN	Cytosol	Cytosol
+2810	ENSG00000175793	SFN	Mid piece	Sperm structures
+2820	ENSG00000115159	GPD2	Mitochondria	Mitochondria
+2821	ENSG00000105220	GPI	Cytosol	Cytosol
+2821	ENSG00000105220	GPI	Plasma membrane	Plasma membrane/cell junctions
+283489	ENSG00000198824	CHAMP1	Nuclear bodies	Nucleoplasm
+283489	ENSG00000198824	CHAMP1	Nucleoplasm	Nucleoplasm
+283871	ENSG00000184207	PGP	Nuclear bodies	Nucleoplasm
+284110	ENSG00000167914	GSDMA	Cytosol	Cytosol
+284110	ENSG00000167914	GSDMA	Nuclear bodies	Nucleoplasm
+284110	ENSG00000167914	GSDMA	Nucleoplasm	Nucleoplasm
+284110	ENSG00000167914	GSDMA	Plasma membrane	Plasma membrane/cell junctions
+284695	ENSG00000162664	ZNF326	Golgi apparatus	Golgi apparatus
+284695	ENSG00000162664	ZNF326	Nucleoplasm	Nucleoplasm
+284695	ENSG00000162664	ZNF326	Vesicles	Vesicular system
+285367	ENSG00000156990	RPUSD3	Nucleoplasm	Nucleoplasm
+285636	ENSG00000205765	RIMOC1	Nucleoplasm	Nucleoplasm
+285636	ENSG00000205765	RIMOC1	Cytosol	Cytosol
+286257	ENSG00000148362	PAXX	Nucleoplasm	Nucleoplasm
+2873	ENSG00000169727	GPS1	Cytosol	Cytosol
+2873	ENSG00000169727	GPS1	Nucleoplasm	Nucleoplasm
+2876	ENSG00000233276	GPX1	Cytosol	Cytosol
+28958	ENSG00000183978	COA3	Mitochondria	Mitochondria
+28960	ENSG00000110063	DCPS	Cytosol	Cytosol
+28960	ENSG00000110063	DCPS	Nucleoplasm	Nucleoplasm
+28973	ENSG00000204568	MRPS18B	Mitochondria	Mitochondria
+28973	ENSG00000204568	MRPS18B	Cell Junctions	Plasma membrane/cell junctions
+28974	ENSG00000104979	C19orf53	Nucleoli	Nucleoli
+28974	ENSG00000104979	C19orf53	Nucleoplasm	Nucleoplasm
+28988	ENSG00000136279	DBNL	Plasma membrane	Plasma membrane/cell junctions
+28988	ENSG00000136279	DBNL	Vesicles	Vesicular system
+28989	ENSG00000148335	NTMT1	Cytosol	Cytosol
+28989	ENSG00000148335	NTMT1	Nucleoplasm	Nucleoplasm
+29074	ENSG00000112110	MRPL18	Mitochondria	Mitochondria
+29080	ENSG00000133773	CCDC59	Nucleoli	Nucleoli
+29080	ENSG00000133773	CCDC59	Nucleoli rim	Nucleoli
+29080	ENSG00000133773	CCDC59	Nucleoplasm	Nucleoplasm
+29080	ENSG00000133773	CCDC59	Plasma membrane	Plasma membrane/cell junctions
+29085	ENSG00000054148	PHPT1	Cytosol	Cytosol
+29085	ENSG00000054148	PHPT1	Nuclear bodies	Nucleoplasm
+29085	ENSG00000054148	PHPT1	Nucleoplasm	Nucleoplasm
+29085	ENSG00000054148	PHPT1	Plasma membrane	Plasma membrane/cell junctions
+29086	ENSG00000105393	BABAM1	Nuclear bodies	Nucleoplasm
+29086	ENSG00000105393	BABAM1	Nucleoplasm	Nucleoplasm
+29088	ENSG00000137547	MRPL15	Mitochondria	Mitochondria
+29089	ENSG00000077152	UBE2T	Nucleoli	Nucleoli
+29089	ENSG00000077152	UBE2T	Nucleoplasm	Nucleoplasm
+29093	ENSG00000082515	MRPL22	Mitochondria	Mitochondria
+29094	ENSG00000119862	LGALSL	Nucleoplasm	Nucleoplasm
+29105	ENSG00000070761	CFAP20	Nucleoplasm	Nucleoplasm
+29105	ENSG00000070761	CFAP20	Equatorial segment	Sperm structures
+29105	ENSG00000070761	CFAP20	Principal piece	Sperm structures
+292	ENSG00000005022	SLC25A5	Mitochondria	Mitochondria
+2923	ENSG00000167004	PDIA3	Endoplasmic reticulum	Endoplasmic reticulum
+2926	ENSG00000132463	GRSF1	Mitochondria	Mitochondria
+293	ENSG00000169100	SLC25A6	Mitochondria	Mitochondria
+2931	ENSG00000105723	GSK3A	Cytosol	Cytosol
+2931	ENSG00000105723	GSK3A	Nucleoplasm	Nucleoplasm
+2937	ENSG00000100983	GSS	Nucleoplasm	Nucleoplasm
+2938	ENSG00000243955	GSTA1	Cytosol	Cytosol
+2944	ENSG00000134184	GSTM1	Cytosol	Cytosol
+2944	ENSG00000134184	GSTM1	Microtubules	Microtubule associated
+2956	ENSG00000116062	MSH6	Nucleoplasm	Nucleoplasm
+2957	ENSG00000165417	GTF2A1	Nucleoplasm	Nucleoplasm
+2969	ENSG00000263001	GTF2I	Nucleoplasm	Nucleoplasm
+29766	ENSG00000138594	TMOD3	Actin filaments	Actin-filament associated
+29766	ENSG00000138594	TMOD3	Cytosol	Cytosol
+29894	ENSG00000071894	CPSF1	Nucleoplasm	Nucleoplasm
+29914	ENSG00000120942	UBIAD1	Vesicles	Vesicular system
+29959	ENSG00000115216	NRBP1	Cytosol	Cytosol
+29979	ENSG00000135018	UBQLN1	Cytosol	Cytosol
+29979	ENSG00000135018	UBQLN1	Nucleoplasm	Nucleoplasm
+29988	ENSG00000136856	SLC2A8	Vesicles	Vesicular system
+29997	ENSG00000105373	NOP53	Nucleoli	Nucleoli
+30	ENSG00000060971	ACAA1	Peroxisomes	Vesicular system
+3006	ENSG00000187837	H1-2	Nucleoli rim	Nucleoli
+3006	ENSG00000187837	H1-2	Nucleoplasm	Nucleoplasm
+3008	ENSG00000168298	H1-4	Nuclear speckles	Nucleoplasm
+3009	ENSG00000184357	H1-5	Nucleoplasm	Nucleoplasm
+301	ENSG00000135046	ANXA1	Cytosol	Cytosol
+301	ENSG00000135046	ANXA1	Nucleoplasm	Nucleoplasm
+301	ENSG00000135046	ANXA1	Plasma membrane	Plasma membrane/cell junctions
+3014	ENSG00000188486	H2AX	Nuclear speckles	Nucleoplasm
+3014	ENSG00000188486	H2AX	Nucleoplasm	Nucleoplasm
+3015	ENSG00000164032	H2AZ1	Nucleoplasm	Nucleoplasm
+302	ENSG00000182718	ANXA2	Cytosol	Cytosol
+302	ENSG00000182718	ANXA2	Plasma membrane	Plasma membrane/cell junctions
+3021	ENSG00000132475	H3-3B	Nucleoplasm	Nucleoplasm
+3030	ENSG00000084754	HADHA	Mitochondria	Mitochondria
+3032	ENSG00000138029	HADHB	Mitochondria	Mitochondria
+3032	ENSG00000138029	HADHB	Equatorial segment	Sperm structures
+3032	ENSG00000138029	HADHB	Principal piece	Sperm structures
+3033	ENSG00000138796	HADH	Mitochondria	Mitochondria
+3054	ENSG00000172534	HCFC1	Nucleoplasm	Nucleoplasm
+3064	ENSG00000197386	HTT	Cytosol	Cytosol
+3064	ENSG00000197386	HTT	Nucleoplasm	Nucleoplasm
+3065	ENSG00000116478	HDAC1	Nucleoplasm	Nucleoplasm
+3066	ENSG00000196591	HDAC2	Nucleoplasm	Nucleoplasm
+3068	ENSG00000143321	HDGF	Nucleoplasm	Nucleoplasm
+308	ENSG00000164111	ANXA5	Nuclear membrane	Nuclear membrane
+309	ENSG00000197043	ANXA6	Basal body	Primary cilium
+309	ENSG00000197043	ANXA6	Cytosol	Cytosol
+3093	ENSG00000078140	UBE2K	Cytosol	Cytosol
+3093	ENSG00000078140	UBE2K	Plasma membrane	Plasma membrane/cell junctions
+30968	ENSG00000165283	STOML2	Cytosol	Cytosol
+30968	ENSG00000165283	STOML2	Plasma membrane	Plasma membrane/cell junctions
+3098	ENSG00000156515	HK1	Mitochondria	Mitochondria
+3146	ENSG00000189403	HMGB1	Nucleoplasm	Nucleoplasm
+3150	ENSG00000205581	HMGN1	Nucleoplasm	Nucleoplasm
+3151	ENSG00000198830	HMGN2	Nucleoli	Nucleoli
+3151	ENSG00000198830	HMGN2	Nucleoplasm	Nucleoplasm
+3163	ENSG00000103415	HMOX2	Cytosol	Cytosol
+3163	ENSG00000103415	HMOX2	Vesicles	Vesicular system
+3178	ENSG00000135486	HNRNPA1	Nucleoplasm	Nucleoplasm
+3181	ENSG00000122566	HNRNPA2B1	Nucleoplasm	Nucleoplasm
+3182	ENSG00000197451	HNRNPAB	Nucleoplasm	Nucleoplasm
+3183	ENSG00000092199	HNRNPC	Nucleoplasm	Nucleoplasm
+3184	ENSG00000138668	HNRNPD	Nucleoplasm	Nucleoplasm
+3185	ENSG00000169813	HNRNPF	Nucleoplasm	Nucleoplasm
+3187	ENSG00000169045	HNRNPH1	Nucleoplasm	Nucleoplasm
+3188	ENSG00000126945	HNRNPH2	Nucleoplasm	Nucleoplasm
+3190	ENSG00000165119	HNRNPK	Nucleoplasm	Nucleoplasm
+3191	ENSG00000104824	HNRNPL	Nucleoplasm	Nucleoplasm
+3192	ENSG00000153187	HNRNPU	Nucleoplasm	Nucleoplasm
+324	ENSG00000134982	APC	Plasma membrane	Plasma membrane/cell junctions
+324	ENSG00000134982	APC	Golgi apparatus	Golgi apparatus
+3276	ENSG00000126457	PRMT1	Nucleoplasm	Nucleoplasm
+328	ENSG00000100823	APEX1	Nucleoplasm	Nucleoplasm
+328	ENSG00000100823	APEX1	Centrosome	Centrosome
+3295	ENSG00000133835	HSD17B4	Peroxisomes	Vesicular system
+3301	ENSG00000086061	DNAJA1	Cytosol	Cytosol
+3301	ENSG00000086061	DNAJA1	Microtubules	Microtubule associated
+3304	ENSG00000204388	HSPA1B	Cytosol	Cytosol
+3304	ENSG00000204388	HSPA1B	Flagellar centriole	Sperm structures
+3304	ENSG00000204388	HSPA1B	Annulus	Sperm structures
+3304	ENSG00000204388	HSPA1B	Calyx	Sperm structures
+3304	ENSG00000204388	HSPA1B	Perinuclear theca	Sperm structures
+3304	ENSG00000204388	HSPA1B	Vesicles	Vesicular system
+3306	ENSG00000126803	HSPA2	Annulus	Sperm structures
+3306	ENSG00000126803	HSPA2	Calyx	Sperm structures
+3306	ENSG00000126803	HSPA2	Flagellar centriole	Sperm structures
+3306	ENSG00000126803	HSPA2	Perinuclear theca	Sperm structures
+3306	ENSG00000126803	HSPA2	Vesicles	Vesicular system
+3308	ENSG00000170606	HSPA4	Cytosol	Cytosol
+3308	ENSG00000170606	HSPA4	Nucleoplasm	Nucleoplasm
+3309	ENSG00000044574	HSPA5	Annulus	Sperm structures
+3309	ENSG00000044574	HSPA5	End piece	Sperm structures
+3309	ENSG00000044574	HSPA5	Mid piece	Sperm structures
+3309	ENSG00000044574	HSPA5	Principal piece	Sperm structures
+3312	ENSG00000109971	HSPA8	Vesicles	Vesicular system
+3312	ENSG00000109971	HSPA8	Annulus	Sperm structures
+3312	ENSG00000109971	HSPA8	Calyx	Sperm structures
+3312	ENSG00000109971	HSPA8	Flagellar centriole	Sperm structures
+3312	ENSG00000109971	HSPA8	Perinuclear theca	Sperm structures
+3313	ENSG00000113013	HSPA9	Mitochondria	Mitochondria
+3315	ENSG00000106211	HSPB1	Cytosol	Cytosol
+3315	ENSG00000106211	HSPB1	Plasma membrane	Plasma membrane/cell junctions
+3320	ENSG00000080824	HSP90AA1	Cytosol	Cytosol
+3326	ENSG00000096384	HSP90AB1	Cytosol	Cytosol
+3326	ENSG00000096384	HSP90AB1	Plasma membrane	Plasma membrane/cell junctions
+3329	ENSG00000144381	HSPD1	Mitochondria	Mitochondria
+3337	ENSG00000132002	DNAJB1	Cytosol	Cytosol
+3337	ENSG00000132002	DNAJB1	Nucleoplasm	Nucleoplasm
+3376	ENSG00000196305	IARS1	Cytosol	Cytosol
+3396	ENSG00000167862	MRPL58	Mitochondria	Mitochondria
+340543	ENSG00000204065	TCEAL5	Nucleoplasm	Nucleoplasm
+3417	ENSG00000138413	IDH1	Cytosol	Cytosol
+3418	ENSG00000182054	IDH2	Mitochondria	Mitochondria
+345	ENSG00000110245	APOC3	Cell Junctions	Plasma membrane/cell junctions
+345	ENSG00000110245	APOC3	Nucleoli	Nucleoli
+345	ENSG00000110245	APOC3	Nucleoplasm	Nucleoplasm
+3476	ENSG00000089289	IGBP1	Basal body	Primary cilium
+3476	ENSG00000089289	IGBP1	Cytokinetic bridge	Microtubule associated
+3476	ENSG00000089289	IGBP1	Microtubules	Microtubule associated
+3476	ENSG00000089289	IGBP1	Primary cilium	Primary cilium
+347734	ENSG00000157593	SLC35B2	Vesicles	Vesicular system
+3482	ENSG00000197081	IGF2R	Golgi apparatus	Golgi apparatus
+3482	ENSG00000197081	IGF2R	Vesicles	Vesicular system
+3514	ENSG00000211592	IGKC	Cytosol	Cytosol
+3514	ENSG00000211592	IGKC	Vesicles	Vesicular system
+353	ENSG00000198931	APRT	Cytosol	Cytosol
+3608	ENSG00000143621	ILF2	Cytosol	Cytosol
+3608	ENSG00000143621	ILF2	Nucleoplasm	Nucleoplasm
+3609	ENSG00000129351	ILF3	Nucleoplasm	Nucleoplasm
+3609	ENSG00000129351	ILF3	Mitochondria	Mitochondria
+3609	ENSG00000129351	ILF3	Nucleoli	Nucleoli
+3646	ENSG00000104408	EIF3E	Cytosol	Cytosol
+3688	ENSG00000150093	ITGB1	Focal adhesion sites	Actin-filament associated
+3688	ENSG00000150093	ITGB1	Plasma membrane	Plasma membrane/cell junctions
+3688	ENSG00000150093	ITGB1	Endoplasmic reticulum	Endoplasmic reticulum
+37	ENSG00000072778	ACADVL	Mitochondria	Mitochondria
+3712	ENSG00000128928	IVD	Mitochondria	Mitochondria
+3712	ENSG00000128928	IVD	Nucleoplasm	Nucleoplasm
+372	ENSG00000095139	ARCN1	Cytosol	Cytosol
+372	ENSG00000095139	ARCN1	Golgi apparatus	Golgi apparatus
+372	ENSG00000095139	ARCN1	Vesicles	Vesicular system
+3728	ENSG00000173801	JUP	Cell Junctions	Plasma membrane/cell junctions
+3728	ENSG00000173801	JUP	Plasma membrane	Plasma membrane/cell junctions
+3728	ENSG00000173801	JUP	Vesicles	Vesicular system
+3735	ENSG00000065427	KARS1	Cytosol	Cytosol
+3735	ENSG00000065427	KARS1	Plasma membrane	Plasma membrane/cell junctions
+374454	ENSG00000189182	KRT77	Nuclear membrane	Nuclear membrane
+374454	ENSG00000189182	KRT77	Plasma membrane	Plasma membrane/cell junctions
+374877	ENSG00000198723	TEX45	End piece	Sperm structures
+374877	ENSG00000198723	TEX45	Mid piece	Sperm structures
+374877	ENSG00000198723	TEX45	Principal piece	Sperm structures
+374897	ENSG00000189001	SBSN	Vesicles	Vesicular system
+3799	ENSG00000170759	KIF5B	Cytosol	Cytosol
+3799	ENSG00000170759	KIF5B	Centriolar satellite	Centrosome
+3799	ENSG00000170759	KIF5B	End piece	Sperm structures
+38	ENSG00000075239	ACAT1	Mitochondria	Mitochondria
+3832	ENSG00000138160	KIF11	Cytosol	Cytosol
+3832	ENSG00000138160	KIF11	End piece	Sperm structures
+3832	ENSG00000138160	KIF11	Mid piece	Sperm structures
+3832	ENSG00000138160	KIF11	Principal piece	Sperm structures
+3832	ENSG00000138160	KIF11	Vesicles	Vesicular system
+3838	ENSG00000182481	KPNA2	Cytosol	Cytosol
+3838	ENSG00000182481	KPNA2	Nucleoplasm	Nucleoplasm
+3842	ENSG00000083312	TNPO1	Cytosol	Cytosol
+3842	ENSG00000083312	TNPO1	Nucleoli	Nucleoli
+3842	ENSG00000083312	TNPO1	Nucleoplasm	Nucleoplasm
+3843	ENSG00000065150	IPO5	Cytosol	Cytosol
+3843	ENSG00000065150	IPO5	Nuclear membrane	Nuclear membrane
+3843	ENSG00000065150	IPO5	Nucleoplasm	Nucleoplasm
+3843	ENSG00000065150	IPO5	Golgi apparatus	Golgi apparatus
+3849	ENSG00000172867	KRT2	Cytosol	Cytosol
+3849	ENSG00000172867	KRT2	Intermediate filaments	Intermediate filaments
+3851	ENSG00000170477	KRT4	Intermediate filaments	Intermediate filaments
+3852	ENSG00000186081	KRT5	Intermediate filaments	Intermediate filaments
+3853	ENSG00000205420	KRT6A	Intermediate filaments	Intermediate filaments
+3854	ENSG00000185479	KRT6B	Intermediate filaments	Intermediate filaments
+3860	ENSG00000171401	KRT13	Intermediate filaments	Intermediate filaments
+3861	ENSG00000186847	KRT14	Intermediate filaments	Intermediate filaments
+3866	ENSG00000171346	KRT15	Intermediate filaments	Intermediate filaments
+3868	ENSG00000186832	KRT16	Intermediate filaments	Intermediate filaments
+3872	ENSG00000128422	KRT17	Intermediate filaments	Intermediate filaments
+387597	ENSG00000143195	ILDR2	Plasma membrane	Plasma membrane/cell junctions
+387680	ENSG00000099290	WASHC2A	Vesicles	Vesicular system
+387680	ENSG00000099290	WASHC2A	Nucleoli	Nucleoli
+388963	ENSG00000284308	C2orf81	Nucleoli	Nucleoli
+388963	ENSG00000284308	C2orf81	Nucleoli fibrillar center	Nucleoli
+388963	ENSG00000284308	C2orf81	Nucleoplasm	Nucleoplasm
+3895	ENSG00000126777	KTN1	Endoplasmic reticulum	Endoplasmic reticulum
+389541	ENSG00000188186	LAMTOR4	Lysosomes	Vesicular system
+389898	ENSG00000276380	UBE2NL	Nucleoli fibrillar center	Nucleoli
+389898	ENSG00000276380	UBE2NL	Nucleoplasm	Nucleoplasm
+392	ENSG00000175220	ARHGAP1	Cytosol	Cytosol
+392	ENSG00000175220	ARHGAP1	Vesicles	Vesicular system
+3921	ENSG00000168028	RPSA	Cytosol	Cytosol
+3921	ENSG00000168028	RPSA	Plasma membrane	Plasma membrane/cell junctions
+3925	ENSG00000117632	STMN1	Cytosol	Cytosol
+3927	ENSG00000002834	LASP1	Cytosol	Cytosol
+3927	ENSG00000002834	LASP1	Focal adhesion sites	Actin-filament associated
+3927	ENSG00000002834	LASP1	Golgi apparatus	Golgi apparatus
+3927	ENSG00000002834	LASP1	Plasma membrane	Plasma membrane/cell junctions
+3939	ENSG00000134333	LDHA	Cytosol	Cytosol
+3945	ENSG00000111716	LDHB	Cytosol	Cytosol
+3954	ENSG00000168924	LETM1	Mitochondria	Mitochondria
+3956	ENSG00000100097	LGALS1	Cytosol	Cytosol
+396	ENSG00000141522	ARHGDIA	Cytosol	Cytosol
+3978	ENSG00000105486	LIG1	Nucleoplasm	Nucleoplasm
+3978	ENSG00000105486	LIG1	Golgi apparatus	Golgi apparatus
+3978	ENSG00000105486	LIG1	Vesicles	Vesicular system
+3998	ENSG00000074695	LMAN1	Endoplasmic reticulum	Endoplasmic reticulum
+3998	ENSG00000074695	LMAN1	Vesicles	Vesicular system
+4000	ENSG00000160789	LMNA	Nuclear speckles	Nucleoplasm
+4001	ENSG00000113368	LMNB1	Nuclear membrane	Nuclear membrane
+400569	ENSG00000161920	MED11	Nuclear bodies	Nucleoplasm
+400569	ENSG00000161920	MED11	Nucleoplasm	Nucleoplasm
+4008	ENSG00000136153	LMO7	Actin filaments	Actin-filament associated
+4008	ENSG00000136153	LMO7	Cytosol	Cytosol
+401466	ENSG00000176731	RBIS	Nucleoli	Nucleoli
+401466	ENSG00000176731	RBIS	Nucleoplasm	Nucleoplasm
+401466	ENSG00000176731	RBIS	Cytosol	Cytosol
+401551	ENSG00000136918	WDR38	Vesicles	Vesicular system
+4048	ENSG00000111144	LTA4H	Cytosol	Cytosol
+4076	ENSG00000135387	CAPRIN1	Cytosol	Cytosol
+4076	ENSG00000135387	CAPRIN1	Centriolar satellite	Centrosome
+4076	ENSG00000135387	CAPRIN1	Centrosome	Centrosome
+4082	ENSG00000277443	MARCKS	Plasma membrane	Plasma membrane/cell junctions
+4085	ENSG00000164109	MAD2L1	Nucleoplasm	Nucleoplasm
+4131	ENSG00000131711	MAP1B	Cytosol	Cytosol
+4131	ENSG00000131711	MAP1B	Equatorial segment	Sperm structures
+4134	ENSG00000047849	MAP4	Basal body	Primary cilium
+4134	ENSG00000047849	MAP4	Microtubules	Microtubule associated
+4134	ENSG00000047849	MAP4	Primary cilium	Primary cilium
+4134	ENSG00000047849	MAP4	Acrosome	Sperm structures
+4134	ENSG00000047849	MAP4	Equatorial segment	Sperm structures
+4141	ENSG00000166986	MARS1	Cytosol	Cytosol
+4141	ENSG00000166986	MARS1	End piece	Sperm structures
+4141	ENSG00000166986	MARS1	Mid piece	Sperm structures
+4141	ENSG00000166986	MARS1	Principal piece	Sperm structures
+4144	ENSG00000168906	MAT2A	Cytosol	Cytosol
+4144	ENSG00000168906	MAT2A	Nucleoplasm	Nucleoplasm
+4154	ENSG00000152601	MBNL1	Nucleoplasm	Nucleoplasm
+4154	ENSG00000152601	MBNL1	Cytosol	Cytosol
+4171	ENSG00000073111	MCM2	Nucleoplasm	Nucleoplasm
+4172	ENSG00000112118	MCM3	Nucleoplasm	Nucleoplasm
+4173	ENSG00000104738	MCM4	Nucleoplasm	Nucleoplasm
+4174	ENSG00000100297	MCM5	Nucleoplasm	Nucleoplasm
+4175	ENSG00000076003	MCM6	Nucleoplasm	Nucleoplasm
+4176	ENSG00000166508	MCM7	Basal body	Primary cilium
+4176	ENSG00000166508	MCM7	Cytosol	Cytosol
+4176	ENSG00000166508	MCM7	Nucleoplasm	Nucleoplasm
+4190	ENSG00000014641	MDH1	Cytosol	Cytosol
+4190	ENSG00000014641	MDH1	Centrosome	Centrosome
+4191	ENSG00000146701	MDH2	Mitochondria	Mitochondria
+4199	ENSG00000065833	ME1	Cytosol	Cytosol
+4236	ENSG00000140259	MFAP1	Nucleoplasm	Nucleoplasm
+4240	ENSG00000140545	MFGE8	Cytosol	Cytosol
+4253	ENSG00000150527	MIA2	Endoplasmic reticulum	Endoplasmic reticulum
+4282	ENSG00000240972	MIF	Cytosol	Cytosol
+4338	ENSG00000164172	MOCS2	Cytosol	Cytosol
+4343	ENSG00000155363	MOV10	Cytosol	Cytosol
+4351	ENSG00000178802	MPI	Cytosol	Cytosol
+4351	ENSG00000178802	MPI	Plasma membrane	Plasma membrane/cell junctions
+4361	ENSG00000020922	MRE11	Nucleoplasm	Nucleoplasm
+440574	ENSG00000173436	MICOS10	Mitochondria	Mitochondria
+4436	ENSG00000095002	MSH2	Nucleoplasm	Nucleoplasm
+444	ENSG00000198363	ASPH	Endoplasmic reticulum	Endoplasmic reticulum
+4478	ENSG00000147065	MSN	Plasma membrane	Plasma membrane/cell junctions
+4507	ENSG00000099810	MTAP	Cytosol	Cytosol
+4522	ENSG00000100714	MTHFD1	Cytosol	Cytosol
+4594	ENSG00000146085	MMUT	Cytosol	Cytosol
+4594	ENSG00000146085	MMUT	Mitochondria	Mitochondria
+4627	ENSG00000100345	MYH9	Actin filaments	Actin-filament associated
+4627	ENSG00000100345	MYH9	Cytosol	Cytosol
+4627	ENSG00000100345	MYH9	Plasma membrane	Plasma membrane/cell junctions
+4641	ENSG00000197879	MYO1C	Plasma membrane	Plasma membrane/cell junctions
+4641	ENSG00000197879	MYO1C	Nuclear bodies	Nucleoplasm
+4642	ENSG00000176658	MYO1D	Cytosol	Cytosol
+4643	ENSG00000157483	MYO1E	Cytosol	Cytosol
+4643	ENSG00000157483	MYO1E	Nucleoplasm	Nucleoplasm
+4643	ENSG00000157483	MYO1E	Plasma membrane	Plasma membrane/cell junctions
+4644	ENSG00000197535	MYO5A	Basal body	Primary cilium
+4644	ENSG00000197535	MYO5A	Calyx	Sperm structures
+4644	ENSG00000197535	MYO5A	Centriolar satellite	Centrosome
+4644	ENSG00000197535	MYO5A	Cytosol	Cytosol
+4644	ENSG00000197535	MYO5A	Focal adhesion sites	Actin-filament associated
+4644	ENSG00000197535	MYO5A	Primary cilium	Primary cilium
+4645	ENSG00000167306	MYO5B	Plasma membrane	Plasma membrane/cell junctions
+4659	ENSG00000058272	PPP1R12A	Actin filaments	Actin-filament associated
+4659	ENSG00000058272	PPP1R12A	Cytosol	Cytosol
+4666	ENSG00000196531	NACA	Cytosol	Cytosol
+4670	ENSG00000099783	HNRNPM	Nucleoplasm	Nucleoplasm
+4676	ENSG00000205531	NAP1L4	Nucleoplasm	Nucleoplasm
+4677	ENSG00000134440	NARS1	Cytosol	Cytosol
+4678	ENSG00000132780	NASP	Nucleoplasm	Nucleoplasm
+4691	ENSG00000115053	NCL	Nucleoli	Nucleoli
+4691	ENSG00000115053	NCL	Nucleoli rim	Nucleoli
+4691	ENSG00000115053	NCL	Nucleoplasm	Nucleoplasm
+4691	ENSG00000115053	NCL	Mitotic chromosome	Nucleoplasm
+4697	ENSG00000189043	NDUFA4	Mitochondria	Mitochondria
+47	ENSG00000131473	ACLY	Cytosol	Cytosol
+47	ENSG00000131473	ACLY	Principal piece	Sperm structures
+4712	ENSG00000165264	NDUFB6	Mitochondria	Mitochondria
+4712	ENSG00000165264	NDUFB6	Nucleoplasm	Nucleoplasm
+4724	ENSG00000164258	NDUFS4	Mitochondria	Mitochondria
+4724	ENSG00000164258	NDUFS4	Calyx	Sperm structures
+4724	ENSG00000164258	NDUFS4	Equatorial segment	Sperm structures
+4724	ENSG00000164258	NDUFS4	Perinuclear theca	Sperm structures
+4731	ENSG00000160194	NDUFV3	Mitochondria	Mitochondria
+4836	ENSG00000136448	NMT1	Cytosol	Cytosol
+4836	ENSG00000136448	NMT1	Plasma membrane	Plasma membrane/cell junctions
+4841	ENSG00000147140	NONO	Nucleoli fibrillar center	Nucleoli
+4841	ENSG00000147140	NONO	Nucleoplasm	Nucleoplasm
+4841	ENSG00000147140	NONO	Nucleoli	Nucleoli
+4869	ENSG00000181163	NPM1	Nucleoli rim	Nucleoli
+4869	ENSG00000181163	NPM1	Nucleoplasm	Nucleoplasm
+488	ENSG00000174437	ATP2A2	End piece	Sperm structures
+488	ENSG00000174437	ATP2A2	Mid piece	Sperm structures
+488	ENSG00000174437	ATP2A2	Perinuclear theca	Sperm structures
+4898	ENSG00000078618	NRDC	Nucleoplasm	Nucleoplasm
+4904	ENSG00000065978	YBX1	Cytosol	Cytosol
+4904	ENSG00000065978	YBX1	Endoplasmic reticulum	Endoplasmic reticulum
+4904	ENSG00000065978	YBX1	Vesicles	Vesicular system
+4905	ENSG00000073969	NSF	Cytosol	Cytosol
+4905	ENSG00000073969	NSF	Acrosome	Sperm structures
+4905	ENSG00000073969	NSF	End piece	Sperm structures
+4905	ENSG00000073969	NSF	Equatorial segment	Sperm structures
+4905	ENSG00000073969	NSF	Golgi apparatus	Golgi apparatus
+4905	ENSG00000073969	NSF	Mid piece	Sperm structures
+4905	ENSG00000073969	NSF	Principal piece	Sperm structures
+4924	ENSG00000104805	NUCB1	Golgi apparatus	Golgi apparatus
+4924	ENSG00000104805	NUCB1	Microtubules	Microtubule associated
+4924	ENSG00000104805	NUCB1	Vesicles	Vesicular system
+4926	ENSG00000137497	NUMA1	Nucleoplasm	Nucleoplasm
+4942	ENSG00000065154	OAT	Mitochondria	Mitochondria
+4942	ENSG00000065154	OAT	Nucleoplasm	Nucleoplasm
+4967	ENSG00000105953	OGDH	Mitochondria	Mitochondria
+498	ENSG00000152234	ATP5F1A	Mitochondria	Mitochondria
+498	ENSG00000152234	ATP5F1A	End piece	Sperm structures
+5019	ENSG00000083720	OXCT1	Mitochondria	Mitochondria
+5033	ENSG00000122884	P4HA1	Endoplasmic reticulum	Endoplasmic reticulum
+5034	ENSG00000185624	P4HB	Endoplasmic reticulum	Endoplasmic reticulum
+5036	ENSG00000170515	PA2G4	Cytosol	Cytosol
+5037	ENSG00000089220	PEBP1	Cytosol	Cytosol
+5037	ENSG00000089220	PEBP1	Plasma membrane	Plasma membrane/cell junctions
+5049	ENSG00000168092	PAFAH1B2	Cytosol	Cytosol
+5050	ENSG00000079462	PAFAH1B3	Intermediate filaments	Intermediate filaments
+506	ENSG00000110955	ATP5F1B	Mitochondria	Mitochondria
+5062	ENSG00000180370	PAK2	Cytosol	Cytosol
+5062	ENSG00000180370	PAK2	Nuclear speckles	Nucleoplasm
+5062	ENSG00000180370	PAK2	Nucleoplasm	Nucleoplasm
+5062	ENSG00000180370	PAK2	Focal adhesion sites	Actin-filament associated
+5066	ENSG00000145730	PAM	Cytosol	Cytosol
+5066	ENSG00000145730	PAM	Golgi apparatus	Golgi apparatus
+50808	ENSG00000147853	AK3	Mitochondria	Mitochondria
+50814	ENSG00000147383	NSDHL	Endoplasmic reticulum	Endoplasmic reticulum
+50814	ENSG00000147383	NSDHL	Lipid droplets	Vesicular system
+5093	ENSG00000169564	PCBP1	Cytosol	Cytosol
+5093	ENSG00000169564	PCBP1	Nuclear speckles	Nucleoplasm
+5093	ENSG00000169564	PCBP1	Nucleoplasm	Nucleoplasm
+5093	ENSG00000169564	PCBP1	Cytoplasmic bodies	Cytosol
+5094	ENSG00000197111	PCBP2	Cytosol	Cytosol
+5094	ENSG00000197111	PCBP2	Nucleoplasm	Nucleoplasm
+51001	ENSG00000156469	MTERF3	Mitochondria	Mitochondria
+51003	ENSG00000108590	MED31	Nucleoplasm	Nucleoplasm
+51021	ENSG00000182180	MRPS16	Mitochondria	Mitochondria
+51026	ENSG00000111711	GOLT1B	Vesicles	Vesicular system
+51035	ENSG00000162191	UBXN1	Cytosol	Cytosol
+51056	ENSG00000002549	LAP3	Calyx	Sperm structures
+51056	ENSG00000002549	LAP3	Cytosol	Cytosol
+51056	ENSG00000002549	LAP3	Mid piece	Sperm structures
+51056	ENSG00000002549	LAP3	Principal piece	Sperm structures
+51068	ENSG00000169251	NMD3	Nucleoli	Nucleoli
+51068	ENSG00000169251	NMD3	Nucleoplasm	Nucleoplasm
+51069	ENSG00000112651	MRPL2	Mitochondria	Mitochondria
+51070	ENSG00000142546	NOSIP	Nucleoplasm	Nucleoplasm
+51082	ENSG00000186184	POLR1D	Golgi apparatus	Golgi apparatus
+51082	ENSG00000186184	POLR1D	Nucleoplasm	Nucleoplasm
+51099	ENSG00000011198	ABHD5	Cytosol	Cytosol
+51099	ENSG00000011198	ABHD5	Vesicles	Vesicular system
+51101	ENSG00000104427	ZC2HC1A	Actin filaments	Actin-filament associated
+51101	ENSG00000104427	ZC2HC1A	Cytosol	Cytosol
+51116	ENSG00000122140	MRPS2	Mitochondria	Mitochondria
+51119	ENSG00000126524	SBDS	Cytosol	Cytosol
+51123	ENSG00000120963	ZNF706	Plasma membrane	Plasma membrane/cell junctions
+51155	ENSG00000189159	JPT1	Cytosol	Cytosol
+51155	ENSG00000189159	JPT1	Nucleoplasm	Nucleoplasm
+51155	ENSG00000189159	JPT1	Cytokinetic bridge	Microtubule associated
+51155	ENSG00000189159	JPT1	Microtubules	Microtubule associated
+51203	ENSG00000137804	NUSAP1	Nucleoli	Nucleoli
+51203	ENSG00000137804	NUSAP1	Nucleoli fibrillar center	Nucleoli
+51203	ENSG00000137804	NUSAP1	Nucleoplasm	Nucleoplasm
+5121	ENSG00000183036	PCP4	Nucleoli fibrillar center	Nucleoli
+5121	ENSG00000183036	PCP4	Nucleoplasm	Nucleoplasm
+51253	ENSG00000116221	MRPL37	Mitochondria	Mitochondria
+51280	ENSG00000135052	GOLM1	Golgi apparatus	Golgi apparatus
+51322	ENSG00000095787	WAC	Nucleoplasm	Nucleoplasm
+51335	ENSG00000182768	NGRN	Mitochondria	Mitochondria
+51335	ENSG00000182768	NGRN	Nucleoplasm	Nucleoplasm
+51335	ENSG00000182768	NGRN	Cytokinetic bridge	Microtubule associated
+51372	ENSG00000232112	TMA7	Nuclear bodies	Nucleoplasm
+51372	ENSG00000232112	TMA7	Nucleoli	Nucleoli
+51372	ENSG00000232112	TMA7	Nucleoli rim	Nucleoli
+51372	ENSG00000232112	TMA7	Nucleoplasm	Nucleoplasm
+5138	ENSG00000186642	PDE2A	Cytosol	Cytosol
+51386	ENSG00000100129	EIF3L	Nucleoli	Nucleoli
+51386	ENSG00000100129	EIF3L	Nucleoplasm	Nucleoplasm
+51406	ENSG00000225921	NOL7	Nucleoli	Nucleoli
+51406	ENSG00000225921	NOL7	Mitotic chromosome	Nucleoplasm
+51428	ENSG00000183258	DDX41	Nucleoplasm	Nucleoplasm
+51428	ENSG00000183258	DDX41	Nucleoli	Nucleoli
+5143	ENSG00000105650	PDE4C	Basal body	Primary cilium
+5143	ENSG00000105650	PDE4C	Centrosome	Centrosome
+5143	ENSG00000105650	PDE4C	Cytosol	Cytosol
+5143	ENSG00000105650	PDE4C	Midbody ring	Microtubule associated
+51474	ENSG00000050405	LIMA1	Actin filaments	Actin-filament associated
+51474	ENSG00000050405	LIMA1	Cytosol	Cytosol
+51474	ENSG00000050405	LIMA1	Focal adhesion sites	Actin-filament associated
+51479	ENSG00000185722	ANKFY1	Endosomes	Vesicular system
+51493	ENSG00000100220	RTCB	Cytosol	Cytosol
+51493	ENSG00000100220	RTCB	Nucleoplasm	Nucleoplasm
+51493	ENSG00000100220	RTCB	Vesicles	Vesicular system
+515	ENSG00000116459	ATP5PB	Mitochondria	Mitochondria
+51504	ENSG00000173113	TRMT112	Microtubules	Microtubule associated
+51504	ENSG00000173113	TRMT112	Nucleoplasm	Nucleoplasm
+51507	ENSG00000022277	RTF2	Nucleoli	Nucleoli
+51507	ENSG00000022277	RTF2	Nucleoplasm	Nucleoplasm
+51510	ENSG00000086065	CHMP5	Cytosol	Cytosol
+51510	ENSG00000086065	CHMP5	Microtubules	Microtubule associated
+51510	ENSG00000086065	CHMP5	Midbody	Microtubule associated
+51520	ENSG00000133706	LARS1	Cytosol	Cytosol
+51520	ENSG00000133706	LARS1	Nuclear bodies	Nucleoplasm
+51535	ENSG00000134283	PPHLN1	Nucleoplasm	Nucleoplasm
+51535	ENSG00000134283	PPHLN1	Golgi apparatus	Golgi apparatus
+51552	ENSG00000119396	RAB14	Vesicles	Vesicular system
+51571	ENSG00000153310	CYRIB	Cytosol	Cytosol
+51571	ENSG00000153310	CYRIB	Nucleoplasm	Nucleoplasm
+51574	ENSG00000174720	LARP7	Nucleoplasm	Nucleoplasm
+51574	ENSG00000174720	LARP7	Cytosol	Cytosol
+51593	ENSG00000087087	SRRT	Nucleoplasm	Nucleoplasm
+5160	ENSG00000131828	PDHA1	Mitochondria	Mitochondria
+51602	ENSG00000055044	NOP58	Nucleoli fibrillar center	Nucleoli
+51602	ENSG00000055044	NOP58	Nucleoplasm	Nucleoplasm
+51608	ENSG00000239857	GET4	Cytosol	Cytosol
+51631	ENSG00000146963	LUC7L2	Nucleoplasm	Nucleoplasm
+51637	ENSG00000087302	RTRAF	Nucleoplasm	Nucleoplasm
+51639	ENSG00000115128	SF3B6	Nucleoplasm	Nucleoplasm
+51649	ENSG00000181610	MRPS23	Mitochondria	Mitochondria
+51649	ENSG00000181610	MRPS23	Nuclear membrane	Nuclear membrane
+51663	ENSG00000056097	ZFR	Nucleoplasm	Nucleoplasm
+51691	ENSG00000128534	LSM8	Nucleoplasm	Nucleoplasm
+51691	ENSG00000128534	LSM8	Vesicles	Vesicular system
+51726	ENSG00000090520	DNAJB11	Endoplasmic reticulum	Endoplasmic reticulum
+51727	ENSG00000162368	CMPK1	Nucleoplasm	Nucleoplasm
+51780	ENSG00000120733	KDM3B	Nucleoplasm	Nucleoplasm
+51806	ENSG00000178372	CALML5	Cytosol	Cytosol
+51806	ENSG00000178372	CALML5	Plasma membrane	Plasma membrane/cell junctions
+5195	ENSG00000142655	PEX14	Peroxisomes	Vesicular system
+5195	ENSG00000142655	PEX14	Nucleoli fibrillar center	Nucleoli
+5202	ENSG00000143256	PFDN2	Cytosol	Cytosol
+5202	ENSG00000143256	PFDN2	Mitochondria	Mitochondria
+5202	ENSG00000143256	PFDN2	Nucleoplasm	Nucleoplasm
+5208	ENSG00000123836	PFKFB2	Nucleoplasm	Nucleoplasm
+5213	ENSG00000152556	PFKM	Endoplasmic reticulum	Endoplasmic reticulum
+5213	ENSG00000152556	PFKM	Principal piece	Sperm structures
+5216	ENSG00000108518	PFN1	Cytosol	Cytosol
+522	ENSG00000154723	ATP5PF	Mitochondria	Mitochondria
+522	ENSG00000154723	ATP5PF	End piece	Sperm structures
+522	ENSG00000154723	ATP5PF	Flagellar centriole	Sperm structures
+5223	ENSG00000171314	PGAM1	Mid piece	Sperm structures
+5223	ENSG00000171314	PGAM1	Nucleoplasm	Nucleoplasm
+5226	ENSG00000142657	PGD	Cytosol	Cytosol
+5226	ENSG00000142657	PGD	Mitochondria	Mitochondria
+5226	ENSG00000142657	PGD	Nucleoplasm	Nucleoplasm
+5226	ENSG00000142657	PGD	Plasma membrane	Plasma membrane/cell junctions
+523	ENSG00000114573	ATP6V1A	Cytosol	Cytosol
+523	ENSG00000114573	ATP6V1A	Nucleoplasm	Nucleoplasm
+523	ENSG00000114573	ATP6V1A	Vesicles	Vesicular system
+5230	ENSG00000102144	PGK1	End piece	Sperm structures
+5230	ENSG00000102144	PGK1	Mid piece	Sperm structures
+5230	ENSG00000102144	PGK1	Principal piece	Sperm structures
+5236	ENSG00000079739	PGM1	Cytosol	Cytosol
+5243	ENSG00000085563	ABCB1	Plasma membrane	Plasma membrane/cell junctions
+5245	ENSG00000167085	PHB1	Mitochondria	Mitochondria
+5250	ENSG00000075415	SLC25A3	Mitochondria	Mitochondria
+528	ENSG00000155097	ATP6V1C1	Cytosol	Cytosol
+528	ENSG00000155097	ATP6V1C1	Nucleoplasm	Nucleoplasm
+5315	ENSG00000067225	PKM	Cytosol	Cytosol
+5315	ENSG00000067225	PKM	Principal piece	Sperm structures
+5315	ENSG00000067225	PKM	Vesicles	Vesicular system
+5317	ENSG00000081277	PKP1	Nucleoplasm	Nucleoplasm
+5317	ENSG00000081277	PKP1	Plasma membrane	Plasma membrane/cell junctions
+5332	ENSG00000101333	PLCB4	Plasma membrane	Plasma membrane/cell junctions
+5332	ENSG00000101333	PLCB4	Acrosome	Sperm structures
+5332	ENSG00000101333	PLCB4	End piece	Sperm structures
+5332	ENSG00000101333	PLCB4	Equatorial segment	Sperm structures
+5332	ENSG00000101333	PLCB4	Mid piece	Sperm structures
+5332	ENSG00000101333	PLCB4	Principal piece	Sperm structures
+535	ENSG00000033627	ATP6V0A1	Vesicles	Vesicular system
+5358	ENSG00000102024	PLS3	Cytosol	Cytosol
+53615	ENSG00000071655	MBD3	Nucleoplasm	Nucleoplasm
+53616	ENSG00000008277	ADAM22	Cell Junctions	Plasma membrane/cell junctions
+53938	ENSG00000240344	PPIL3	Nucleoli	Nucleoli
+53938	ENSG00000240344	PPIL3	Nucleoplasm	Nucleoplasm
+5394	ENSG00000171824	EXOSC10	Cytosol	Cytosol
+5394	ENSG00000171824	EXOSC10	Nucleoli	Nucleoli
+5394	ENSG00000171824	EXOSC10	Nucleoli rim	Nucleoli
+5394	ENSG00000171824	EXOSC10	Nucleoplasm	Nucleoplasm
+53981	ENSG00000165934	CPSF2	Nucleoplasm	Nucleoplasm
+53981	ENSG00000165934	CPSF2	Vesicles	Vesicular system
+54107	ENSG00000148229	POLE3	Cytosol	Cytosol
+54107	ENSG00000148229	POLE3	Nucleoli	Nucleoli
+54107	ENSG00000148229	POLE3	Nucleoplasm	Nucleoplasm
+54148	ENSG00000154719	MRPL39	Mitochondria	Mitochondria
+54205	ENSG00000172115	CYCS	Mitochondria	Mitochondria
+54331	ENSG00000186469	GNG2	Plasma membrane	Plasma membrane/cell junctions
+54331	ENSG00000186469	GNG2	Vesicles	Vesicular system
+5434	ENSG00000099817	POLR2E	Nucleoplasm	Nucleoplasm
+54433	ENSG00000109534	GAR1	Nucleoli fibrillar center	Nucleoli
+54439	ENSG00000091009	RBM27	Nuclear speckles	Nucleoplasm
+54466	ENSG00000147059	SPIN2A	Nucleoplasm	Nucleoplasm
+5447	ENSG00000127948	POR	Cytosol	Cytosol
+5447	ENSG00000127948	POR	Nucleoplasm	Nucleoplasm
+5447	ENSG00000127948	POR	Vesicles	Vesicular system
+54472	ENSG00000078902	TOLLIP	Cytosol	Cytosol
+54497	ENSG00000008869	HEATR5B	Golgi apparatus	Golgi apparatus
+54497	ENSG00000008869	HEATR5B	Vesicles	Vesicular system
+54497	ENSG00000008869	HEATR5B	Cytosol	Cytosol
+54497	ENSG00000008869	HEATR5B	Nucleoplasm	Nucleoplasm
+54502	ENSG00000163694	RBM47	Cytosol	Cytosol
+54502	ENSG00000163694	RBM47	Nucleoplasm	Nucleoplasm
+54505	ENSG00000067248	DHX29	Cytosol	Cytosol
+54606	ENSG00000136271	DDX56	Nucleoli	Nucleoli
+54606	ENSG00000136271	DDX56	Mitotic chromosome	Nucleoplasm
+54623	ENSG00000006712	PAF1	Nucleoli fibrillar center	Nucleoli
+54623	ENSG00000006712	PAF1	Nucleoplasm	Nucleoplasm
+5464	ENSG00000180817	PPA1	Vesicles	Vesicular system
+54726	ENSG00000164164	OTUD4	Cytosol	Cytosol
+5479	ENSG00000166794	PPIB	Endoplasmic reticulum	Endoplasmic reticulum
+5479	ENSG00000166794	PPIB	Nucleoplasm	Nucleoplasm
+54790	ENSG00000168769	TET2	Nucleoplasm	Nucleoplasm
+54814	ENSG00000011478	QPCTL	Golgi apparatus	Golgi apparatus
+54815	ENSG00000167491	GATAD2A	Nucleoplasm	Nucleoplasm
+54843	ENSG00000137501	SYTL2	Plasma membrane	Plasma membrane/cell junctions
+54843	ENSG00000137501	SYTL2	Golgi apparatus	Golgi apparatus
+54884	ENSG00000042445	RETSAT	Cytosol	Cytosol
+54890	ENSG00000091542	ALKBH5	Nucleoplasm	Nucleoplasm
+54927	ENSG00000106554	CHCHD3	Mitochondria	Mitochondria
+54931	ENSG00000174173	TRMT10C	Mitochondria	Mitochondria
+5494	ENSG00000100614	PPM1A	Cytosol	Cytosol
+5494	ENSG00000100614	PPM1A	Plasma membrane	Plasma membrane/cell junctions
+5495	ENSG00000138032	PPM1B	Cytosol	Cytosol
+54953	ENSG00000157181	ODR4	Nucleoplasm	Nucleoplasm
+54953	ENSG00000157181	ODR4	Plasma membrane	Plasma membrane/cell junctions
+5496	ENSG00000115241	PPM1G	Nucleoplasm	Nucleoplasm
+54978	ENSG00000213699	SLC35F6	Cytosol	Cytosol
+54978	ENSG00000213699	SLC35F6	Nucleoplasm	Nucleoplasm
+54978	ENSG00000213699	SLC35F6	Vesicles	Vesicular system
+5500	ENSG00000213639	PPP1CB	Cytosol	Cytosol
+5500	ENSG00000213639	PPP1CB	Nucleoplasm	Nucleoplasm
+55003	ENSG00000111845	PAK1IP1	Nucleoli	Nucleoli
+5504	ENSG00000184203	PPP1R2	Cytosol	Cytosol
+5504	ENSG00000184203	PPP1R2	Nucleoplasm	Nucleoplasm
+55074	ENSG00000164830	OXR1	Vesicles	Vesicular system
+55090	ENSG00000141026	MED9	Midbody	Microtubule associated
+55090	ENSG00000141026	MED9	Nucleoplasm	Nucleoplasm
+55131	ENSG00000106344	RBM28	Nucleoli	Nucleoli
+55148	ENSG00000012963	UBR7	Nucleoplasm	Nucleoplasm
+55177	ENSG00000137824	RMDN3	Cytokinetic bridge	Microtubule associated
+55177	ENSG00000137824	RMDN3	Mitochondria	Mitochondria
+55178	ENSG00000171861	MRM3	Mitochondria	Mitochondria
+5518	ENSG00000105568	PPP2R1A	Cytosol	Cytosol
+55183	ENSG00000080345	RIF1	Nuclear membrane	Nuclear membrane
+55183	ENSG00000080345	RIF1	Nucleoplasm	Nucleoplasm
+55193	ENSG00000163939	PBRM1	Nucleoplasm	Nucleoplasm
+55234	ENSG00000122692	SMU1	Vesicles	Vesicular system
+55236	ENSG00000033178	UBA6	Cytosol	Cytosol
+55236	ENSG00000033178	UBA6	Nucleoplasm	Nucleoplasm
+5524	ENSG00000119383	PTPA	Nucleoplasm	Nucleoplasm
+5524	ENSG00000119383	PTPA	Cytosol	Cytosol
+55257	ENSG00000101189	MRGBP	Nucleoplasm	Nucleoplasm
+55269	ENSG00000121390	PSPC1	Nucleoli fibrillar center	Nucleoli
+55269	ENSG00000121390	PSPC1	Nucleoplasm	Nucleoplasm
+55274	ENSG00000130024	PHF10	Nucleoplasm	Nucleoplasm
+55276	ENSG00000169299	PGM2	Cytosol	Cytosol
+55276	ENSG00000169299	PGM2	Intermediate filaments	Intermediate filaments
+5528	ENSG00000112640	PPP2R5D	Cytosol	Cytosol
+5528	ENSG00000112640	PPP2R5D	Nucleoplasm	Nucleoplasm
+5531	ENSG00000149923	PPP4C	Cytosol	Cytosol
+5531	ENSG00000149923	PPP4C	Nucleoplasm	Nucleoplasm
+553115	ENSG00000162517	PEF1	Cytosol	Cytosol
+553115	ENSG00000162517	PEF1	Vesicles	Vesicular system
+553115	ENSG00000162517	PEF1	Nucleoplasm	Nucleoplasm
+55320	ENSG00000129534	MIS18BP1	Nucleoli	Nucleoli
+55339	ENSG00000136709	WDR33	Nucleoli fibrillar center	Nucleoli
+55339	ENSG00000136709	WDR33	Nucleoplasm	Nucleoplasm
+55352	ENSG00000172301	COPRS	Nucleoplasm	Nucleoplasm
+5536	ENSG00000011485	PPP5C	Cytosol	Cytosol
+5536	ENSG00000011485	PPP5C	Vesicles	Vesicular system
+55379	ENSG00000108829	LRRC59	Endoplasmic reticulum	Endoplasmic reticulum
+55572	ENSG00000110074	FOXRED1	Mitochondria	Mitochondria
+55577	ENSG00000124357	NAGK	Cytosol	Cytosol
+55577	ENSG00000124357	NAGK	Nucleoplasm	Nucleoplasm
+55602	ENSG00000168564	CDKN2AIP	Nucleoplasm	Nucleoplasm
+55611	ENSG00000167770	OTUB1	Cytoplasmic bodies	Cytosol
+55611	ENSG00000167770	OTUB1	Cytosol	Cytosol
+55623	ENSG00000066654	THUMPD1	Cytosol	Cytosol
+55677	ENSG00000163166	IWS1	Nucleoplasm	Nucleoplasm
+55696	ENSG00000086589	RBM22	Nucleoplasm	Nucleoplasm
+55697	ENSG00000103043	VAC14	Vesicles	Vesicular system
+55697	ENSG00000103043	VAC14	Cytosol	Cytosol
+55701	ENSG00000165801	ARHGEF40	Cytosol	Cytosol
+55701	ENSG00000165801	ARHGEF40	Plasma membrane	Plasma membrane/cell junctions
+55704	ENSG00000115355	CCDC88A	Basal body	Primary cilium
+55704	ENSG00000115355	CCDC88A	Centrosome	Centrosome
+55704	ENSG00000115355	CCDC88A	Plasma membrane	Plasma membrane/cell junctions
+55705	ENSG00000198700	IPO9	Cytosol	Cytosol
+55705	ENSG00000198700	IPO9	Nucleoplasm	Nucleoplasm
+55717	ENSG00000120008	WDR11	Cytosol	Cytosol
+55717	ENSG00000120008	WDR11	Primary cilium	Primary cilium
+55717	ENSG00000120008	WDR11	Vesicles	Vesicular system
+55717	ENSG00000120008	WDR11	End piece	Sperm structures
+55717	ENSG00000120008	WDR11	Flagellar centriole	Sperm structures
+55717	ENSG00000120008	WDR11	Microtubules	Microtubule associated
+55717	ENSG00000120008	WDR11	Principal piece	Sperm structures
+5573	ENSG00000108946	PRKAR1A	Cytosol	Cytosol
+55740	ENSG00000154380	ENAH	Cytosol	Cytosol
+55740	ENSG00000154380	ENAH	Focal adhesion sites	Actin-filament associated
+55740	ENSG00000154380	ENAH	Plasma membrane	Plasma membrane/cell junctions
+55746	ENSG00000069248	NUP133	Nuclear membrane	Nuclear membrane
+55748	ENSG00000133313	CNDP2	Nucleoplasm	Nucleoplasm
+55748	ENSG00000133313	CNDP2	Cytosol	Cytosol
+55751	ENSG00000164168	TMEM184C	Nucleoplasm	Nucleoplasm
+55751	ENSG00000164168	TMEM184C	Vesicles	Vesicular system
+5576	ENSG00000114302	PRKAR2A	Cytosol	Cytosol
+5576	ENSG00000114302	PRKAR2A	Mid piece	Sperm structures
+5576	ENSG00000114302	PRKAR2A	Vesicles	Vesicular system
+55763	ENSG00000090989	EXOC1	Cytosol	Cytosol
+55763	ENSG00000090989	EXOC1	Microtubules	Microtubule associated
+55794	ENSG00000182810	DDX28	Mitochondria	Mitochondria
+55794	ENSG00000182810	DDX28	Nucleoli	Nucleoli
+55795	ENSG00000126226	PCID2	Nucleoplasm	Nucleoplasm
+55832	ENSG00000111530	CAND1	Cytosol	Cytosol
+55832	ENSG00000111530	CAND1	Nucleoplasm	Nucleoplasm
+55832	ENSG00000111530	CAND1	Golgi apparatus	Golgi apparatus
+55845	ENSG00000254999	BRK1	Cell Junctions	Plasma membrane/cell junctions
+55845	ENSG00000254999	BRK1	Nuclear speckles	Nucleoplasm
+55847	ENSG00000122873	CISD1	Mitochondria	Mitochondria
+5585	ENSG00000123143	PKN1	Cytokinetic bridge	Microtubule associated
+5585	ENSG00000123143	PKN1	Plasma membrane	Plasma membrane/cell junctions
+55852	ENSG00000136478	TEX2	Nucleoplasm	Nucleoplasm
+55856	ENSG00000112304	ACOT13	Cell Junctions	Plasma membrane/cell junctions
+5589	ENSG00000130175	PRKCSH	Endoplasmic reticulum	Endoplasmic reticulum
+55898	ENSG00000140553	UNC45A	Cytosol	Cytosol
+55898	ENSG00000140553	UNC45A	Nuclear speckles	Nucleoplasm
+55907	ENSG00000111726	CMAS	Nucleoli	Nucleoli
+5591	ENSG00000253729	PRKDC	Nucleoplasm	Nucleoplasm
+55929	ENSG00000178028	DMAP1	Cytosol	Cytosol
+55929	ENSG00000178028	DMAP1	Nucleoplasm	Nucleoplasm
+55930	ENSG00000128833	MYO5C	Cytosol	Cytosol
+55930	ENSG00000128833	MYO5C	Nucleoplasm	Nucleoplasm
+5594	ENSG00000100030	MAPK1	Cytosol	Cytosol
+5594	ENSG00000100030	MAPK1	Nucleoplasm	Nucleoplasm
+5594	ENSG00000100030	MAPK1	Basal body	Primary cilium
+5594	ENSG00000100030	MAPK1	Microtubules	Microtubule associated
+5594	ENSG00000100030	MAPK1	Primary cilium	Primary cilium
+5594	ENSG00000100030	MAPK1	Primary cilium tip	Primary cilium
+5595	ENSG00000102882	MAPK3	Nucleoplasm	Nucleoplasm
+55970	ENSG00000172380	GNG12	Mitochondria	Mitochondria
+55971	ENSG00000006453	BAIAP2L1	Cytosol	Cytosol
+55971	ENSG00000006453	BAIAP2L1	Plasma membrane	Plasma membrane/cell junctions
+5604	ENSG00000169032	MAP2K1	Basal body	Primary cilium
+5604	ENSG00000169032	MAP2K1	Cytosol	Cytosol
+5604	ENSG00000169032	MAP2K1	Plasma membrane	Plasma membrane/cell junctions
+56255	ENSG00000125827	TMX4	Nuclear membrane	Nuclear membrane
+56257	ENSG00000146834	MEPCE	Cell Junctions	Plasma membrane/cell junctions
+56257	ENSG00000146834	MEPCE	Nucleoplasm	Nucleoplasm
+563	ENSG00000160862	AZGP1	Vesicles	Vesicular system
+5631	ENSG00000147224	PRPS1	Vesicles	Vesicular system
+5634	ENSG00000101911	PRPS2	Basal body	Primary cilium
+5634	ENSG00000101911	PRPS2	Nuclear speckles	Nucleoplasm
+5634	ENSG00000101911	PRPS2	Vesicles	Vesicular system
+5635	ENSG00000161542	PRPSAP1	Cytosol	Cytosol
+5636	ENSG00000141127	PRPSAP2	Cytosol	Cytosol
+5636	ENSG00000141127	PRPSAP2	Nucleoplasm	Nucleoplasm
+5646	ENSG00000010438	PRSS3	Endoplasmic reticulum	Endoplasmic reticulum
+5646	ENSG00000010438	PRSS3	Vesicles	Vesicular system
+56616	ENSG00000184047	DIABLO	Mitochondria	Mitochondria
+56616	ENSG00000184047	DIABLO	End piece	Sperm structures
+56616	ENSG00000184047	DIABLO	Flagellar centriole	Sperm structures
+56616	ENSG00000184047	DIABLO	Mid piece	Sperm structures
+56616	ENSG00000184047	DIABLO	Principal piece	Sperm structures
+56655	ENSG00000115350	POLE4	Nucleoplasm	Nucleoplasm
+56655	ENSG00000115350	POLE4	Cytosol	Cytosol
+56681	ENSG00000079332	SAR1A	Endoplasmic reticulum	Endoplasmic reticulum
+5682	ENSG00000129084	PSMA1	Nuclear bodies	Nucleoplasm
+5682	ENSG00000129084	PSMA1	Nucleoplasm	Nucleoplasm
+56829	ENSG00000105939	ZC3HAV1	Cytosol	Cytosol
+56829	ENSG00000105939	ZC3HAV1	Golgi apparatus	Golgi apparatus
+5685	ENSG00000041357	PSMA4	Cytosol	Cytosol
+5685	ENSG00000041357	PSMA4	Nucleoplasm	Nucleoplasm
+5685	ENSG00000041357	PSMA4	Connecting piece	Sperm structures
+5685	ENSG00000041357	PSMA4	Flagellar centriole	Sperm structures
+5685	ENSG00000041357	PSMA4	Mid piece	Sperm structures
+5685	ENSG00000041357	PSMA4	Vesicles	Vesicular system
+56850	ENSG00000068400	GRIPAP1	Cytosol	Cytosol
+56850	ENSG00000068400	GRIPAP1	Vesicles	Vesicular system
+5687	ENSG00000100902	PSMA6	End piece	Sperm structures
+5687	ENSG00000100902	PSMA6	Nucleoplasm	Nucleoplasm
+5687	ENSG00000100902	PSMA6	Primary cilium tip	Primary cilium
+5687	ENSG00000100902	PSMA6	Calyx	Sperm structures
+5687	ENSG00000100902	PSMA6	Connecting piece	Sperm structures
+5687	ENSG00000100902	PSMA6	Cytosol	Cytosol
+5687	ENSG00000100902	PSMA6	Flagellar centriole	Sperm structures
+5687	ENSG00000100902	PSMA6	Mid piece	Sperm structures
+5687	ENSG00000100902	PSMA6	Perinuclear theca	Sperm structures
+5687	ENSG00000100902	PSMA6	Primary cilium	Primary cilium
+56893	ENSG00000160803	UBQLN4	Nucleoplasm	Nucleoplasm
+5690	ENSG00000126067	PSMB2	Nucleoplasm	Nucleoplasm
+5694	ENSG00000142507	PSMB6	Cytosol	Cytosol
+5694	ENSG00000142507	PSMB6	Nucleoplasm	Nucleoplasm
+5694	ENSG00000142507	PSMB6	Mitochondria	Mitochondria
+56945	ENSG00000175110	MRPS22	Mitochondria	Mitochondria
+56949	ENSG00000076924	XAB2	Nucleoplasm	Nucleoplasm
+56949	ENSG00000076924	XAB2	Vesicles	Vesicular system
+5695	ENSG00000136930	PSMB7	Cytosol	Cytosol
+5695	ENSG00000136930	PSMB7	Nuclear bodies	Nucleoplasm
+5695	ENSG00000136930	PSMB7	Nucleoplasm	Nucleoplasm
+56954	ENSG00000114021	NIT2	Cytosol	Cytosol
+56954	ENSG00000114021	NIT2	Centrosome	Centrosome
+56987	ENSG00000114439	BBX	Nucleoplasm	Nucleoplasm
+56987	ENSG00000114439	BBX	Cytosol	Cytosol
+56993	ENSG00000100216	TOMM22	Mitochondria	Mitochondria
+56994	ENSG00000111666	CHPT1	Vesicles	Vesicular system
+5700	ENSG00000100764	PSMC1	Cytosol	Cytosol
+5700	ENSG00000100764	PSMC1	Nucleoplasm	Nucleoplasm
+57003	ENSG00000108588	CCDC47	Endoplasmic reticulum	Endoplasmic reticulum
+5701	ENSG00000161057	PSMC2	Cytoplasmic bodies	Cytosol
+5701	ENSG00000161057	PSMC2	Cytosol	Cytosol
+57019	ENSG00000005194	CIAPIN1	Mitochondria	Mitochondria
+57019	ENSG00000005194	CIAPIN1	Nucleoplasm	Nucleoplasm
+5702	ENSG00000165916	PSMC3	Cytosol	Cytosol
+5702	ENSG00000165916	PSMC3	Nuclear bodies	Nucleoplasm
+5702	ENSG00000165916	PSMC3	Nucleoplasm	Nucleoplasm
+5705	ENSG00000087191	PSMC5	Cytosol	Cytosol
+5705	ENSG00000087191	PSMC5	Plasma membrane	Plasma membrane/cell junctions
+5706	ENSG00000100519	PSMC6	Cytosol	Cytosol
+5706	ENSG00000100519	PSMC6	Nucleoplasm	Nucleoplasm
+5706	ENSG00000100519	PSMC6	Plasma membrane	Plasma membrane/cell junctions
+57062	ENSG00000089737	DDX24	Cytosol	Cytosol
+57062	ENSG00000089737	DDX24	Nucleoli	Nucleoli
+5707	ENSG00000173692	PSMD1	Actin filaments	Actin-filament associated
+5707	ENSG00000173692	PSMD1	Nucleoplasm	Nucleoplasm
+5708	ENSG00000175166	PSMD2	Centriolar satellite	Centrosome
+5708	ENSG00000175166	PSMD2	Cytokinetic bridge	Microtubule associated
+5708	ENSG00000175166	PSMD2	Cytosol	Cytosol
+5708	ENSG00000175166	PSMD2	Flagellar centriole	Sperm structures
+5708	ENSG00000175166	PSMD2	Nucleoplasm	Nucleoplasm
+5709	ENSG00000108344	PSMD3	Cytosol	Cytosol
+5709	ENSG00000108344	PSMD3	Nucleoplasm	Nucleoplasm
+57092	ENSG00000081154	PCNP	Nuclear bodies	Nucleoplasm
+57092	ENSG00000081154	PCNP	Nucleoplasm	Nucleoplasm
+5710	ENSG00000159352	PSMD4	Cytosol	Cytosol
+5710	ENSG00000159352	PSMD4	Nucleoplasm	Nucleoplasm
+57129	ENSG00000136522	MRPL47	Mitochondria	Mitochondria
+57136	ENSG00000101474	APMAP	Plasma membrane	Plasma membrane/cell junctions
+5714	ENSG00000099341	PSMD8	Cytosol	Cytosol
+5714	ENSG00000099341	PSMD8	Nuclear speckles	Nucleoplasm
+5716	ENSG00000101843	PSMD10	Cytosol	Cytosol
+5716	ENSG00000101843	PSMD10	Calyx	Sperm structures
+5716	ENSG00000101843	PSMD10	Mid piece	Sperm structures
+5716	ENSG00000101843	PSMD10	Perinuclear theca	Sperm structures
+5716	ENSG00000101843	PSMD10	Principal piece	Sperm structures
+5717	ENSG00000108671	PSMD11	Golgi apparatus	Golgi apparatus
+5717	ENSG00000108671	PSMD11	Nucleoplasm	Nucleoplasm
+5717	ENSG00000108671	PSMD11	Perinuclear theca	Sperm structures
+5717	ENSG00000108671	PSMD11	Principal piece	Sperm structures
+5718	ENSG00000197170	PSMD12	Cytosol	Cytosol
+5718	ENSG00000197170	PSMD12	Microtubules	Microtubule associated
+5718	ENSG00000197170	PSMD12	Nucleoplasm	Nucleoplasm
+5720	ENSG00000092010	PSME1	Cytosol	Cytosol
+5720	ENSG00000092010	PSME1	Nuclear bodies	Nucleoplasm
+5721	ENSG00000100911	PSME2	Nucleoplasm	Nucleoplasm
+5725	ENSG00000011304	PTBP1	Nucleoplasm	Nucleoplasm
+57402	ENSG00000189334	S100A14	Cytosol	Cytosol
+57402	ENSG00000189334	S100A14	Cell Junctions	Plasma membrane/cell junctions
+57402	ENSG00000189334	S100A14	Nuclear bodies	Nucleoplasm
+57402	ENSG00000189334	S100A14	Plasma membrane	Plasma membrane/cell junctions
+57410	ENSG00000142186	SCYL1	Cytosol	Cytosol
+57459	ENSG00000143614	GATAD2B	Nucleoplasm	Nucleoplasm
+57466	ENSG00000156304	SCAF4	Nucleoplasm	Nucleoplasm
+57505	ENSG00000124608	AARS2	Mitochondria	Mitochondria
+57510	ENSG00000124571	XPO5	Cytosol	Cytosol
+57510	ENSG00000124571	XPO5	Nucleoplasm	Nucleoplasm
+57532	ENSG00000108256	NUFIP2	Cytosol	Cytosol
+57532	ENSG00000108256	NUFIP2	Nuclear bodies	Nucleoplasm
+57532	ENSG00000108256	NUFIP2	Nucleoplasm	Nucleoplasm
+5756	ENSG00000151239	TWF1	Cytosol	Cytosol
+5757	ENSG00000187514	PTMA	Nucleoplasm	Nucleoplasm
+5757	ENSG00000187514	PTMA	Cytosol	Cytosol
+57584	ENSG00000107863	ARHGAP21	Actin filaments	Actin-filament associated
+57584	ENSG00000107863	ARHGAP21	Cell Junctions	Plasma membrane/cell junctions
+57606	ENSG00000109171	SLAIN2	Basal body	Primary cilium
+57606	ENSG00000109171	SLAIN2	Centrosome	Centrosome
+57606	ENSG00000109171	SLAIN2	Cytosol	Cytosol
+57606	ENSG00000109171	SLAIN2	Primary cilium tip	Primary cilium
+5763	ENSG00000159335	PTMS	Nucleoli	Nucleoli
+5763	ENSG00000159335	PTMS	Nucleoli rim	Nucleoli
+5763	ENSG00000159335	PTMS	Nucleoplasm	Nucleoplasm
+57670	ENSG00000122778	KIAA1549	Intermediate filaments	Intermediate filaments
+57670	ENSG00000122778	KIAA1549	Nuclear membrane	Nuclear membrane
+57683	ENSG00000204186	ZDBF2	Cytosol	Cytosol
+57683	ENSG00000204186	ZDBF2	Nucleoplasm	Nucleoplasm
+5770	ENSG00000196396	PTPN1	Endoplasmic reticulum	Endoplasmic reticulum
+57700	ENSG00000151553	FHIP2A	Cytosol	Cytosol
+57700	ENSG00000151553	FHIP2A	Nuclear speckles	Nucleoplasm
+57707	ENSG00000140950	MEAK7	Cytosol	Cytosol
+57805	ENSG00000158941	CCAR2	Nuclear bodies	Nucleoplasm
+57805	ENSG00000158941	CCAR2	Nucleoplasm	Nucleoplasm
+5805	ENSG00000150787	PTS	Cytosol	Cytosol
+581	ENSG00000087088	BAX	Plasma membrane	Plasma membrane/cell junctions
+581	ENSG00000087088	BAX	Vesicles	Vesicular system
+5814	ENSG00000146676	PURB	Nucleoplasm	Nucleoplasm
+5825	ENSG00000117528	ABCD3	Peroxisomes	Vesicular system
+5832	ENSG00000059573	ALDH18A1	Mitochondria	Mitochondria
+5834	ENSG00000100994	PYGB	Cytosol	Cytosol
+58490	ENSG00000101413	RPRD1B	Nucleoplasm	Nucleoplasm
+58493	ENSG00000148153	INIP	Nucleoplasm	Nucleoplasm
+58513	ENSG00000127527	EPS15L1	Vesicles	Vesicular system
+58533	ENSG00000129515	SNX6	Endosomes	Vesicular system
+58533	ENSG00000129515	SNX6	Lysosomes	Vesicular system
+5859	ENSG00000172053	QARS1	Cytosol	Cytosol
+5860	ENSG00000151552	QDPR	Mitochondria	Mitochondria
+5861	ENSG00000138069	RAB1A	Cytosol	Cytosol
+5861	ENSG00000138069	RAB1A	Endoplasmic reticulum	Endoplasmic reticulum
+5865	ENSG00000169213	RAB3B	Cell Junctions	Plasma membrane/cell junctions
+5870	ENSG00000175582	RAB6A	Golgi apparatus	Golgi apparatus
+5873	ENSG00000069974	RAB27A	Mid piece	Sperm structures
+5873	ENSG00000069974	RAB27A	Principal piece	Sperm structures
+5878	ENSG00000108774	RAB5C	Endosomes	Vesicular system
+5886	ENSG00000179262	RAD23A	Nucleoplasm	Nucleoplasm
+5887	ENSG00000119318	RAD23B	Cytosol	Cytosol
+5887	ENSG00000119318	RAD23B	Nucleoplasm	Nucleoplasm
+5901	ENSG00000132341	RAN	Nucleoplasm	Nucleoplasm
+5903	ENSG00000153201	RANBP2	Nuclear membrane	Nuclear membrane
+5903	ENSG00000153201	RANBP2	Nucleoplasm	Nucleoplasm
+5928	ENSG00000162521	RBBP4	Nucleoplasm	Nucleoplasm
+5929	ENSG00000117222	RBBP5	Nucleoli	Nucleoli
+5929	ENSG00000117222	RBBP5	Nucleoplasm	Nucleoplasm
+59344	ENSG00000179148	ALOXE3	Cytosol	Cytosol
+59344	ENSG00000179148	ALOXE3	Plasma membrane	Plasma membrane/cell junctions
+5935	ENSG00000102317	RBM3	Nucleoplasm	Nucleoplasm
+5962	ENSG00000137710	RDX	Plasma membrane	Plasma membrane/cell junctions
+5965	ENSG00000004700	RECQL	Nucleoplasm	Nucleoplasm
+5970	ENSG00000173039	RELA	Cytosol	Cytosol
+5976	ENSG00000005007	UPF1	Cytosol	Cytosol
+5976	ENSG00000005007	UPF1	Nucleoplasm	Nucleoplasm
+5978	ENSG00000084093	REST	Cytosol	Cytosol
+5978	ENSG00000084093	REST	Nucleoplasm	Nucleoplasm
+5981	ENSG00000035928	RFC1	Nucleoplasm	Nucleoplasm
+5982	ENSG00000049541	RFC2	Nucleoplasm	Nucleoplasm
+5982	ENSG00000049541	RFC2	Golgi apparatus	Golgi apparatus
+5983	ENSG00000133119	RFC3	Nucleoplasm	Nucleoplasm
+5983	ENSG00000133119	RFC3	Vesicles	Vesicular system
+5984	ENSG00000163918	RFC4	Nucleoplasm	Nucleoplasm
+5985	ENSG00000111445	RFC5	Nucleoplasm	Nucleoplasm
+6045	ENSG00000121481	RNF2	Nuclear bodies	Nucleoplasm
+6045	ENSG00000121481	RNF2	Nucleoplasm	Nucleoplasm
+6048	ENSG00000204308	RNF5	Endoplasmic reticulum	Endoplasmic reticulum
+60488	ENSG00000061794	MRPS35	Mitochondria	Mitochondria
+6050	ENSG00000023191	RNH1	Cytosol	Cytosol
+6050	ENSG00000023191	RNH1	Nucleoplasm	Nucleoplasm
+60625	ENSG00000101452	DHX35	Centrosome	Centrosome
+60625	ENSG00000101452	DHX35	Nuclear bodies	Nucleoplasm
+60625	ENSG00000101452	DHX35	Nucleoplasm	Nucleoplasm
+6117	ENSG00000132383	RPA1	Nucleoplasm	Nucleoplasm
+6118	ENSG00000117748	RPA2	Nuclear bodies	Nucleoplasm
+6118	ENSG00000117748	RPA2	Nucleoplasm	Nucleoplasm
+6122	ENSG00000100316	RPL3	Cytosol	Cytosol
+6122	ENSG00000100316	RPL3	Nucleoli	Nucleoli
+6124	ENSG00000174444	RPL4	Cytosol	Cytosol
+6124	ENSG00000174444	RPL4	Endoplasmic reticulum	Endoplasmic reticulum
+6125	ENSG00000122406	RPL5	Cytosol	Cytosol
+6125	ENSG00000122406	RPL5	Endoplasmic reticulum	Endoplasmic reticulum
+6125	ENSG00000122406	RPL5	Nucleoli	Nucleoli
+6125	ENSG00000122406	RPL5	Nucleoli rim	Nucleoli
+6130	ENSG00000148303	RPL7A	Nucleoli	Nucleoli
+6130	ENSG00000148303	RPL7A	Vesicles	Vesicular system
+6137	ENSG00000167526	RPL13	Cytosol	Cytosol
+6137	ENSG00000167526	RPL13	Endoplasmic reticulum	Endoplasmic reticulum
+6137	ENSG00000167526	RPL13	Nucleoli	Nucleoli
+6142	ENSG00000105640	RPL18A	Cytosol	Cytosol
+6142	ENSG00000105640	RPL18A	Nucleoli	Nucleoli
+6143	ENSG00000108298	RPL19	Cytosol	Cytosol
+6143	ENSG00000108298	RPL19	Nucleoli	Nucleoli
+6147	ENSG00000198242	RPL23A	Cytosol	Cytosol
+6147	ENSG00000198242	RPL23A	Endoplasmic reticulum	Endoplasmic reticulum
+6147	ENSG00000198242	RPL23A	Nucleoli fibrillar center	Nucleoli
+6154	ENSG00000161970	RPL26	Cytosol	Cytosol
+6154	ENSG00000161970	RPL26	Endoplasmic reticulum	Endoplasmic reticulum
+6154	ENSG00000161970	RPL26	Nucleoli	Nucleoli
+6156	ENSG00000156482	RPL30	Cytosol	Cytosol
+6156	ENSG00000156482	RPL30	Endoplasmic reticulum	Endoplasmic reticulum
+6157	ENSG00000166441	RPL27A	Cytosol	Cytosol
+6157	ENSG00000166441	RPL27A	Endoplasmic reticulum	Endoplasmic reticulum
+6158	ENSG00000108107	RPL28	Cytosol	Cytosol
+6158	ENSG00000108107	RPL28	Endoplasmic reticulum	Endoplasmic reticulum
+6159	ENSG00000162244	RPL29	Cytosol	Cytosol
+6159	ENSG00000162244	RPL29	Endoplasmic reticulum	Endoplasmic reticulum
+6159	ENSG00000162244	RPL29	Nucleoli	Nucleoli
+6166	ENSG00000165502	RPL36AL	Cytosol	Cytosol
+6166	ENSG00000165502	RPL36AL	Endoplasmic reticulum	Endoplasmic reticulum
+6166	ENSG00000165502	RPL36AL	Plasma membrane	Plasma membrane/cell junctions
+6168	ENSG00000197756	RPL37A	Cytosol	Cytosol
+6168	ENSG00000197756	RPL37A	Endoplasmic reticulum	Endoplasmic reticulum
+6169	ENSG00000172809	RPL38	Cytosol	Cytosol
+6169	ENSG00000172809	RPL38	Endoplasmic reticulum	Endoplasmic reticulum
+6173	ENSG00000241343	RPL36A	Cytosol	Cytosol
+6173	ENSG00000241343	RPL36A	Endoplasmic reticulum	Endoplasmic reticulum
+6175	ENSG00000089157	RPLP0	Cytosol	Cytosol
+6175	ENSG00000089157	RPLP0	Endoplasmic reticulum	Endoplasmic reticulum
+6181	ENSG00000177600	RPLP2	Cytosol	Cytosol
+6181	ENSG00000177600	RPLP2	Mitotic spindle	Microtubule associated
+6181	ENSG00000177600	RPLP2	Nuclear speckles	Nucleoplasm
+6182	ENSG00000262814	MRPL12	Mitochondria	Mitochondria
+6184	ENSG00000163902	RPN1	Cytosol	Cytosol
+6184	ENSG00000163902	RPN1	Endoplasmic reticulum	Endoplasmic reticulum
+6185	ENSG00000118705	RPN2	Endoplasmic reticulum	Endoplasmic reticulum
+6188	ENSG00000149273	RPS3	Cytosol	Cytosol
+6188	ENSG00000149273	RPS3	Endoplasmic reticulum	Endoplasmic reticulum
+6189	ENSG00000145425	RPS3A	Cytosol	Cytosol
+6189	ENSG00000145425	RPS3A	Endoplasmic reticulum	Endoplasmic reticulum
+6189	ENSG00000145425	RPS3A	Nucleoli	Nucleoli
+6193	ENSG00000083845	RPS5	Cytosol	Cytosol
+6193	ENSG00000083845	RPS5	Endoplasmic reticulum	Endoplasmic reticulum
+6194	ENSG00000137154	RPS6	Cytosol	Cytosol
+6194	ENSG00000137154	RPS6	Endoplasmic reticulum	Endoplasmic reticulum
+6201	ENSG00000171863	RPS7	Cytosol	Cytosol
+6201	ENSG00000171863	RPS7	Endoplasmic reticulum	Endoplasmic reticulum
+6202	ENSG00000142937	RPS8	Cytosol	Cytosol
+6202	ENSG00000142937	RPS8	Endoplasmic reticulum	Endoplasmic reticulum
+6204	ENSG00000124614	RPS10	Cytosol	Cytosol
+6205	ENSG00000142534	RPS11	Cytosol	Cytosol
+6205	ENSG00000142534	RPS11	Endoplasmic reticulum	Endoplasmic reticulum
+6205	ENSG00000142534	RPS11	Nucleoli	Nucleoli
+6206	ENSG00000112306	RPS12	Cytosol	Cytosol
+6206	ENSG00000112306	RPS12	Golgi apparatus	Golgi apparatus
+6206	ENSG00000112306	RPS12	Vesicles	Vesicular system
+6207	ENSG00000110700	RPS13	Endoplasmic reticulum	Endoplasmic reticulum
+6208	ENSG00000164587	RPS14	Cytosol	Cytosol
+6208	ENSG00000164587	RPS14	Endoplasmic reticulum	Endoplasmic reticulum
+6217	ENSG00000105193	RPS16	Cytosol	Cytosol
+6217	ENSG00000105193	RPS16	Endoplasmic reticulum	Endoplasmic reticulum
+6222	ENSG00000231500	RPS18	Cytosol	Cytosol
+6223	ENSG00000105372	RPS19	Nucleoplasm	Nucleoplasm
+6227	ENSG00000171858	RPS21	Cytosol	Cytosol
+6227	ENSG00000171858	RPS21	Endoplasmic reticulum	Endoplasmic reticulum
+6229	ENSG00000138326	RPS24	Cytosol	Cytosol
+6229	ENSG00000138326	RPS24	Endoplasmic reticulum	Endoplasmic reticulum
+6230	ENSG00000118181	RPS25	Cytosol	Cytosol
+6230	ENSG00000118181	RPS25	Endoplasmic reticulum	Endoplasmic reticulum
+6234	ENSG00000233927	RPS28	Cytosol	Cytosol
+6238	ENSG00000125844	RRBP1	Endoplasmic reticulum	Endoplasmic reticulum
+6240	ENSG00000167325	RRM1	Cytosol	Cytosol
+6249	ENSG00000130779	CLIP1	Cytosol	Cytosol
+6249	ENSG00000130779	CLIP1	Microtubule ends	Microtubule associated
+6249	ENSG00000130779	CLIP1	Mid piece	Sperm structures
+6249	ENSG00000130779	CLIP1	Principal piece	Sperm structures
+6251	ENSG00000148484	RSU1	Vesicles	Vesicular system
+6252	ENSG00000139970	RTN1	Endoplasmic reticulum	Endoplasmic reticulum
+6261	ENSG00000196218	RYR1	Cytosol	Cytosol
+6261	ENSG00000196218	RYR1	Golgi apparatus	Golgi apparatus
+6261	ENSG00000196218	RYR1	Vesicles	Vesicular system
+6277	ENSG00000197956	S100A6	Cytosol	Cytosol
+6277	ENSG00000197956	S100A6	Plasma membrane	Plasma membrane/cell junctions
+6278	ENSG00000143556	S100A7	Cytosol	Cytosol
+6280	ENSG00000163220	S100A9	Cytosol	Cytosol
+6280	ENSG00000163220	S100A9	Intermediate filaments	Intermediate filaments
+6280	ENSG00000163220	S100A9	Plasma membrane	Plasma membrane/cell junctions
+6282	ENSG00000163191	S100A11	Cytosol	Cytosol
+6282	ENSG00000163191	S100A11	Nuclear speckles	Nucleoplasm
+6282	ENSG00000163191	S100A11	Nucleoplasm	Nucleoplasm
+6294	ENSG00000160633	SAFB	Midbody	Microtubule associated
+6294	ENSG00000160633	SAFB	Nucleoplasm	Nucleoplasm
+6311	ENSG00000204842	ATXN2	Cytosol	Cytosol
+6318	ENSG00000206073	SERPINB4	Cytosol	Cytosol
+6389	ENSG00000073578	SDHA	Mitochondria	Mitochondria
+63905	ENSG00000101363	MANBAL	Mitochondria	Mitochondria
+63905	ENSG00000101363	MANBAL	Nucleoplasm	Nucleoplasm
+6396	ENSG00000157020	SEC13	Nucleoplasm	Nucleoplasm
+6396	ENSG00000157020	SEC13	Vesicles	Vesicular system
+64087	ENSG00000131844	MCCC2	Mitochondria	Mitochondria
+64131	ENSG00000103489	XYLT1	Endoplasmic reticulum	Endoplasmic reticulum
+64131	ENSG00000103489	XYLT1	Plasma membrane	Plasma membrane/cell junctions
+64175	ENSG00000117385	P3H1	Nucleoli	Nucleoli
+64175	ENSG00000117385	P3H1	Vesicles	Vesicular system
+6418	ENSG00000119335	SET	Lipid droplets	Vesicular system
+6418	ENSG00000119335	SET	Nucleoplasm	Nucleoplasm
+642	ENSG00000108578	BLMH	Cytosol	Cytosol
+642	ENSG00000108578	BLMH	Nuclear bodies	Nucleoplasm
+642	ENSG00000108578	BLMH	Nucleoplasm	Nucleoplasm
+64207	ENSG00000119669	IRF2BPL	Nucleoplasm	Nucleoplasm
+64207	ENSG00000119669	IRF2BPL	Nuclear bodies	Nucleoplasm
+6421	ENSG00000116560	SFPQ	Nucleoplasm	Nucleoplasm
+64215	ENSG00000136770	DNAJC1	Endoplasmic reticulum	Endoplasmic reticulum
+6426	ENSG00000136450	SRSF1	Cytosol	Cytosol
+6426	ENSG00000136450	SRSF1	Nucleoplasm	Nucleoplasm
+6427	ENSG00000161547	SRSF2	Nucleoplasm	Nucleoplasm
+6427	ENSG00000161547	SRSF2	Cytosol	Cytosol
+6428	ENSG00000112081	SRSF3	Nucleoplasm	Nucleoplasm
+6430	ENSG00000100650	SRSF5	Nucleoplasm	Nucleoplasm
+6430	ENSG00000100650	SRSF5	Cytosol	Cytosol
+6430	ENSG00000100650	SRSF5	Nucleoli	Nucleoli
+6432	ENSG00000115875	SRSF7	Nucleoplasm	Nucleoplasm
+64422	ENSG00000144848	ATG3	Cytosol	Cytosol
+64422	ENSG00000144848	ATG3	Plasma membrane	Plasma membrane/cell junctions
+64425	ENSG00000137054	POLR1E	Nucleoli fibrillar center	Nucleoli
+64425	ENSG00000137054	POLR1E	Nucleoplasm	Nucleoplasm
+6449	ENSG00000104969	SGTA	Nucleoplasm	Nucleoplasm
+645	ENSG00000090013	BLVRB	Cytosol	Cytosol
+645	ENSG00000090013	BLVRB	Nucleoplasm	Nucleoplasm
+645	ENSG00000090013	BLVRB	Plasma membrane	Plasma membrane/cell junctions
+645	ENSG00000090013	BLVRB	Vesicles	Vesicular system
+64710	ENSG00000069275	NUCKS1	Nucleoli	Nucleoli
+64710	ENSG00000069275	NUCKS1	Nucleoplasm	Nucleoplasm
+6472	ENSG00000182199	SHMT2	Mitochondria	Mitochondria
+6472	ENSG00000182199	SHMT2	Microtubules	Microtubule associated
+64746	ENSG00000182827	ACBD3	Golgi apparatus	Golgi apparatus
+64759	ENSG00000136205	TNS3	Focal adhesion sites	Actin-filament associated
+64785	ENSG00000181938	GINS3	Nucleoplasm	Nucleoplasm
+64786	ENSG00000121749	TBC1D15	Cytosol	Cytosol
+64786	ENSG00000121749	TBC1D15	Mitochondria	Mitochondria
+64949	ENSG00000125901	MRPS26	Mitochondria	Mitochondria
+64965	ENSG00000135972	MRPS9	Mitochondria	Mitochondria
+64969	ENSG00000144029	MRPS5	Mitochondria	Mitochondria
+64979	ENSG00000171421	MRPL36	Mitochondria	Mitochondria
+64981	ENSG00000130312	MRPL34	Mitochondria	Mitochondria
+65003	ENSG00000174547	MRPL11	Mitochondria	Mitochondria
+65005	ENSG00000143436	MRPL9	Mitochondria	Mitochondria
+65008	ENSG00000169288	MRPL1	Mitochondria	Mitochondria
+65080	ENSG00000135900	MRPL44	Mitochondria	Mitochondria
+65108	ENSG00000175130	MARCKSL1	Cytokinetic bridge	Microtubule associated
+65108	ENSG00000175130	MARCKSL1	Endoplasmic reticulum	Endoplasmic reticulum
+65108	ENSG00000175130	MARCKSL1	Mitotic spindle	Microtubule associated
+65108	ENSG00000175130	MARCKSL1	Plasma membrane	Plasma membrane/cell junctions
+65108	ENSG00000175130	MARCKSL1	Primary cilium	Primary cilium
+65125	ENSG00000060237	WNK1	Cytosol	Cytosol
+6520	ENSG00000168003	SLC3A2	Plasma membrane	Plasma membrane/cell junctions
+65260	ENSG00000162377	COA7	Mitochondria	Mitochondria
+65260	ENSG00000162377	COA7	Nucleoplasm	Nucleoplasm
+65263	ENSG00000104524	PYCR3	Cytosol	Cytosol
+65264	ENSG00000159202	UBE2Z	Cytosol	Cytosol
+65264	ENSG00000159202	UBE2Z	Nucleoplasm	Nucleoplasm
+654364	ENSG00000011052	NME1-NME2	Cytosol	Cytosol
+6597	ENSG00000127616	SMARCA4	Nucleoli fibrillar center	Nucleoli
+6597	ENSG00000127616	SMARCA4	Nucleoli rim	Nucleoli
+6597	ENSG00000127616	SMARCA4	Nucleoplasm	Nucleoplasm
+6598	ENSG00000099956	SMARCB1	Nucleoli fibrillar center	Nucleoli
+6598	ENSG00000099956	SMARCB1	Nucleoplasm	Nucleoplasm
+65981	ENSG00000110888	CAPRIN2	Cytosol	Cytosol
+65981	ENSG00000110888	CAPRIN2	Centrosome	Centrosome
+65982	ENSG00000121413	ZSCAN18	Basal body	Primary cilium
+65982	ENSG00000121413	ZSCAN18	Cytosol	Cytosol
+65982	ENSG00000121413	ZSCAN18	Nucleoplasm	Nucleoplasm
+65982	ENSG00000121413	ZSCAN18	Primary cilium	Primary cilium
+6599	ENSG00000173473	SMARCC1	Nucleoplasm	Nucleoplasm
+65993	ENSG00000074071	MRPS34	Mitochondria	Mitochondria
+6601	ENSG00000139613	SMARCC2	Nucleoplasm	Nucleoplasm
+6602	ENSG00000066117	SMARCD1	Nucleoplasm	Nucleoplasm
+6602	ENSG00000066117	SMARCD1	Vesicles	Vesicular system
+6603	ENSG00000108604	SMARCD2	Nucleoplasm	Nucleoplasm
+6604	ENSG00000082014	SMARCD3	Nucleoplasm	Nucleoplasm
+6605	ENSG00000073584	SMARCE1	Nucleoplasm	Nucleoplasm
+6606	ENSG00000172062	SMN1	Cytosol	Cytosol
+6606	ENSG00000172062	SMN1	Nuclear bodies	Nucleoplasm
+6611	ENSG00000102172	SMS	Cytosol	Cytosol
+6611	ENSG00000102172	SMS	Nuclear bodies	Nucleoplasm
+6624	ENSG00000075618	FSCN1	Cytosol	Cytosol
+6626	ENSG00000077312	SNRPA	Nucleoplasm	Nucleoplasm
+6627	ENSG00000131876	SNRPA1	Nuclear bodies	Nucleoplasm
+6627	ENSG00000131876	SNRPA1	Nuclear speckles	Nucleoplasm
+6627	ENSG00000131876	SNRPA1	Nucleoplasm	Nucleoplasm
+6628	ENSG00000125835	SNRPB	Nucleoplasm	Nucleoplasm
+6629	ENSG00000125870	SNRPB2	Nuclear speckles	Nucleoplasm
+6629	ENSG00000125870	SNRPB2	Cytoplasmic bodies	Cytosol
+6631	ENSG00000124562	SNRPC	Nucleoplasm	Nucleoplasm
+6633	ENSG00000125743	SNRPD2	Cytosol	Cytosol
+6634	ENSG00000100028	SNRPD3	Cytosol	Cytosol
+6634	ENSG00000100028	SNRPD3	Nuclear bodies	Nucleoplasm
+6634	ENSG00000100028	SNRPD3	Nucleoplasm	Nucleoplasm
+6643	ENSG00000205302	SNX2	Endosomes	Vesicular system
+6643	ENSG00000205302	SNX2	Lysosomes	Vesicular system
+6646	ENSG00000057252	SOAT1	Endoplasmic reticulum	Endoplasmic reticulum
+6647	ENSG00000142168	SOD1	Nucleoplasm	Nucleoplasm
+6647	ENSG00000142168	SOD1	Cytosol	Cytosol
+6651	ENSG00000159140	SON	Nuclear speckles	Nucleoplasm
+6652	ENSG00000140263	SORD	Acrosome	Sperm structures
+6652	ENSG00000140263	SORD	Cytosol	Cytosol
+6652	ENSG00000140263	SORD	Equatorial segment	Sperm structures
+6678	ENSG00000113140	SPARC	Vesicles	Vesicular system
+6709	ENSG00000197694	SPTAN1	Microtubules	Microtubule associated
+6727	ENSG00000140319	SRP14	Nucleoli	Nucleoli
+6727	ENSG00000140319	SRP14	Nucleoplasm	Nucleoplasm
+6728	ENSG00000153037	SRP19	Cytosol	Cytosol
+6729	ENSG00000100883	SRP54	Cytosol	Cytosol
+6737	ENSG00000132109	TRIM21	Nucleoplasm	Nucleoplasm
+6738	ENSG00000116747	RO60	Cytosol	Cytosol
+6741	ENSG00000138385	SSB	Nucleoplasm	Nucleoplasm
+6742	ENSG00000106028	SSBP1	Mitochondria	Mitochondria
+6742	ENSG00000106028	SSBP1	Calyx	Sperm structures
+6742	ENSG00000106028	SSBP1	Principal piece	Sperm structures
+675	ENSG00000139618	BRCA2	Nucleoplasm	Nucleoplasm
+675	ENSG00000139618	BRCA2	Cytosol	Cytosol
+6760	ENSG00000141380	SS18	Cytosol	Cytosol
+6760	ENSG00000141380	SS18	Nucleoplasm	Nucleoplasm
+6772	ENSG00000115415	STAT1	Cytosol	Cytosol
+6772	ENSG00000115415	STAT1	Nucleoplasm	Nucleoplasm
+6774	ENSG00000168610	STAT3	Cytosol	Cytosol
+6774	ENSG00000168610	STAT3	Nucleoplasm	Nucleoplasm
+6811	ENSG00000162236	STX5	Golgi apparatus	Golgi apparatus
+6811	ENSG00000162236	STX5	Nucleoplasm	Nucleoplasm
+6814	ENSG00000116266	STXBP3	Cytosol	Cytosol
+6814	ENSG00000116266	STXBP3	Nucleoplasm	Nucleoplasm
+682	ENSG00000172270	BSG	End piece	Sperm structures
+682	ENSG00000172270	BSG	Mid piece	Sperm structures
+682	ENSG00000172270	BSG	Principal piece	Sperm structures
+682	ENSG00000172270	BSG	Vesicles	Vesicular system
+6822	ENSG00000105398	SULT2A1	Cytosol	Cytosol
+6829	ENSG00000196235	SUPT5H	Nucleoplasm	Nucleoplasm
+684	ENSG00000130303	BST2	Golgi apparatus	Golgi apparatus
+684	ENSG00000130303	BST2	Vesicles	Vesicular system
+6867	ENSG00000147526	TACC1	Cytosol	Cytosol
+6874	ENSG00000130699	TAF4	Nucleoplasm	Nucleoplasm
+6876	ENSG00000149591	TAGLN	Cytosol	Cytosol
+6876	ENSG00000149591	TAGLN	Microtubules	Microtubule associated
+6876	ENSG00000149591	TAGLN	Mitochondria	Mitochondria
+6876	ENSG00000149591	TAGLN	Nucleoplasm	Nucleoplasm
+6877	ENSG00000148835	TAF5	Nucleoplasm	Nucleoplasm
+6885	ENSG00000135341	MAP3K7	Cytosol	Cytosol
+6885	ENSG00000135341	MAP3K7	Plasma membrane	Plasma membrane/cell junctions
+6888	ENSG00000177156	TALDO1	Cytosol	Cytosol
+689	ENSG00000145741	BTF3	Cytosol	Cytosol
+6897	ENSG00000113407	TARS1	Actin filaments	Actin-filament associated
+6897	ENSG00000113407	TARS1	Cytosol	Cytosol
+6902	ENSG00000171530	TBCA	Microtubules	Microtubule associated
+6917	ENSG00000187735	TCEA1	Nucleoplasm	Nucleoplasm
+6917	ENSG00000187735	TCEA1	Nucleoli	Nucleoli
+6949	ENSG00000070814	TCOF1	Nucleoli fibrillar center	Nucleoli
+7001	ENSG00000167815	PRDX2	Cytosol	Cytosol
+7014	ENSG00000132604	TERF2	Nuclear bodies	Nucleoplasm
+7014	ENSG00000132604	TERF2	Nucleoplasm	Nucleoplasm
+7019	ENSG00000108064	TFAM	Mitochondria	Mitochondria
+7037	ENSG00000072274	TFRC	Endosomes	Vesicular system
+7037	ENSG00000072274	TFRC	Lysosomes	Vesicular system
+7051	ENSG00000092295	TGM1	Plasma membrane	Plasma membrane/cell junctions
+7051	ENSG00000092295	TGM1	Vesicles	Vesicular system
+7064	ENSG00000172009	THOP1	Cytosol	Cytosol
+7082	ENSG00000104067	TJP1	Cell Junctions	Plasma membrane/cell junctions
+7086	ENSG00000163931	TKT	Nucleoplasm	Nucleoplasm
+7086	ENSG00000163931	TKT	Nuclear bodies	Nucleoplasm
+7086	ENSG00000163931	TKT	Nuclear speckles	Nucleoplasm
+7094	ENSG00000137076	TLN1	Centriolar satellite	Centrosome
+7094	ENSG00000137076	TLN1	Cytosol	Cytosol
+7094	ENSG00000137076	TLN1	Focal adhesion sites	Actin-filament associated
+7094	ENSG00000137076	TLN1	Plasma membrane	Plasma membrane/cell junctions
+7095	ENSG00000008952	SEC62	Endoplasmic reticulum	Endoplasmic reticulum
+7095	ENSG00000008952	SEC62	Intermediate filaments	Intermediate filaments
+7110	ENSG00000144747	TMF1	Golgi apparatus	Golgi apparatus
+7112	ENSG00000120802	TMPO	Nuclear membrane	Nuclear membrane
+7128	ENSG00000118503	TNFAIP3	Centrosome	Centrosome
+7128	ENSG00000118503	TNFAIP3	Cytosol	Cytosol
+7162	ENSG00000146242	TPBG	Nucleoplasm	Nucleoplasm
+7167	ENSG00000111669	TPI1	Nucleoplasm	Nucleoplasm
+7170	ENSG00000143549	TPM3	Actin filaments	Actin-filament associated
+7170	ENSG00000143549	TPM3	Cytosol	Cytosol
+7171	ENSG00000167460	TPM4	Actin filaments	Actin-filament associated
+7171	ENSG00000167460	TPM4	Cytosol	Cytosol
+7175	ENSG00000047410	TPR	Nuclear membrane	Nuclear membrane
+7184	ENSG00000166598	HSP90B1	Endoplasmic reticulum	Endoplasmic reticulum
+7203	ENSG00000163468	CCT3	Cytosol	Cytosol
+7203	ENSG00000163468	CCT3	Plasma membrane	Plasma membrane/cell junctions
+7203	ENSG00000163468	CCT3	Vesicles	Vesicular system
+7257	ENSG00000116918	TSNAX	Nucleoplasm	Nucleoplasm
+7257	ENSG00000116918	TSNAX	Cytosol	Cytosol
+7257	ENSG00000116918	TSNAX	Golgi apparatus	Golgi apparatus
+7280	ENSG00000137267	TUBB2A	Cytokinetic bridge	Microtubule associated
+7280	ENSG00000137267	TUBB2A	End piece	Sperm structures
+7280	ENSG00000137267	TUBB2A	Microtubules	Microtubule associated
+7280	ENSG00000137267	TUBB2A	Mitotic spindle	Microtubule associated
+7280	ENSG00000137267	TUBB2A	Primary cilium	Primary cilium
+7280	ENSG00000137267	TUBB2A	Primary cilium tip	Primary cilium
+7280	ENSG00000137267	TUBB2A	Principal piece	Sperm structures
+7280	ENSG00000137267	TUBB2A	Basal body	Primary cilium
+7280	ENSG00000137267	TUBB2A	Flagellar centriole	Sperm structures
+7283	ENSG00000131462	TUBG1	Principal piece	Sperm structures
+7284	ENSG00000178952	TUFM	Mitochondria	Mitochondria
+728689	ENSG00000205609	EIF3CL	Cytosol	Cytosol
+7295	ENSG00000136810	TXN	Cytosol	Cytosol
+7295	ENSG00000136810	TXN	Nucleoplasm	Nucleoplasm
+7296	ENSG00000198431	TXNRD1	Nucleoplasm	Nucleoplasm
+7317	ENSG00000130985	UBA1	Cytosol	Cytosol
+7317	ENSG00000130985	UBA1	Nucleoplasm	Nucleoplasm
+7320	ENSG00000119048	UBE2B	Cytosol	Cytosol
+7320	ENSG00000119048	UBE2B	Flagellar centriole	Sperm structures
+7320	ENSG00000119048	UBE2B	Mid piece	Sperm structures
+7320	ENSG00000119048	UBE2B	Nucleoplasm	Nucleoplasm
+7320	ENSG00000119048	UBE2B	Plasma membrane	Plasma membrane/cell junctions
+7320	ENSG00000119048	UBE2B	Principal piece	Sperm structures
+7320	ENSG00000119048	UBE2B	Vesicles	Vesicular system
+7332	ENSG00000185651	UBE2L3	Cytosol	Cytosol
+7332	ENSG00000185651	UBE2L3	Nucleoplasm	Nucleoplasm
+7335	ENSG00000244687	UBE2V1	Nucleoplasm	Nucleoplasm
+7336	ENSG00000169139	UBE2V2	Nucleoplasm	Nucleoplasm
+7360	ENSG00000169764	UGP2	Centrosome	Centrosome
+7360	ENSG00000169764	UGP2	Mitochondria	Mitochondria
+7360	ENSG00000169764	UGP2	Nucleoplasm	Nucleoplasm
+738	ENSG00000149823	VPS51	Golgi apparatus	Golgi apparatus
+738	ENSG00000149823	VPS51	Vesicles	Vesicular system
+7384	ENSG00000010256	UQCRC1	Mitochondria	Mitochondria
+7385	ENSG00000140740	UQCRC2	Mitochondria	Mitochondria
+7407	ENSG00000204394	VARS1	Cytosol	Cytosol
+7407	ENSG00000204394	VARS1	End piece	Sperm structures
+7407	ENSG00000204394	VARS1	Endoplasmic reticulum	Endoplasmic reticulum
+7407	ENSG00000204394	VARS1	Mid piece	Sperm structures
+7407	ENSG00000204394	VARS1	Principal piece	Sperm structures
+7412	ENSG00000162692	VCAM1	Cell Junctions	Plasma membrane/cell junctions
+7414	ENSG00000035403	VCL	Focal adhesion sites	Actin-filament associated
+7415	ENSG00000165280	VCP	Cytosol	Cytosol
+7415	ENSG00000165280	VCP	Nucleoplasm	Nucleoplasm
+7417	ENSG00000165637	VDAC2	Mitochondria	Mitochondria
+7431	ENSG00000026025	VIM	Intermediate filaments	Intermediate filaments
+7453	ENSG00000140105	WARS1	Cytosol	Cytosol
+7458	ENSG00000106682	EIF4H	Cytosol	Cytosol
+7458	ENSG00000106682	EIF4H	Nuclear bodies	Nucleoplasm
+7458	ENSG00000106682	EIF4H	Nucleoplasm	Nucleoplasm
+746	ENSG00000134825	TMEM258	Cytosol	Cytosol
+746	ENSG00000134825	TMEM258	Plasma membrane	Plasma membrane/cell junctions
+7515	ENSG00000073050	XRCC1	Nucleoplasm	Nucleoplasm
+7520	ENSG00000079246	XRCC5	Nucleoplasm	Nucleoplasm
+7528	ENSG00000100811	YY1	Nuclear bodies	Nucleoplasm
+7528	ENSG00000100811	YY1	Nucleoli fibrillar center	Nucleoli
+7528	ENSG00000100811	YY1	Nucleoplasm	Nucleoplasm
+7529	ENSG00000166913	YWHAB	Cytosol	Cytosol
+7531	ENSG00000108953	YWHAE	Cytosol	Cytosol
+7532	ENSG00000170027	YWHAG	Cytosol	Cytosol
+7533	ENSG00000128245	YWHAH	Cytosol	Cytosol
+7533	ENSG00000128245	YWHAH	Nucleoli rim	Nucleoli
+7533	ENSG00000128245	YWHAH	Nucleoplasm	Nucleoplasm
+7534	ENSG00000164924	YWHAZ	Cytosol	Cytosol
+7536	ENSG00000168066	SF1	Nucleoplasm	Nucleoplasm
+776	ENSG00000157388	CACNA1D	Nuclear membrane	Nuclear membrane
+7818	ENSG00000132676	DAP3	Mitochondria	Mitochondria
+7818	ENSG00000132676	DAP3	Nucleoplasm	Nucleoplasm
+7874	ENSG00000187555	USP7	Cytosol	Cytosol
+7874	ENSG00000187555	USP7	Nuclear bodies	Nucleoplasm
+7874	ENSG00000187555	USP7	Nucleoplasm	Nucleoplasm
+7879	ENSG00000075785	RAB7A	Lysosomes	Vesicular system
+79001	ENSG00000167397	VKORC1	Endoplasmic reticulum	Endoplasmic reticulum
+79026	ENSG00000124942	AHNAK	Cytosol	Cytosol
+79026	ENSG00000124942	AHNAK	Plasma membrane	Plasma membrane/cell junctions
+7905	ENSG00000129625	REEP5	Endoplasmic reticulum	Endoplasmic reticulum
+79050	ENSG00000184967	NOC4L	Nucleoli	Nucleoli
+79050	ENSG00000184967	NOC4L	Nucleoplasm	Nucleoplasm
+79068	ENSG00000140718	FTO	Cytosol	Cytosol
+79068	ENSG00000140718	FTO	Vesicles	Vesicular system
+79073	ENSG00000110108	TMEM109	Actin filaments	Actin-filament associated
+79073	ENSG00000110108	TMEM109	Endoplasmic reticulum	Endoplasmic reticulum
+79073	ENSG00000110108	TMEM109	Nuclear membrane	Nuclear membrane
+79073	ENSG00000110108	TMEM109	Vesicles	Vesicular system
+79077	ENSG00000179958	DCTPP1	Cytosol	Cytosol
+79077	ENSG00000179958	DCTPP1	Nucleoplasm	Nucleoplasm
+79084	ENSG00000116455	WDR77	Cytosol	Cytosol
+79084	ENSG00000116455	WDR77	Nucleoplasm	Nucleoplasm
+79084	ENSG00000116455	WDR77	Golgi apparatus	Golgi apparatus
+79086	ENSG00000214046	SMIM7	Golgi apparatus	Golgi apparatus
+7916	ENSG00000204469	PRRC2A	Cytosol	Cytosol
+7916	ENSG00000204469	PRRC2A	Nucleoplasm	Nucleoplasm
+7917	ENSG00000204463	BAG6	Cytosol	Cytosol
+7917	ENSG00000204463	BAG6	Nucleoplasm	Nucleoplasm
+7917	ENSG00000204463	BAG6	Vesicles	Vesicular system
+79171	ENSG00000126254	RBM42	Cytosol	Cytosol
+79171	ENSG00000126254	RBM42	Nucleoplasm	Nucleoplasm
+79180	ENSG00000142634	EFHD2	Cytosol	Cytosol
+7919	ENSG00000198563	DDX39B	Nuclear speckles	Nucleoplasm
+79228	ENSG00000131652	THOC6	Nuclear speckles	Nucleoplasm
+79228	ENSG00000131652	THOC6	Nucleoplasm	Nucleoplasm
+7936	ENSG00000204356	NELFE	Nuclear bodies	Nucleoplasm
+7936	ENSG00000204356	NELFE	Nucleoplasm	Nucleoplasm
+79366	ENSG00000198157	HMGN5	Nucleoplasm	Nucleoplasm
+79596	ENSG00000152193	OBI1	Cytosol	Cytosol
+79596	ENSG00000152193	OBI1	Nuclear bodies	Nucleoplasm
+79596	ENSG00000152193	OBI1	Nucleoplasm	Nucleoplasm
+7965	ENSG00000106305	AIMP2	Cytosol	Cytosol
+79676	ENSG00000111325	OGFOD2	Nuclear bodies	Nucleoplasm
+79676	ENSG00000111325	OGFOD2	Nucleoplasm	Nucleoplasm
+79718	ENSG00000177565	TBL1XR1	Nucleoplasm	Nucleoplasm
+79745	ENSG00000115295	CLIP4	Vesicles	Vesicular system
+79801	ENSG00000171241	SHCBP1	Midbody	Microtubule associated
+79801	ENSG00000171241	SHCBP1	Mitotic spindle	Microtubule associated
+79801	ENSG00000171241	SHCBP1	Microtubules	Microtubule associated
+79801	ENSG00000171241	SHCBP1	Nuclear bodies	Nucleoplasm
+79813	ENSG00000181090	EHMT1	Nuclear bodies	Nucleoplasm
+79813	ENSG00000181090	EHMT1	Nucleoplasm	Nucleoplasm
+79837	ENSG00000166908	PIP4K2C	Cytosol	Cytosol
+79837	ENSG00000166908	PIP4K2C	Plasma membrane	Plasma membrane/cell junctions
+79869	ENSG00000149532	CPSF7	Cytosol	Cytosol
+79869	ENSG00000149532	CPSF7	Nucleoplasm	Nucleoplasm
+79874	ENSG00000177548	RABEP2	Cytosol	Cytosol
+79874	ENSG00000177548	RABEP2	Vesicles	Vesicular system
+79874	ENSG00000177548	RABEP2	Golgi apparatus	Golgi apparatus
+79888	ENSG00000153395	LPCAT1	Endoplasmic reticulum	Endoplasmic reticulum
+79888	ENSG00000153395	LPCAT1	Lipid droplets	Vesicular system
+800	ENSG00000122786	CALD1	Actin filaments	Actin-filament associated
+800	ENSG00000122786	CALD1	Plasma membrane	Plasma membrane/cell junctions
+80017	ENSG00000133943	DGLUCY	Cytosol	Cytosol
+80097	ENSG00000152082	MZT2B	Centrosome	Centrosome
+80124	ENSG00000175073	VCPIP1	Cytosol	Cytosol
+80124	ENSG00000175073	VCPIP1	Centrosome	Centrosome
+80145	ENSG00000163634	THOC7	Cytosol	Cytosol
+80145	ENSG00000163634	THOC7	Nuclear speckles	Nucleoplasm
+80208	ENSG00000104133	SPG11	Cytosol	Cytosol
+80208	ENSG00000104133	SPG11	Nucleoli	Nucleoli
+80208	ENSG00000104133	SPG11	Plasma membrane	Plasma membrane/cell junctions
+80209	ENSG00000120685	PROSER1	Cytosol	Cytosol
+80209	ENSG00000120685	PROSER1	Nucleoplasm	Nucleoplasm
+80218	ENSG00000121579	NAA50	Nucleoli	Nucleoli
+80223	ENSG00000156675	RAB11FIP1	Vesicles	Vesicular system
+80232	ENSG00000162923	WDR26	Cytosol	Cytosol
+80232	ENSG00000162923	WDR26	Nucleoplasm	Nucleoplasm
+80232	ENSG00000162923	WDR26	Mitochondria	Mitochondria
+80273	ENSG00000109519	GRPEL1	Mitochondria	Mitochondria
+80321	ENSG00000114107	CEP70	Centrosome	Centrosome
+80321	ENSG00000114107	CEP70	Basal body	Primary cilium
+80321	ENSG00000114107	CEP70	Primary cilium	Primary cilium
+80347	ENSG00000068120	COASY	Mitochondria	Mitochondria
+80347	ENSG00000068120	COASY	Connecting piece	Sperm structures
+80349	ENSG00000140395	SKIC8	Nucleoplasm	Nucleoplasm
+80349	ENSG00000140395	SKIC8	Cytosol	Cytosol
+80777	ENSG00000103018	CYB5B	Centriolar satellite	Centrosome
+80777	ENSG00000103018	CYB5B	Cytosol	Cytosol
+80777	ENSG00000103018	CYB5B	Endoplasmic reticulum	Endoplasmic reticulum
+8078	ENSG00000111667	USP5	Cytosol	Cytosol
+8078	ENSG00000111667	USP5	Nucleoplasm	Nucleoplasm
+80852	ENSG00000144596	GRIP2	Cytosol	Cytosol
+8087	ENSG00000114416	FXR1	Cytosol	Cytosol
+81	ENSG00000130402	ACTN4	Actin filaments	Actin-filament associated
+81	ENSG00000130402	ACTN4	Cytosol	Cytosol
+81	ENSG00000130402	ACTN4	Focal adhesion sites	Actin-filament associated
+81	ENSG00000130402	ACTN4	Primary cilium	Primary cilium
+81	ENSG00000130402	ACTN4	Primary cilium transition zone	Primary cilium
+811	ENSG00000179218	CALR	Endoplasmic reticulum	Endoplasmic reticulum
+8120	ENSG00000103723	AP3B2	Cytosol	Cytosol
+8120	ENSG00000103723	AP3B2	Golgi apparatus	Golgi apparatus
+8120	ENSG00000103723	AP3B2	Nucleoplasm	Nucleoplasm
+8125	ENSG00000140350	ANP32A	Cytosol	Cytosol
+8125	ENSG00000140350	ANP32A	Nucleoplasm	Nucleoplasm
+8125	ENSG00000140350	ANP32A	Centrosome	Centrosome
+813	ENSG00000128595	CALU	Endoplasmic reticulum	Endoplasmic reticulum
+8148	ENSG00000270647	TAF15	Nucleoplasm	Nucleoplasm
+81502	ENSG00000101294	HM13	Endoplasmic reticulum	Endoplasmic reticulum
+81532	ENSG00000182208	MOB2	Cytosol	Cytosol
+81532	ENSG00000182208	MOB2	Nucleoli	Nucleoli
+81532	ENSG00000182208	MOB2	Nucleoplasm	Nucleoplasm
+81608	ENSG00000145216	FIP1L1	Nucleoplasm	Nucleoplasm
+81611	ENSG00000143401	ANP32E	Centrosome	Centrosome
+81611	ENSG00000143401	ANP32E	Cytosol	Cytosol
+81611	ENSG00000143401	ANP32E	Nucleoplasm	Nucleoplasm
+8175	ENSG00000104897	SF3A2	Nucleoplasm	Nucleoplasm
+81876	ENSG00000174903	RAB1B	Endoplasmic reticulum	Endoplasmic reticulum
+81876	ENSG00000174903	RAB1B	Golgi apparatus	Golgi apparatus
+8189	ENSG00000125755	SYMPK	Nucleoplasm	Nucleoplasm
+8189	ENSG00000125755	SYMPK	Plasma membrane	Plasma membrane/cell junctions
+8189	ENSG00000125755	SYMPK	Cytosol	Cytosol
+8192	ENSG00000125656	CLPP	Mitochondria	Mitochondria
+821	ENSG00000127022	CANX	Endoplasmic reticulum	Endoplasmic reticulum
+823	ENSG00000014216	CAPN1	Cytosol	Cytosol
+8241	ENSG00000182872	RBM10	Nuclear speckles	Nucleoplasm
+8243	ENSG00000072501	SMC1A	Cytosol	Cytosol
+8243	ENSG00000072501	SMC1A	Nucleoplasm	Nucleoplasm
+826	ENSG00000126247	CAPNS1	Cytosol	Cytosol
+826	ENSG00000126247	CAPNS1	Nucleoplasm	Nucleoplasm
+8260	ENSG00000102030	NAA10	Cytosol	Cytosol
+8260	ENSG00000102030	NAA10	Nucleoli	Nucleoli
+8289	ENSG00000117713	ARID1A	Nucleoplasm	Nucleoplasm
+830	ENSG00000198898	CAPZA2	Cytosol	Cytosol
+8301	ENSG00000073921	PICALM	Vesicles	Vesicular system
+8318	ENSG00000093009	CDC45	Cytosol	Cytosol
+8318	ENSG00000093009	CDC45	Nucleoplasm	Nucleoplasm
+8318	ENSG00000093009	CDC45	Centrosome	Centrosome
+832	ENSG00000077549	CAPZB	Cytosol	Cytosol
+832	ENSG00000077549	CAPZB	Nucleoplasm	Nucleoplasm
+832	ENSG00000077549	CAPZB	Vesicles	Vesicular system
+8341	ENSG00000233822	H2BC15	Cytosol	Cytosol
+8341	ENSG00000233822	H2BC15	Nucleoplasm	Nucleoplasm
+83442	ENSG00000142669	SH3BGRL3	Nuclear bodies	Nucleoplasm
+836	ENSG00000164305	CASP3	Mitochondria	Mitochondria
+83604	ENSG00000147027	TMEM47	Nuclear membrane	Nuclear membrane
+83640	ENSG00000169612	RAMAC	Nucleoplasm	Nucleoplasm
+83693	ENSG00000103160	HSDL1	Mitochondria	Mitochondria
+83732	ENSG00000124784	RIOK1	Cytosol	Cytosol
+83743	ENSG00000105447	GRWD1	Nucleoli	Nucleoli
+83743	ENSG00000105447	GRWD1	Nucleoli rim	Nucleoli
+83743	ENSG00000105447	GRWD1	Nucleoplasm	Nucleoplasm
+83858	ENSG00000160072	ATAD3B	Mitochondria	Mitochondria
+83858	ENSG00000160072	ATAD3B	Acrosome	Sperm structures
+83903	ENSG00000177602	HASPIN	Nucleoplasm	Nucleoplasm
+83985	ENSG00000169682	SPNS1	Vesicles	Vesicular system
+8411	ENSG00000102189	EEA1	Vesicles	Vesicular system
+8417	ENSG00000079950	STX7	Lysosomes	Vesicular system
+84263	ENSG00000119471	HSDL2	Mitochondria	Mitochondria
+84271	ENSG00000100227	POLDIP3	Nuclear speckles	Nucleoplasm
+84271	ENSG00000100227	POLDIP3	Cytoplasmic bodies	Cytosol
+84273	ENSG00000084092	NOA1	Mitochondria	Mitochondria
+84292	ENSG00000123154	WDR83	Basal body	Primary cilium
+84292	ENSG00000123154	WDR83	Centriolar satellite	Centrosome
+84292	ENSG00000123154	WDR83	Cytosol	Cytosol
+84292	ENSG00000123154	WDR83	Nucleoplasm	Nucleoplasm
+84292	ENSG00000123154	WDR83	Vesicles	Vesicular system
+84299	ENSG00000141741	MIEN1	Cytosol	Cytosol
+84299	ENSG00000141741	MIEN1	Plasma membrane	Plasma membrane/cell junctions
+84305	ENSG00000170473	PYM1	Cytosol	Cytosol
+84305	ENSG00000170473	PYM1	Nucleoli	Nucleoli
+84305	ENSG00000170473	PYM1	Nucleoplasm	Nucleoplasm
+84305	ENSG00000170473	PYM1	Cell Junctions	Plasma membrane/cell junctions
+84311	ENSG00000278845	MRPL45	Mitochondria	Mitochondria
+8437	ENSG00000111344	RASAL1	Cell Junctions	Plasma membrane/cell junctions
+8437	ENSG00000111344	RASAL1	Cytosol	Cytosol
+8437	ENSG00000111344	RASAL1	Plasma membrane	Plasma membrane/cell junctions
+8450	ENSG00000158290	CUL4B	Nucleoplasm	Nucleoplasm
+8451	ENSG00000139842	CUL4A	Nucleoplasm	Nucleoplasm
+84516	ENSG00000166847	DCTN5	Nuclear membrane	Nuclear membrane
+84516	ENSG00000166847	DCTN5	Nucleoplasm	Nucleoplasm
+84619	ENSG00000197114	ZGPAT	Nucleoplasm	Nucleoplasm
+84619	ENSG00000197114	ZGPAT	Plasma membrane	Plasma membrane/cell junctions
+84656	ENSG00000140632	GLYR1	Nucleoplasm	Nucleoplasm
+84656	ENSG00000140632	GLYR1	Cytosol	Cytosol
+84681	ENSG00000137133	HINT2	Mitochondria	Mitochondria
+847	ENSG00000121691	CAT	Vesicles	Vesicular system
+84709	ENSG00000137463	MGARP	Mitochondria	Mitochondria
+84726	ENSG00000288701	PRRC2B	Cytosol	Cytosol
+84726	ENSG00000288701	PRRC2B	Nuclear bodies	Nucleoplasm
+8473	ENSG00000147162	OGT	Nucleoplasm	Nucleoplasm
+8473	ENSG00000147162	OGT	Plasma membrane	Plasma membrane/cell junctions
+84790	ENSG00000167553	TUBA1C	Microtubules	Microtubule associated
+84790	ENSG00000167553	TUBA1C	Primary cilium	Primary cilium
+84833	ENSG00000173915	ATP5MK	Mitochondria	Mitochondria
+84836	ENSG00000114779	ABHD14B	Cytosol	Cytosol
+84836	ENSG00000114779	ABHD14B	Nucleoli	Nucleoli
+84836	ENSG00000114779	ABHD14B	Nucleoplasm	Nucleoplasm
+84844	ENSG00000100410	PHF5A	Nucleoplasm	Nucleoplasm
+84886	ENSG00000119280	C1orf198	Cytosol	Cytosol
+84898	ENSG00000120594	PLXDC2	Nuclear bodies	Nucleoplasm
+84908	ENSG00000035141	FAM136A	Mitochondria	Mitochondria
+84952	ENSG00000128849	CGNL1	Cell Junctions	Plasma membrane/cell junctions
+8498	ENSG00000031823	RANBP3	Nucleoplasm	Nucleoplasm
+84986	ENSG00000213390	ARHGAP19	Plasma membrane	Plasma membrane/cell junctions
+85021	ENSG00000135597	REPS1	Plasma membrane	Plasma membrane/cell junctions
+8520	ENSG00000128708	HAT1	Nucleoplasm	Nucleoplasm
+8531	ENSG00000060138	YBX3	Cytosol	Cytosol
+8533	ENSG00000141030	COPS3	Cytosol	Cytosol
+8533	ENSG00000141030	COPS3	Nucleoplasm	Nucleoplasm
+8535	ENSG00000141582	CBX4	Nucleoplasm	Nucleoplasm
+8535	ENSG00000141582	CBX4	Nuclear bodies	Nucleoplasm
+85364	ENSG00000247315	ZCCHC3	Vesicles	Vesicular system
+85395	ENSG00000160256	SLX9	Nucleoli	Nucleoli
+85395	ENSG00000160256	SLX9	Nucleoplasm	Nucleoplasm
+8540	ENSG00000018510	AGPS	Peroxisomes	Vesicular system
+85476	ENSG00000168827	GFM1	Mitochondria	Mitochondria
+85476	ENSG00000168827	GFM1	Nucleoplasm	Nucleoplasm
+8562	ENSG00000139726	DENR	Cytosol	Cytosol
+8563	ENSG00000100296	THOC5	Nucleoplasm	Nucleoplasm
+8565	ENSG00000134684	YARS1	Cytosol	Cytosol
+8565	ENSG00000134684	YARS1	Nuclear bodies	Nucleoplasm
+8570	ENSG00000088247	KHSRP	Nucleoplasm	Nucleoplasm
+8574	ENSG00000053371	AKR7A2	Cytosol	Cytosol
+8574	ENSG00000053371	AKR7A2	Golgi apparatus	Golgi apparatus
+86	ENSG00000136518	ACTL6A	Nucleoplasm	Nucleoplasm
+86	ENSG00000136518	ACTL6A	Cytosol	Cytosol
+8602	ENSG00000087269	NOP14	Nucleoli	Nucleoli
+8602	ENSG00000087269	NOP14	Nucleoplasm	Nucleoplasm
+8607	ENSG00000175792	RUVBL1	Basal body	Primary cilium
+8607	ENSG00000175792	RUVBL1	Cytosol	Cytosol
+8607	ENSG00000175792	RUVBL1	Nuclear speckles	Nucleoplasm
+8607	ENSG00000175792	RUVBL1	Nucleoplasm	Nucleoplasm
+8615	ENSG00000138768	USO1	Golgi apparatus	Golgi apparatus
+8615	ENSG00000138768	USO1	Nucleoli fibrillar center	Nucleoli
+8661	ENSG00000107581	EIF3A	Cytosol	Cytosol
+8662	ENSG00000106263	EIF3B	Cytosol	Cytosol
+8664	ENSG00000100353	EIF3D	Cytosol	Cytosol
+8666	ENSG00000130811	EIF3G	Cytosol	Cytosol
+8667	ENSG00000147677	EIF3H	Cytosol	Cytosol
+8668	ENSG00000084623	EIF3I	Cytosol	Cytosol
+8669	ENSG00000104131	EIF3J	Cytosol	Cytosol
+8682	ENSG00000162734	PEA15	Cytosol	Cytosol
+8683	ENSG00000111786	SRSF9	Nucleoplasm	Nucleoplasm
+8683	ENSG00000111786	SRSF9	Nucleoli	Nucleoli
+87	ENSG00000072110	ACTN1	Actin filaments	Actin-filament associated
+87	ENSG00000072110	ACTN1	Cytosol	Cytosol
+87	ENSG00000072110	ACTN1	Focal adhesion sites	Actin-filament associated
+87	ENSG00000072110	ACTN1	Plasma membrane	Plasma membrane/cell junctions
+87	ENSG00000072110	ACTN1	Primary cilium	Primary cilium
+87	ENSG00000072110	ACTN1	Primary cilium transition zone	Primary cilium
+871	ENSG00000149257	SERPINH1	Endoplasmic reticulum	Endoplasmic reticulum
+87178	ENSG00000138035	PNPT1	Cytosol	Cytosol
+87178	ENSG00000138035	PNPT1	Mitochondria	Mitochondria
+8731	ENSG00000101654	RNMT	Nucleoli fibrillar center	Nucleoli
+8731	ENSG00000101654	RNMT	Nucleoplasm	Nucleoplasm
+8761	ENSG00000090621	PABPC4	Cytosol	Cytosol
+8801	ENSG00000172340	SUCLG2	Mitochondria	Mitochondria
+8801	ENSG00000172340	SUCLG2	Plasma membrane	Plasma membrane/cell junctions
+8802	ENSG00000163541	SUCLG1	Cytosol	Cytosol
+8802	ENSG00000163541	SUCLG1	Mitochondria	Mitochondria
+8802	ENSG00000163541	SUCLG1	Plasma membrane	Plasma membrane/cell junctions
+8803	ENSG00000136143	SUCLA2	Mitochondria	Mitochondria
+8812	ENSG00000090061	CCNK	Nucleoplasm	Nucleoplasm
+8826	ENSG00000140575	IQGAP1	Cell Junctions	Plasma membrane/cell junctions
+8826	ENSG00000140575	IQGAP1	Plasma membrane	Plasma membrane/cell junctions
+8833	ENSG00000163655	GMPS	Cytosol	Cytosol
+8833	ENSG00000163655	GMPS	Mitochondria	Mitochondria
+8836	ENSG00000137563	GGH	Endoplasmic reticulum	Endoplasmic reticulum
+8836	ENSG00000137563	GGH	Vesicles	Vesicular system
+8853	ENSG00000151693	ASAP2	Cytosol	Cytosol
+8853	ENSG00000151693	ASAP2	Plasma membrane	Plasma membrane/cell junctions
+8880	ENSG00000162613	FUBP1	Nucleoplasm	Nucleoplasm
+8886	ENSG00000088205	DDX18	Mitotic chromosome	Nucleoplasm
+8886	ENSG00000088205	DDX18	Nucleoli	Nucleoli
+8886	ENSG00000088205	DDX18	Nucleoli rim	Nucleoli
+8887	ENSG00000106052	TAX1BP1	Cytosol	Cytosol
+8887	ENSG00000106052	TAX1BP1	Nucleoplasm	Nucleoplasm
+8894	ENSG00000125977	EIF2S2	Cytosol	Cytosol
+8894	ENSG00000125977	EIF2S2	Endoplasmic reticulum	Endoplasmic reticulum
+8971	ENSG00000184897	H1-10	Nucleoli	Nucleoli
+8971	ENSG00000184897	H1-10	Nucleoli rim	Nucleoli
+8971	ENSG00000184897	H1-10	Nucleoplasm	Nucleoplasm
+8971	ENSG00000184897	H1-10	Mitotic chromosome	Nucleoplasm
+8976	ENSG00000106299	WASL	Cytosol	Cytosol
+8976	ENSG00000106299	WASL	Nucleoli	Nucleoli
+90121	ENSG00000158526	TSR2	Cytosol	Cytosol
+90121	ENSG00000158526	TSR2	Nucleoli	Nucleoli
+90121	ENSG00000158526	TSR2	Nucleoplasm	Nucleoplasm
+90390	ENSG00000164758	MED30	Nucleoplasm	Nucleoplasm
+904	ENSG00000129315	CCNT1	Nucleoplasm	Nucleoplasm
+9043	ENSG00000008294	SPAG9	Centriolar satellite	Centrosome
+9043	ENSG00000008294	SPAG9	Cytosol	Cytosol
+90480	ENSG00000179271	GADD45GIP1	Mitochondria	Mitochondria
+9049	ENSG00000110711	AIP	Cytosol	Cytosol
+905	ENSG00000082258	CCNT2	Cytosol	Cytosol
+905	ENSG00000082258	CCNT2	Nucleoplasm	Nucleoplasm
+905	ENSG00000082258	CCNT2	Plasma membrane	Plasma membrane/cell junctions
+9053	ENSG00000135525	MAP7	Cytosol	Cytosol
+9053	ENSG00000135525	MAP7	Microtubules	Microtubule associated
+9055	ENSG00000198901	PRC1	Microtubules	Microtubule associated
+9055	ENSG00000198901	PRC1	Midbody	Microtubule associated
+9055	ENSG00000198901	PRC1	Nucleoplasm	Nucleoplasm
+9055	ENSG00000198901	PRC1	Cytokinetic bridge	Microtubule associated
+908	ENSG00000146731	CCT6A	Cytosol	Cytosol
+90850	ENSG00000167962	ZNF598	Cytosol	Cytosol
+90850	ENSG00000167962	ZNF598	Plasma membrane	Plasma membrane/cell junctions
+9086	ENSG00000198692	EIF1AY	Cytosol	Cytosol
+90861	ENSG00000206053	JPT2	Cytosol	Cytosol
+90861	ENSG00000206053	JPT2	Plasma membrane	Plasma membrane/cell junctions
+9092	ENSG00000175467	SART1	Nuclear speckles	Nucleoplasm
+9092	ENSG00000175467	SART1	Golgi apparatus	Golgi apparatus
+9097	ENSG00000101557	USP14	Cytosol	Cytosol
+9097	ENSG00000101557	USP14	Plasma membrane	Plasma membrane/cell junctions
+9097	ENSG00000101557	USP14	Endoplasmic reticulum	Endoplasmic reticulum
+91039	ENSG00000142002	DPP9	Cytosol	Cytosol
+9125	ENSG00000144580	CNOT9	Cytoplasmic bodies	Cytosol
+9126	ENSG00000108055	SMC3	Nucleoplasm	Nucleoplasm
+9131	ENSG00000156709	AIFM1	Mitochondria	Mitochondria
+9131	ENSG00000156709	AIFM1	Connecting piece	Sperm structures
+9135	ENSG00000029725	RABEP1	Cytosol	Cytosol
+9135	ENSG00000029725	RABEP1	Vesicles	Vesicular system
+9138	ENSG00000076928	ARHGEF1	Cytosol	Cytosol
+9138	ENSG00000076928	ARHGEF1	Plasma membrane	Plasma membrane/cell junctions
+9141	ENSG00000105185	PDCD5	Cytosol	Cytosol
+9141	ENSG00000105185	PDCD5	Nucleoplasm	Nucleoplasm
+9146	ENSG00000185359	HGS	Cytosol	Cytosol
+9146	ENSG00000185359	HGS	Endosomes	Vesicular system
+91582	ENSG00000187051	RPS19BP1	Nucleoli	Nucleoli
+9169	ENSG00000139218	SCAF11	Nucleoplasm	Nucleoplasm
+9169	ENSG00000139218	SCAF11	Nuclear bodies	Nucleoplasm
+9169	ENSG00000139218	SCAF11	Nucleoli	Nucleoli
+9184	ENSG00000154473	BUB3	Nucleoplasm	Nucleoplasm
+9188	ENSG00000165732	DDX21	Mitotic chromosome	Nucleoplasm
+9188	ENSG00000165732	DDX21	Nucleoli rim	Nucleoli
+9188	ENSG00000165732	DDX21	Nucleoplasm	Nucleoplasm
+9209	ENSG00000093167	LRRFIP2	Actin filaments	Actin-filament associated
+9209	ENSG00000093167	LRRFIP2	Plasma membrane	Plasma membrane/cell junctions
+92140	ENSG00000147649	MTDH	Endoplasmic reticulum	Endoplasmic reticulum
+9217	ENSG00000124164	VAPB	Endoplasmic reticulum	Endoplasmic reticulum
+9218	ENSG00000101558	VAPA	Endoplasmic reticulum	Endoplasmic reticulum
+9219	ENSG00000149480	MTA2	Nucleoplasm	Nucleoplasm
+9221	ENSG00000166197	NOLC1	Nucleoli fibrillar center	Nucleoli
+9230	ENSG00000185236	RAB11B	Basal body	Primary cilium
+9230	ENSG00000185236	RAB11B	Centriolar satellite	Centrosome
+9230	ENSG00000185236	RAB11B	Cytosol	Cytosol
+9230	ENSG00000185236	RAB11B	Primary cilium	Primary cilium
+9230	ENSG00000185236	RAB11B	Vesicles	Vesicular system
+9255	ENSG00000164022	AIMP1	Cytosol	Cytosol
+92609	ENSG00000105197	TIMM50	Mitochondria	Mitochondria
+92609	ENSG00000105197	TIMM50	Nucleoplasm	Nucleoplasm
+92689	ENSG00000197712	FAM114A1	Cytosol	Cytosol
+92689	ENSG00000197712	FAM114A1	Golgi apparatus	Golgi apparatus
+92689	ENSG00000197712	FAM114A1	Nucleoplasm	Nucleoplasm
+9276	ENSG00000184432	COPB2	Endoplasmic reticulum	Endoplasmic reticulum
+9276	ENSG00000184432	COPB2	Golgi apparatus	Golgi apparatus
+9321	ENSG00000100815	TRIP11	Golgi apparatus	Golgi apparatus
+9342	ENSG00000099940	SNAP29	Cytosol	Cytosol
+9342	ENSG00000099940	SNAP29	Centrosome	Centrosome
+9349	ENSG00000125691	RPL23	Cytosol	Cytosol
+9352	ENSG00000091164	TXNL1	Cytosol	Cytosol
+9354	ENSG00000110344	UBE4A	Nuclear speckles	Nucleoplasm
+9361	ENSG00000196365	LONP1	Mitochondria	Mitochondria
+93664	ENSG00000081803	CADPS2	Vesicles	Vesicular system
+9368	ENSG00000109062	SLC9A3R1	Calyx	Sperm structures
+9368	ENSG00000109062	SLC9A3R1	Plasma membrane	Plasma membrane/cell junctions
+9373	ENSG00000137055	PLAA	Cytosol	Cytosol
+9373	ENSG00000137055	PLAA	Nucleoplasm	Nucleoplasm
+9373	ENSG00000137055	PLAA	Plasma membrane	Plasma membrane/cell junctions
+93974	ENSG00000130770	ATP5IF1	Mitochondria	Mitochondria
+9406	ENSG00000132485	ZRANB2	Nucleoplasm	Nucleoplasm
+94081	ENSG00000164466	SFXN1	Mitochondria	Mitochondria
+9410	ENSG00000060688	SNRNP40	Nuclear speckles	Nucleoplasm
+9419	ENSG00000119878	CRIPT	Nucleoli fibrillar center	Nucleoli
+9419	ENSG00000119878	CRIPT	Nucleoplasm	Nucleoplasm
+9451	ENSG00000172071	EIF2AK3	Cytosol	Cytosol
+9451	ENSG00000172071	EIF2AK3	Mitochondria	Mitochondria
+9451	ENSG00000172071	EIF2AK3	Nucleoplasm	Nucleoplasm
+9470	ENSG00000135930	EIF4E2	Cytosol	Cytosol
+9470	ENSG00000135930	EIF4E2	Mitochondria	Mitochondria
+9475	ENSG00000134318	ROCK2	Cytosol	Cytosol
+950	ENSG00000138760	SCARB2	Cytosol	Cytosol
+9500	ENSG00000179222	MAGED1	Cytosol	Cytosol
+9521	ENSG00000124802	EEF1E1	Cytosol	Cytosol
+9521	ENSG00000124802	EEF1E1	Nucleoplasm	Nucleoplasm
+9533	ENSG00000171453	POLR1C	Nucleoli fibrillar center	Nucleoli
+9533	ENSG00000171453	POLR1C	Nucleoplasm	Nucleoplasm
+9545	ENSG00000105514	RAB3D	Vesicles	Vesicular system
+9550	ENSG00000136888	ATP6V1G1	Nucleoli	Nucleoli
+9550	ENSG00000136888	ATP6V1G1	Nucleoplasm	Nucleoplasm
+9559	ENSG00000122958	VPS26A	Endosomes	Vesicular system
+9559	ENSG00000122958	VPS26A	Lysosomes	Vesicular system
+9588	ENSG00000117592	PRDX6	Cytosol	Cytosol
+9588	ENSG00000117592	PRDX6	Plasma membrane	Plasma membrane/cell junctions
+9589	ENSG00000146457	WTAP	Nuclear speckles	Nucleoplasm
+9601	ENSG00000155660	PDIA4	Endoplasmic reticulum	Endoplasmic reticulum
+9632	ENSG00000176986	SEC24C	Vesicles	Vesicular system
+9643	ENSG00000123562	MORF4L2	Nucleoplasm	Nucleoplasm
+9647	ENSG00000100034	PPM1F	Nucleoplasm	Nucleoplasm
+9647	ENSG00000100034	PPM1F	Plasma membrane	Plasma membrane/cell junctions
+9667	ENSG00000130254	SAFB2	Nuclear bodies	Nucleoplasm
+9667	ENSG00000130254	SAFB2	Nucleoplasm	Nucleoplasm
+9667	ENSG00000130254	SAFB2	Vesicles	Vesicular system
+967	ENSG00000135404	CD63	Vesicles	Vesicular system
+9733	ENSG00000075856	SART3	Nucleoplasm	Nucleoplasm
+9747	ENSG00000198420	TCAF1	Cell Junctions	Plasma membrane/cell junctions
+9747	ENSG00000198420	TCAF1	Vesicles	Vesicular system
+9774	ENSG00000029363	BCLAF1	Nuclear speckles	Nucleoplasm
+9775	ENSG00000141543	EIF4A3	Nucleoplasm	Nucleoplasm
+9785	ENSG00000140829	DHX38	Nucleoplasm	Nucleoplasm
+9789	ENSG00000118363	SPCS2	Vesicles	Vesicular system
+9793	ENSG00000175216	CKAP5	Centrosome	Centrosome
+98	ENSG00000170634	ACYP2	Nucleoplasm	Nucleoplasm
+9801	ENSG00000115364	MRPL19	Mitochondria	Mitochondria
+9823	ENSG00000184867	ARMCX2	Mitochondria	Mitochondria
+9823	ENSG00000184867	ARMCX2	Nucleoplasm	Nucleoplasm
+983	ENSG00000170312	CDK1	Cytosol	Cytosol
+983	ENSG00000170312	CDK1	Nucleoplasm	Nucleoplasm
+983	ENSG00000170312	CDK1	Acrosome	Sperm structures
+983	ENSG00000170312	CDK1	Connecting piece	Sperm structures
+983	ENSG00000170312	CDK1	Flagellar centriole	Sperm structures
+983	ENSG00000170312	CDK1	Perinuclear theca	Sperm structures
+9841	ENSG00000112365	ZBTB24	Centrosome	Centrosome
+9841	ENSG00000112365	ZBTB24	Cytokinetic bridge	Microtubule associated
+9841	ENSG00000112365	ZBTB24	Nucleoplasm	Nucleoplasm
+9859	ENSG00000143702	CEP170	Basal body	Primary cilium
+9859	ENSG00000143702	CEP170	Centrosome	Centrosome
+9868	ENSG00000154174	TOMM70	Mitochondria	Mitochondria
+987	ENSG00000198589	LRBA	Golgi apparatus	Golgi apparatus
+989	ENSG00000122545	SEPTIN7	Actin filaments	Actin-filament associated
+989	ENSG00000122545	SEPTIN7	Midbody	Microtubule associated
+989	ENSG00000122545	SEPTIN7	Primary cilium	Primary cilium
+989	ENSG00000122545	SEPTIN7	Cytokinetic bridge	Microtubule associated
+9898	ENSG00000143569	UBAP2L	Cytosol	Cytosol
+9898	ENSG00000143569	UBAP2L	Nuclear speckles	Nucleoplasm
+9919	ENSG00000148396	SEC16A	Endoplasmic reticulum	Endoplasmic reticulum
+9919	ENSG00000148396	SEC16A	Golgi apparatus	Golgi apparatus
+9939	ENSG00000265241	RBM8A	Nuclear speckles	Nucleoplasm
+9941	ENSG00000157036	EXOG	Mitochondria	Mitochondria
+9943	ENSG00000172939	OXSR1	Cytosol	Cytosol
+9947	ENSG00000155495	MAGEC1	Cytosol	Cytosol
+9947	ENSG00000155495	MAGEC1	Nucleoplasm	Nucleoplasm
+9948	ENSG00000071127	WDR1	Cell Junctions	Plasma membrane/cell junctions
+9948	ENSG00000071127	WDR1	Cytosol	Cytosol
+9958	ENSG00000135655	USP15	Cytosol	Cytosol
+9958	ENSG00000135655	USP15	Nuclear bodies	Nucleoplasm
+9958	ENSG00000135655	USP15	Nucleoplasm	Nucleoplasm
+9961	ENSG00000013364	MVP	Cytosol	Cytosol
+9967	ENSG00000054118	THRAP3	Nuclear speckles	Nucleoplasm
+9972	ENSG00000124789	NUP153	Nuclear membrane	Nuclear membrane
+9978	ENSG00000100387	RBX1	Nucleoplasm	Nucleoplasm
+9987	ENSG00000152795	HNRNPDL	Nucleoplasm	Nucleoplasm

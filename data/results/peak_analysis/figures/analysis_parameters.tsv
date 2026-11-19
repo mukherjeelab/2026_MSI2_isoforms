@@ -1,0 +1,7 @@
+parameter	value
+adjusted_p_value_threshold	0.05
+effect_size_reference_threshold	1
+pair_ratio_pseudocount	0.5
+VST_minimum_total_count	10
+heatmap_target_peak_count	75
+omniCLIP_score_metric	peak_score_max

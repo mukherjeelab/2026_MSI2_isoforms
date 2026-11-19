@@ -1,0 +1,7 @@
+328_ref	688	751	Candidate_63bp_deletion
+346_MSI2	749	752	Candidate_3bp_junction_deletion
+346_MSI2	753	810	57bp_insertion_vs_328
+324_altUTR	849	906	Original_57bp_target
+324_altUTR	852	906	Candidate_54bp_deletion_equivalent_breakpoints
+324_altUTR	123	125	Candidate_2bp_deletion
+251_Exon1	403	452	Candidate_49bp_deletion

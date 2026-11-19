@@ -1,0 +1,41 @@
+---
+title: "IsoformCLIP"
+author: "Kathryn Walters"
+date: "2026-09-09"
+output: html_document
+---
+
+
+```{r packages, warning=FALSE, message=FALSE}
+library(DESeq2)
+library(dplyr)
+    library(ggplot2)
+    library(ggrepel)
+    library(patchwork)
+    library(pheatmap)
+    library(readr)
+    library(ragg)
+    library(scales)
+    library(tibble)
+    library(tidyr)
+
+```
+
+
+```{r}
+fullmatrix <- fread(here::here("data", "results", "peak_analysis", "peak_count_matrix.tsv"))
+
+peakmembers <- fread(here::here("data", "results", "peak_analysis", "peak_members.tsv"))
+
+
+alpha <- 0.05
+effect_threshold <- 1
+pseudocount <- 0.5
+vst_minimum_total <- 10
+heatmap_peak_count <- 75
+
+
+fullmatrix_filt <- fullmatrix[rowSums(fullmatrix[, -1] > 0) > 0, ]
+
+```
+

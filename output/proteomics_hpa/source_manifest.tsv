@@ -1,0 +1,8 @@
+path	source	hpa_version	file_mtime_utc	bytes	sha256
+data/FredHutchProteomics.xlsx	Local source workbook; upstream filtering metadata not supplied	NA	2026-04-29T20:43:12.536224+00:00	590359	380d979bc332bdcf3f6766e447abf5e0d0f943342e677dbea5aac169cd50ab62
+code/Proetomics.Rmd	Local source of exploratory isoform-specific classification rules	NA	2026-05-11T14:50:31.500903+00:00	39143	4d3a7e31e92de72391f93ad2f0f1de33454a15a120e45bcf22ef1075fd257fef
+data/hpa_25.1/subcellular_location.tsv.zip	https://www.proteinatlas.org/download/tsv/subcellular_location.tsv.zip	25.1	2026-09-24T16:42:39.080236+00:00	252331	a9466882bd3328416bcde77c32a6bcb2a17d70183af90e98d032f6f5f781d504
+data/hpa_25.1/subcellular_locations.tsv.zip	https://www.proteinatlas.org/download/tsv/subcellular_locations.tsv.zip	25.1	2026-09-24T16:42:39.575617+00:00	799	38badbedf567977c7e0971fa8ea111c90bd62c37ad555b91a9bd1166c52db352
+data/hpa_25.1/proteinatlas.tsv.zip	https://www.proteinatlas.org/download/proteinatlas.tsv.zip	25.1	2026-09-24T16:43:05.007463+00:00	7460135	ad401f8519ecdee5b67b0ad3bf28175d402d1ea0ad6c542b90fcab2bee39b470
+data/hpa_25.1/subcellular_data_page.html	https://www.proteinatlas.org/humanproteome/subcellular/data	25.1	2026-09-24T16:42:15.297064+00:00	122461	565564e62f7bd07b4fc5d9b42b873d806233d35234c4c3b60728e8096e79477a
+data/hpa_25.1/subcellular_overview.html	https://www.proteinatlas.org/humanproteome/subcellular	25.1	2026-09-24T16:42:16.286508+00:00	149076	5611411b7d80634e0972b1aff98850249b142954a8d57dcf11898aa689fd0929

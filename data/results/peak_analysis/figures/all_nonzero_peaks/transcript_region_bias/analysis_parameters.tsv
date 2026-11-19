@@ -1,0 +1,26 @@
+parameter	value
+analysis_universe	16,046 merged peaks with any count across eight libraries
+representative_position	summit of highest-scoring source omniCLIP peak in each merged peak
+genome_build	hg38
+annotation_database	TxDb.Hsapiens.UCSC.hg38.knownGene 3.20.0
+strand_aware_annotation	yes
+ambiguous_annotation_rule	summit overlapping more than one of 5UTR/CDS/3UTR
+strict_324_rule	324 LFC > 1 and 328 LFC < -1
+strict_328_rule	328 LFC > 1 and 324 LFC < -1
+delta_324_rule	delta >= 1 and 324 LFC > 0
+delta_328_rule	delta <= -1 and 328 LFC > 0
+delta_similar_positive_rule	absolute delta < 1 and both 324 and 328 LFC > 0
+delta_definition	324WT replicate-mean LFC minus 328WT replicate-mean LFC
+simplified_region_categories	5' UTR, CDS, 3' UTR, Intron, Other
+primary_enrichment_background	all 43,794 merged peak regions; same unit as selected peaks
+primary_region_test	selected group vs remaining merged peaks: Pearson chi-square overall and two-sided Fisher per region with BH across five regions
+source_sensitivity_background	all 46,108 unmerged source BED peaks with score >= 1
+source_sensitivity_test	fixed source proportions: Pearson goodness-of-fit overall and exact binomial per region with BH across five regions; sensitivity analysis because peak units differ
+direct_three_group_test	Pearson chi-square across 324-biased, 328-biased, and Similar-positive; Monte Carlo p with B=100000
+direct_pairwise_test	all three pairwise Pearson chi-square tests with BH; per-region two-sided Fisher tests with BH across five regions per pair
+LFC_pseudocount_CPM	0.5
+delta_delta_plot_filter	retain peaks satisfying (delta >= 0 and 324WT LFC > 0) or (delta <= 0 and 328WT LFC > 0); no discrete group is assigned
+delta_delta_definition	log2((mean 324WT CLIP CPM + 0.5)/(mean 324WT SMI CPM + 0.5)) minus log2((mean 328WT CLIP CPM + 0.5)/(mean 328WT SMI CPM + 0.5))
+delta_delta_paired_test	paired two-sided Wilcoxon signed-rank test within each transcript region; BH across five regions; overall paired test also reported
+chisquare_monte_carlo_replicates	100000
+chisquare_random_seed	324328

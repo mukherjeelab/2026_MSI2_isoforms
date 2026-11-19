@@ -1,0 +1,4 @@
+site_type	N_sites	Q4_fraction_total_coverage	top_1pct_site_count	top_1pct_fraction_total_coverage	maximum_to_median_coverage_ratio
+annotated_transcript_3prime_end	35769	0.82852839210575	358	0.384451686386715	20922.3678023542
+splice_acceptor_3prime	100801	0.756703339743953	1009	0.171889274623341	456.567029591128
+splice_donor_5prime	101162	0.755090948256324	1012	0.172237106453573	430.965844794914

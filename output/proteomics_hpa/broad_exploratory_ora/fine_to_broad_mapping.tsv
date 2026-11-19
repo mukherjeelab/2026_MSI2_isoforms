@@ -1,0 +1,50 @@
+localization	collapsed_localization	hpa_parent	source_url	GO term	broad_category	included	decision
+Nuclear membrane	Nuclear membrane	nuclear membrane	https://www.proteinatlas.org/humanproteome/subcellular/nuclear+membrane	GO:0031965	Nuclear/nucleoplasmic	TRUE	Included in fixed eight-category scheme
+Nucleoli	Nucleoli	nucleoli	https://www.proteinatlas.org/humanproteome/subcellular/nucleoli	GO:0005730	Nucleolus	TRUE	Included in fixed eight-category scheme
+Nucleoli fibrillar center	Nucleoli	nucleoli	https://www.proteinatlas.org/humanproteome/subcellular/nucleoli	GO:0001650	Nucleolus	TRUE	Included in fixed eight-category scheme
+Nucleoli rim	Nucleoli	nucleoli	https://www.proteinatlas.org/humanproteome/subcellular/nucleoli	GO:0005730	Nucleolus	TRUE	Included in fixed eight-category scheme
+Kinetochore	Nucleoplasm	nucleoplasm	https://www.proteinatlas.org/humanproteome/subcellular/nucleoplasm	GO:0000776	Nuclear/nucleoplasmic	TRUE	Included in fixed eight-category scheme
+Mitotic chromosome	Nucleoplasm	nucleoplasm	https://www.proteinatlas.org/humanproteome/subcellular/nucleoplasm	GO:0005694	Nuclear/nucleoplasmic	TRUE	Included in fixed eight-category scheme
+Nuclear bodies	Nucleoplasm	nucleoplasm	https://www.proteinatlas.org/humanproteome/subcellular/nucleoplasm	GO:0016604	Nuclear/nucleoplasmic	TRUE	Included in fixed eight-category scheme
+Nuclear speckles	Nucleoplasm	nucleoplasm	https://www.proteinatlas.org/humanproteome/subcellular/nucleoplasm	GO:0016607	Nuclear/nucleoplasmic	TRUE	Included in fixed eight-category scheme
+Nucleoplasm	Nucleoplasm	nucleoplasm	https://www.proteinatlas.org/humanproteome/subcellular/nucleoplasm	GO:0005654	Nuclear/nucleoplasmic	TRUE	Included in fixed eight-category scheme
+Actin filaments	Actin-filament associated	actin filaments	https://www.proteinatlas.org/humanproteome/subcellular/actin+filaments	GO:0015629	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Cleavage furrow	Actin-filament associated	actin filaments	https://www.proteinatlas.org/humanproteome/subcellular/actin+filaments	GO:0032154	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Focal adhesion sites	Actin-filament associated	actin filaments	https://www.proteinatlas.org/humanproteome/subcellular/actin+filaments	GO:0005925	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Centriolar satellite	Centrosome	centrosome	https://www.proteinatlas.org/humanproteome/subcellular/centrosome	GO:0034451	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Centrosome	Centrosome	centrosome	https://www.proteinatlas.org/humanproteome/subcellular/centrosome	GO:0005813	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Aggresome	Cytosol	cytosol	https://www.proteinatlas.org/humanproteome/subcellular/cytosol	GO:0016235	Cytosolic	TRUE	Included in fixed eight-category scheme
+Cytoplasmic bodies	Cytosol	cytosol	https://www.proteinatlas.org/humanproteome/subcellular/cytosol	GO:0036464	Cytosolic	TRUE	Included in fixed eight-category scheme
+Cytosol	Cytosol	cytosol	https://www.proteinatlas.org/humanproteome/subcellular/cytosol	GO:0005829	Cytosolic	TRUE	Included in fixed eight-category scheme
+Rods & Rings	Cytosol	cytosol	https://www.proteinatlas.org/humanproteome/subcellular/cytosol	NA	Cytosolic	TRUE	Included in fixed eight-category scheme
+Intermediate filaments	Intermediate filaments	intermediate filaments	https://www.proteinatlas.org/humanproteome/subcellular/intermediate+filaments	GO:0045111	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Cytokinetic bridge	Microtubule associated	microtubules	https://www.proteinatlas.org/humanproteome/subcellular/microtubules	GO:0045171	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Microtubule ends	Microtubule associated	microtubules	https://www.proteinatlas.org/humanproteome/subcellular/microtubules	GO:1990752	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Microtubules	Microtubule associated	microtubules	https://www.proteinatlas.org/humanproteome/subcellular/microtubules	GO:0015630	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Midbody	Microtubule associated	microtubules	https://www.proteinatlas.org/humanproteome/subcellular/microtubules	GO:0030496	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Midbody ring	Microtubule associated	microtubules	https://www.proteinatlas.org/humanproteome/subcellular/microtubules	GO:0090543	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Mitotic spindle	Microtubule associated	microtubules	https://www.proteinatlas.org/humanproteome/subcellular/microtubules	GO:0072686	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Mitochondria	Mitochondria	mitochondria	https://www.proteinatlas.org/humanproteome/subcellular/mitochondria	GO:0005739	Mitochondrial	TRUE	Included in fixed eight-category scheme
+Endoplasmic reticulum	Endoplasmic reticulum	endoplasmic reticulum	https://www.proteinatlas.org/humanproteome/subcellular/endoplasmic+reticulum	GO:0005783	ER/Golgi	TRUE	Included in fixed eight-category scheme
+Golgi apparatus	Golgi apparatus	golgi apparatus	https://www.proteinatlas.org/humanproteome/subcellular/golgi+apparatus	GO:0005794	ER/Golgi	TRUE	Included in fixed eight-category scheme
+Cell Junctions	Plasma membrane/cell junctions	plasma membrane	https://www.proteinatlas.org/humanproteome/subcellular/plasma+membrane	GO:0030054	Plasma membrane/junctional	TRUE	Included in fixed eight-category scheme
+Plasma membrane	Plasma membrane/cell junctions	plasma membrane	https://www.proteinatlas.org/humanproteome/subcellular/plasma+membrane	GO:0005886	Plasma membrane/junctional	TRUE	Included in fixed eight-category scheme
+Endosomes	Vesicular system	vesicles	https://www.proteinatlas.org/humanproteome/subcellular/vesicles	GO:0005768	Vesicular/endolysosomal	TRUE	Included in fixed eight-category scheme
+Lipid droplets	Vesicular system	vesicles	https://www.proteinatlas.org/humanproteome/subcellular/vesicles	GO:0005811	Vesicular/endolysosomal	TRUE	Included in fixed eight-category scheme
+Lysosomes	Vesicular system	vesicles	https://www.proteinatlas.org/humanproteome/subcellular/vesicles	GO:0005764	Vesicular/endolysosomal	TRUE	Included in fixed eight-category scheme
+Peroxisomes	Vesicular system	vesicles	https://www.proteinatlas.org/humanproteome/subcellular/vesicles	GO:0005777	Vesicular/endolysosomal	TRUE	Included in fixed eight-category scheme
+Vesicles	Vesicular system	vesicles	https://www.proteinatlas.org/humanproteome/subcellular/vesicles	GO:0043231	Vesicular/endolysosomal	TRUE	Included in fixed eight-category scheme
+Basal body	Primary cilium	primary cilium	https://www.proteinatlas.org/humanproteome/subcellular/primary+cilium	GO:0036064	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Primary cilium	Primary cilium	primary cilium	https://www.proteinatlas.org/humanproteome/subcellular/primary+cilium	GO:0005929	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Primary cilium tip	Primary cilium	primary cilium	https://www.proteinatlas.org/humanproteome/subcellular/primary+cilium	GO:0097542	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Primary cilium transition zone	Primary cilium	primary cilium	https://www.proteinatlas.org/humanproteome/subcellular/primary+cilium	GO:0035869	Cytoskeletal	TRUE	Included in fixed eight-category scheme
+Acrosome	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0001669	NA	FALSE	Sperm-specific term outside the requested broad scheme
+Annulus	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0097227	NA	FALSE	Sperm-specific term outside the requested broad scheme
+Calyx	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0120238	NA	FALSE	Sperm-specific term outside the requested broad scheme
+Connecting piece	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0120212	NA	FALSE	Sperm-specific term outside the requested broad scheme
+End piece	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0097229	NA	FALSE	Sperm-specific term outside the requested broad scheme
+Equatorial segment	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	NA	NA	FALSE	Sperm-specific term outside the requested broad scheme
+Flagellar centriole	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0005814	NA	FALSE	Sperm-specific term outside the requested broad scheme
+Mid piece	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0097225	NA	FALSE	Sperm-specific term outside the requested broad scheme
+Perinuclear theca	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0033011	NA	FALSE	Sperm-specific term outside the requested broad scheme
+Principal piece	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0097228	NA	FALSE	Sperm-specific term outside the requested broad scheme

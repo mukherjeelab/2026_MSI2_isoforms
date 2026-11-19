@@ -1,0 +1,25 @@
+field	value
+observed_table	output/followup_analysis/intron_gt500/intron_gt500_profiles.tsv
+observed_table_md5	bdb0abc3052982d99e9c9c2bb4913cf3
+null_cache	output/followup_analysis/intron_gt500/PARpipe_intron_gt500_nulls.rds
+null_cache_md5	7fb84b62eae8aad6f4ca9a57f6daab5f
+original_analysis_script	output/followup_analysis/scripts/intron_gt500.R
+original_analysis_script_md5	41606f50f0a0a8c1ff3894b7ded1c109
+plotting_script	output/followup_analysis/figure_restyles/plot_intron_null_cloud.R
+plotting_script_md5	624855895bf68699b4fe239810817676
+null_array_axes	100 bins x 500 draws x 2 weighting schemes
+null_slice_1	site_weighted
+null_slice_2	intron_weighted
+null_draws_available	500
+null_draws_displayed	500
+smoothing	None; raw 1% bins connected with straight segments
+randomizations_regenerated	No
+original_seed	260922
+length_filter	Strictly >500 nt
+summits	20364
+introns	9565
+null_line_alpha	0.055
+source_files_unchanged	Yes; MD5 before/after identical
+validation	Cached medians match observed table; observed and all null profiles sum to one (tolerance 1e-12)
+R_version	R version 4.4.2 (2024-10-31)
+ggplot2_version	4.0.3

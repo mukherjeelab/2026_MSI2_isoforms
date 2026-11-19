@@ -1,0 +1,4 @@
+delta_group	comparison	selected_total	region_category_count	pearson_chisq	degrees_of_freedom	asymptotic_p_value	monte_carlo_p_value	monte_carlo_B	min_expected_count	expected_cells_below_5	cohen_w
+324-biased	selected merged peaks vs fixed 46,108 source-peak proportions	1437	5	457.0779843340949	4	1.2812482127210007e-97	9.99990000099999e-6	100000	5.360544807842457	0	0.5639839796051691
+328-biased	selected merged peaks vs fixed 46,108 source-peak proportions	7034	5	2739.726922085617	4	0	9.99990000099999e-6	100000	26.239437841589314	0	0.6240975198294472
+Similar-positive	selected merged peaks vs fixed 46,108 source-peak proportions	717	5	313.33482184412594	4	1.4386325376754755e-66	9.99990000099999e-6	100000	2.6746768456666956	1	0.661065896659943

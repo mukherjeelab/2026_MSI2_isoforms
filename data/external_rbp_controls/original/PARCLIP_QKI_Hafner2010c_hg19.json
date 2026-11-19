@@ -1,0 +1,15 @@
+[
+    {
+        "cell type": "HEK 293 cells",
+        "methods": "QKI_1_1, QKI_2, and QKI_3 (see supplement Table S2 in Hafner et al., 2010) PAR-CLIP cDNA libraries were analyzed using the PAR-CLIP Analysis Pipeline (PCP) (Jens et al. unpublished), essentially as described in (Lebedeva et al. 2011).  Clusters are regions of reference RNA sequence contiguously covered by reads from the pooled QKI PAR-CLIP cDNA libraries.",
+        "GEOid": "unknown",
+        "sites": 12035,
+        "summary": "QKI PAR-CLIP (Hafner 2010)",
+        "experiment": "PAR-CLIP",
+        "references": "Hafner M, Landthaler M, Burger L, Khorshid M, Hausser J, Berninger P, Rothballer A, Ascano M Jr, Jungkamp AC, Munschauer M, Ulrich A, Wardle GS, Dewell S, Zavolan M, Tuschl T.  Transcriptome-wide identification of RNA-binding protein and microRNA target sites by PAR-CLIP. Cell. 2010 Apr 2;141(1):129-41. Lebedeva S, Jens M, Theil K, Schwanh\u00e4usser B, Selbach M, Landthaler M, Rajewsky N.  Transcriptome-wide Analysis of Regulatory Interactions of the RNA-Binding Protein HuR. Mol Cell. 2011 Aug 5;43(3):340-52. Epub 2011 Jun 30.",
+        "PMID": "20371350",
+        "software": "unknown",
+        "id": "PARCLIP_QKI_Hafner2010c_hg19",
+        "description": "This track shows QUAKING (QKI) PAR-CLIP clusters in HEK 293 cells."
+    }
+]

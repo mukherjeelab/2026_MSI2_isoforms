@@ -1,0 +1,184 @@
+scope	site_type	sample_id	metric	value	notes
+annotation	annotated_transcript_3prime_end	all	unique_sites_initially_annotated	180958	after coordinate/strand deduplication
+annotation	annotated_transcript_3prime_end	all	sites_on_bam_reference	180957	full requested window fits a BAM reference sequence
+annotation	annotated_transcript_3prime_end	all	sites_removed_unknown_contig	0	condition-independent annotation/reference check
+annotation	annotated_transcript_3prime_end	all	sites_removed_out_of_bounds	1	condition-independent annotation/reference check
+annotation	splice_acceptor_3prime	all	unique_sites_initially_annotated	279145	after coordinate/strand deduplication
+annotation	splice_acceptor_3prime	all	sites_on_bam_reference	279145	full requested window fits a BAM reference sequence
+annotation	splice_acceptor_3prime	all	sites_removed_unknown_contig	0	condition-independent annotation/reference check
+annotation	splice_acceptor_3prime	all	sites_removed_out_of_bounds	0	condition-independent annotation/reference check
+annotation	splice_donor_5prime	all	unique_sites_initially_annotated	287085	after coordinate/strand deduplication
+annotation	splice_donor_5prime	all	sites_on_bam_reference	287085	full requested window fits a BAM reference sequence
+annotation	splice_donor_5prime	all	sites_removed_unknown_contig	0	condition-independent annotation/reference check
+annotation	splice_donor_5prime	all	sites_removed_out_of_bounds	0	condition-independent annotation/reference check
+annotation	all	all	gtf_transcripts_parsed	199391	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/gencode.v26.primary_assembly.annotation.gtf
+annotation	all	all	merged_annotated_gene_exon_intervals	329226	used only to identify genes with any eligible exonic alignment
+annotation	junction	all	unique_annotated_junctions	352181	same-coordinate junctions deduplicated by strand
+annotation	cleavage_polyadenylation_site	all	annotation_status	not_supplied	source rows=0
+annotation	polyadenylation_signal_site	all	annotation_status	not_supplied	source rows=0; no PAS sites are invented when absent
+site_selection	annotated_transcript_3prime_end	all	sites_on_bam_reference	180957	full landmark window passed reference bounds
+site_selection	annotated_transcript_3prime_end	all	sites_with_any_coverage	35769	any raw window-overlap alignment across all samples
+site_selection	annotated_transcript_3prime_end	all	sites_retained_after_filter	35769	condition-independent all-sample filter
+site_selection	annotated_transcript_3prime_end	all	sites_removed_by_filter	145188	reported explicitly; no condition label used
+site_selection	annotated_transcript_3prime_end	all	genes_initially_annotated	58277	nonempty gene IDs in valid site table
+site_selection	annotated_transcript_3prime_end	all	genes_represented	17444	site-associated GTF gene has at least one eligible exonic alignment across the BAMs
+site_selection	annotated_transcript_3prime_end	all	sites_overlapping_genes_represented_in_BAMs	111369	site gene ID belongs to a GTF gene with at least one eligible exonic alignment
+site_selection	splice_acceptor_3prime	all	sites_on_bam_reference	279145	full landmark window passed reference bounds
+site_selection	splice_acceptor_3prime	all	sites_with_any_coverage	100801	any raw window-overlap alignment across all samples
+site_selection	splice_acceptor_3prime	all	sites_retained_after_filter	100801	condition-independent all-sample filter
+site_selection	splice_acceptor_3prime	all	sites_removed_by_filter	178344	reported explicitly; no condition label used
+site_selection	splice_acceptor_3prime	all	genes_initially_annotated	35286	nonempty gene IDs in valid site table
+site_selection	splice_acceptor_3prime	all	genes_represented	14585	site-associated GTF gene has at least one eligible exonic alignment across the BAMs
+site_selection	splice_acceptor_3prime	all	sites_overlapping_genes_represented_in_BAMs	183098	site gene ID belongs to a GTF gene with at least one eligible exonic alignment
+site_selection	splice_donor_5prime	all	sites_on_bam_reference	287085	full landmark window passed reference bounds
+site_selection	splice_donor_5prime	all	sites_with_any_coverage	101162	any raw window-overlap alignment across all samples
+site_selection	splice_donor_5prime	all	sites_retained_after_filter	101162	condition-independent all-sample filter
+site_selection	splice_donor_5prime	all	sites_removed_by_filter	185923	reported explicitly; no condition label used
+site_selection	splice_donor_5prime	all	genes_initially_annotated	35286	nonempty gene IDs in valid site table
+site_selection	splice_donor_5prime	all	genes_represented	14585	site-associated GTF gene has at least one eligible exonic alignment across the BAMs
+site_selection	splice_donor_5prime	all	sites_overlapping_genes_represented_in_BAMs	190108	site gene ID belongs to a GTF gene with at least one eligible exonic alignment
+site_selection	all	all	filter_definition	sum_raw_window_overlap_count_all_samples>=1	uses all samples without condition labels
+bin_extraction	annotated_transcript_3prime_end	NM2026_0081	retained_sites	35769	denominator for aggregate metaprofile
+bin_extraction	annotated_transcript_3prime_end	NM2026_0081	sites_with_any_bin_coverage	6637	at least one nonzero 10-nt bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0081	nonzero_site_bin_rows	25151	zero rows omitted only when sparse output configured
+bin_extraction	annotated_transcript_3prime_end	NM2026_0081	sum_raw_overlap_counts_across_bins	95713	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_acceptor_3prime	NM2026_0081	retained_sites	100801	denominator for aggregate metaprofile
+bin_extraction	splice_acceptor_3prime	NM2026_0081	sites_with_any_bin_coverage	17736	at least one nonzero 10-nt bin
+bin_extraction	splice_acceptor_3prime	NM2026_0081	nonzero_site_bin_rows	92106	zero rows omitted only when sparse output configured
+bin_extraction	splice_acceptor_3prime	NM2026_0081	sum_raw_overlap_counts_across_bins	295693	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_donor_5prime	NM2026_0081	retained_sites	101162	denominator for aggregate metaprofile
+bin_extraction	splice_donor_5prime	NM2026_0081	sites_with_any_bin_coverage	16725	at least one nonzero 10-nt bin
+bin_extraction	splice_donor_5prime	NM2026_0081	nonzero_site_bin_rows	84498	zero rows omitted only when sparse output configured
+bin_extraction	splice_donor_5prime	NM2026_0081	sum_raw_overlap_counts_across_bins	263204	one alignment may overlap more than one neighboring bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0082	retained_sites	35769	denominator for aggregate metaprofile
+bin_extraction	annotated_transcript_3prime_end	NM2026_0082	sites_with_any_bin_coverage	10404	at least one nonzero 10-nt bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0082	nonzero_site_bin_rows	38760	zero rows omitted only when sparse output configured
+bin_extraction	annotated_transcript_3prime_end	NM2026_0082	sum_raw_overlap_counts_across_bins	280327	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_acceptor_3prime	NM2026_0082	retained_sites	100801	denominator for aggregate metaprofile
+bin_extraction	splice_acceptor_3prime	NM2026_0082	sites_with_any_bin_coverage	34585	at least one nonzero 10-nt bin
+bin_extraction	splice_acceptor_3prime	NM2026_0082	nonzero_site_bin_rows	181431	zero rows omitted only when sparse output configured
+bin_extraction	splice_acceptor_3prime	NM2026_0082	sum_raw_overlap_counts_across_bins	543608	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_donor_5prime	NM2026_0082	retained_sites	101162	denominator for aggregate metaprofile
+bin_extraction	splice_donor_5prime	NM2026_0082	sites_with_any_bin_coverage	33638	at least one nonzero 10-nt bin
+bin_extraction	splice_donor_5prime	NM2026_0082	nonzero_site_bin_rows	172888	zero rows omitted only when sparse output configured
+bin_extraction	splice_donor_5prime	NM2026_0082	sum_raw_overlap_counts_across_bins	511285	one alignment may overlap more than one neighboring bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0083	retained_sites	35769	denominator for aggregate metaprofile
+bin_extraction	annotated_transcript_3prime_end	NM2026_0083	sites_with_any_bin_coverage	5558	at least one nonzero 10-nt bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0083	nonzero_site_bin_rows	20970	zero rows omitted only when sparse output configured
+bin_extraction	annotated_transcript_3prime_end	NM2026_0083	sum_raw_overlap_counts_across_bins	104930	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_acceptor_3prime	NM2026_0083	retained_sites	100801	denominator for aggregate metaprofile
+bin_extraction	splice_acceptor_3prime	NM2026_0083	sites_with_any_bin_coverage	14458	at least one nonzero 10-nt bin
+bin_extraction	splice_acceptor_3prime	NM2026_0083	nonzero_site_bin_rows	73007	zero rows omitted only when sparse output configured
+bin_extraction	splice_acceptor_3prime	NM2026_0083	sum_raw_overlap_counts_across_bins	302586	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_donor_5prime	NM2026_0083	retained_sites	101162	denominator for aggregate metaprofile
+bin_extraction	splice_donor_5prime	NM2026_0083	sites_with_any_bin_coverage	13510	at least one nonzero 10-nt bin
+bin_extraction	splice_donor_5prime	NM2026_0083	nonzero_site_bin_rows	66611	zero rows omitted only when sparse output configured
+bin_extraction	splice_donor_5prime	NM2026_0083	sum_raw_overlap_counts_across_bins	269886	one alignment may overlap more than one neighboring bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0084	retained_sites	35769	denominator for aggregate metaprofile
+bin_extraction	annotated_transcript_3prime_end	NM2026_0084	sites_with_any_bin_coverage	10964	at least one nonzero 10-nt bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0084	nonzero_site_bin_rows	40978	zero rows omitted only when sparse output configured
+bin_extraction	annotated_transcript_3prime_end	NM2026_0084	sum_raw_overlap_counts_across_bins	309574	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_acceptor_3prime	NM2026_0084	retained_sites	100801	denominator for aggregate metaprofile
+bin_extraction	splice_acceptor_3prime	NM2026_0084	sites_with_any_bin_coverage	36862	at least one nonzero 10-nt bin
+bin_extraction	splice_acceptor_3prime	NM2026_0084	nonzero_site_bin_rows	194310	zero rows omitted only when sparse output configured
+bin_extraction	splice_acceptor_3prime	NM2026_0084	sum_raw_overlap_counts_across_bins	652749	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_donor_5prime	NM2026_0084	retained_sites	101162	denominator for aggregate metaprofile
+bin_extraction	splice_donor_5prime	NM2026_0084	sites_with_any_bin_coverage	36217	at least one nonzero 10-nt bin
+bin_extraction	splice_donor_5prime	NM2026_0084	nonzero_site_bin_rows	187312	zero rows omitted only when sparse output configured
+bin_extraction	splice_donor_5prime	NM2026_0084	sum_raw_overlap_counts_across_bins	626358	one alignment may overlap more than one neighboring bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0085	retained_sites	35769	denominator for aggregate metaprofile
+bin_extraction	annotated_transcript_3prime_end	NM2026_0085	sites_with_any_bin_coverage	2013	at least one nonzero 10-nt bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0085	nonzero_site_bin_rows	6820	zero rows omitted only when sparse output configured
+bin_extraction	annotated_transcript_3prime_end	NM2026_0085	sum_raw_overlap_counts_across_bins	35215	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_acceptor_3prime	NM2026_0085	retained_sites	100801	denominator for aggregate metaprofile
+bin_extraction	splice_acceptor_3prime	NM2026_0085	sites_with_any_bin_coverage	7065	at least one nonzero 10-nt bin
+bin_extraction	splice_acceptor_3prime	NM2026_0085	nonzero_site_bin_rows	30610	zero rows omitted only when sparse output configured
+bin_extraction	splice_acceptor_3prime	NM2026_0085	sum_raw_overlap_counts_across_bins	129835	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_donor_5prime	NM2026_0085	retained_sites	101162	denominator for aggregate metaprofile
+bin_extraction	splice_donor_5prime	NM2026_0085	sites_with_any_bin_coverage	7051	at least one nonzero 10-nt bin
+bin_extraction	splice_donor_5prime	NM2026_0085	nonzero_site_bin_rows	29969	zero rows omitted only when sparse output configured
+bin_extraction	splice_donor_5prime	NM2026_0085	sum_raw_overlap_counts_across_bins	123649	one alignment may overlap more than one neighboring bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0086	retained_sites	35769	denominator for aggregate metaprofile
+bin_extraction	annotated_transcript_3prime_end	NM2026_0086	sites_with_any_bin_coverage	18505	at least one nonzero 10-nt bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0086	nonzero_site_bin_rows	71832	zero rows omitted only when sparse output configured
+bin_extraction	annotated_transcript_3prime_end	NM2026_0086	sum_raw_overlap_counts_across_bins	328929	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_acceptor_3prime	NM2026_0086	retained_sites	100801	denominator for aggregate metaprofile
+bin_extraction	splice_acceptor_3prime	NM2026_0086	sites_with_any_bin_coverage	61791	at least one nonzero 10-nt bin
+bin_extraction	splice_acceptor_3prime	NM2026_0086	nonzero_site_bin_rows	368261	zero rows omitted only when sparse output configured
+bin_extraction	splice_acceptor_3prime	NM2026_0086	sum_raw_overlap_counts_across_bins	912484	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_donor_5prime	NM2026_0086	retained_sites	101162	denominator for aggregate metaprofile
+bin_extraction	splice_donor_5prime	NM2026_0086	sites_with_any_bin_coverage	61288	at least one nonzero 10-nt bin
+bin_extraction	splice_donor_5prime	NM2026_0086	nonzero_site_bin_rows	357640	zero rows omitted only when sparse output configured
+bin_extraction	splice_donor_5prime	NM2026_0086	sum_raw_overlap_counts_across_bins	871947	one alignment may overlap more than one neighboring bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0087	retained_sites	35769	denominator for aggregate metaprofile
+bin_extraction	annotated_transcript_3prime_end	NM2026_0087	sites_with_any_bin_coverage	2601	at least one nonzero 10-nt bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0087	nonzero_site_bin_rows	9642	zero rows omitted only when sparse output configured
+bin_extraction	annotated_transcript_3prime_end	NM2026_0087	sum_raw_overlap_counts_across_bins	52997	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_acceptor_3prime	NM2026_0087	retained_sites	100801	denominator for aggregate metaprofile
+bin_extraction	splice_acceptor_3prime	NM2026_0087	sites_with_any_bin_coverage	8517	at least one nonzero 10-nt bin
+bin_extraction	splice_acceptor_3prime	NM2026_0087	nonzero_site_bin_rows	41028	zero rows omitted only when sparse output configured
+bin_extraction	splice_acceptor_3prime	NM2026_0087	sum_raw_overlap_counts_across_bins	180914	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_donor_5prime	NM2026_0087	retained_sites	101162	denominator for aggregate metaprofile
+bin_extraction	splice_donor_5prime	NM2026_0087	sites_with_any_bin_coverage	8264	at least one nonzero 10-nt bin
+bin_extraction	splice_donor_5prime	NM2026_0087	nonzero_site_bin_rows	39759	zero rows omitted only when sparse output configured
+bin_extraction	splice_donor_5prime	NM2026_0087	sum_raw_overlap_counts_across_bins	172911	one alignment may overlap more than one neighboring bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0088	retained_sites	35769	denominator for aggregate metaprofile
+bin_extraction	annotated_transcript_3prime_end	NM2026_0088	sites_with_any_bin_coverage	17829	at least one nonzero 10-nt bin
+bin_extraction	annotated_transcript_3prime_end	NM2026_0088	nonzero_site_bin_rows	67844	zero rows omitted only when sparse output configured
+bin_extraction	annotated_transcript_3prime_end	NM2026_0088	sum_raw_overlap_counts_across_bins	317643	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_acceptor_3prime	NM2026_0088	retained_sites	100801	denominator for aggregate metaprofile
+bin_extraction	splice_acceptor_3prime	NM2026_0088	sites_with_any_bin_coverage	59356	at least one nonzero 10-nt bin
+bin_extraction	splice_acceptor_3prime	NM2026_0088	nonzero_site_bin_rows	343370	zero rows omitted only when sparse output configured
+bin_extraction	splice_acceptor_3prime	NM2026_0088	sum_raw_overlap_counts_across_bins	853309	one alignment may overlap more than one neighboring bin
+bin_extraction	splice_donor_5prime	NM2026_0088	retained_sites	101162	denominator for aggregate metaprofile
+bin_extraction	splice_donor_5prime	NM2026_0088	sites_with_any_bin_coverage	58533	at least one nonzero 10-nt bin
+bin_extraction	splice_donor_5prime	NM2026_0088	nonzero_site_bin_rows	332348	zero rows omitted only when sparse output configured
+bin_extraction	splice_donor_5prime	NM2026_0088	sum_raw_overlap_counts_across_bins	815822	one alignment may overlap more than one neighboring bin
+junction_extraction	junction	NM2026_0081	primary_unique_alignments_examined	148054	MAPQ>=10
+junction_extraction	junction	NM2026_0081	alignments_with_CIGAR_N	13627	each alignment counted once
+junction_extraction	junction	NM2026_0081	CIGAR_N_events	13826	a multi-junction alignment contributes multiple events
+junction_extraction	junction	NM2026_0081	observed_unannotated_junctions	457	relative to supplied GTF and configured tolerance
+junction_extraction	junction	NM2026_0081	paired_end_records_detected	0	unique read-name counts are always reported
+junction_extraction	junction	NM2026_0081	multimapping_records_excluded_by_NH	0	NH tag absent is accepted because STAR workflow requested unique mapping
+junction_extraction	junction	NM2026_0082	primary_unique_alignments_examined	257457	MAPQ>=10
+junction_extraction	junction	NM2026_0082	alignments_with_CIGAR_N	21388	each alignment counted once
+junction_extraction	junction	NM2026_0082	CIGAR_N_events	21572	a multi-junction alignment contributes multiple events
+junction_extraction	junction	NM2026_0082	observed_unannotated_junctions	163	relative to supplied GTF and configured tolerance
+junction_extraction	junction	NM2026_0082	paired_end_records_detected	0	unique read-name counts are always reported
+junction_extraction	junction	NM2026_0082	multimapping_records_excluded_by_NH	0	NH tag absent is accepted because STAR workflow requested unique mapping
+junction_extraction	junction	NM2026_0083	primary_unique_alignments_examined	173852	MAPQ>=10
+junction_extraction	junction	NM2026_0083	alignments_with_CIGAR_N	12153	each alignment counted once
+junction_extraction	junction	NM2026_0083	CIGAR_N_events	12265	a multi-junction alignment contributes multiple events
+junction_extraction	junction	NM2026_0083	observed_unannotated_junctions	330	relative to supplied GTF and configured tolerance
+junction_extraction	junction	NM2026_0083	paired_end_records_detected	0	unique read-name counts are always reported
+junction_extraction	junction	NM2026_0083	multimapping_records_excluded_by_NH	0	NH tag absent is accepted because STAR workflow requested unique mapping
+junction_extraction	junction	NM2026_0084	primary_unique_alignments_examined	320014	MAPQ>=10
+junction_extraction	junction	NM2026_0084	alignments_with_CIGAR_N	24973	each alignment counted once
+junction_extraction	junction	NM2026_0084	CIGAR_N_events	25177	a multi-junction alignment contributes multiple events
+junction_extraction	junction	NM2026_0084	observed_unannotated_junctions	197	relative to supplied GTF and configured tolerance
+junction_extraction	junction	NM2026_0084	paired_end_records_detected	0	unique read-name counts are always reported
+junction_extraction	junction	NM2026_0084	multimapping_records_excluded_by_NH	0	NH tag absent is accepted because STAR workflow requested unique mapping
+junction_extraction	junction	NM2026_0085	primary_unique_alignments_examined	93659	MAPQ>=10
+junction_extraction	junction	NM2026_0085	alignments_with_CIGAR_N	7552	each alignment counted once
+junction_extraction	junction	NM2026_0085	CIGAR_N_events	7595	a multi-junction alignment contributes multiple events
+junction_extraction	junction	NM2026_0085	observed_unannotated_junctions	389	relative to supplied GTF and configured tolerance
+junction_extraction	junction	NM2026_0085	paired_end_records_detected	0	unique read-name counts are always reported
+junction_extraction	junction	NM2026_0085	multimapping_records_excluded_by_NH	0	NH tag absent is accepted because STAR workflow requested unique mapping
+junction_extraction	junction	NM2026_0086	primary_unique_alignments_examined	571306	MAPQ>=10
+junction_extraction	junction	NM2026_0086	alignments_with_CIGAR_N	31486	each alignment counted once
+junction_extraction	junction	NM2026_0086	CIGAR_N_events	31689	a multi-junction alignment contributes multiple events
+junction_extraction	junction	NM2026_0086	observed_unannotated_junctions	328	relative to supplied GTF and configured tolerance
+junction_extraction	junction	NM2026_0086	paired_end_records_detected	0	unique read-name counts are always reported
+junction_extraction	junction	NM2026_0086	multimapping_records_excluded_by_NH	0	NH tag absent is accepted because STAR workflow requested unique mapping
+junction_extraction	junction	NM2026_0087	primary_unique_alignments_examined	103812	MAPQ>=10
+junction_extraction	junction	NM2026_0087	alignments_with_CIGAR_N	8370	each alignment counted once
+junction_extraction	junction	NM2026_0087	CIGAR_N_events	8471	a multi-junction alignment contributes multiple events
+junction_extraction	junction	NM2026_0087	observed_unannotated_junctions	314	relative to supplied GTF and configured tolerance
+junction_extraction	junction	NM2026_0087	paired_end_records_detected	0	unique read-name counts are always reported
+junction_extraction	junction	NM2026_0087	multimapping_records_excluded_by_NH	0	NH tag absent is accepted because STAR workflow requested unique mapping
+junction_extraction	junction	NM2026_0088	primary_unique_alignments_examined	512565	MAPQ>=10
+junction_extraction	junction	NM2026_0088	alignments_with_CIGAR_N	30023	each alignment counted once
+junction_extraction	junction	NM2026_0088	CIGAR_N_events	30248	a multi-junction alignment contributes multiple events
+junction_extraction	junction	NM2026_0088	observed_unannotated_junctions	272	relative to supplied GTF and configured tolerance
+junction_extraction	junction	NM2026_0088	paired_end_records_detected	0	unique read-name counts are always reported
+junction_extraction	junction	NM2026_0088	multimapping_records_excluded_by_NH	0	NH tag absent is accepted because STAR workflow requested unique mapping

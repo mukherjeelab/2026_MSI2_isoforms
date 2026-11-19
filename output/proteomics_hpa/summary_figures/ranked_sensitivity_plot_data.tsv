@@ -1,0 +1,61 @@
+localization	confidence	ranking	NES	FDR
+Actin-filament associated	Enhanced + Supported + Approved	All 1,641 genes	-0.6808585766445094	0.9675480769230768
+Centrosome	Enhanced + Supported + Approved	All 1,641 genes	-0.9122108327661148	0.9511387579010734
+Cytosol	Enhanced + Supported + Approved	All 1,641 genes	-0.9530028118101572	0.9511387579010734
+Endoplasmic reticulum	Enhanced + Supported + Approved	All 1,641 genes	-1.127441614133177	0.8274647887323944
+Golgi apparatus	Enhanced + Supported + Approved	All 1,641 genes	-0.8875228978076511	0.9511387579010734
+Intermediate filaments	Enhanced + Supported + Approved	All 1,641 genes	0.7160079933215259	0.9675480769230768
+Microtubule associated	Enhanced + Supported + Approved	All 1,641 genes	-0.9520043406239208	0.9511387579010734
+Mitochondria	Enhanced + Supported + Approved	All 1,641 genes	-1.1369076092984376	0.8274647887323944
+Nuclear membrane	Enhanced + Supported + Approved	All 1,641 genes	0.7632222786074578	0.9675480769230768
+Nucleoli	Enhanced + Supported + Approved	All 1,641 genes	-1.079493371983584	0.8274647887323944
+Nucleoplasm	Enhanced + Supported + Approved	All 1,641 genes	-0.9675321424415392	0.9511387579010734
+Plasma membrane/cell junctions	Enhanced + Supported + Approved	All 1,641 genes	-0.8687835535424757	0.9675480769230768
+Primary cilium	Enhanced + Supported + Approved	All 1,641 genes	-1.0772950203939164	0.8274647887323944
+Sperm structures	Enhanced + Supported + Approved	All 1,641 genes	-1.0720771702483949	0.8274647887323944
+Vesicular system	Enhanced + Supported + Approved	All 1,641 genes	-1.166875666789488	0.8274647887323944
+Actin-filament associated	Enhanced + Supported	All 1,641 genes	0.8459528413673104	0.9476342371079212
+Centrosome	Enhanced + Supported	All 1,641 genes	-0.8754005729810171	0.9476342371079212
+Cytosol	Enhanced + Supported	All 1,641 genes	-1.043809547350056	0.7412124299541518
+Endoplasmic reticulum	Enhanced + Supported	All 1,641 genes	-1.0865184160223893	0.7412124299541518
+Golgi apparatus	Enhanced + Supported	All 1,641 genes	0.940101119137345	0.9259826442062276
+Intermediate filaments	Enhanced + Supported	All 1,641 genes	-0.6229766810604973	0.9559651097355092
+Microtubule associated	Enhanced + Supported	All 1,641 genes	-0.6661749574662378	0.9559651097355092
+Mitochondria	Enhanced + Supported	All 1,641 genes	-1.1122817342919278	0.7412124299541518
+Nuclear membrane	Enhanced + Supported	All 1,641 genes	0.9140177981160276	0.9259826442062276
+Nucleoli	Enhanced + Supported	All 1,641 genes	-1.1043831163900957	0.7412124299541518
+Nucleoplasm	Enhanced + Supported	All 1,641 genes	-0.8914812526053297	0.9559651097355092
+Plasma membrane/cell junctions	Enhanced + Supported	All 1,641 genes	1.0508001638302629	0.7412124299541518
+Primary cilium	Enhanced + Supported	All 1,641 genes	-1.106305383737425	0.7412124299541518
+Sperm structures	Enhanced + Supported	All 1,641 genes	-0.8007701201275025	0.9559651097355092
+Vesicular system	Enhanced + Supported	All 1,641 genes	-1.1233248678145404	0.7412124299541518
+Actin-filament associated	Enhanced + Supported + Approved	1,062 nonzero genes	0.6633475069895813	0.955847989177223
+Centrosome	Enhanced + Supported + Approved	1,062 nonzero genes	-0.9477991654278122	0.955847989177223
+Cytosol	Enhanced + Supported + Approved	1,062 nonzero genes	-0.8607657687281077	0.955847989177223
+Endoplasmic reticulum	Enhanced + Supported + Approved	1,062 nonzero genes	-1.2383858477784244	0.7010029251984956
+Golgi apparatus	Enhanced + Supported + Approved	1,062 nonzero genes	-0.8652765661378506	0.955847989177223
+Intermediate filaments	Enhanced + Supported + Approved	1,062 nonzero genes	0.6966167861118213	0.955847989177223
+Microtubule associated	Enhanced + Supported + Approved	1,062 nonzero genes	-1.0610306537446863	0.7865202077487911
+Mitochondria	Enhanced + Supported + Approved	1,062 nonzero genes	-1.1251874885649171	0.7010029251984956
+Nuclear membrane	Enhanced + Supported + Approved	1,062 nonzero genes	0.8529009442931342	0.955847989177223
+Nucleoli	Enhanced + Supported + Approved	1,062 nonzero genes	-1.1446640307878762	0.7010029251984956
+Nucleoplasm	Enhanced + Supported + Approved	1,062 nonzero genes	-0.9203163778338456	0.955847989177223
+Plasma membrane/cell junctions	Enhanced + Supported + Approved	1,062 nonzero genes	-0.72062992168616	0.955847989177223
+Primary cilium	Enhanced + Supported + Approved	1,062 nonzero genes	-1.1225873484442157	0.7010029251984956
+Sperm structures	Enhanced + Supported + Approved	1,062 nonzero genes	-1.1354066345877998	0.7010029251984956
+Vesicular system	Enhanced + Supported + Approved	1,062 nonzero genes	-1.2744593865563345	0.7010029251984956
+Actin-filament associated	Enhanced + Supported	1,062 nonzero genes	0.8901556028510708	0.8233082706766917
+Centrosome	Enhanced + Supported	1,062 nonzero genes	-0.9583885893097096	0.8206492996912159
+Cytosol	Enhanced + Supported	1,062 nonzero genes	-0.9206393192106472	0.8624310162771701
+Endoplasmic reticulum	Enhanced + Supported	1,062 nonzero genes	-1.1229434700499914	0.7197389484053689
+Golgi apparatus	Enhanced + Supported	1,062 nonzero genes	0.966238929523476	0.8206492996912159
+Intermediate filaments	Enhanced + Supported	1,062 nonzero genes	-0.5047880977359651	0.9878942338324308
+Microtubule associated	Enhanced + Supported	1,062 nonzero genes	-0.7081968415855208	0.9878942338324308
+Mitochondria	Enhanced + Supported	1,062 nonzero genes	-1.086115931677036	0.7197389484053689
+Nuclear membrane	Enhanced + Supported	1,062 nonzero genes	0.956049443041572	0.8206492996912159
+Nucleoli	Enhanced + Supported	1,062 nonzero genes	-1.2105083207780052	0.7197389484053689
+Nucleoplasm	Enhanced + Supported	1,062 nonzero genes	-0.7817429165680254	0.9878942338324308
+Plasma membrane/cell junctions	Enhanced + Supported	1,062 nonzero genes	1.1226739855697323	0.7197389484053689
+Primary cilium	Enhanced + Supported	1,062 nonzero genes	-1.1202454511439552	0.7197389484053689
+Sperm structures	Enhanced + Supported	1,062 nonzero genes	NA	NA
+Vesicular system	Enhanced + Supported	1,062 nonzero genes	-1.109632595060051	0.7197389484053689

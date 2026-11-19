@@ -1,0 +1,275 @@
+"""Count deduplicated CLIP alignments in fixed peaks and test IP vs input."""
+
+import csv
+import re
+
+
+configfile: "code/clip_peak_analysis/config.yaml"
+
+shell.prefix("set -euo pipefail; ")
+
+ANALYSIS_DIR = "code/clip_peak_analysis"
+RESULTS_DIR = "data/results/peak_analysis"
+
+
+def read_metadata(path):
+    with open(path, newline="") as handle:
+        rows = (
+            line for line in handle
+            if line.strip() and not line.lstrip().startswith("#")
+        )
+        reader = csv.DictReader(rows, delimiter="\t")
+        required = {"sample", "assay"}
+        if reader.fieldnames is None or not required.issubset(reader.fieldnames):
+            raise ValueError(
+                f"{path} must be tab-separated and contain at least "
+                f"{sorted(required)} columns"
+            )
+
+        records = []
+        seen = set()
+        for line_number, row in enumerate(reader, start=2):
+            row = {key: value.strip() for key, value in row.items()}
+            sample = row["sample"]
+            if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_.-]*", sample):
+                raise ValueError(f"Invalid sample name {sample!r} on line {line_number}")
+            if sample in seen:
+                raise ValueError(f"Duplicate sample {sample!r} in {path}")
+            if not row["assay"]:
+                raise ValueError(f"Missing assay for {sample!r} in {path}")
+            seen.add(sample)
+            records.append(row)
+
+    if not records:
+        raise ValueError(f"No samples found in {path}")
+    return records
+
+
+ANALYSIS = config["differential_analysis"]
+METADATA_PATH = ANALYSIS["metadata"]
+METADATA = read_metadata(METADATA_PATH)
+SAMPLES = [row["sample"] for row in METADATA]
+COMPARISON_COLUMN = ANALYSIS["comparison_column"]
+if any(COMPARISON_COLUMN not in row or not row[COMPARISON_COLUMN] for row in METADATA):
+    raise ValueError(f"Every metadata row must contain {COMPARISON_COLUMN!r}")
+COMPARISONS = list(dict.fromkeys(row[COMPARISON_COLUMN] for row in METADATA))
+for comparison in COMPARISONS:
+    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_.-]*", comparison):
+        raise ValueError(
+            f"Invalid comparison name {comparison!r}; use letters, numbers, ., _, or -"
+        )
+BAM_PATTERN = ANALYSIS["bam_pattern"]
+BAMS = [BAM_PATTERN.format(sample=sample) for sample in SAMPLES]
+LIBRARY_SIZE_FILES = expand(
+    "work/clip_peak_analysis/library_sizes/{sample}.primary_mapped.txt",
+    sample=SAMPLES,
+)
+
+
+rule all:
+    input:
+        f"{RESULTS_DIR}/peaks.filtered_merged.bed",
+        f"{RESULTS_DIR}/peak_members.tsv",
+        f"{RESULTS_DIR}/peak_count_matrix.tsv",
+        f"{RESULTS_DIR}/bam_library_sizes.tsv",
+        expand(
+            f"{RESULTS_DIR}/deseq2/{{comparison}}/IP_vs_input.all.tsv",
+            comparison=COMPARISONS,
+        ),
+        expand(
+            f"{RESULTS_DIR}/deseq2/{{comparison}}/IP_vs_input.significant.tsv",
+            comparison=COMPARISONS,
+        ),
+        expand(
+            f"{RESULTS_DIR}/deseq2/{{comparison}}/normalized_counts.tsv",
+            comparison=COMPARISONS,
+        ),
+        expand(
+            f"{RESULTS_DIR}/deseq2/{{comparison}}/size_factors.tsv",
+            comparison=COMPARISONS,
+        ),
+        expand(
+            f"{RESULTS_DIR}/deseq2/{{comparison}}/QC.pdf",
+            comparison=COMPARISONS,
+        ),
+        expand(
+            f"{RESULTS_DIR}/deseq2/{{comparison}}/sessionInfo.txt",
+            comparison=COMPARISONS,
+        ),
+
+
+rule prepare_peaks:
+    input:
+        peaks=ANALYSIS["peak_bed"],
+        script=f"{ANALYSIS_DIR}/scripts/prepare_peaks.py"
+    output:
+        bed=f"{RESULTS_DIR}/peaks.filtered_merged.bed",
+        metadata=f"{RESULTS_DIR}/peaks.filtered_merged.tsv",
+        members=f"{RESULTS_DIR}/peak_members.tsv",
+        saf=f"{RESULTS_DIR}/peaks.filtered_merged.saf"
+    params:
+        minimum_score=float(ANALYSIS["minimum_peak_score"])
+    log:
+        "logs/clip_peak_analysis/prepare_peaks.log"
+    conda:
+        "envs/counting.yaml"
+    shell:
+        r"""
+        mkdir -p data/results/peak_analysis logs/clip_peak_analysis
+        python {input.script:q} \
+          --input {input.peaks:q} \
+          --minimum-score {params.minimum_score} \
+          --bed {output.bed:q} \
+          --metadata {output.metadata:q} \
+          --members {output.members:q} \
+          --saf {output.saf:q} \
+          > {log:q} 2>&1
+        """
+
+
+rule count_reads_in_peaks:
+    input:
+        saf=f"{RESULTS_DIR}/peaks.filtered_merged.saf",
+        bams=BAMS
+    output:
+        counts=f"{RESULTS_DIR}/featurecounts.tsv",
+        summary=f"{RESULTS_DIR}/featurecounts.tsv.summary"
+    params:
+        strandedness=int(ANALYSIS["strandedness"]),
+        minimum_mapping_quality=int(ANALYSIS["minimum_mapping_quality"])
+    threads: 8
+    log:
+        "logs/clip_peak_analysis/featurecounts.log"
+    conda:
+        "envs/counting.yaml"
+    shell:
+        r"""
+        mkdir -p data/results/peak_analysis logs/clip_peak_analysis
+        featureCounts \
+          -F SAF \
+          -a {input.saf:q} \
+          -o {output.counts:q} \
+          -T {threads} \
+          -s {params.strandedness} \
+          -Q {params.minimum_mapping_quality} \
+          {input.bams:q} \
+          > {log:q} 2>&1
+        """
+
+
+rule count_primary_mapped_alignments:
+    input:
+        bam=lambda wildcards: BAM_PATTERN.format(sample=wildcards.sample)
+    output:
+        "work/clip_peak_analysis/library_sizes/{sample}.primary_mapped.txt"
+    log:
+        "logs/clip_peak_analysis/library_sizes/{sample}.log"
+    conda:
+        "envs/counting.yaml"
+    shell:
+        r"""
+        mkdir -p work/clip_peak_analysis/library_sizes \
+          logs/clip_peak_analysis/library_sizes
+        samtools view -c -F 2308 {input.bam:q} \
+          > {output:q} 2> {log:q}
+        """
+
+
+rule combine_library_sizes:
+    input:
+        counts=LIBRARY_SIZE_FILES,
+        metadata=METADATA_PATH,
+        script=f"{ANALYSIS_DIR}/scripts/combine_library_sizes.py"
+    output:
+        f"{RESULTS_DIR}/bam_library_sizes.tsv"
+    log:
+        "logs/clip_peak_analysis/combine_library_sizes.log"
+    conda:
+        "envs/counting.yaml"
+    shell:
+        r"""
+        mkdir -p data/results/peak_analysis logs/clip_peak_analysis
+        python {input.script:q} \
+          --metadata {input.metadata:q} \
+          --counts {input.counts:q} \
+          --output {output:q} \
+          > {log:q} 2>&1
+        """
+
+
+rule write_peak_count_matrix:
+    input:
+        counts=f"{RESULTS_DIR}/featurecounts.tsv",
+        metadata=METADATA_PATH,
+        script=f"{ANALYSIS_DIR}/scripts/featurecounts_to_matrix.py"
+    output:
+        f"{RESULTS_DIR}/peak_count_matrix.tsv"
+    log:
+        "logs/clip_peak_analysis/write_count_matrix.log"
+    conda:
+        "envs/counting.yaml"
+    shell:
+        r"""
+        mkdir -p data/results/peak_analysis logs/clip_peak_analysis
+        python {input.script:q} \
+          --counts {input.counts:q} \
+          --metadata {input.metadata:q} \
+          --output {output:q} \
+          > {log:q} 2>&1
+        """
+
+
+rule deseq2_peak_enrichment:
+    input:
+        counts=f"{RESULTS_DIR}/featurecounts.tsv",
+        peaks=f"{RESULTS_DIR}/peaks.filtered_merged.tsv",
+        metadata=METADATA_PATH,
+        library_sizes=f"{RESULTS_DIR}/bam_library_sizes.tsv",
+        script=f"{ANALYSIS_DIR}/scripts/run_peak_deseq2.R"
+    output:
+        normalized=f"{RESULTS_DIR}/deseq2/{{comparison}}/normalized_counts.tsv",
+        all_results=f"{RESULTS_DIR}/deseq2/{{comparison}}/IP_vs_input.all.tsv",
+        significant=f"{RESULTS_DIR}/deseq2/{{comparison}}/IP_vs_input.significant.tsv",
+        size_factors=f"{RESULTS_DIR}/deseq2/{{comparison}}/size_factors.tsv",
+        qc=f"{RESULTS_DIR}/deseq2/{{comparison}}/QC.pdf",
+        session=f"{RESULTS_DIR}/deseq2/{{comparison}}/sessionInfo.txt"
+    params:
+        comparison_column=COMPARISON_COLUMN,
+        comparison=lambda wildcards: wildcards.comparison,
+        design=ANALYSIS["design"],
+        reference=ANALYSIS["reference_level"],
+        test=ANALYSIS["test_level"],
+        minimum_total_count=int(ANALYSIS["minimum_total_count"]),
+        normalization=ANALYSIS["normalization"],
+        size_factor_type=ANALYSIS["size_factor_type"],
+        alpha=float(ANALYSIS["alpha"])
+    log:
+        "logs/clip_peak_analysis/deseq2/{comparison}.log"
+    conda:
+        "envs/deseq2.yaml"
+    shell:
+        r"""
+        mkdir -p data/results/peak_analysis/deseq2/{wildcards.comparison} \
+          logs/clip_peak_analysis/deseq2
+        Rscript {input.script:q} \
+          --counts {input.counts:q} \
+          --peaks {input.peaks:q} \
+          --metadata {input.metadata:q} \
+          --library-sizes {input.library_sizes:q} \
+          --comparison-column {params.comparison_column:q} \
+          --comparison {params.comparison:q} \
+          --normalized {output.normalized:q} \
+          --all-results {output.all_results:q} \
+          --significant {output.significant:q} \
+          --size-factors {output.size_factors:q} \
+          --qc {output.qc:q} \
+          --session {output.session:q} \
+          --design {params.design:q} \
+          --reference {params.reference:q} \
+          --test {params.test:q} \
+          --minimum-total-count {params.minimum_total_count} \
+          --normalization {params.normalization:q} \
+          --size-factor-type {params.size_factor_type:q} \
+          --alpha {params.alpha} \
+          > {log:q} 2>&1
+        """

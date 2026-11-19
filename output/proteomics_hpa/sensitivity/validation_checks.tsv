@@ -1,0 +1,8 @@
+check	passed
+Exactly 579 zero genes excluded after primary collapse	TRUE
+Nonzero scores unchanged and unique	TRUE
+Fixed 1439-gene ORA background	TRUE
+All ORA hit sets restricted to background	TRUE
+Independent GSEA running sums	TRUE
+Fisher matches hypergeometric tail	TRUE
+Primary output checksums unchanged	TRUE

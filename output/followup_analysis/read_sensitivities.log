@@ -1,0 +1,59 @@
+Warning messages:
+1: package ‘data.table’ was built under R version 4.4.3 
+2: package ‘Matrix’ was built under R version 4.4.3 
+Reading NM2026_0081
+Warning in .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': chrM, GL000218.1, GL000224.1, KI270442.1
+  - in 'y': GL000194.1, GL000195.1, GL000213.1, GL000219.1, KI270711.1, KI270721.1, KI270727.1, KI270728.1
+  Make sure to always combine/compare objects based on the same reference
+  genome (use suppressWarnings() to suppress this warning).
+Reading NM2026_0082
+Warning in .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': chrM, GL000218.1, GL000224.1, KI270442.1, KI270706.1, KI270713.1, KI270733.1
+  - in 'y': GL000194.1, GL000213.1, GL000219.1, KI270711.1, KI270721.1, KI270727.1, KI270728.1, KI270734.1
+  Make sure to always combine/compare objects based on the same reference
+  genome (use suppressWarnings() to suppress this warning).
+Reading NM2026_0083
+Warning in .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': chrM, GL000218.1, KI270706.1, KI270716.1
+  - in 'y': GL000194.1, GL000195.1, GL000213.1, GL000219.1, KI270711.1, KI270721.1, KI270727.1, KI270728.1, KI270734.1
+  Make sure to always combine/compare objects based on the same reference
+  genome (use suppressWarnings() to suppress this warning).
+Reading NM2026_0084
+Warning in .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': chrM, GL000009.2, GL000218.1, GL000220.1, KI270442.1, KI270706.1, KI270713.1, KI270720.1, KI270732.1, KI270733.1
+  - in 'y': GL000194.1, GL000195.1, GL000205.2, GL000213.1, GL000219.1, KI270721.1, KI270727.1, KI270728.1, KI270734.1
+  Make sure to always combine/compare objects based on the same reference
+  genome (use suppressWarnings() to suppress this warning).
+Reading NM2026_0085
+Warning in .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': chrM, GL000218.1, KI270736.1
+  - in 'y': GL000205.2, GL000213.1, GL000219.1, KI270711.1, KI270721.1, KI270727.1, KI270728.1, KI270734.1
+  Make sure to always combine/compare objects based on the same reference
+  genome (use suppressWarnings() to suppress this warning).
+Reading NM2026_0086
+Warning in .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': chrM, GL000009.2, GL000216.2, GL000218.1, KI270442.1, KI270706.1, KI270713.1, KI270720.1, KI270722.1, KI270733.1, KI270744.1
+  - in 'y': GL000213.1, KI270721.1, KI270728.1, KI270734.1
+  Make sure to always combine/compare objects based on the same reference
+  genome (use suppressWarnings() to suppress this warning).
+Reading NM2026_0087
+Warning in .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': chrM, GL000218.1, KI270733.1
+  - in 'y': GL000195.1, GL000205.2, GL000213.1, GL000219.1, KI270721.1, KI270727.1, KI270728.1, KI270734.1
+  Make sure to always combine/compare objects based on the same reference
+  genome (use suppressWarnings() to suppress this warning).
+Reading NM2026_0088
+Warning in .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': chrM, GL000009.2, GL000216.2, GL000218.1, GL000221.1, GL000224.1, KI270442.1, KI270467.1, KI270706.1, KI270713.1, KI270720.1, KI270722.1, KI270733.1, KI270742.1
+  - in 'y': GL000205.2, GL000213.1, KI270721.1, KI270728.1, KI270734.1
+  Make sure to always combine/compare objects based on the same reference
+  genome (use suppressWarnings() to suppress this warning).

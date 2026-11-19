@@ -1,0 +1,8 @@
+selection_rule	group	peak_count
+strict_opposite_quadrants	324-biased	224
+strict_opposite_quadrants	328-biased	3024
+strict_opposite_quadrants	Other	12798
+delta_biased_positive_preferred	324-biased	1437
+delta_biased_positive_preferred	328-biased	7034
+delta_biased_positive_preferred	Other	6858
+delta_biased_positive_preferred	Similar-positive	717

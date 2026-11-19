@@ -1,0 +1,2 @@
+comparison	peak_count	median_324_LFC	median_328_LFC	median_delta_delta	wilcoxon_signed_rank_statistic	wilcoxon_p_value
+324WT LFC vs 328WT LFC among peaks with both LFCs > 0	2014	2.93021333566439	3.345549938375387	-0.4040524658257123	817411	4.255039272379524e-14

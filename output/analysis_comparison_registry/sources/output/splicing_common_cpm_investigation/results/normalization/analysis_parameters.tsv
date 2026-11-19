@@ -1,0 +1,14 @@
+parameter	value
+normalization	common CPM based on primary mapped library depth across all samples
+normalization_formula	raw_count / primary_mapped_reads * 1e6
+primary_pseudocount_cpm	0.1
+sensitivity_pseudocount_cpm	0.5
+implicit_zero_policy	absent sparse sample/site/bin rows are exact zeros
+construct_enrichment_summary	mean of two within-construct matched replicate enrichments
+delta_delta_definition	enrichment_324 - enrichment_328
+coverage_statistic	sum of normalized whole-window overlap counts across all eight samples
+coverage_strata	within-landmark empirical coverage quartiles
+bootstrap_unit	primary gene ID cluster
+bootstrap_iterations	1000
+bootstrap_seed	328324
+gene_assignment	first listed gene_id for multi-gene landmark annotations

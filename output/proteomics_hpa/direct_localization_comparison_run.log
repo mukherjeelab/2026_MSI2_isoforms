@@ -1,0 +1,28 @@
+Warning messages:
+1: package ‘dplyr’ was built under R version 4.4.3 
+2: package ‘tidyr’ was built under R version 4.4.3 
+3: package ‘readr’ was built under R version 4.4.3 
+# A tibble: 3 × 11
+  pair  full_324_total full_328_total shared test_324_total test_328_total tests
+  <chr>          <int>          <int>  <int>          <int>          <int> <int>
+1 clus…            421            609      0            421            609     8
+2 hits             237            240      0            237            240     8
+3 spec…            172            300      1            171            299     8
+# ℹ 4 more variables: significant_005 <int>, significant_010 <int>,
+#   minimum_p <dbl>, minimum_FDR <dbl>
+# A tibble: 12 × 7
+   pair     localization   test_324_in test_328_in odds_ratio_324_vs_328 p_value
+   <chr>    <chr>                <int>       <int>                 <dbl>   <dbl>
+ 1 cluster  Vesicular/end…          30          65                 0.642  0.0623
+ 2 cluster  Nuclear/nucle…         176         232                 1.17   0.244 
+ 3 cluster  Mitochondrial           59          74                 1.18   0.396 
+ 4 cluster  Cytoskeletal            43          55                 1.15   0.519 
+ 5 cluster  Plasma membra…          33          55                 0.857  0.571 
+ 6 cluster  Cytosolic              155         215                 1.07   0.644 
+ 7 cluster  ER/Golgi                46          72                 0.915  0.691 
+ 8 specific Cytoskeletal            18          22                 1.48   0.235 
+ 9 specific Nuclear/nucle…          76         120                 1.19   0.382 
+10 specific ER/Golgi                18          39                 0.785  0.465 
+11 specific Mitochondrial           19          40                 0.810  0.563 
+12 specific Cytosolic               61         101                 1.09   0.688 
+# ℹ 1 more variable: BH_FDR <dbl>

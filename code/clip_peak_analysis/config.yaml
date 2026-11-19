@@ -1,0 +1,25 @@
+differential_analysis:
+  peak_bed: data/MSI2_peaks_omniCLIP.bed
+  metadata: code/clip_peak_analysis/deseq_samples.tsv
+
+  # Existing BAMs remain on Bodhi and are not stored in this repository.
+  # Change only the portion before {sample} if the cluster location changes.
+  bam_pattern: /beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/{sample}.mapped.sorted.bam
+
+  minimum_peak_score: 1
+  # 0 = unstranded, 1 = read and peak on the same strand, 2 = opposite strand.
+  strandedness: 1
+  minimum_mapping_quality: 10
+  minimum_total_count: 10
+
+  comparison_column: comparison
+  design: "~ pair + assay"
+  reference_level: input
+  test_level: IP
+
+  # Full-library normalization uses primary mapped BAM alignments. This avoids
+  # assuming that most external binding peaks are unchanged between IP/input.
+  # Alternative: peak_rle, which estimates size factors from the peak matrix.
+  normalization: full_library
+  size_factor_type: poscounts
+  alpha: 0.05

@@ -1,0 +1,2 @@
+SMJYDD_1_L2_HEK: 1431 records, 1323 mapped; known 63bp deletion reads on 346: {'has_120D': 57, 'other': 0}
+SMJYDD_2_L2_H295R: 1038 records, 780 mapped; known 63bp deletion reads on 346: {'has_120D': 158, 'other': 0}

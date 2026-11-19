@@ -1,0 +1,39 @@
+LOCUS       L8_H295R                 743 bp    DNA     linear   SYN 16-OCT-2026
+DEFINITION  L8_H295R.
+ACCESSION   L8_H295R
+VERSION     L8_H295R
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+            .
+COMMENT     Annotated with pLannotate v1.2.5
+FEATURES             Location/Qualifiers
+     CDS             1..684
+                     /note="pLannotate"
+                     /label="MSI2H_HUMAN (fragment)"
+                     /database="swissprot"
+                     /identity="100.0"
+                     /match_length="69.5"
+                     /fragment="True"
+                     /other="CDS"
+                     /description="Protein evidence at protein level: Swiss-Prot
+                     protein existence level 1. RNA binding protein that
+                     regulates the expression of target mRNAs at the translation
+                     level. May play a role in the proliferation and maintenance
+                     of stem cells in the central nervous system (By
+                     similarity). From Homo sapiens (Human)."
+ORIGIN
+        1 atggaggcaa atgggagcca aggcacctcg ggcagcgcca acgactccca gcacgacccc
+       61 ggtaaaatgt ttatcggtgg actgagctgg cagacctcac cagatagcct tagagactat
+      121 tttagcaaat ttggagaaat tagagaatgt atggtcatga gagatcccac tacgaaacgc
+      181 tccagaggct tcggtttcgt cacgttcgca gacccagcaa gtgtagataa agtattaggt
+      241 cagccccacc atgagttaga ttccaagacg attgacccca aagttgcatt tcctcgtcga
+      301 gcgcaaccca agatggtcac aagaacaaag aaaatatttg taggcgggtt atctgcgaac
+      361 acagtagtgg aagatgtaaa gcaatatttc gagcagtttg gcaaggtgga agatgcaatg
+      421 ctgatgtttg ataaaactac caacaggcac agagggtttg gctttgtcac ttttgagaat
+      481 gaagatgttg tggagaaagt ctgtgagatt catttccatg aaatcaataa taaaatggta
+      541 gaatgtaaga aagctcagcc gaaagaagtc atgttcccac ctgggacaag aggccgggcc
+      601 cggggactgc cttacaccat ggacgcgttc atgcttggca tggggatgct gggatatccc
+      661 aacttcgtgg cgacctatgg ccgtggctac cccggatttg ctccaagcta tggctatcag
+      721 ttcccagact atttgccggt ttc
+//

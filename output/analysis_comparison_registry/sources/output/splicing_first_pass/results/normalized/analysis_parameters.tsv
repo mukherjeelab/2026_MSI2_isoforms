@@ -1,0 +1,13 @@
+parameter	value
+normalization_method	existing project-specific construct-level full mapped-library factors
+normalization_formula	normalized_count = raw_count / normalization_factor
+normalization_reference_324	230995.596948535414 primary mapped reads
+normalization_reference_328	214594.397648187936 primary mapped reads
+primary_pseudocount_normalized_counts	0.1
+sensitivity_pseudocount_normalized_counts	0.5
+bootstrap_unit	primary gene ID; all sites assigned to the first listed gene ID
+bootstrap_iterations	1000
+bootstrap_seed	328324
+construct_summary	mean of two matched replicate-level CLIP/SMI log2 enrichments
+delta_delta_definition	enrichment_324 - enrichment_328
+implicit_zero_policy	absent sample/site/bin sparse rows are exact zeros

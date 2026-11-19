@@ -1,0 +1,11 @@
+parameter	value
+retained_site_filter	sum raw whole-window overlap counts across all 8 samples >= 1
+normalization	raw_count / primary_mapped_reads * 1e6
+implicit_zero_policy	missing sparse sample/site/bin rows are exact zeros
+site_weighting	sum sample/bin CPM divided by all retained sites
+construct_summary	arithmetic mean of biological replicates A and B
+pseudocount_cpm	0.1
+primary_enrichment_source	output/splicing_common_cpm_investigation/results/metaprofiles//*_common_cpm_site_weighted_metaprofile.tsv
+component_identity	delta = CLIP log-component difference - SMI log-component difference
+clip_only_interpretation	observed CLIP read distribution, not standalone binding evidence
+smi_only_interpretation	matched RNA/background distribution, not binding

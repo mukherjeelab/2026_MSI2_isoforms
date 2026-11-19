@@ -1,0 +1,13 @@
+parameter	value
+peak_inclusion_rule	rowSums(raw counts across 8 libraries) > 0
+included_peak_count	16046
+VST_size_factor_source	primary mapped alignments, centered to geometric mean
+heatmap_values	DESeq2 VST followed by per-peak z-score across 8 libraries
+heatmap_clustering	k-means on row-z matrix; cluster order from center hclust
+heatmap_k	8
+kmeans_seed	328324
+CPM_denominator	primary mapped alignments / 1e6
+LFC_pseudocount_CPM	0.5
+primary_LFC_formula	log2((mean CLIP CPM + 0.5)/(mean SMI CPM + 0.5))
+replicate_averaging	two CLIP replicates averaged separately from two SMI replicates
+scatter_significance_context	existing within-construct DESeq2 enriched calls; not interaction test

@@ -1,0 +1,25 @@
+coverage_quartile	region	region_start	region_end	weighting	mean_delta_delta	mean_ci_low	mean_ci_high	site_type
+Q4 highest	Upstream	-50	0	Site-weighted	-1.04632127957109	-1.13080473986903	-0.95932073927674	annotated_transcript_3prime_end
+Q4 highest	Downstream	0	50	Site-weighted	-0.868221892608217	-0.948154104360951	-0.788876905990826	annotated_transcript_3prime_end
+Q4 highest	Full region	-50	50	Site-weighted	-0.957271586089652	-1.02479148361582	-0.889416051928378	annotated_transcript_3prime_end
+Q1 lowest	Upstream	-50	0	Site-weighted	-0.523848411515388	-0.548207887166304	-0.500704221676894	annotated_transcript_3prime_end
+Q1 lowest	Downstream	0	50	Site-weighted	-0.420964351691261	-0.441856291802637	-0.399772514123393	annotated_transcript_3prime_end
+Q1 lowest	Full region	-50	50	Site-weighted	-0.472406381603324	-0.489997808750346	-0.456107514091862	annotated_transcript_3prime_end
+Q2	Upstream	-50	0	Site-weighted	-0.602763920846947	-0.639316079966485	-0.569407463308428	annotated_transcript_3prime_end
+Q2	Downstream	0	50	Site-weighted	-0.452626716707249	-0.481162666433642	-0.42128401420458	annotated_transcript_3prime_end
+Q2	Full region	-50	50	Site-weighted	-0.527695318777098	-0.553627214514297	-0.500955665966943	annotated_transcript_3prime_end
+Q3	Upstream	-50	0	Site-weighted	-0.489272959883708	-0.541790093625596	-0.435593935079892	annotated_transcript_3prime_end
+Q3	Downstream	0	50	Site-weighted	-0.357961650804503	-0.399306302075466	-0.311033284255794	annotated_transcript_3prime_end
+Q3	Full region	-50	50	Site-weighted	-0.423617305344105	-0.464228458271943	-0.382802747480129	annotated_transcript_3prime_end
+Q1 lowest	Upstream	-50	0	Read-weighted aggregate	-1.66150532658879	NA	NA	annotated_transcript_3prime_end
+Q2	Upstream	-50	0	Read-weighted aggregate	-3.42370332317557	NA	NA	annotated_transcript_3prime_end
+Q3	Upstream	-50	0	Read-weighted aggregate	-1.76146769137616	NA	NA	annotated_transcript_3prime_end
+Q4 highest	Upstream	-50	0	Read-weighted aggregate	0.72387746566145	NA	NA	annotated_transcript_3prime_end
+Q1 lowest	Downstream	0	50	Read-weighted aggregate	-1.85965366914571	NA	NA	annotated_transcript_3prime_end
+Q2	Downstream	0	50	Read-weighted aggregate	-3.78052622142612	NA	NA	annotated_transcript_3prime_end
+Q3	Downstream	0	50	Read-weighted aggregate	-1.61617638188666	NA	NA	annotated_transcript_3prime_end
+Q4 highest	Downstream	0	50	Read-weighted aggregate	0.212311368529875	NA	NA	annotated_transcript_3prime_end
+Q1 lowest	Full region	-50	50	Read-weighted aggregate	-1.76057949786725	NA	NA	annotated_transcript_3prime_end
+Q2	Full region	-50	50	Read-weighted aggregate	-3.60211477230085	NA	NA	annotated_transcript_3prime_end
+Q3	Full region	-50	50	Read-weighted aggregate	-1.68882203663141	NA	NA	annotated_transcript_3prime_end
+Q4 highest	Full region	-50	50	Read-weighted aggregate	0.468094417095663	NA	NA	annotated_transcript_3prime_end

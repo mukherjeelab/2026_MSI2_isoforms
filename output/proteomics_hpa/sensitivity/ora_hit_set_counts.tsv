@@ -1,0 +1,5 @@
+classification	primary_n	annotated_universe_n	excluded_n
+324-specific	171	155	16
+328-specific	298	272	26
+conflicting_duplicate_classes	1	1	0
+shared/non-specific	1171	1011	160

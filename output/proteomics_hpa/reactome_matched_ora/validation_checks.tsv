@@ -1,0 +1,7 @@
+check	passed
+All six hit sets are exact original notebook Entrez mappings	TRUE
+All hits are inside the original Entrez universe	TRUE
+Every result uses the original 1638-gene background	TRUE
+Fisher p-values match hypergeometric upper tails	TRUE
+Per-set per-resolution BH verified	TRUE
+Multi-localization membership retained	TRUE

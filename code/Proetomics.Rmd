@@ -1,0 +1,1595 @@
+---
+title: "Proteomics"
+author: "Kathryn Walters"
+date: "2026-05-11"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+```{r setup}
+library(readxl)
+library(here)
+library(dplyr)
+library(tidyr)
+library(tibble)
+library(ggplot2)
+library(ggrepel)
+library(pheatmap)
+library(patchwork)
+library(readr)
+
+library(clusterProfiler)
+library(org.Hs.eg.db)
+library(ReactomePA)
+
+data_raw <- readxl::read_xlsx(
+  here::here("data", "FredHutchProteomics.xlsx")
+)
+```
+
+
+## 2. Clean analysis table
+
+
+```{r clean-data}
+prot_df <- data_raw %>%
+  transmute(
+    gene = `Gene Symbol`,
+    ensembl = `Ensembl Gene ID`,
+    label = label,
+
+    fc_324_gfp = `f_MSI2_324_WT /EGFP`,
+    p_324_gfp  = `p_MSI2_324_WT /EGFP`,
+
+    fc_328_gfp = `f_MSI2_328_WT /EGFP`,
+    p_328_gfp  = `p_MSI2_328_WT /EGFP`,
+
+    fc_40aa_gfp = `f_MSI2_328_40AA /EGFP`,
+    p_40aa_gfp  = `p_MSI2_328_40AA /EGFP`,
+
+    # original table has 40AA / 328
+    fc_40aa_328 = `f_MSI2_328_40AA /MSI2_328_WT`,
+    p_40aa_328  = `p_MSI2_328_40AA_MSI2_328_WT`,
+
+    # derived direction: 328 / 40AA
+    fc_328_40aa = 1 / `f_MSI2_328_40AA /MSI2_328_WT`,
+
+    # original table has 328 / 324
+    fc_328_324 = `f_MSI2_328_WT /MSI2_324_WT`,
+    p_328_324  = `p_MSI2_328_WT /MSI2_324_WT`,
+
+    # derived direction: 324 / 328
+    fc_324_328 = 1 / `f_MSI2_328_WT /MSI2_324_WT`,
+
+    EGFP_B = EGFP_Rep_B_n_n,
+    EGFP_C = EGFP_Rep_C_n_n,
+
+    WT324_A = FLAG_MSI2_324_WT_Rep_A_n_n,
+    WT324_B = FLAG_MSI2_324_WT_Rep_B_n_n,
+    WT324_C = FLAG_MSI2_324_WT_Rep_C_n_n,
+
+    AA40_A = FLAG_MSI2_328_40AA_WT_Rep_A_n_n,
+    AA40_B = FLAG_MSI2_328_40AA_WT_Rep_B_n_n,
+    AA40_C = FLAG_MSI2_328_40AA_WT_Rep_C_n_n,
+
+    WT328_A = FLAG_MSI2_328_WT_Rep_A_n_n,
+    WT328_B = FLAG_MSI2_328_WT_Rep_B_n_n,
+    WT328_C = FLAG_MSI2_328_WT_Rep_C_n_n
+  ) %>%
+  filter(!is.na(gene), gene != "")
+
+```
+
+
+## 3. Heatmap/k-means function
+
+
+```{r heatmap-functions}
+make_avg_kmeans_heatmap <- function(df,
+                                    comparison = c("328_40AA", "324_328"),
+                                    k = 3,
+                                    seed = 123, #all eyes on me
+                                    genes_to_label = NULL,
+                                    title_text = NULL) {
+
+  comparison <- match.arg(comparison)
+
+  if (comparison == "328_40AA") {
+    avg_df <- df %>%
+      group_by(gene) %>%
+      summarise(
+        EGFP = mean(c(EGFP_B, EGFP_C), na.rm = TRUE),
+        AA40 = mean(c(AA40_A, AA40_B, AA40_C), na.rm = TRUE),
+        WT328 = mean(c(WT328_A, WT328_B, WT328_C), na.rm = TRUE),
+        .groups = "drop"
+      )
+
+    condition_labels <- c("EGFP", "40AA", "328")
+
+    if (is.null(title_text)) {
+      title_text <- paste0("Full dataset averaged: EGFP vs 40AA vs 328, k = ", k)
+    }
+  }
+
+  if (comparison == "324_328") {
+    avg_df <- df %>%
+      group_by(gene) %>%
+      summarise(
+        EGFP = mean(c(EGFP_B, EGFP_C), na.rm = TRUE),
+        WT324 = mean(c(WT324_A, WT324_B, WT324_C), na.rm = TRUE),
+        WT328 = mean(c(WT328_A, WT328_B, WT328_C), na.rm = TRUE),
+        .groups = "drop"
+      )
+
+    condition_labels <- c("EGFP", "324", "328")
+
+    if (is.null(title_text)) {
+      title_text <- paste0("Full dataset averaged: EGFP vs 324 vs 328, k = ", k)
+    }
+  }
+
+  heatmap_mat <- avg_df %>%
+    column_to_rownames("gene") %>%
+    as.matrix()
+
+  heatmap_mat <- heatmap_mat[rowSums(is.na(heatmap_mat)) < ncol(heatmap_mat), ]
+
+  heatmap_mat_scaled <- t(scale(t(heatmap_mat)))
+  heatmap_mat_scaled <- heatmap_mat_scaled[complete.cases(heatmap_mat_scaled), ]
+
+  set.seed(seed)
+  km <- kmeans(heatmap_mat_scaled, centers = k)
+
+  cluster_df <- tibble(
+    gene = rownames(heatmap_mat_scaled),
+    cluster = factor(km$cluster)
+  )
+
+  ordered_genes <- cluster_df %>%
+    arrange(cluster, gene) %>%
+    pull(gene)
+
+  mat_ordered <- heatmap_mat_scaled[ordered_genes, ]
+  clusters_ordered <- cluster_df$cluster[match(ordered_genes, cluster_df$gene)]
+
+  gaps_row <- which(diff(as.numeric(clusters_ordered)) != 0)
+
+  labels_row <- ifelse(
+    rownames(mat_ordered) %in% genes_to_label,
+    rownames(mat_ordered),
+    ""
+  )
+
+  annotation_col <- data.frame(
+    Condition = condition_labels
+  )
+  rownames(annotation_col) <- colnames(mat_ordered)
+
+  annotation_row <- data.frame(
+    Cluster = clusters_ordered
+  )
+  rownames(annotation_row) <- rownames(mat_ordered)
+
+  heatmap_plot <- pheatmap(
+    mat_ordered,
+    annotation_col = annotation_col,
+    annotation_row = annotation_row,
+    cluster_rows = FALSE,
+    cluster_cols = FALSE,
+    gaps_row = gaps_row,
+    labels_row = labels_row,
+    show_rownames = TRUE,
+    fontsize_row = 9,
+    scale = "none",
+    main = title_text,
+    silent = TRUE
+  )
+
+  list(
+    avg_df = avg_df,
+    matrix_scaled = heatmap_mat_scaled,
+    cluster_df = cluster_df,
+    plot = heatmap_plot
+  )
+}
+```
+
+
+## 4. Run heatmaps + extract clusters of interest
+
+#Change `cluster_of_interest_328` and `cluster_of_interest_324` after you inspect the heatmaps.
+
+
+```{r heatmaps-and-clusters}
+genes_to_label_all <- c("PABPC1", "IGF2BP3", "NCBP2", "MOV10", "EIF3B", "RPLP2", "RPL23A", "FAM98A", "EIF4G2", "YTHDF3",
+  "EIF4A2", "DDX39A", "EXOSC2", "PAK2", "MAGEC1", "DPM1", "AIMP1", "DDX24", "WDR33")
+
+genes_to_label_328 <- c("PABPC1", "IGF2BP3", "NCBP2", "MOV10", "EIF3B", "RPLP2", "RPL23A", "FAM98A", "EIF4G2", "YTHDF3")
+
+heat_328_40aa <- make_avg_kmeans_heatmap(
+  prot_df,
+  comparison = "328_40AA",
+  k = 3,
+  genes_to_label = NULL
+)
+
+heat_328_40aa$plot
+
+heat_324_328 <- make_avg_kmeans_heatmap(
+  prot_df,
+  comparison = "324_328",
+  k = 3,
+  genes_to_label = NULL
+)
+
+heat_324_328$plot
+
+# Set these based on the heatmaps you like
+cluster_of_interest_328 <- 3
+cluster_of_interest_324 <- 2
+
+genes_328_cluster <- heat_324_328$cluster_df %>%
+  filter(cluster == cluster_of_interest_328) %>%
+  pull(gene)
+
+genes_324_cluster <- heat_324_328$cluster_df %>%
+  filter(cluster == cluster_of_interest_324) %>%
+  pull(gene)
+
+genes_BOTH_cluster <- heat_324_328$cluster_df %>%
+  filter(cluster == cluster_of_interest_324 | cluster == cluster_of_interest_328) %>%
+  pull(gene)
+```
+
+
+## 5. Candidate tables from clusters
+
+
+```{r candidate-tables}
+# candidates_328_cluster <- prot_df %>%
+#   filter(gene %in% genes_328_cluster) %>%
+#   arrange(desc(fc_328_40aa)) %>%
+#   dplyr::select(
+#     gene,
+#     fc_328_gfp,
+#     p_328_gfp,
+#     fc_328_40aa,
+#     p_40aa_328,
+#     fc_40aa_gfp,
+#     p_40aa_gfp
+#   )
+# 
+# candidates_324_cluster <- prot_df %>%
+#   filter(gene %in% genes_324_cluster) %>%
+#   arrange(desc(fc_324_328)) %>%
+#   dplyr::select(
+#     gene,
+#     fc_324_gfp,
+#     p_324_gfp,
+#     fc_324_328,
+#     p_328_324,
+#     fc_328_gfp,
+#     p_328_gfp
+#   )
+
+#write_csv(candidates_328_cluster, here::here("MSI2_ProteomicsPilot", "328_cluster_candidates.csv"))
+
+#write_csv(candidates_324_cluster, here::here("MSI2_ProteomicsPilot", "324_cluster_candidates.csv"))
+
+#candidates_328_cluster
+#candidates_324_cluster
+
+```
+
+
+```{r}
+filter_cluster_hits <- function(df, cluster_genes, fc_col, p_col,
+                                fc_cutoff = 2, p_cutoff = 0.5) {
+  df %>%
+    filter(gene %in% cluster_genes) %>%
+    filter(
+      !is.na(.data[[fc_col]]),
+      !is.na(.data[[p_col]]),
+      .data[[fc_col]] >= fc_cutoff,
+      .data[[p_col]] < p_cutoff
+    ) %>%
+    pull(gene) %>%
+    unique()
+}
+
+genes_328_hits <- filter_cluster_hits(
+  prot_df,
+  cluster_genes = genes_328_cluster,
+  fc_col = "fc_328_gfp",
+  p_col = "p_328_gfp",
+  fc_cutoff = 2,
+  p_cutoff = 0.5
+)
+
+genes_324_hits <- filter_cluster_hits(
+  prot_df,
+  cluster_genes = genes_324_cluster,
+  fc_col = "fc_324_gfp",
+  p_col = "p_324_gfp",
+  fc_cutoff = 2,
+  p_cutoff = 0.5
+)
+
+filter_cluster_hits2 <- function(df,
+                                cluster_genes,
+                                fc_col,
+                                p_col,
+                                fc_cutoff = 2,
+                                p_cutoff = 0.5,
+                                direction = c("both", "up", "down"),
+                                flip_direction = FALSE) {
+  
+  direction <- match.arg(direction)
+  
+  df %>%
+    filter(gene %in% cluster_genes) %>%
+    transmute(
+      gene = gene,
+      fc = .data[[fc_col]],
+      pval = .data[[p_col]]
+    ) %>%
+    filter(
+      !is.na(fc), !is.na(pval),
+      is.finite(fc), is.finite(pval),
+      fc > 0, pval > 0
+    ) %>%
+    mutate(
+      log2FC = log2(fc),
+      log2FC = if (flip_direction) -log2FC else log2FC
+    ) %>%
+    {
+      out <- .
+      
+      if (direction == "both") {
+        out <- out %>%
+          filter(abs(log2FC) >= log2(fc_cutoff))
+      }
+      
+      if (direction == "up") {
+        out <- out %>%
+          filter(log2FC >= log2(fc_cutoff))
+      }
+      
+      if (direction == "down") {
+        out <- out %>%
+          filter(log2FC <= -log2(fc_cutoff))
+      }
+      
+      out %>%
+        filter(pval < p_cutoff)
+    } %>%
+    pull(gene) %>%
+    unique()
+}
+
+genes_324v328_hits <- filter_cluster_hits2(
+  prot_df,
+  cluster_genes = genes_BOTH_cluster,
+  fc_col = "fc_324_328",
+  p_col = "p_328_324",
+  fc_cutoff = 2,
+  p_cutoff = 0.5,
+  direction = "both"
+)
+
+split_cluster_by_fc <- function(df,
+                                cluster_genes,
+                                fc_col,
+                                p_col,
+                                fc_cutoff = 2,
+                                p_cutoff = 0.5) {
+  
+  split_df <- df %>%
+    filter(gene %in% cluster_genes) %>%
+    transmute(
+      gene = gene,
+      fc = .data[[fc_col]],
+      pval = .data[[p_col]]
+    ) %>%
+    filter(
+      !is.na(gene), gene != "",
+      !is.na(fc), !is.na(pval),
+      is.finite(fc), is.finite(pval),
+      fc > 0, pval > 0
+    ) %>%
+    mutate(
+      log2FC = log2(fc),
+      direction = case_when(
+        log2FC >= log2(fc_cutoff) & pval < p_cutoff ~ "up_in_324",
+        log2FC <= -log2(fc_cutoff) & pval < p_cutoff ~ "up_in_328",
+        TRUE ~ "not_specific"
+      )
+    )
+  
+  list(
+    table = split_df,
+    up_in_324 = split_df %>% filter(direction == "up_in_324") %>% pull(gene) %>% unique(),
+    up_in_328 = split_df %>% filter(direction == "up_in_328") %>% pull(gene) %>% unique(),
+    not_specific = split_df %>% filter(direction == "not_specific") %>% pull(gene) %>% unique()
+  )
+}
+
+split_324v328 <- split_cluster_by_fc(
+  prot_df,
+  cluster_genes = genes_BOTH_cluster,
+  fc_col = "fc_324_328",
+  p_col = "p_328_324",
+  fc_cutoff = 2,
+  p_cutoff = 0.5
+)
+
+genes_324_specific <- split_324v328$up_in_324
+genes_328_specific <- split_324v328$up_in_328
+
+length(genes_324_specific)
+length(genes_328_specific)
+
+length(genes_328_hits)
+length(genes_324_hits)
+length(genes_324v328_hits)
+```
+
+
+
+```{r}
+map_symbols_to_entrez <- function(symbols) {
+  bitr(
+    unique(symbols),
+    fromType = "SYMBOL",
+    toType = "ENTREZID",
+    OrgDb = org.Hs.eg.db
+  ) %>%
+    distinct(SYMBOL, ENTREZID)
+}
+
+make_ora <- function(hit_genes, universe_genes) {
+  universe_map <- map_symbols_to_entrez(universe_genes)
+  hit_map <- map_symbols_to_entrez(hit_genes)
+
+  hit_entrez <- unique(hit_map$ENTREZID)
+  universe_entrez <- unique(universe_map$ENTREZID)
+
+  list(
+    go_bp = enrichGO(
+      gene = hit_entrez,
+      universe = universe_entrez,
+      OrgDb = org.Hs.eg.db,
+      keyType = "ENTREZID",
+      ont = "BP",
+      pAdjustMethod = "BH",
+      pvalueCutoff = 1,
+      qvalueCutoff = 1,
+      readable = TRUE
+    ),
+
+    go_mf = enrichGO(
+      gene = hit_entrez,
+      universe = universe_entrez,
+      OrgDb = org.Hs.eg.db,
+      keyType = "ENTREZID",
+      ont = "MF",
+      pAdjustMethod = "BH",
+      pvalueCutoff = 1,
+      qvalueCutoff = 1,
+      readable = TRUE
+    ),
+
+    reactome = enrichPathway(
+      gene = hit_entrez,
+      universe = universe_entrez,
+      organism = "human",
+      pAdjustMethod = "BH",
+      pvalueCutoff = 1,
+      qvalueCutoff = 1,
+      readable = TRUE
+    ),
+
+    hit_map = hit_map,
+    universe_map = universe_map
+  )
+}
+
+
+universe_genes <- prot_df %>%
+  pull(gene) %>%
+  unique()
+
+ora_328_hits <- make_ora(genes_328_hits, universe_genes)
+ora_324_hits <- make_ora(genes_324_hits, universe_genes)
+
+plot_ora_dotplot <- function(enrich_obj, title_text,
+                             fdr_cutoff = 0.25,
+                             n_terms = 15) {
+  df <- as.data.frame(enrich_obj) %>%
+    filter(!is.na(p.adjust)) %>%
+    filter(p.adjust < fdr_cutoff) %>%
+    arrange(p.adjust)
+
+  if (nrow(df) == 0) {
+    return(
+      ggplot() +
+        theme_void() +
+        labs(
+          title = title_text,
+          subtitle = paste0("No terms passed FDR < ", fdr_cutoff)
+        )
+    )
+  }
+
+  dotplot(enrich_obj, showCategory = min(n_terms, nrow(df))) +
+    ggtitle(paste0(title_text, " (FDR < ", fdr_cutoff, ")"))
+}
+
+
+plot_ora_dotplot(ora_328_hits$go_bp, "GO BP ORA: 328 cluster + FC/p filter", fdr_cutoff = 0.25)
+plot_ora_dotplot(ora_328_hits$go_mf, "GO MF ORA: 328 cluster + FC/p filter", fdr_cutoff = 0.25)
+plot_ora_dotplot(ora_328_hits$reactome, "Reactome ORA: 328 cluster + FC/p filter", fdr_cutoff = 0.25)
+
+plot_ora_dotplot(ora_324_hits$go_bp, "GO BP ORA: 324 cluster + FC/p filter", fdr_cutoff = 0.25)
+plot_ora_dotplot(ora_324_hits$go_mf, "GO MF ORA: 324 cluster + FC/p filter", fdr_cutoff = 0.25)
+plot_ora_dotplot(ora_324_hits$reactome, "Reactome ORA: 324 cluster + FC/p filter", fdr_cutoff = 0.25)
+
+#Using 324 v 328 comparison
+ora_324_specific <- make_ora(
+  hit_genes = genes_324_specific,
+  universe_genes = universe_genes
+)
+
+ora_328_specific <- make_ora(
+  hit_genes = genes_328_specific,
+  universe_genes = universe_genes
+)
+
+#plots
+plot_ora_dotplot(
+  ora_324_specific$go_bp,
+  "GO BP ORA: 324-specific cluster genes",
+  fdr_cutoff = 0.25
+)
+
+plot_ora_dotplot(
+  ora_324_specific$go_mf,
+  "GO MF ORA: 324-specific cluster genes",
+  fdr_cutoff = 0.25
+)
+
+plot_ora_dotplot(
+  ora_324_specific$reactome,
+  "Reactome ORA: 324-specific cluster genes",
+  fdr_cutoff = 0.1
+)
+
+plot_ora_dotplot(
+  ora_328_specific$go_bp,
+  "GO BP ORA: 328-specific cluster genes",
+  fdr_cutoff = 0.25
+)
+
+plot_ora_dotplot(
+  ora_328_specific$go_mf,
+  "GO MF ORA: 328-specific cluster genes",
+  fdr_cutoff = 0.25
+)
+
+plot_ora_dotplot(
+  ora_328_specific$reactome,
+  "Reactome ORA: 328-specific cluster genes",
+  fdr_cutoff = 0.15
+)
+```
+
+
+```{r}
+pull_ora_genes <- function(enrich_obj, fdr_cutoff = 0.25, n_terms = 10) {
+  as.data.frame(enrich_obj) %>%
+    filter(!is.na(p.adjust), p.adjust < fdr_cutoff) %>%
+    arrange(p.adjust) %>%
+    slice_head(n = n_terms) %>%
+    pull(geneID) %>%
+    strsplit("/") %>%
+    unlist() %>%
+    unique()
+}
+
+genes_324_ora_labels <- c(
+  pull_ora_genes(ora_324_specific$go_bp, fdr_cutoff = 0.15, n_terms = 5),
+  pull_ora_genes(ora_324_specific$go_mf, fdr_cutoff = 0.15, n_terms = 5),
+  pull_ora_genes(ora_324_specific$reactome, fdr_cutoff = 0.15, n_terms = 5)
+) %>%
+  unique()
+
+genes_328_ora_labels <- c(
+  pull_ora_genes(ora_328_specific$go_bp, fdr_cutoff = 0.05, n_terms = 5),
+  pull_ora_genes(ora_328_specific$go_mf, fdr_cutoff = 0.15, n_terms = 5),
+  pull_ora_genes(ora_328_specific$reactome, fdr_cutoff = 0.15, n_terms = 5)
+) %>%
+  unique()
+
+top_fc_ora_labels <- function(ora_label_genes,
+                              df,
+                              fc_col,
+                              n = 20) {
+  df %>%
+    filter(gene %in% ora_label_genes) %>%
+    transmute(
+      gene = gene,
+      fc = .data[[fc_col]]
+    ) %>%
+    filter(!is.na(fc), is.finite(fc), fc > 0) %>%
+    mutate(abs_log2FC = abs(log2(fc))) %>%
+    arrange(desc(abs_log2FC)) %>%
+    slice_head(n = n) %>%
+    pull(gene) %>%
+    unique()
+}
+
+genes_324_ora_labels_top20 <- top_fc_ora_labels(
+  ora_label_genes = genes_324_ora_labels,
+  df = prot_df,
+  fc_col = "fc_324_328",
+  n = 20
+)
+
+genes_328_ora_labels_top20 <- top_fc_ora_labels(
+  ora_label_genes = genes_328_ora_labels,
+  df = prot_df,
+  fc_col = "fc_324_328",
+  n = 30
+)
+
+labels328 <- c("EIF3B","EIF3L",   "RPS4X",  "EIF3G",   "EIF4A2",  "PABPC1",  "RPS19",   "RPLP2",   "SRP19",   "EEF1G","RPS8",    "EIF4H" ,  "RPL29" ,  "AARS1",   "RPL13",   "EEF1E1" , "EIF3A"  ,"RPS21",   "RPL3",    "RPL13A",  "RPL23A",  "RPL36AL", "RPL36A",  "RPL19"  ,"RPS13",   "RPL5" ,   "SEC11A",  "PABPC4")  
+
+genes_328_ora_labels2 <- c()
+
+genes_324_ora_labels2 <- c("CHD4", "HDAC2", "GATAD2B", "PHF10", "CBX6", "SAFB", "YY1", "TRIM28", "HCFC1", "POLR1D", "RBM7", "EXOSC2", "NUP205", "SMC3",    "SMARCD2", "WDR33", "H1-5", "TAF5", "APC", "USP7",  "RAD23B",  "SS18"  ,  "SMC1A" ,  "ALPL", "RPL26","EHMT1",   "ACTL6A",  "PSME2",   "RBBP5",   "CUL4B"  )
+```
+
+
+
+```{r}
+make_split_volcano <- function(df,
+                               cluster_genes,
+                               split_table,
+                               label_genes = NULL,
+                               fc_col,
+                               p_col,
+                               title_text,
+                               fc_cutoff = 2,
+                               p_cutoff = 0.5,
+                               label_color_324 = "#D9773A",
+                               label_color_328 = "#4C78A8",
+                               base_color = "grey75") {
+  
+  plot_df <- df %>%
+    filter(gene %in% cluster_genes) %>%
+    transmute(
+      gene = gene,
+      fc = .data[[fc_col]],
+      pval = .data[[p_col]]
+    ) %>%
+    filter(
+      !is.na(fc), !is.na(pval),
+      is.finite(fc), is.finite(pval),
+      fc > 0, pval > 0
+    ) %>%
+    mutate(
+      log2FC = log2(fc),
+      negLog10P = -log10(pval)
+    ) %>%
+    left_join(
+      split_table %>% dplyr::select(gene, direction),
+      by = "gene"
+    ) %>%
+    mutate(
+      direction = replace_na(direction, "not_specific"),
+      label_this = gene %in% label_genes
+    )
+  
+  label_df <- plot_df %>%
+    filter(label_this)
+  
+  ggplot(plot_df, aes(x = log2FC, y = negLog10P)) +
+    
+    # base points (all grey)
+    geom_point(color = base_color, size = 3, alpha = 0.7) +
+    
+    # highlighted labeled genes colored by direction
+    geom_point(
+      data = label_df,
+      aes(color = direction),
+      size = 4,
+      alpha = 1
+    ) +
+    
+    ggrepel::geom_text_repel(
+      data = label_df,
+      aes(label = gene),
+      color = "black",
+      size = 3.2,
+      max.overlaps = Inf,
+      box.padding = 0.35,
+      point.padding = 0.25,
+      segment.color = "grey50",
+      show.legend = FALSE
+    ) +
+    
+    geom_vline(
+      xintercept = c(-log2(fc_cutoff), log2(fc_cutoff)),
+      linetype = "dashed",
+      color = "grey40"
+    ) +
+    
+    geom_hline(
+      yintercept = -log10(p_cutoff),
+      linetype = "dashed",
+      color = "grey40"
+    ) +
+    
+    scale_color_manual(
+      values = c(
+        "up_in_324" = label_color_324,
+        "up_in_328" = label_color_328,
+        "not_specific" = "black"
+      ),
+      labels = c(
+        "up_in_324" = "324-specific",
+        "up_in_328" = "328-specific",
+        "not_specific" = "Other"
+      )
+    ) +
+    
+    labs(
+      title = title_text,
+      subtitle = paste0(
+        "Cluster genes shown; only labeled genes highlighted"
+      ),
+      x = "log2 FC: 324 vs 328",
+      y = expression(-log[10](p)),
+      color = NULL
+    ) +
+    
+    theme_minimal(base_size = 15) +
+    theme(
+      plot.title = element_text(face = "bold", hjust = 0.5),
+      plot.subtitle = element_text(hjust = 0.5),
+      panel.grid.minor = element_blank()
+    )
+}
+volcano_324v328_split <- make_split_volcano(
+  prot_df,
+  cluster_genes = genes_BOTH_cluster,
+  split_table = split_324v328$table,
+  label_genes = c(genes_324_ora_labels2, labels328),
+  fc_col = "fc_324_328",
+  p_col = "p_328_324",
+  title_text = "Cluster genes split by 324 vs 328 specificity",
+  fc_cutoff = 2,
+  p_cutoff = 0.5
+)
+
+volcano_324v328_split
+```
+
+
+## 6. Volcano function for cluster genes
+
+#This colors cluster-of-interest genes blue wherever they fall.
+
+
+```{r cluster-volcano-function}
+
+make_filtered_cluster_volcano <- function(df,
+                                          cluster_genes,
+                                          hit_genes,
+                                          label_genes,
+                                          fc_col,
+                                          p_col,
+                                          title_text,
+                                          fc_cutoff = 2,
+                                          p_cutoff = 0.5,
+                                          hit_color = "#D9773A",
+                                          other_color = "grey75") {
+
+  plot_df <- df %>%
+    filter(gene %in% cluster_genes) %>%
+    transmute(
+      gene = gene,
+      fc = .data[[fc_col]],
+      pval = .data[[p_col]]
+    ) %>%
+    filter(!is.na(fc), !is.na(pval), is.finite(fc), is.finite(pval), fc > 0, pval > 0) %>%
+    mutate(
+      log2FC = log2(fc),
+      negLog10P = -log10(pval),
+      category = ifelse(gene %in% hit_genes, "Pass FC/p filter", "Cluster only"),
+      label_this = gene %in% label_genes
+    )
+
+  label_df <- plot_df %>%
+    filter(label_this)
+
+  ggplot(plot_df, aes(x = log2FC, y = negLog10P, color = category)) +
+    geom_point(size = 3, alpha = 0.9) +
+    geom_vline(xintercept = log2(fc_cutoff), linetype = "dashed", color = "grey40") +
+    geom_hline(yintercept = -log10(p_cutoff), linetype = "dashed", color = "grey40") +
+    ggrepel::geom_text_repel(
+      data = label_df,
+      aes(label = gene),
+      color = "black",
+      size = 3.2,
+      max.overlaps = Inf,
+      box.padding = 0.35,
+      point.padding = 0.25,
+      segment.color = "grey50",
+      show.legend = FALSE
+    ) +
+    scale_color_manual(
+      values = c(
+        "Pass FC/p filter" = hit_color,
+        "Cluster only" = other_color
+      )
+    ) +
+    labs(
+      title = title_text,
+      subtitle = paste0("Cluster genes only; colored if FC ≥ ", fc_cutoff, " and p < ", p_cutoff),
+      x = "log2 fold change",
+      y = expression(-log[10](p)),
+      color = NULL
+    ) +
+    theme_minimal(base_size = 15) +
+    theme(
+      plot.title = element_text(face = "bold", hjust = 0.5),
+      plot.subtitle = element_text(hjust = 0.5),
+      panel.grid.minor = element_blank()
+    )
+}
+
+
+
+volcano_328_hits <- make_filtered_cluster_volcano(
+  prot_df,
+  cluster_genes = genes_328_cluster,
+  hit_genes = genes_328_hits,
+  label_genes = genes_328_ora_labels,
+  fc_col = "fc_328_gfp",
+  p_col = "p_328_gfp",
+  title_text = "328 cluster genes: 328 vs GFP",
+  fc_cutoff = 2,
+  p_cutoff = 0.5
+)
+
+volcano_328_hits
+
+
+
+volcano_324_hits <- make_filtered_cluster_volcano(
+  prot_df,
+  cluster_genes = genes_324_cluster,
+  hit_genes = genes_324_hits,
+  label_genes = genes_324_ora_labels,
+  fc_col = "fc_324_gfp",
+  p_col = "p_324_gfp",
+  title_text = "324 cluster genes: 324 vs GFP",
+  fc_cutoff = 2,
+  p_cutoff = 0.5
+)
+
+volcano_324_hits
+
+
+volcano_324v328_hits <- make_filtered_cluster_volcano(
+  prot_df,
+  cluster_genes = genes_BOTH_cluster,
+  hit_genes = genes_324v328_hits,
+  label_genes = genes_324_ora_labels,
+  fc_col = "fc_324_328",
+  p_col = "p_328_324",
+  title_text = "324 cluster genes: 324 vs 328",
+  fc_cutoff = 2,
+  p_cutoff = 0.5
+)
+
+volcano_324v328_hits
+
+
+```
+
+
+## 7. Scatter function for cluster genes
+
+
+```{r cluster-scatter-function}
+make_cluster_scatter <- function(df,
+                                 y_fc_col,
+                                 x_fc_col,
+                                 genes_to_label,
+                                 title_text,
+                                 flip_x = FALSE,
+                                 highlight_color = "#0072B2",
+                                 base_color = "grey80",
+                                 x_label = "log2 fold change",
+                                 y_label = "log2 fold change") {
+  
+  plot_df <- df %>%
+    transmute(
+      gene = gene,
+      x_fc = .data[[x_fc_col]],
+      y_fc = .data[[y_fc_col]]
+    ) %>%
+    filter(
+      !is.na(x_fc), !is.na(y_fc),
+      is.finite(x_fc), is.finite(y_fc),
+      x_fc > 0, y_fc > 0
+    ) %>%
+    mutate(
+      x_log2FC = log2(x_fc),
+      x_log2FC = if (flip_x) -x_log2FC else x_log2FC,
+      y_log2FC = log2(y_fc),
+      highlight = gene %in% genes_to_label
+    )
+  
+  highlight_df <- plot_df %>%
+    filter(highlight)
+  
+  ggplot(plot_df, aes(x = x_log2FC, y = y_log2FC)) +
+    geom_hline(yintercept = 0, color = "grey85") +
+    geom_vline(xintercept = 0, color = "grey85") +
+    geom_point(color = base_color, size = 2.4, alpha = 0.7) +
+    geom_point(
+      data = highlight_df,
+      color = highlight_color,
+      size = 3.8,
+      alpha = 1
+    ) +
+    ggrepel::geom_text_repel(
+      data = highlight_df,
+      aes(label = gene),
+      color = "black",
+      size = 3.2,
+      max.overlaps = Inf,
+      box.padding = 0.35,
+      point.padding = 0.25,
+      segment.color = "grey50"
+    ) +
+    labs(
+      title = title_text,
+      subtitle = "Highlighted genes selected from k-means cluster",
+      x = x_label,
+      y = y_label
+    ) +
+    theme_minimal(base_size = 15) +
+    theme(
+      plot.title = element_text(face = "bold", hjust = 0.5),
+      plot.subtitle = element_text(hjust = 0.5),
+      panel.grid.minor = element_blank()
+    )
+}
+
+scatter_328_cluster <- make_cluster_scatter(
+  prot_df,
+  y_fc_col = "fc_328_gfp",
+  x_fc_col = "fc_40aa_328",
+  genes_to_label = genes_to_label_328,
+  title_text = "Selected proteins: 328 enrichment and 40AA loss",
+  flip_x = TRUE,
+  x_label = "log2 FC: 328 vs 40AA",
+  y_label = "log2 FC: 328 vs GFP"
+)
+
+scatter_324_cluster <- make_cluster_scatter(
+   prot_df,
+  y_fc_col = "fc_324_gfp",
+  x_fc_col = "fc_328_324",
+  genes_to_label = genes_to_label_all,
+  title_text = "Selected proteins: 324 enrichment relative to 328",
+  flip_x = TRUE,
+  x_label = "log2 FC: 324 vs 328",
+  y_label = "log2 FC: 324 vs GFP"
+)
+
+scatter_328_cluster
+scatter_324_cluster
+
+```
+
+
+## 8. GO/Reactome overlap analysis for cluster genes
+
+#This is **ORA/overlap**, not GSEA. Universe = all mapped proteins in your proteomics table.
+
+
+```{r ora-functions}
+map_symbols_to_entrez <- function(symbols) {
+  bitr(
+    unique(symbols),
+    fromType = "SYMBOL",
+    toType = "ENTREZID",
+    OrgDb = org.Hs.eg.db
+  ) %>%
+    distinct(SYMBOL, ENTREZID)
+}
+
+make_cluster_ora <- function(cluster_genes, universe_genes) {
+
+  universe_map <- map_symbols_to_entrez(universe_genes)
+  cluster_map <- map_symbols_to_entrez(cluster_genes)
+
+  cluster_entrez <- unique(cluster_map$ENTREZID)
+  universe_entrez <- unique(universe_map$ENTREZID)
+
+  go_bp <- enrichGO(
+    gene = cluster_entrez,
+    universe = universe_entrez,
+    OrgDb = org.Hs.eg.db,
+    keyType = "ENTREZID",
+    ont = "BP",
+    pAdjustMethod = "BH",
+    pvalueCutoff = 1,
+    qvalueCutoff = 1,
+    readable = TRUE
+  )
+
+  go_mf <- enrichGO(
+    gene = cluster_entrez,
+    universe = universe_entrez,
+    OrgDb = org.Hs.eg.db,
+    keyType = "ENTREZID",
+    ont = "MF",
+    pAdjustMethod = "BH",
+    pvalueCutoff = 1,
+    qvalueCutoff = 1,
+    readable = TRUE
+  )
+
+  reactome <- enrichPathway(
+    gene = cluster_entrez,
+    universe = universe_entrez,
+    organism = "human",
+    pAdjustMethod = "BH",
+    pvalueCutoff = 1,
+    qvalueCutoff = 1,
+    readable = TRUE
+  )
+
+  list(
+    go_bp = go_bp,
+    go_mf = go_mf,
+    reactome = reactome,
+    cluster_map = cluster_map,
+    universe_map = universe_map
+  )
+}
+
+plot_ora_dotplot <- function(enrich_obj,
+                             title_text,
+                             fdr_cutoff = 0.05,
+                             n_terms = 15) {
+  
+  df <- as.data.frame(enrich_obj) %>%
+    filter(!is.na(p.adjust)) %>%
+    filter(p.adjust < fdr_cutoff) %>%
+    arrange(p.adjust)
+  
+  if (nrow(df) == 0) {
+    return(
+      ggplot() +
+        theme_void() +
+        labs(
+          title = title_text,
+          subtitle = paste0("No terms passed FDR < ", fdr_cutoff)
+        ) +
+        theme(
+          plot.title = element_text(face = "bold", hjust = 0.5),
+          plot.subtitle = element_text(hjust = 0.5)
+        )
+    )
+  }
+  
+  dotplot(
+    enrich_obj,
+    showCategory = min(n_terms, nrow(df))
+  ) +
+    ggtitle(paste0(title_text, " (FDR < ", fdr_cutoff, ")")) +
+    theme(
+      plot.title = element_text(face = "bold", hjust = 0.5)
+    )
+}
+```
+
+
+```{r ora-run}
+universe_genes <- prot_df %>%
+  pull(gene) %>%
+  unique()
+
+ora_328_cluster <- make_cluster_ora(
+  cluster_genes = genes_328_cluster,
+  universe_genes = universe_genes
+)
+
+ora_324_cluster <- make_cluster_ora(
+  cluster_genes = genes_324_cluster,
+  universe_genes = universe_genes
+)
+
+
+plot_ora_dotplot(
+  ora_328_cluster$go_bp,
+  "GO BP ORA: 328 cluster genes", fdr_cutoff = 0.15
+)
+
+plot_ora_dotplot(
+  ora_328_cluster$go_mf,
+  "GO MF ORA: 328 cluster genes", fdr_cutoff = 0.15
+)
+
+plot_ora_dotplot(
+  ora_328_cluster$reactome,
+  "Reactome ORA: 328 cluster genes", fdr_cutoff = 0.1
+)
+
+plot_ora_dotplot(
+  ora_324_cluster$go_bp,
+  "GO BP ORA: 324 cluster genes", fdr_cutoff = 0.25
+)
+
+plot_ora_dotplot(
+  ora_324_cluster$go_mf,
+  "GO MF ORA: 324 cluster genes", fdr_cutoff = 0.25
+)
+
+plot_ora_dotplot(
+  ora_324_cluster$reactome,
+  "Reactome ORA: 324 cluster genes", fdr_cutoff = 0.25
+)
+
+ora_328_bp_table <- as.data.frame(ora_328_cluster$go_bp)
+ora_328_mf_table <- as.data.frame(ora_328_cluster$go_mf)
+ora_328_reactome_table <- as.data.frame(ora_328_cluster$reactome)
+
+ora_324_bp_table <- as.data.frame(ora_324_cluster$go_bp)
+ora_324_mf_table <- as.data.frame(ora_324_cluster$go_mf)
+ora_324_reactome_table <- as.data.frame(ora_324_cluster$reactome)
+
+ora_328_bp_table %>% arrange(p.adjust) %>% head(20)
+ora_328_mf_table %>% arrange(p.adjust) %>% head(20)
+ora_328_reactome_table %>% arrange(p.adjust) %>% head(20)
+
+ora_324_bp_table %>% arrange(p.adjust) %>% head(20)
+ora_324_mf_table %>% arrange(p.adjust) %>% head(20)
+ora_324_reactome_table %>% arrange(p.adjust) %>% head(20)
+
+```
+
+```{r}
+#so those ORAs are defined by clusters. I'm also curious if we do FC cutoffs how that looks. 
+
+make_cutoff_gene_set <- function(df,
+                                 fc_col,
+                                 p_col,
+                                 fc_cutoff = 2,
+                                 p_cutoff = 0.05,
+                                 direction = c("up", "down"),
+                                 flip_direction = FALSE) {
+  
+  direction <- match.arg(direction)
+  
+  out <- df %>%
+    transmute(
+      gene = gene,
+      fc = .data[[fc_col]],
+      pval = .data[[p_col]]
+    ) %>%
+    filter(
+      !is.na(gene), gene != "",
+      !is.na(fc), !is.na(pval),
+      is.finite(fc), is.finite(pval),
+      fc > 0, pval > 0
+    ) %>%
+    mutate(
+      log2FC = log2(fc),
+      log2FC = if (flip_direction) -log2FC else log2FC
+    )
+  
+  if (direction == "up") {
+    out <- out %>%
+      filter(log2FC >= log2(fc_cutoff), pval < p_cutoff)
+  }
+  
+  if (direction == "down") {
+    out <- out %>%
+      filter(log2FC <= -log2(fc_cutoff), pval < p_cutoff)
+  }
+  
+  out %>%
+    pull(gene) %>%
+    unique()
+}
+
+genes_324_cutoff_fc2_p05 <- make_cutoff_gene_set(
+  prot_df,
+  fc_col = "fc_324_gfp",
+  p_col = "p_324_gfp",
+  fc_cutoff = 2,
+  p_cutoff = 0.05,
+  direction = "up"
+)
+
+genes_324_cutoff_fc2_p10 <- make_cutoff_gene_set(
+  prot_df,
+  fc_col = "fc_324_gfp",
+  p_col = "p_324_gfp",
+  fc_cutoff = 2,
+  p_cutoff = 0.1,
+  direction = "up"
+)
+
+genes_324_cutoff_fc2_p5 <- make_cutoff_gene_set(
+  prot_df,
+  fc_col = "fc_324_gfp",
+  p_col = "p_324_gfp",
+  fc_cutoff = 2,
+  p_cutoff = 0.5,
+  direction = "up"
+)
+
+
+ora_324_cutoff_fc2_p05 <- make_cluster_ora(
+  cluster_genes = genes_324_cutoff_fc2_p05,
+  universe_genes = universe_genes
+)
+
+ora_324_cutoff_fc2_p10 <- make_cluster_ora(
+  cluster_genes = genes_324_cutoff_fc2_p10,
+  universe_genes = universe_genes
+)
+
+ora_324_cutoff_fc2_p5 <- make_cluster_ora(
+  cluster_genes = genes_324_cutoff_fc2_p5,
+  universe_genes = universe_genes
+)
+
+
+
+plot_ora_dotplot(
+  ora_324_cutoff_fc2_p05$go_mf,
+  "GO BP ORA: 324 > GFP, FC > 2, p < 0.05",
+  fdr_cutoff = 0.25
+)
+
+plot_ora_dotplot(
+  ora_324_cutoff_fc2_p10$go_mf,
+  "GO BP ORA: 324 > GFP, FC > 2, p < 0.10",
+  fdr_cutoff = 0.25
+)
+
+#no pvalue, MF, 324 v GFP
+plot_ora_dotplot(
+  ora_324_cutoff_fc2_p5$go_mf,
+  "GO BP ORA: 324 > GFP, FC > 2, p < 0.5",
+  fdr_cutoff = 0.25
+)
+
+#no pvalue, MF, 324 v GFP
+plot_ora_dotplot(
+  ora_324_cutoff_fc2_p5$reactome,
+  "GO BP ORA: 324 > GFP, FC > 2, p < 0.5",
+  fdr_cutoff = 0.25
+)
+```
+
+
+
+
+```{r GSEA functions}
+make_ranked_gene_list <- function(df,
+                                  fc_col,
+                                  gene_subset = NULL,
+                                  flip_direction = FALSE) {
+  
+  rank_df <- df %>%
+    filter(if (is.null(gene_subset)) TRUE else gene %in% gene_subset) %>%
+    transmute(
+      gene = gene,
+      fc = .data[[fc_col]]
+    ) %>%
+    filter(
+      !is.na(gene), gene != "",
+      !is.na(fc), is.finite(fc), fc > 0
+    ) %>%
+    mutate(
+      log2FC = log2(fc),
+      log2FC = if (flip_direction) -log2FC else log2FC
+    ) %>%
+    group_by(gene) %>%
+    slice_max(order_by = abs(log2FC), n = 1, with_ties = FALSE) %>%
+    ungroup()
+  
+  gene_list <- rank_df$log2FC
+  names(gene_list) <- rank_df$gene
+  
+  sort(gene_list, decreasing = TRUE)
+}
+
+convert_ranked_list_to_entrez <- function(gene_list_symbol) {
+  
+  id_map <- bitr(
+    names(gene_list_symbol),
+    fromType = "SYMBOL",
+    toType = "ENTREZID",
+    OrgDb = org.Hs.eg.db
+  )
+  
+  rank_df <- tibble(
+    SYMBOL = names(gene_list_symbol),
+    score = as.numeric(gene_list_symbol)
+  ) %>%
+    inner_join(id_map, by = "SYMBOL") %>%
+    group_by(ENTREZID) %>%
+    slice_max(order_by = abs(score), n = 1, with_ties = FALSE) %>%
+    ungroup()
+  
+  gene_list_entrez <- rank_df$score
+  names(gene_list_entrez) <- rank_df$ENTREZID
+  
+  sort(gene_list_entrez, decreasing = TRUE)
+}
+
+run_gsea_flex <- function(df,
+                          fc_col,
+                          gene_subset = NULL,
+                          flip_direction = FALSE,
+                          analysis = c("GO_BP", "GO_MF", "Reactome"),
+                          minGSSize = 10,
+                          maxGSSize = 500,
+                          pvalueCutoff = 1) {
+  
+  analysis <- match.arg(analysis)
+  
+  gene_list_symbol <- make_ranked_gene_list(
+    df = df,
+    fc_col = fc_col,
+    gene_subset = gene_subset,
+    flip_direction = flip_direction
+  )
+  
+  gene_list_entrez <- convert_ranked_list_to_entrez(gene_list_symbol)
+  
+  if (analysis == "GO_BP") {
+    return(
+      gseGO(
+        geneList = gene_list_entrez,
+        OrgDb = org.Hs.eg.db,
+        keyType = "ENTREZID",
+        ont = "BP",
+        minGSSize = minGSSize,
+        maxGSSize = maxGSSize,
+        pvalueCutoff = pvalueCutoff,
+        verbose = FALSE
+      )
+    )
+  }
+  
+  if (analysis == "GO_MF") {
+    return(
+      gseGO(
+        geneList = gene_list_entrez,
+        OrgDb = org.Hs.eg.db,
+        keyType = "ENTREZID",
+        ont = "MF",
+        minGSSize = minGSSize,
+        maxGSSize = maxGSSize,
+        pvalueCutoff = pvalueCutoff,
+        verbose = FALSE
+      )
+    )
+  }
+  
+  if (analysis == "Reactome") {
+    return(
+      ReactomePA::gsePathway(
+        geneList = gene_list_entrez,
+        organism = "human",
+        minGSSize = minGSSize,
+        maxGSSize = maxGSSize,
+        pvalueCutoff = pvalueCutoff,
+        verbose = FALSE
+      )
+    )
+  }
+}
+
+plot_gsea_nes <- function(gsea_obj,
+                          title_text,
+                          fdr_cutoff = 0.25,
+                          n_terms = 20) {
+  
+  plot_df <- as.data.frame(gsea_obj) %>%
+    filter(!is.na(NES), !is.na(p.adjust)) %>%
+    filter(p.adjust < fdr_cutoff) %>%
+    arrange(desc(abs(NES))) %>%
+    slice_head(n = n_terms)
+  
+  if (nrow(plot_df) == 0) {
+    return(
+      ggplot() +
+        theme_void() +
+        labs(
+          title = title_text,
+          subtitle = paste0("No pathways passed FDR < ", fdr_cutoff)
+        ) +
+        theme(
+          plot.title = element_text(face = "bold", hjust = 0.5),
+          plot.subtitle = element_text(hjust = 0.5)
+        )
+    )
+  }
+  
+  plot_df <- plot_df %>%
+    mutate(
+      Direction = ifelse(NES > 0, "Positive NES", "Negative NES"),
+      Description = forcats::fct_reorder(Description, NES)
+    )
+  
+  ggplot(plot_df, aes(x = NES, y = Description, size = -log10(p.adjust), color = Direction)) +
+    geom_point(alpha = 0.9) +
+    geom_vline(xintercept = 0, linetype = "dashed", color = "grey50") +
+    labs(
+      title = title_text,
+      x = "Normalized Enrichment Score (NES)",
+      y = NULL,
+      size = "-log10(FDR)",
+      color = NULL
+    ) +
+    theme_minimal(base_size = 14) +
+    theme(
+      plot.title = element_text(face = "bold", hjust = 0.5),
+      panel.grid.minor = element_blank()
+    )
+}
+
+
+
+#328 vs GFP -> all genes, not cluster
+gsea_328_gfp_bp <- run_gsea_flex(
+  prot_df,
+  fc_col = "fc_328_gfp",
+  analysis = "GO_BP"
+)
+
+gsea_328_gfp_mf <- run_gsea_flex(
+  prot_df,
+  fc_col = "fc_328_gfp",
+  analysis = "GO_MF"
+)
+
+gsea_328_gfp_reactome <- run_gsea_flex(
+  prot_df,
+  fc_col = "fc_328_gfp",
+  analysis = "Reactome"
+)
+
+
+#324 vs GFP -> all genes, not cluster
+gsea_324_gfp_bp <- run_gsea_flex(
+  prot_df,
+  fc_col = "fc_324_gfp",
+  analysis = "GO_BP"
+)
+
+gsea_324_gfp_mf <- run_gsea_flex(
+  prot_df,
+  fc_col = "fc_324_gfp",
+  analysis = "GO_MF"
+)
+
+gsea_324_gfp_reactome <- run_gsea_flex(
+  prot_df,
+  fc_col = "fc_324_gfp",
+  analysis = "Reactome"
+)
+
+#324 vs 328 All genes
+gsea_324_328_bp <- run_gsea_flex(
+  prot_df,
+  fc_col = "fc_324_328",
+  analysis = "GO_BP"
+)
+
+gsea_324_328_mf <- run_gsea_flex(
+  prot_df,
+  fc_col = "fc_324_328",
+  analysis = "GO_MF"
+)
+
+run_reactome_gsea_safe <- function(df,
+                                   fc_col,
+                                   gene_subset = NULL,
+                                   flip_direction = FALSE,
+                                   minGSSize = 10,
+                                   maxGSSize = 500,
+                                   pvalueCutoff = 1,
+                                   seed = 123) {
+  
+  gene_list_symbol <- make_ranked_gene_list(
+    df = df,
+    fc_col = fc_col,
+    gene_subset = gene_subset,
+    flip_direction = flip_direction
+  )
+  
+  gene_list_entrez <- convert_ranked_list_to_entrez(gene_list_symbol)
+  
+  # remove zero scores because they can create problems in ReactomePA/fgsea
+  gene_list_entrez <- gene_list_entrez[gene_list_entrez != 0]
+  
+  # add tiny jitter if there are ties
+  if (any(duplicated(gene_list_entrez))) {
+    set.seed(seed)
+    gene_list_entrez <- gene_list_entrez + rnorm(length(gene_list_entrez), 0, 1e-10)
+    gene_list_entrez <- sort(gene_list_entrez, decreasing = TRUE)
+  }
+  
+  ReactomePA::gsePathway(
+    geneList = gene_list_entrez,
+    organism = "human",
+    minGSSize = minGSSize,
+    maxGSSize = maxGSSize,
+    pvalueCutoff = pvalueCutoff,
+    verbose = FALSE
+  )
+}
+gsea_324_328_reactome <- run_reactome_gsea_safe(
+  prot_df,
+  fc_col = "fc_324_328"
+)
+
+
+plot_gsea_nes(
+  gsea_328_gfp_reactome,
+  "Reactome GSEA: 328 vs GFP",
+  fdr_cutoff = 0.25
+)
+
+plot_gsea_nes(
+  gsea_324_328_mf,
+  "MF GSEA: cluster genes, 324 vs 328",
+  fdr_cutoff = 0.25
+)
+
+plot_gsea_nes(
+  gsea_324_gfp_reactome,
+  "Reactome GSEA: cluster genes, 324 vs GFP",
+  fdr_cutoff = 0.25
+)
+
+
+
+plot_gsea_nes(
+  gsea_324_gfp_reactome,
+  "Reactome GSEA: 324 vs GFP",
+  fdr_cutoff = 0.25
+)
+
+plot_gsea_nes(
+  gsea_324_gfp_bp,
+  "BP GSEA: cluster genes, 324 vs GFP",
+  fdr_cutoff = 0.25
+)
+
+plot_gsea_nes(
+  gsea_324_gfp_mf,
+  "MF GSEA: cluster genes, 324 vs GFP",
+  fdr_cutoff = 0.25
+)
+```
+
+

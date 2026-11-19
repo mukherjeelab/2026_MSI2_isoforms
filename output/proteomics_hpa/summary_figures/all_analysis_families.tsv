@@ -1,0 +1,46 @@
+family	category_tests	min_FDR	significant_005	method	question
+collapsed_high_confidence	15	0.7412124299541518	0	Ranked GSEA: all genes	Ranked association
+collapsed_primary	15	0.8274647887323944	0	Ranked GSEA: all genes	Ranked association
+fine_high_confidence	29	0.7805130790343359	0	Ranked GSEA: all genes	Ranked association
+fine_primary	41	0.8572496992163365	0	Ranked GSEA: all genes	Ranked association
+collapsed_high_confidence	14	0.7197389484053689	0	Ranked GSEA: exclude exact zeros	Ranked association
+collapsed_primary	15	0.7010029251984956	0	Ranked GSEA: exclude exact zeros	Ranked association
+fine_high_confidence	24	0.7986862773097244	0	Ranked GSEA: exclude exact zeros	Ranked association
+fine_primary	40	0.8648018648018648	0	Ranked GSEA: exclude exact zeros	Ranked association
+collapsed_high_confidence / 324	15	0.6692447547750876	0	ORA: original HPA-mapped sets	Enrichment versus measured background
+collapsed_high_confidence / 328	15	0.5805329003735409	0	ORA: original HPA-mapped sets	Enrichment versus measured background
+collapsed_primary / 324	15	0.7850452663474167	0	ORA: original HPA-mapped sets	Enrichment versus measured background
+collapsed_primary / 328	15	0.2487116298650738	0	ORA: original HPA-mapped sets	Enrichment versus measured background
+fine_high_confidence / 324	29	1	0	ORA: original HPA-mapped sets	Enrichment versus measured background
+fine_high_confidence / 328	29	0.9972600761750674	0	ORA: original HPA-mapped sets	Enrichment versus measured background
+fine_primary / 324	41	0.9439470520040054	0	ORA: original HPA-mapped sets	Enrichment versus measured background
+fine_primary / 328	41	0.6798117882978684	0	ORA: original HPA-mapped sets	Enrichment versus measured background
+collapsed_high_confidence / 324	15	1	0	ORA: annotated-only background	Enrichment versus measured background
+collapsed_high_confidence / 328	15	0.7865150199034919	0	ORA: annotated-only background	Enrichment versus measured background
+collapsed_primary / 324	15	0.8985128048570004	0	ORA: annotated-only background	Enrichment versus measured background
+collapsed_primary / 328	15	0.4060396563316769	0	ORA: annotated-only background	Enrichment versus measured background
+fine_high_confidence / 324	29	1	0	ORA: annotated-only background	Enrichment versus measured background
+fine_high_confidence / 328	29	1	0	ORA: annotated-only background	Enrichment versus measured background
+fine_primary / 324	41	1	0	ORA: annotated-only background	Enrichment versus measured background
+fine_primary / 328	41	1	0	ORA: annotated-only background	Enrichment versus measured background
+cluster / collapsed / 324	15	0.45072712782502405	0	ORA: exact Reactome input sets	Enrichment versus measured background
+cluster / collapsed / 328	15	0.3775640531953995	0	ORA: exact Reactome input sets	Enrichment versus measured background
+cluster / fine / 324	41	0.4694178999234376	0	ORA: exact Reactome input sets	Enrichment versus measured background
+cluster / fine / 328	41	0.5982615850272681	0	ORA: exact Reactome input sets	Enrichment versus measured background
+hits / collapsed / 324	15	0.47596398117419986	0	ORA: exact Reactome input sets	Enrichment versus measured background
+hits / collapsed / 328	15	0.3553583571500975	0	ORA: exact Reactome input sets	Enrichment versus measured background
+hits / fine / 324	41	0.6169370981931941	0	ORA: exact Reactome input sets	Enrichment versus measured background
+hits / fine / 328	41	0.9713128428769332	0	ORA: exact Reactome input sets	Enrichment versus measured background
+specific / collapsed / 324	15	0.7938839108496819	0	ORA: exact Reactome input sets	Enrichment versus measured background
+specific / collapsed / 328	15	0.27798857627526297	0	ORA: exact Reactome input sets	Enrichment versus measured background
+specific / fine / 324	41	0.9651912743337592	0	ORA: exact Reactome input sets	Enrichment versus measured background
+specific / fine / 328	41	0.7598354418190522	0	ORA: exact Reactome input sets	Enrichment versus measured background
+cluster / 324	8	0.2403878015066795	0	ORA: eight broad categories	Enrichment versus measured background
+cluster / 328	8	0.6631237287211176	0	ORA: eight broad categories	Enrichment versus measured background
+hits / 324	8	0.2538474566262399	0	ORA: eight broad categories	Enrichment versus measured background
+hits / 328	8	0.18952445714671867	0	ORA: eight broad categories	Enrichment versus measured background
+specific / 324	8	0.708934145490549	0	ORA: eight broad categories	Enrichment versus measured background
+specific / 328	8	0.5125749536530928	0	ORA: eight broad categories	Enrichment versus measured background
+cluster	8	0.4980838179482164	0	Direct 324 versus 328 proportions	Between-set difference
+hits	8	0.8444068085914203	0	Direct 324 versus 328 proportions	Between-set difference
+specific	8	0.8356714575330862	0	Direct 324 versus 328 proportions	Between-set difference

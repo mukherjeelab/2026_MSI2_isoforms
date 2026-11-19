@@ -1,0 +1,5 @@
+sample_id	construct	replicate	eligible_alignments	assigned_read_centers	supported_introns	centers_within_12_5nt_of_end
+NM2026_0085	324	A	93659	47469	8030	208
+NM2026_0087	324	B	103812	48588	7905	198
+NM2026_0081	328	A	148054	43030	7684	299
+NM2026_0083	328	B	173852	55081	7973	335

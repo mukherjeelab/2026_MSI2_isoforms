@@ -1,0 +1,2 @@
+test	comparison	peak_universe	statistic	degrees_of_freedom	p_value	epsilon_squared	interpretation_note
+Kruskal-Wallis rank-sum test	delta_delta by five-category transcript-region annotation	16,046 merged peaks with raw count > 0 in at least one of eight libraries	132.15358855620497	4	1.3482957385138738e-27	0.007989127146450031	Peak-level exploratory test; peaks from the same gene/transcript may not be independent

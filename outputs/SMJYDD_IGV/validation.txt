@@ -1,0 +1,9 @@
+SMJYDD_1_L2_HEK__on_328_ref.bam: validated 1431 records, 1341 mapped, indexed fetch OK
+SMJYDD_1_L2_HEK__on_346_MSI2.bam: validated 1431 records, 1323 mapped, indexed fetch OK
+SMJYDD_2_L2_H295R__on_328_ref.bam: validated 1038 records, 790 mapped, indexed fetch OK
+SMJYDD_2_L2_H295R__on_346_MSI2.bam: validated 1038 records, 780 mapped, indexed fetch OK
+SMJYDD_3_L4_HEK__on_324_altUTR.bam: validated 29 records, 0 mapped, indexed fetch OK
+SMJYDD_4_L4_H295R__on_324_altUTR.bam: validated 382 records, 282 mapped, indexed fetch OK
+SMJYDD_5_L8_HEK__on_251_Exon1.bam: validated 4677 records, 4527 mapped, indexed fetch OK
+SMJYDD_6_L8_H295R__on_251_Exon1.bam: validated 2797 records, 2570 mapped, indexed fetch OK
+pysam 0.24.1

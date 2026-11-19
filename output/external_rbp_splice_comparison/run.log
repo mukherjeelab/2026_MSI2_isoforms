@@ -1,0 +1,8 @@
+Warning message:
+package ‘data.table’ was built under R version 4.4.3 
+Discarding unchained sequences: chrUn_gl000220, chrUn_gl000218, chrUn_gl000229, chr7_gl000195_random, chr1_gl000191_random
+Discarding unchained sequences: chrUn_gl000220, chr7_gl000195_random, chrUn_gl000229, chr17_gl000205_random, chr4_gl000193_random, chr1_gl000191_random
+External/background MSI2
+External/background QKI
+External/background PUM2
+External/background ELAVL1

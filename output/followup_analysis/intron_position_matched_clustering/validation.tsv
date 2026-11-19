@@ -1,0 +1,3 @@
+model	features	summits	max_position_bin_MC_z	checks	result
+position_matched	3799	14598	2.2920417119623	Pairwise NN on observed/1/250/500; all random-position bounds; exact feature counts; analytic positional expectation within 6 MC SE	PASS
+first20_uniform	1089	3475	1.93040985222306	Pairwise NN on observed/1/250/500; all random-position bounds; exact feature counts; analytic positional expectation within 6 MC SE	PASS

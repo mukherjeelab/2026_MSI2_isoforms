@@ -1,0 +1,8 @@
+method	question	families	category_tests	minimum_FDR	maximum_family_minimum_FDR	significant_005
+Direct 324 versus 328 proportions	Between-set difference	3	24	0.4980838179482164	0.8444068085914203	0
+ORA: annotated-only background	Enrichment versus measured background	8	200	0.4060396563316769	1	0
+ORA: eight broad categories	Enrichment versus measured background	6	48	0.18952445714671867	0.708934145490549	0
+ORA: exact Reactome input sets	Enrichment versus measured background	12	336	0.27798857627526297	0.9713128428769332	0
+ORA: original HPA-mapped sets	Enrichment versus measured background	8	200	0.2487116298650738	1	0
+Ranked GSEA: all genes	Ranked association	4	100	0.7412124299541518	0.8572496992163365	0
+Ranked GSEA: exclude exact zeros	Ranked association	4	93	0.7010029251984956	0.8648018648018648	0

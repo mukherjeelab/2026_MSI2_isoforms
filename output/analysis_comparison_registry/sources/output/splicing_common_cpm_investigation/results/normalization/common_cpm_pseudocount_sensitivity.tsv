@@ -1,0 +1,4 @@
+site_type	primary_pseudocount_cpm	sensitivity_pseudocount_cpm	sign_change_bins	pearson_r	spearman_rho	primary_mean_delta_delta	sensitivity_mean_delta_delta
+splice_donor_5prime	0.1	0.5	0	0.999986427405796	0.998943577430972	-0.176016016689048	-0.091435388288389
+splice_acceptor_3prime	0.1	0.5	0	0.999904781420016	0.999519807923169	-0.187576839383562	-0.0987151222447813
+annotated_transcript_3prime_end	0.1	0.5	0	0.99934292362273	1	-0.59525776911818	-0.331068828416083

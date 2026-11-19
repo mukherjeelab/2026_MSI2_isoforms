@@ -1,0 +1,14 @@
+{
+  "data/SMJYDD_expected_references.fasta": "7e4e962082d3827cfe1acb0d8254f96bb4783100f5b00f9f85c2fb9619fec42f",
+  "data/SMJYDD_fastq/SMJYDD_1_L2_HEK.fastq": "9da7c8086ba2d6aeeacff1b6b291a43d13af8279d634a20a1e96cf49d4ecaabb",
+  "data/SMJYDD_fastq/SMJYDD_2_L2_H295R.fastq": "bc13e21a26d04d5104edd93c829903deb7c633c841acfaf8ce5e9b97d0d3524d",
+  "data/SMJYDD_fastq/SMJYDD_3_L4_HEK.fastq": "3d1fa2b22146737bbdae265e61e20ff10a7bf730e5380540e08b56d9c20e79be",
+  "data/SMJYDD_fastq/SMJYDD_4_L4_H295R.fastq": "a9bfed07723a3af5dbf1866a95da0647438fc4e693349fe09c3ce452d3c10b09",
+  "data/SMJYDD_fastq/SMJYDD_5_L8_HEK.fastq": "18f87d771922c05d89bb7e2743fa247257d6288196c2b66097c4cb4769086f04",
+  "data/SMJYDD_fastq/SMJYDD_6_L8_H295R.fastq": "8feb34bbc853db32929db25990d193972f10be8be697b104d077168cc807750f",
+  "data/SMJYDD_results/SMJYDD_fasta-files/SMJYDD_1_L2_HEK.fasta": "fe6bb8a4c2118f882fa6f3c82e5d2ca9be6d469bd7e90c7a36368d33abf934d6",
+  "data/SMJYDD_results/SMJYDD_fasta-files/SMJYDD_2_L2_H295R.fasta": "312d95bd460277c41ed22b9f5db2249e246cfd73c17855719a6bcd7981e2ad54",
+  "data/SMJYDD_results/SMJYDD_fasta-files/SMJYDD_4_L4_H295R.fasta": "aecd9d2b9b5b604e9c158250272ba634c4e9683ade1a5818d53275a08f103e73",
+  "data/SMJYDD_results/SMJYDD_fasta-files/SMJYDD_5_L8_HEK.fasta": "99ee236bb51a7b25f6ea4ad3a852336f8e96019751e573b51a2b5f4fc0cd5f53",
+  "data/SMJYDD_results/SMJYDD_fasta-files/SMJYDD_6_L8_H295R.fasta": "f383ba12d6d7b222b6f5656623f2d89aac3c6cac3cdc8cf869e70d53dd2d0b29"
+}

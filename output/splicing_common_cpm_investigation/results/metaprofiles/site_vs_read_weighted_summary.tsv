@@ -1,0 +1,4 @@
+site_type	site_weighted_mean_delta_delta	site_weighted_minimum_delta_delta	site_weighted_minimum_position	read_weighted_mean_delta_delta	read_weighted_minimum_delta_delta	read_weighted_maximum_delta_delta
+splice_donor_5prime	-0.176016016689048	-0.459446892834835	-5	0.210148004639045	0.0787516672600841	0.379269454230196
+splice_acceptor_3prime	-0.187576839383562	-0.472750262266219	15	0.110991323709163	-0.14565917632568	0.385364265541102
+annotated_transcript_3prime_end	-0.59525776911818	-0.691677338972223	-45	0.140592842197093	-0.298401602645541	0.474969119224121

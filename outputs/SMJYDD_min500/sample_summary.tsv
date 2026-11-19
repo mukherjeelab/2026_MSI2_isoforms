@@ -1,0 +1,7 @@
+sample	retained_reads	mean_length	median_length	mapping_324_altUTR	mapping_328_ref	mapping_346_MSI2	mapping_251_Exon1	mapping_ambiguous	mapping_no_qualifying_alignment	target_present_spanning	target_absent_spanning	other_locus_sequence	conflicting_locus_calls	not_callable	not_applicable	variant_screen_324_altUTR	variant_screen_328_ref	variant_screen_346_MSI2	variant_screen_251_Exon1
+SMJYDD_1_L2_HEK	1431	843.02	830	0	1244	80	0	23	84	68	1154	7	2	200	0	0	1198	74	0
+SMJYDD_2_L2_H295R	1038	780.54	817.5	0	717	10	0	65	246	4	532	4	0	498	0	0	701	7	0
+SMJYDD_3_L4_HEK	29	727.48	607	0	0	0	0	0	29	0	0	0	0	29	0	0	0	0	0
+SMJYDD_4_L4_H295R	382	947.98	1013.0	282	0	0	0	0	100	29	234	0	0	119	0	260	0	0	0
+SMJYDD_5_L8_HEK	4677	811.85	745	0	0	0	4527	0	150	0	0	0	0	0	4677	0	0	0	4393
+SMJYDD_6_L8_H295R	2797	814.51	745	0	0	0	2570	0	227	0	0	0	0	0	2797	0	0	0	2502

@@ -1,0 +1,4 @@
+path	md5
+output/followup_analysis/tables/summit_normalized_positions.tsv.gz	34fad48f341bd07dfb06e420937b422c
+output/followup_analysis/site_clustering/MSI2_site_clustering_included_summits.tsv.gz	ebcd07fbef0f1231c313a71302c78281
+output/followup_analysis/site_clustering/MSI2_site_clustering_all_statistics.tsv	76335decc17cab26383dfd822465bc9b

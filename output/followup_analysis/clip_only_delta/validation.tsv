@@ -1,0 +1,5 @@
+dataset	method	n_peaks	result
+peaks_16046	CPM_only	16046	PASS: independent CPM and delta reconstruction; correct CLIP columns
+peaks_16046	quantile_normalized	16046	PASS: independent CPM and delta reconstruction; correct CLIP columns
+peaks_4385	CPM_only	4385	PASS: independent CPM and delta reconstruction; correct CLIP columns
+peaks_4385	quantile_normalized	4385	PASS: independent CPM and delta reconstruction; correct CLIP columns

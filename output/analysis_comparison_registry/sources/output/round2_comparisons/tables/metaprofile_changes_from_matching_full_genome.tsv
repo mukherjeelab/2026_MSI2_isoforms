@@ -1,0 +1,201 @@
+variant	motif	mode	kind	group	pearson	mean_depth_ratio	relative_rms_change
+all__genome_full	All reads	Full genome	3UTR	324 CLIP	1	1	0
+all__genome_equal	All reads	Equal genome	3UTR	324 CLIP	0.99930175838955	1.00280610814568	0.0052853100076298
+all__peaks_full	All reads	Full peaks	3UTR	324 CLIP	0.409290970038156	3.6448530438303	2.66265791440901
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	3UTR	324 CLIP	0.412917651947436	3.6504629476294	2.66807754254328
+all__peaks_equal	All reads	Equal peaks	3UTR	324 CLIP	0.425781559776053	3.63677786625659	2.65479936025629
+all__genome_full	All reads	Full genome	3UTR	324 SMI	1	1	0
+all__genome_equal	All reads	Equal genome	3UTR	324 SMI	0.992497230718292	0.987147405268258	0.0221396413863763
+all__peaks_full	All reads	Full peaks	3UTR	324 SMI	0.166744661912697	5.10740366465682	4.10564819485705
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	3UTR	324 SMI	-0.0824394828860599	5.19783698552724	4.21595769183366
+all__peaks_equal	All reads	Equal peaks	3UTR	324 SMI	0.085108654319526	5.14655538190837	4.14911927235316
+all__genome_full	All reads	Full genome	3UTR	328 CLIP	1	1	0
+all__genome_equal	All reads	Equal genome	3UTR	328 CLIP	0.99588919916645	0.998974886638502	0.00936092649544295
+all__peaks_full	All reads	Full peaks	3UTR	328 CLIP	0.569461277557924	1.92251346924142	0.950464004702545
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	3UTR	328 CLIP	0.574080113674446	1.91432710186256	0.941739428828382
+all__peaks_equal	All reads	Equal peaks	3UTR	328 CLIP	0.572178369466128	1.92041768765366	0.952660833897937
+all__genome_full	All reads	Full genome	3UTR	328 SMI	1	1	0
+all__genome_equal	All reads	Equal genome	3UTR	328 SMI	0.992067538352343	1.01235304610054	0.0204175695925371
+all__peaks_full	All reads	Full peaks	3UTR	328 SMI	0.197365762713629	3.95547774722969	2.96785079205887
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	3UTR	328 SMI	0.249910115650129	4.09226380511713	3.10830930490302
+all__peaks_equal	All reads	Equal peaks	3UTR	328 SMI	0.176424850242486	3.97433177146227	2.98514904980807
+all__genome_full	All reads	Full genome	intron	324 CLIP	1	1	0
+all__genome_equal	All reads	Equal genome	intron	324 CLIP	0.998853494825466	1.0006113671289	0.00467739458880006
+all__peaks_full	All reads	Full peaks	intron	324 CLIP	0.30497747721995	0.447675167294425	0.572529319266032
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	intron	324 CLIP	0.316798229403006	0.449108615587156	0.571553129816202
+all__peaks_equal	All reads	Equal peaks	intron	324 CLIP	0.321590810539822	0.452833675020075	0.568103853026768
+all__genome_full	All reads	Full genome	intron	324 SMI	1	1	0
+all__genome_equal	All reads	Equal genome	intron	324 SMI	0.964328148618946	1.00429091766886	0.0201807214798829
+all__peaks_full	All reads	Full peaks	intron	324 SMI	0.326995212852157	0.532129654335782	0.488412511589103
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	intron	324 SMI	0.323310839669297	0.605060308980922	0.447227316824122
+all__peaks_equal	All reads	Equal peaks	intron	324 SMI	0.317743967393404	0.508637156848242	0.509477816450938
+all__genome_full	All reads	Full genome	intron	328 CLIP	1	1	0
+all__genome_equal	All reads	Equal genome	intron	328 CLIP	0.980950754178556	1.00814871050934	0.0272625180907032
+all__peaks_full	All reads	Full peaks	intron	328 CLIP	0.393302038290639	0.573724006004441	0.444275335029359
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	intron	328 CLIP	0.405623899542352	0.575232247510127	0.44392583789652
+all__peaks_equal	All reads	Equal peaks	intron	328 CLIP	0.338988240107527	0.592841743371416	0.429013585136708
+all__genome_full	All reads	Full genome	intron	328 SMI	1	1	0
+all__genome_equal	All reads	Equal genome	intron	328 SMI	0.952540314825383	1.02506686348832	0.0393580960768532
+all__peaks_full	All reads	Full peaks	intron	328 SMI	0.284512725169963	0.622522747137882	0.418587563309054
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	intron	328 SMI	0.0789251167811428	0.616083260766326	0.436990863552215
+all__peaks_equal	All reads	Equal peaks	intron	328 SMI	0.406911722979625	0.623814624702882	0.418742383104984
+all__genome_full	All reads	Full genome	splice_acceptor	324 CLIP	1	1	0
+all__genome_equal	All reads	Equal genome	splice_acceptor	324 CLIP	0.999986337035837	0.999719036192074	0.00291052514187902
+all__peaks_full	All reads	Full peaks	splice_acceptor	324 CLIP	0.44208852413102	0.841120359613332	0.585195730115597
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	splice_acceptor	324 CLIP	0.43797398657863	0.841040875713061	0.587989397371575
+all__peaks_equal	All reads	Equal peaks	splice_acceptor	324 CLIP	0.439382677701871	0.843525156273269	0.586864516857477
+all__genome_full	All reads	Full genome	splice_acceptor	324 SMI	1	1	0
+all__genome_equal	All reads	Equal genome	splice_acceptor	324 SMI	0.999821299055015	0.999060421499028	0.0130296413081412
+all__peaks_full	All reads	Full peaks	splice_acceptor	324 SMI	0.616443342618473	0.986921639829621	0.52560618207214
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	splice_acceptor	324 SMI	0.62073023019896	0.992196004473245	0.526130990709839
+all__peaks_equal	All reads	Equal peaks	splice_acceptor	324 SMI	0.619919822855184	0.982476601120215	0.524929709244529
+all__genome_full	All reads	Full genome	splice_acceptor	328 CLIP	1	1	0
+all__genome_equal	All reads	Equal genome	splice_acceptor	328 CLIP	0.999926591247744	1.00214913533432	0.00923294830734264
+all__peaks_full	All reads	Full peaks	splice_acceptor	328 CLIP	0.458967711837122	0.743656628369505	0.611877272820927
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	splice_acceptor	328 CLIP	0.469234649889027	0.742446157514147	0.606815683882196
+all__peaks_equal	All reads	Equal peaks	splice_acceptor	328 CLIP	0.459040840948581	0.766399893546384	0.608059790788188
+all__genome_full	All reads	Full genome	splice_acceptor	328 SMI	1	1	0
+all__genome_equal	All reads	Equal genome	splice_acceptor	328 SMI	0.999890425877127	1.00226949308296	0.0101374536807399
+all__peaks_full	All reads	Full peaks	splice_acceptor	328 SMI	0.593761102253855	0.887113175932305	0.557665442309647
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	splice_acceptor	328 SMI	0.575330923374516	0.883130810865011	0.570123466363975
+all__peaks_equal	All reads	Equal peaks	splice_acceptor	328 SMI	0.591113478841007	0.887134886941387	0.558906567917645
+all__genome_full	All reads	Full genome	splice_donor	324 CLIP	1	1	0
+all__genome_equal	All reads	Equal genome	splice_donor	324 CLIP	0.999981633173083	0.999357996511972	0.00348172407280206
+all__peaks_full	All reads	Full peaks	splice_donor	324 CLIP	0.492251922007323	0.395088786717311	0.702157019356141
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	splice_donor	324 CLIP	0.489430134803287	0.395184343352971	0.70255334647267
+all__peaks_equal	All reads	Equal peaks	splice_donor	324 CLIP	0.498610460145437	0.395902143824699	0.700488295456209
+all__genome_full	All reads	Full genome	splice_donor	324 SMI	1	1	0
+all__genome_equal	All reads	Equal genome	splice_donor	324 SMI	0.999874499126431	0.999646709577879	0.00985216984759297
+all__peaks_full	All reads	Full peaks	splice_donor	324 SMI	0.816245586367906	0.552413580715757	0.540215560876011
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	splice_donor	324 SMI	0.805652366225789	0.56594589263015	0.534276550078282
+all__peaks_equal	All reads	Equal peaks	splice_donor	324 SMI	0.810415939414814	0.546863810367611	0.547574683432134
+all__genome_full	All reads	Full genome	splice_donor	328 CLIP	1	1	0
+all__genome_equal	All reads	Equal genome	splice_donor	328 CLIP	0.999932034863756	1.00431907438185	0.00953868128330135
+all__peaks_full	All reads	Full peaks	splice_donor	328 CLIP	0.429030031615008	0.382005167511564	0.762422372005322
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	splice_donor	328 CLIP	0.426903365546318	0.379799629758439	0.763864063033855
+all__peaks_equal	All reads	Equal peaks	splice_donor	328 CLIP	0.421841685630674	0.392073841125338	0.757810967620271
+all__genome_full	All reads	Full genome	splice_donor	328 SMI	1	1	0
+all__genome_equal	All reads	Equal genome	splice_donor	328 SMI	0.999901964687466	1.00254488973859	0.0102955290725229
+all__peaks_full	All reads	Full peaks	splice_donor	328 SMI	0.804917137446136	0.499745780552908	0.608271998702715
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	splice_donor	328 SMI	0.772846073979459	0.493070875973882	0.624369988949046
+all__peaks_equal	All reads	Equal peaks	splice_donor	328 SMI	0.795976762317939	0.494607366317408	0.615484137563481
+all__genome_full	All reads	Full genome	transcript_end	324 CLIP	1	1	0
+all__genome_equal	All reads	Equal genome	transcript_end	324 CLIP	0.999967498847646	1.00125120934939	0.00277621208538038
+all__peaks_full	All reads	Full peaks	transcript_end	324 CLIP	0.734445694736456	1.92588136767102	1.02000407032581
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	transcript_end	324 CLIP	0.731260500561846	1.93107866518932	1.02447250273556
+all__peaks_equal	All reads	Equal peaks	transcript_end	324 CLIP	0.723126927924518	1.91930299440491	1.01515267245398
+all__genome_full	All reads	Full genome	transcript_end	324 SMI	1	1	0
+all__genome_equal	All reads	Equal genome	transcript_end	324 SMI	0.999850927026699	0.999312670824863	0.00962249064006524
+all__peaks_full	All reads	Full peaks	transcript_end	324 SMI	0.892333410873053	1.71716045876669	0.677636952253612
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	transcript_end	324 SMI	0.890276448621156	1.75113757385417	0.718775255275288
+all__peaks_equal	All reads	Equal peaks	transcript_end	324 SMI	0.90392004585502	1.73268873515008	0.690769995394844
+all__genome_full	All reads	Full genome	transcript_end	328 CLIP	1	1	0
+all__genome_equal	All reads	Equal genome	transcript_end	328 CLIP	0.999700140796666	0.999899848881539	0.00727744072645183
+all__peaks_full	All reads	Full peaks	transcript_end	328 CLIP	0.834806267685681	1.36226098311687	0.413756858013255
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	transcript_end	328 CLIP	0.834345943845371	1.35986353876686	0.409940143274154
+all__peaks_equal	All reads	Equal peaks	transcript_end	328 CLIP	0.821623236892964	1.37571009956445	0.42208066987569
+all__genome_full	All reads	Full genome	transcript_end	328 SMI	1	1	0
+all__genome_equal	All reads	Equal genome	transcript_end	328 SMI	0.99996302249393	1.00128097298673	0.005222268368658
+all__peaks_full	All reads	Full peaks	transcript_end	328 SMI	0.848288334071078	1.2381048478132	0.378642776274795
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	transcript_end	328 SMI	0.834846151544577	1.25430662453106	0.391113689563513
+all__peaks_equal	All reads	Equal peaks	transcript_end	328 SMI	0.841774186416555	1.24881852429219	0.385376064584077
+uag__genome_full	UAG reads	Full genome	3UTR	324 CLIP	1	1	0
+uag__genome_equal	UAG reads	Equal genome	3UTR	324 CLIP	0.998816422436876	1.00751583972011	0.0103259627699304
+uag__peaks_full	UAG reads	Full peaks	3UTR	324 CLIP	0.500753530515963	3.23703458248832	2.25837740680611
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	3UTR	324 CLIP	0.512037469092914	3.27313905436948	2.29354164499495
+uag__peaks_equal	UAG reads	Equal peaks	3UTR	324 CLIP	0.498468208660367	3.22914154847457	2.25005073837273
+uag__genome_full	UAG reads	Full genome	3UTR	324 SMI	1	1	0
+uag__genome_equal	UAG reads	Equal genome	3UTR	324 SMI	0.965950357672844	1.00279579845434	0.0346624403297656
+uag__peaks_full	UAG reads	Full peaks	3UTR	324 SMI	0.234250672571171	5.71311947692318	4.73068128050015
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	3UTR	324 SMI	0.13744144013977	5.6214942179544	4.65580998937183
+uag__peaks_equal	UAG reads	Equal peaks	3UTR	324 SMI	0.235022929883655	5.64608655577626	4.65913680065873
+uag__genome_full	UAG reads	Full genome	3UTR	328 CLIP	1	1	0
+uag__genome_equal	UAG reads	Equal genome	3UTR	328 CLIP	0.994243507012354	0.99812415299105	0.0120912165167025
+uag__peaks_full	UAG reads	Full peaks	3UTR	328 CLIP	0.809915694319988	1.71073085027048	0.731945118346787
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	3UTR	328 CLIP	0.783083654479767	1.70415990353457	0.728817142165049
+uag__peaks_equal	UAG reads	Equal peaks	3UTR	328 CLIP	0.790158949959065	1.72508618460183	0.748914763524759
+uag__genome_full	UAG reads	Full genome	3UTR	328 SMI	1	1	0
+uag__genome_equal	UAG reads	Equal genome	3UTR	328 SMI	0.981068864670603	0.997371257801669	0.0270991124527366
+uag__peaks_full	UAG reads	Full peaks	3UTR	328 SMI	0.347877281007805	4.26617031909817	3.27317493885378
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	3UTR	328 SMI	0.516320871318542	4.37902208991606	3.38278228523185
+uag__peaks_equal	UAG reads	Equal peaks	3UTR	328 SMI	0.262040273830154	4.23787475768612	3.24164643425166
+uag__genome_full	UAG reads	Full genome	intron	324 CLIP	1	1	0
+uag__genome_equal	UAG reads	Equal genome	intron	324 CLIP	0.995792399614559	0.996335810667426	0.00990358142866522
+uag__peaks_full	UAG reads	Full peaks	intron	324 CLIP	0.335021304810171	0.476838001603198	0.550972822005073
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	intron	324 CLIP	0.321266764112946	0.480544947782199	0.548936802607474
+uag__peaks_equal	UAG reads	Equal peaks	intron	324 CLIP	0.33793227717911	0.479034686678483	0.54963251216641
+uag__genome_full	UAG reads	Full genome	intron	324 SMI	1	1	0
+uag__genome_equal	UAG reads	Equal genome	intron	324 SMI	0.915635792787593	0.992278590881571	0.0310025917162697
+uag__peaks_full	UAG reads	Full peaks	intron	324 SMI	0.230886520737588	0.548870021269482	0.479013857214394
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	intron	324 SMI	0.240101098438834	0.595571267802579	0.442682321343249
+uag__peaks_equal	UAG reads	Equal peaks	intron	324 SMI	0.200435608737098	0.542766111584916	0.487532501118013
+uag__genome_full	UAG reads	Full genome	intron	328 CLIP	1	1	0
+uag__genome_equal	UAG reads	Equal genome	intron	328 CLIP	0.985566894232888	0.995805213273746	0.0258235498465401
+uag__peaks_full	UAG reads	Full peaks	intron	328 CLIP	0.598627290684853	0.580022728003478	0.43355691840732
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	intron	328 CLIP	0.589201687185266	0.582825753206024	0.432525836344076
+uag__peaks_equal	UAG reads	Equal peaks	intron	328 CLIP	0.542283113141561	0.591084196036978	0.431007579643101
+uag__genome_full	UAG reads	Full genome	intron	328 SMI	1	1	0
+uag__genome_equal	UAG reads	Equal genome	intron	328 SMI	0.924619963274499	1.01095925554082	0.0360553370242724
+uag__peaks_full	UAG reads	Full peaks	intron	328 SMI	0.475705663468055	0.659376445880763	0.399006743195681
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	intron	328 SMI	0.371275872486546	0.662726506910209	0.400624555307667
+uag__peaks_equal	UAG reads	Equal peaks	intron	328 SMI	0.492690236173868	0.693797112895227	0.376978045907336
+uag__genome_full	UAG reads	Full genome	splice_acceptor	324 CLIP	1	1	0
+uag__genome_equal	UAG reads	Equal genome	splice_acceptor	324 CLIP	0.99989382672753	0.998789091300737	0.00715186493484791
+uag__peaks_full	UAG reads	Full peaks	splice_acceptor	324 CLIP	0.556801820897457	1.0225236380162	0.566723842974158
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	splice_acceptor	324 CLIP	0.558337339240427	1.02037094727301	0.563562725193825
+uag__peaks_equal	UAG reads	Equal peaks	splice_acceptor	324 CLIP	0.556194826435957	1.02447504487871	0.569289610734737
+uag__genome_full	UAG reads	Full genome	splice_acceptor	324 SMI	1	1	0
+uag__genome_equal	UAG reads	Equal genome	splice_acceptor	324 SMI	0.99924935413526	0.996733804133086	0.020293905624236
+uag__peaks_full	UAG reads	Full peaks	splice_acceptor	324 SMI	0.654808350767548	1.35194100264153	0.713694108350643
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	splice_acceptor	324 SMI	0.658784060779814	1.3258932333792	0.702063573402191
+uag__peaks_equal	UAG reads	Equal peaks	splice_acceptor	324 SMI	0.646983278115423	1.36743282947108	0.727849194291877
+uag__genome_full	UAG reads	Full genome	splice_acceptor	328 CLIP	1	1	0
+uag__genome_equal	UAG reads	Equal genome	splice_acceptor	328 CLIP	0.9997032094557	0.994223931448646	0.0145127188524855
+uag__peaks_full	UAG reads	Full peaks	splice_acceptor	328 CLIP	0.676044736187658	0.900407445828556	0.468686986629876
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	splice_acceptor	328 CLIP	0.669664091985873	0.891564309332301	0.473122014419871
+uag__peaks_equal	UAG reads	Equal peaks	splice_acceptor	328 CLIP	0.649967183192771	0.904024058303778	0.490956571134299
+uag__genome_full	UAG reads	Full genome	splice_acceptor	328 SMI	1	1	0
+uag__genome_equal	UAG reads	Equal genome	splice_acceptor	328 SMI	0.99959755697933	1.00066032424601	0.0180618355627557
+uag__peaks_full	UAG reads	Full peaks	splice_acceptor	328 SMI	0.658968268298318	1.29313580210722	0.638629009079678
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	splice_acceptor	328 SMI	0.654176841304587	1.31953460191935	0.660536310709764
+uag__peaks_equal	UAG reads	Equal peaks	splice_acceptor	328 SMI	0.660818915625818	1.3004948770914	0.642542019839255
+uag__genome_full	UAG reads	Full genome	splice_donor	324 CLIP	1	1	0
+uag__genome_equal	UAG reads	Equal genome	splice_donor	324 CLIP	0.999872936035126	0.99996606500156	0.00783612323806028
+uag__peaks_full	UAG reads	Full peaks	splice_donor	324 CLIP	0.549678383328016	0.506880370296012	0.591206570406801
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	splice_donor	324 CLIP	0.551282527213638	0.508538502993289	0.589674252919787
+uag__peaks_equal	UAG reads	Equal peaks	splice_donor	324 CLIP	0.532672727416696	0.507181537223616	0.595614056979987
+uag__genome_full	UAG reads	Full genome	splice_donor	324 SMI	1	1	0
+uag__genome_equal	UAG reads	Equal genome	splice_donor	324 SMI	0.99923477886929	1.00306871950588	0.0207711139769681
+uag__peaks_full	UAG reads	Full peaks	splice_donor	324 SMI	0.833058244688212	0.78005057890962	0.343725367228747
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	splice_donor	324 SMI	0.821179411753314	0.7685823762154	0.359868188901305
+uag__peaks_equal	UAG reads	Equal peaks	splice_donor	324 SMI	0.821507388166436	0.795707072776677	0.346068024649457
+uag__genome_full	UAG reads	Full genome	splice_donor	328 CLIP	1	1	0
+uag__genome_equal	UAG reads	Equal genome	splice_donor	328 CLIP	0.999650152430786	0.99450843005362	0.0175141906337206
+uag__peaks_full	UAG reads	Full peaks	splice_donor	328 CLIP	0.545083300503689	0.527697181096561	0.63002558510884
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	splice_donor	328 CLIP	0.535019261330108	0.521377568009277	0.63580162498413
+uag__peaks_equal	UAG reads	Equal peaks	splice_donor	328 CLIP	0.477386389538554	0.51961325623222	0.651209790342505
+uag__genome_full	UAG reads	Full genome	splice_donor	328 SMI	1	1	0
+uag__genome_equal	UAG reads	Equal genome	splice_donor	328 SMI	0.999582545174501	0.999034323575719	0.018723401589357
+uag__peaks_full	UAG reads	Full peaks	splice_donor	328 SMI	0.825950342196239	0.750769835851639	0.41674021847673
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	splice_donor	328 SMI	0.814871129074714	0.751089461795396	0.423077725799762
+uag__peaks_equal	UAG reads	Equal peaks	splice_donor	328 SMI	0.822319886943173	0.750857365957416	0.420198582825353
+uag__genome_full	UAG reads	Full genome	transcript_end	324 CLIP	1	1	0
+uag__genome_equal	UAG reads	Equal genome	transcript_end	324 CLIP	0.999774457546763	1.00338159242921	0.00682838707596131
+uag__peaks_full	UAG reads	Full peaks	transcript_end	324 CLIP	0.869113609367511	1.99281146337743	1.07765147029763
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	transcript_end	324 CLIP	0.870359498208983	2.00639796376752	1.09303163377679
+uag__peaks_equal	UAG reads	Equal peaks	transcript_end	324 CLIP	0.868866218346805	2.00040268035507	1.0882327598344
+uag__genome_full	UAG reads	Full genome	transcript_end	324 SMI	1	1	0
+uag__genome_equal	UAG reads	Equal genome	transcript_end	324 SMI	0.999644933344359	1.0103171851064	0.0192405734498617
+uag__peaks_full	UAG reads	Full peaks	transcript_end	324 SMI	0.858248361438395	1.68890850455609	0.64124994464222
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	transcript_end	324 SMI	0.828004407656732	1.68336486411591	0.652710760802667
+uag__peaks_equal	UAG reads	Equal peaks	transcript_end	324 SMI	0.863688283744052	1.68710201243694	0.634684480419527
+uag__genome_full	UAG reads	Full genome	transcript_end	328 CLIP	1	1	0
+uag__genome_equal	UAG reads	Equal genome	transcript_end	328 CLIP	0.998681576572237	0.99575948426397	0.0144545240649476
+uag__peaks_full	UAG reads	Full peaks	transcript_end	328 CLIP	0.94693933059957	1.33106025409444	0.363112208231869
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	transcript_end	328 CLIP	0.944309115729592	1.32398146162585	0.359754320084665
+uag__peaks_equal	UAG reads	Equal peaks	transcript_end	328 CLIP	0.956343466167831	1.33389493792456	0.357153962492214
+uag__genome_full	UAG reads	Full genome	transcript_end	328 SMI	1	1	0
+uag__genome_equal	UAG reads	Equal genome	transcript_end	328 SMI	0.999909490787686	1.00105720017417	0.0105993419286396
+uag__peaks_full	UAG reads	Full peaks	transcript_end	328 SMI	0.847502434604824	1.10217930409679	0.435516609846349
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	transcript_end	328 SMI	0.82310898450794	1.11748151225367	0.446468512347563
+uag__peaks_equal	UAG reads	Equal peaks	transcript_end	328 SMI	0.839626740249879	1.10883843947401	0.448255191840857

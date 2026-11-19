@@ -1,0 +1,9 @@
+metric	value
+merged_peaks	43794
+samples	8
+total_assigned_counts	162960
+peaks_nonzero_in_any_sample	16046
+peaks_zero_in_all_samples	27748
+common_tested_peaks	1095
+common_lfc_pearson	0.412708873434767
+common_lfc_spearman	0.421384524421463

@@ -1,0 +1,5 @@
+enrichment_category	peak_count	percent_common_tested
+Enriched in both	86	7.853881278538813
+Enriched only in 328WT	240	21.91780821917808
+Enriched only in 324WT	44	4.018264840182648
+Not significantly enriched	725	66.21004566210046

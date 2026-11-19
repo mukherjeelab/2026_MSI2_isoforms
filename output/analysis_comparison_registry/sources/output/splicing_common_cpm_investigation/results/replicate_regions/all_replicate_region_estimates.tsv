@@ -1,0 +1,37 @@
+construct	replicate	pair_id	regional_enrichment	region	region_start	region_end	site_type	landmark	sample_label
+328	A	MSI2_328_A	-0.279886254485179	Exon side	-50	0	splice_donor_5prime	5' splice donor	328 replicate A
+328	B	MSI2_328_B	-0.380106960658722	Exon side	-50	0	splice_donor_5prime	5' splice donor	328 replicate B
+324	A	MSI2_324_A	-0.795206967009322	Exon side	-50	0	splice_donor_5prime	5' splice donor	324 replicate A
+324	B	MSI2_324_B	-0.739339217385401	Exon side	-50	0	splice_donor_5prime	5' splice donor	324 replicate B
+328	A	MSI2_328_A	-0.0153951872140046	Intron side	0	50	splice_donor_5prime	5' splice donor	328 replicate A
+328	B	MSI2_328_B	-0.0313946372838389	Intron side	0	50	splice_donor_5prime	5' splice donor	328 replicate B
+324	A	MSI2_324_A	-0.111781859803742	Intron side	0	50	splice_donor_5prime	5' splice donor	324 replicate A
+324	B	MSI2_324_B	-0.0925130114219794	Intron side	0	50	splice_donor_5prime	5' splice donor	324 replicate B
+328	A	MSI2_328_A	-0.147640720849595	Full immediate	-50	50	splice_donor_5prime	5' splice donor	328 replicate A
+328	B	MSI2_328_B	-0.205750798971272	Full immediate	-50	50	splice_donor_5prime	5' splice donor	328 replicate B
+324	A	MSI2_324_A	-0.453494413406498	Full immediate	-50	50	splice_donor_5prime	5' splice donor	324 replicate A
+324	B	MSI2_324_B	-0.415926114403761	Full immediate	-50	50	splice_donor_5prime	5' splice donor	324 replicate B
+328	A	MSI2_328_A	-0.0132658929618273	Intron side	-50	0	splice_acceptor_3prime	3' splice acceptor	328 replicate A
+328	B	MSI2_328_B	-0.0248861924816206	Intron side	-50	0	splice_acceptor_3prime	3' splice acceptor	328 replicate B
+324	A	MSI2_324_A	-0.0798292935458357	Intron side	-50	0	splice_acceptor_3prime	3' splice acceptor	324 replicate A
+324	B	MSI2_324_B	-0.0692183188459508	Intron side	-50	0	splice_acceptor_3prime	3' splice acceptor	324 replicate B
+328	A	MSI2_328_A	-0.3075326641163	Exon side	0	50	splice_acceptor_3prime	3' splice acceptor	328 replicate A
+328	B	MSI2_328_B	-0.401459048838309	Exon side	0	50	splice_acceptor_3prime	3' splice acceptor	328 replicate B
+324	A	MSI2_324_A	-0.847469753613195	Exon side	0	50	splice_acceptor_3prime	3' splice acceptor	324 replicate A
+324	B	MSI2_324_B	-0.784513494087119	Exon side	0	50	splice_acceptor_3prime	3' splice acceptor	324 replicate B
+328	A	MSI2_328_A	-0.160399278539063	Full immediate	-50	50	splice_acceptor_3prime	3' splice acceptor	328 replicate A
+328	B	MSI2_328_B	-0.213172620659959	Full immediate	-50	50	splice_acceptor_3prime	3' splice acceptor	328 replicate B
+324	A	MSI2_324_A	-0.463649523579488	Full immediate	-50	50	splice_acceptor_3prime	3' splice acceptor	324 replicate A
+324	B	MSI2_324_B	-0.426865906466577	Full immediate	-50	50	splice_acceptor_3prime	3' splice acceptor	324 replicate B
+328	A	MSI2_328_A	-0.237591761585643	Upstream	-50	0	annotated_transcript_3prime_end	annotated transcript 3' end	328 replicate A
+328	B	MSI2_328_B	-0.350849376267417	Upstream	-50	0	annotated_transcript_3prime_end	annotated transcript 3' end	328 replicate B
+324	A	MSI2_324_A	-1.01172868401986	Upstream	-50	0	annotated_transcript_3prime_end	annotated transcript 3' end	324 replicate A
+324	B	MSI2_324_B	-0.907837030224376	Upstream	-50	0	annotated_transcript_3prime_end	annotated transcript 3' end	324 replicate B
+328	A	MSI2_328_A	-0.131020187701001	Downstream	0	50	annotated_transcript_3prime_end	annotated transcript 3' end	328 replicate A
+328	B	MSI2_328_B	-0.215834052427168	Downstream	0	50	annotated_transcript_3prime_end	annotated transcript 3' end	328 replicate B
+324	A	MSI2_324_A	-0.74129917219723	Downstream	0	50	annotated_transcript_3prime_end	annotated transcript 3' end	324 replicate A
+324	B	MSI2_324_B	-0.655461568012345	Downstream	0	50	annotated_transcript_3prime_end	annotated transcript 3' end	324 replicate B
+328	A	MSI2_328_A	-0.184305974643318	Full region	-50	50	annotated_transcript_3prime_end	annotated transcript 3' end	328 replicate A
+328	B	MSI2_328_B	-0.283341714347209	Full region	-50	50	annotated_transcript_3prime_end	annotated transcript 3' end	328 replicate B
+324	A	MSI2_324_A	-0.876513928108607	Full region	-50	50	annotated_transcript_3prime_end	annotated transcript 3' end	324 replicate A
+324	B	MSI2_324_B	-0.781649299118538	Full region	-50	50	annotated_transcript_3prime_end	annotated transcript 3' end	324 replicate B

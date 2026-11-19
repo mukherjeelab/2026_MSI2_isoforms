@@ -1,0 +1,51 @@
+variant	region	n_peaks	median_delta
+all__genome_equal	3' UTR	10206	-3.54560153507842
+all__genome_full	3' UTR	13031	-2.29335404517782
+all__peaks_after_genome_equal	3' UTR	10206	-5.54276184895472
+all__peaks_equal	3' UTR	10460	-6.56302786811711
+all__peaks_full	3' UTR	13031	-5.57224661717798
+uag__genome_full	3' UTR	10676	-3.46712871209798
+uag__peaks_full	3' UTR	10676	-6.21994729784939
+uag__genome_equal	3' UTR	8309	-4.66647279058367
+uag__peaks_after_genome_equal	3' UTR	8309	-6.1010883722851
+uag__peaks_equal	3' UTR	8477	-7.36316528404446
+all__genome_equal	CDS	1669	-3.54560153507842
+all__genome_full	CDS	2290	-1.83481291840801
+all__peaks_after_genome_equal	CDS	1669	-5.54070262768483
+all__peaks_equal	CDS	1866	-4.89917954390328
+all__peaks_full	CDS	2290	-5.56378607221202
+uag__genome_equal	CDS	1352	-4.66647279058367
+uag__genome_full	CDS	1877	-2.592019735885
+uag__peaks_after_genome_equal	CDS	1352	-6.0915997612137
+uag__peaks_equal	CDS	1497	-2.57764165743641
+uag__peaks_full	CDS	1877	-6.21472338618676
+all__genome_full	Intron	1222	-1.56119026708774
+all__peaks_equal	Intron	820	-6.89002772231299
+all__peaks_full	Intron	1222	-5.57224661717798
+uag__genome_full	Intron	1035	-2.592019735885
+uag__peaks_equal	Intron	683	-7.36316528404446
+uag__peaks_full	Intron	1035	-6.21994729784939
+uag__genome_equal	Intron	593	-4.66647279058367
+uag__peaks_after_genome_equal	Intron	593	-7.08098311664769
+all__genome_equal	Intron	683	-3.54560153507842
+all__peaks_after_genome_equal	Intron	683	-5.54276184895472
+all__genome_equal	Other	76	-3.54560153507842
+all__genome_full	Other	106	-2.74458821850159
+all__peaks_after_genome_equal	Other	76	-6.52720410796491
+all__peaks_full	Other	106	-6.08351602582104
+uag__genome_full	Other	90	-3.56148603558805
+uag__peaks_equal	Other	65	-7.36316528404446
+uag__peaks_full	Other	90	-6.23518425949397
+all__genome_equal	5' UTR	45	-3.54560153507842
+all__genome_full	5' UTR	62	-2.57752739517783
+all__peaks_after_genome_equal	5' UTR	45	-6.52720410796491
+all__peaks_equal	5' UTR	51	-0.993905240715115
+all__peaks_full	5' UTR	62	-5.57224661717798
+all__peaks_equal	Other	72	-6.89002772231299
+uag__genome_equal	Other	65	-4.66647279058367
+uag__peaks_after_genome_equal	Other	65	-7.09054157932892
+uag__genome_full	5' UTR	48	-3.88392470437679
+uag__peaks_equal	5' UTR	39	-7.36316528404446
+uag__peaks_full	5' UTR	48	-6.44782558900838
+uag__genome_equal	5' UTR	35	-4.66647279058367
+uag__peaks_after_genome_equal	5' UTR	35	-7.08098311664769

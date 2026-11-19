@@ -1,0 +1,3 @@
+population	introns	summits	min_nt	q25_nt	median_nt	q75_nt	max_nt
+Original plotted introns	9732	20542	101	5329.5	16289	47402	1240120
+Introns >500 nt	9565	20364	504	5660	16857	48286	1240120

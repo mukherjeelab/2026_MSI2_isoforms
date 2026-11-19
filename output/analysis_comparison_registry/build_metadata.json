@@ -1,0 +1,26 @@
+{
+  "commit": "ace0f5236b33493d7ea61a664cafd93e69e79449",
+  "built_utc": "2026-09-21T14:38:34.542240+00:00",
+  "git_status": "M README.md\n?? .codex-finalizer/\n?? .codex-pptx-build/\n?? .gitignore\n?? 2026_MSI2_isoforms.Rproj\n?? Rplots.pdf\n?? analysis/\n?? code/\n?? data/\n?? figures/\n?? output/\n?? tmp/",
+  "git_history": "ace0f52 Initial commit",
+  "completed_variants": 104,
+  "proposed_variants": 1,
+  "families": {
+    "Fixed-peak models and QC": 9,
+    "Selected peak regions": 8,
+    "Continuous peak preference": 2,
+    "Landmark localization": 17,
+    "Signal decomposition": 1,
+    "Site distributions and peak proximity": 6,
+    "Round-two peak preference": 30,
+    "Round-two metaprofiles": 30,
+    "Static reference geometry": 1
+  },
+  "figure_records": 101,
+  "source_files": 475,
+  "method": "Existing-output organization only; no normalization or tests rerun",
+  "followup_completed_variants": 19,
+  "combined_completed_variants": 123,
+  "followup_figure_records": 28,
+  "followup_report": "sources/output/followup_analysis/report.html"
+}

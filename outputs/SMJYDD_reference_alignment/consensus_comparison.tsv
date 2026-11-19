@@ -1,0 +1,6 @@
+sample	closest_reference	consensus_strand	consensus_length	edit_distance
+SMJYDD_1_L2_HEK	328_ref	+	830	0
+SMJYDD_2_L2_H295R	328_ref	+	830	0
+SMJYDD_4_L4_H295R	324_altUTR	-	1015	55
+SMJYDD_5_L8_HEK	251_Exon1	+	745	1
+SMJYDD_6_L8_H295R	251_Exon1	+	743	1

@@ -1,0 +1,16 @@
+Warning messages:
+1: package ‘dplyr’ was built under R version 4.4.3 
+2: package ‘tidyr’ was built under R version 4.4.3 
+3: package ‘readr’ was built under R version 4.4.3 
+null device 
+          1 
+# A tibble: 7 × 4
+  method                            families minimum_FDR significant_005
+  <fct>                                <int>       <dbl>           <int>
+1 Direct 324 versus 328 proportions        3       0.498               0
+2 ORA: eight broad categories              6       0.190               0
+3 ORA: exact Reactome input sets          12       0.278               0
+4 ORA: annotated-only background           8       0.406               0
+5 ORA: original HPA-mapped sets            8       0.249               0
+6 Ranked GSEA: exclude exact zeros         4       0.701               0
+7 Ranked GSEA: all genes                   4       0.741               0

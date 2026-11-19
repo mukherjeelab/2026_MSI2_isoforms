@@ -1,0 +1,4 @@
+site_type	mean_delta_delta_across_bins	median_delta_delta_across_bins	maximum_delta_delta	maximum_delta_position	minimum_delta_delta	minimum_delta_position	bins_ci_excludes_zero_positive	bins_ci_excludes_zero_negative
+splice_donor_5prime	-0.100364496314399	-0.0592457043815169	-0.0357210598542142	55	-0.26337230199009	-5	0	50
+splice_acceptor_3prime	-0.108029355733939	-0.0675990364444221	-0.0251926626233942	-15	-0.27162802200167	15	0	50
+annotated_transcript_3prime_end	-0.35741609340489	-0.370289588533544	-0.287719053694817	45	-0.416794797092481	-45	0	10

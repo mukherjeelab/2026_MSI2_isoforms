@@ -1,0 +1,13 @@
+construct	replicate	pair_id	regional_enrichment	region	region_start	region_end	site_type	landmark	sample_label
+328	A	MSI2_328_A	-0.279886254485179	Exon side	-50	0	splice_donor_5prime	5' splice donor	328 replicate A
+328	B	MSI2_328_B	-0.380106960658722	Exon side	-50	0	splice_donor_5prime	5' splice donor	328 replicate B
+324	A	MSI2_324_A	-0.795206967009322	Exon side	-50	0	splice_donor_5prime	5' splice donor	324 replicate A
+324	B	MSI2_324_B	-0.739339217385401	Exon side	-50	0	splice_donor_5prime	5' splice donor	324 replicate B
+328	A	MSI2_328_A	-0.0153951872140046	Intron side	0	50	splice_donor_5prime	5' splice donor	328 replicate A
+328	B	MSI2_328_B	-0.0313946372838389	Intron side	0	50	splice_donor_5prime	5' splice donor	328 replicate B
+324	A	MSI2_324_A	-0.111781859803742	Intron side	0	50	splice_donor_5prime	5' splice donor	324 replicate A
+324	B	MSI2_324_B	-0.0925130114219794	Intron side	0	50	splice_donor_5prime	5' splice donor	324 replicate B
+328	A	MSI2_328_A	-0.147640720849595	Full immediate	-50	50	splice_donor_5prime	5' splice donor	328 replicate A
+328	B	MSI2_328_B	-0.205750798971272	Full immediate	-50	50	splice_donor_5prime	5' splice donor	328 replicate B
+324	A	MSI2_324_A	-0.453494413406498	Full immediate	-50	50	splice_donor_5prime	5' splice donor	324 replicate A
+324	B	MSI2_324_B	-0.415926114403761	Full immediate	-50	50	splice_donor_5prime	5' splice donor	324 replicate B

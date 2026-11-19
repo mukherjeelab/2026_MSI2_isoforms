@@ -1,0 +1,4 @@
+delta_group	comparison	groups	group_count	group_totals	region_category_count	pearson_chisq	degrees_of_freedom	asymptotic_p_value	monte_carlo_p_value	monte_carlo_B	min_expected_count	expected_cells_below_5	cramers_v
+324-biased	selected delta group vs remaining 43,794 merged peaks	324-biased vs remaining merged peaks	2	1437;42357	5	471.4779946386691	4	9.865613530725586e-101	9.99990000099999e-6	100000	5.217221537196877	0	0.10375843361375729
+328-biased	selected delta group vs remaining 43,794 merged peaks	328-biased vs remaining merged peaks	2	7034;36760	5	3256.3233058443207	4	0	9.99990000099999e-6	100000	25.53788190163036	0	0.272681988102828
+Similar-positive	selected delta group vs remaining 43,794 merged peaks	Similar-positive vs remaining merged peaks	2	717;43077	5	317.87326223345315	4	1.5088500360175078e-67	9.99990000099999e-6	100000	2.6031648170982327	1	0.08519609565112088

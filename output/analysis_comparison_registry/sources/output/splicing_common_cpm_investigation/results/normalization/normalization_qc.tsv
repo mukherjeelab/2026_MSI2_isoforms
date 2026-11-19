@@ -1,0 +1,9 @@
+sample	construct	assay	replicate	pair_id	primary_mapped_reads	uniquely_mapped_reads	uniquely_mapped_percent	normalization_factor	normalization_method	normalization_formula
+NM2026_0085	324	CLIP	A	MSI2_324_A	93659	93659	3.76	0.093659	CPM per primary mapped read	raw_count / primary_mapped_reads * 1e6
+NM2026_0086	324	SMI	A	MSI2_324_A	571306	571306	32.77	0.571306	CPM per primary mapped read	raw_count / primary_mapped_reads * 1e6
+NM2026_0087	324	CLIP	B	MSI2_324_B	103812	103812	4.25	0.103812	CPM per primary mapped read	raw_count / primary_mapped_reads * 1e6
+NM2026_0088	324	SMI	B	MSI2_324_B	512565	512565	35.4	0.512565	CPM per primary mapped read	raw_count / primary_mapped_reads * 1e6
+NM2026_0081	328	CLIP	A	MSI2_328_A	148054	148054	4.6	0.148054	CPM per primary mapped read	raw_count / primary_mapped_reads * 1e6
+NM2026_0082	328	SMI	A	MSI2_328_A	257457	257457	31.91	0.257457	CPM per primary mapped read	raw_count / primary_mapped_reads * 1e6
+NM2026_0083	328	CLIP	B	MSI2_328_B	173852	173852	7.52	0.173852	CPM per primary mapped read	raw_count / primary_mapped_reads * 1e6
+NM2026_0084	328	SMI	B	MSI2_328_B	320014	320014	33.7	0.320014	CPM per primary mapped read	raw_count / primary_mapped_reads * 1e6

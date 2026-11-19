@@ -1,0 +1,2 @@
+comparison	groups	group_count	group_totals	region_category_count	pearson_chisq	degrees_of_freedom	asymptotic_p_value	monte_carlo_p_value	monte_carlo_B	min_expected_count	expected_cells_below_5	cramers_v
+324-biased vs 328-biased vs Similar-positive	324-biased vs 328-biased vs Similar-positive	3	1437;7034;717	5	54.894808302499584	8	4.627699007261759e-9	9.99990000099999e-6	100000	2.1069873748367436	2	0.05465628953731798

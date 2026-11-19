@@ -1,0 +1,649 @@
+repository_path	bytes	scope	copied
+.Rhistory	12002	Outside CLIP/SMI scope or project metadata	False
+.DS_Store	8196	Outside CLIP/SMI scope or project metadata	False
+2026_MSI2_isoforms.Rproj	203	Reviewed auxiliary/orphan artifact	False
+README.md	3284	Relevant source copied	True
+.gitignore	74	Outside CLIP/SMI scope or project metadata	False
+Rplots.pdf	9099	Outside CLIP/SMI scope or project metadata	False
+.codex-finalizer/MSI2_CLIP_peak_analysis_progression_2026-09-10.pptx.validation.json	4518	Reviewed auxiliary/orphan artifact	False
+.codex-finalizer/msi2-analysis-candidate.pptx.inspect.ndjson	44899	Reviewed auxiliary/orphan artifact	False
+.codex-finalizer/MSI2_CLIP_peak_analysis_progression_2026-09-10_v2.pptx.validation.json	4518	Reviewed auxiliary/orphan artifact	False
+.codex-finalizer/msi2-analysis-candidate.pptx	8588773	Reviewed auxiliary/orphan artifact	False
+analysis/compare_round2.R	11106	Relevant source copied	True
+analysis/investigate_landmark_normalization_and_coverage.R	58270	Relevant source copied	True
+analysis/visualize_peak_deseq.R	43757	Relevant source copied	True
+analysis/analyze_continuous_construct_preference.R	19692	Relevant source copied	True
+analysis/analyze_site_enrichment_distributions.R	28765	Relevant source copied	True
+analysis/analyze_quantile_normalized_construct_preference.R	22566	Relevant source copied	True
+analysis/diagnose_clip_smi_components.R	27383	Relevant source copied	True
+analysis/analyze_landmark_splicing_first_pass.R	41285	Relevant source copied	True
+analysis/analyze_construct_biased_peak_regions.R	46404	Relevant source copied	True
+analysis/visualize_all_nonzero_peaks.R	19705	Relevant source copied	True
+output/.DS_Store	6148	Outside CLIP/SMI scope or project metadata	False
+output/splicing_site_enrichment_distributions/results/replicate_site_enrichment_summary.tsv	4431	Relevant source copied	True
+output/splicing_site_enrichment_distributions/results/peak_splice_proximity_summary.tsv	850	Relevant source copied	True
+output/splicing_site_enrichment_distributions/results/site_level_splice_enrichment.tsv.gz	13534078	Relevant source copied	True
+output/splicing_site_enrichment_distributions/results/analysis_parameters.tsv	890	Relevant source copied	True
+output/splicing_site_enrichment_distributions/results/tested_peak_splice_proximity.tsv	1121707	Relevant source copied	True
+output/splicing_site_enrichment_distributions/results/positive_enriched_splice_sites.tsv.gz	1519223	Relevant source copied	True
+output/splicing_site_enrichment_distributions/results/site_enrichment_distribution_summary.tsv	5223	Relevant source copied	True
+output/splicing_site_enrichment_distributions/results/peak_splice_proximity_tests.tsv	911	Relevant source copied	True
+output/splicing_site_enrichment_distributions/results/qc/sessionInfo.txt	1239	Relevant source copied	True
+output/splicing_site_enrichment_distributions/figures/splice_site_enrichment_distributions.pdf	82925	Relevant source copied	True
+output/splicing_site_enrichment_distributions/figures/splice_site_enrichment_distributions.png	343869	Relevant source copied	True
+output/splicing_site_enrichment_distributions/figures/enriched_peak_splice_proximity.pdf	8076	Relevant source copied	True
+output/splicing_site_enrichment_distributions/figures/enriched_peak_splice_proximity.png	252866	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/SUMMARY.md	5043	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/README.md	975	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/landmark_extremum_component_diagnostics.tsv	1861	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/acceptor_regional_component_summary.tsv	1350	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/transcript_3prime_end_component_diagnostic.tsv	4342	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/donor_replicate_qc_profiles.tsv	15204	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/acceptor_replicate_qc_profiles.tsv	15359	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/acceptor_component_diagnostic.tsv	19969	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/donor_regional_component_summary.tsv	1336	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/all_regional_component_summaries.tsv	3272	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/analysis_parameters.tsv	759	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/transcript_3prime_end_regional_component_summary.tsv	1340	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/donor_component_diagnostic.tsv	19821	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/transcript_3prime_end_replicate_qc_profiles.tsv	3252	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/all_sample_clip_smi_profiles.tsv	118606	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/all_landmark_component_diagnostics.tsv	43080	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/results/qc/sessionInfo.txt	1239	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/figures/.DS_Store	6148	Outside CLIP/SMI scope or project metadata	False
+output/splicing_clip_smi_diagnostic/figures/transcript_3prime_ends/transcript_3prime_end_clip_smi_enrichment_comparison.png	363249	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/figures/transcript_3prime_ends/transcript_3prime_end_clip_smi_enrichment_comparison.pdf	8266	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/figures/donors/donor_clip_smi_enrichment_comparison.png	432603	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/figures/donors/donor_clip_smi_enrichment_comparison.pdf	12692	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/figures/acceptors/acceptor_clip_smi_enrichment_comparison.png	438999	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/figures/acceptors/acceptor_clip_smi_enrichment_comparison.pdf	12645	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/figures/qc/acceptor_replicate_component_qc.pdf	9527	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/figures/qc/acceptor_replicate_component_qc.png	356903	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/figures/qc/transcript_3prime_end_replicate_component_qc.pdf	6698	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/figures/qc/donor_replicate_component_qc.pdf	9550	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/figures/qc/donor_replicate_component_qc.png	365078	Relevant source copied	True
+output/splicing_clip_smi_diagnostic/figures/qc/transcript_3prime_end_replicate_component_qc.png	274543	Relevant source copied	True
+output/splicing_common_cpm_investigation/.DS_Store	6148	Outside CLIP/SMI scope or project metadata	False
+output/splicing_common_cpm_investigation/README.md	2523	Relevant source copied	True
+output/splicing_common_cpm_investigation/FIRST_REPORT.md	6325	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/metaprofiles/site_vs_read_weighted_summary.tsv	567	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/metaprofiles/transcript_3prime_end_common_cpm_read_weighted_metaprofile.tsv	1053	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/metaprofiles/acceptor_common_cpm_site_weighted_metaprofile.tsv	13172	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/metaprofiles/donor_common_cpm_read_weighted_metaprofile.tsv	4490	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/metaprofiles/donor_common_cpm_replicate_profiles.tsv	9800	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/metaprofiles/acceptor_common_cpm_read_weighted_metaprofile.tsv	4670	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/metaprofiles/donor_common_cpm_site_weighted_metaprofile.tsv	13009	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/metaprofiles/transcript_3prime_end_common_cpm_site_weighted_metaprofile.tsv	2914	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/metaprofiles/acceptor_common_cpm_replicate_profiles.tsv	9807	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/metaprofiles/transcript_3prime_end_common_cpm_replicate_profiles.tsv	1927	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/normalization/acceptor_common_cpm_p0.5_site_weighted_metaprofile.tsv	9638	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/normalization/old_vs_common_cpm_summary.tsv	779	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/normalization/transcript_3prime_end_old_vs_common_cpm_profiles.tsv	1930	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/normalization/normalization_qc.tsv	1199	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/normalization/common_cpm_pseudocount_sensitivity.tsv	466	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/normalization/analysis_parameters.tsv	745	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/normalization/transcript_3prime_end_common_cpm_p0.5_site_weighted_metaprofile.tsv	2027	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/normalization/acceptor_old_vs_common_cpm_profiles.tsv	8618	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/normalization/donor_common_cpm_p0.5_site_weighted_metaprofile.tsv	9655	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/normalization/donor_old_vs_common_cpm_profiles.tsv	8459	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/transcript_3prime_end_coverage_stratified_read_weighted_metaprofile.tsv	4220	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/all_coverage_stratified_regions.tsv	6015	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/acceptor_coverage_stratified_regions.tsv	2084	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/all_coverage_stratified_profiles.tsv	48530	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/all_coverage_stratified_weighting_comparison.tsv	7971	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/all_coverage_stratified_read_weighted_profiles.tsv	42084	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/acceptor_coverage_stratified_read_weighted_metaprofile.tsv	19320	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/acceptor_coverage_stratified_weighting_comparison.tsv	2704	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/transcript_3prime_end_coverage_stratified_weighting_comparison.tsv	2863	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/coverage_quartile_definitions.tsv	1349	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/transcript_3prime_end_coverage_stratified_regions.tsv	2253	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/donor_coverage_stratified_read_weighted_metaprofile.tsv	18748	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/transcript_3prime_end_coverage_stratified_metaprofile.tsv	4734	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/donor_coverage_stratified_weighting_comparison.tsv	2626	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/donor_coverage_stratified_regions.tsv	2042	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/donor_coverage_stratified_metaprofile.tsv	21754	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/acceptor_coverage_stratified_metaprofile.tsv	22304	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/coverage_concentration_summary.tsv	398	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/coverage_dependence/condition_independent_site_coverage.tsv.gz	5376057	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/replicate_regions/replicate_matched_construct_contrasts.tsv	2320	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/replicate_regions/transcript_3prime_end_replicate_region_estimates.tsv	1653	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/replicate_regions/all_replicate_region_estimates.tsv	4282	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/replicate_regions/donor_replicate_region_estimates.tsv	1390	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/replicate_regions/acceptor_replicate_region_estimates.tsv	1461	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/side_of_splice/all_side_comparison_summary.tsv	1713	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/side_of_splice/donor_gene_side_values.tsv	1107776	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/side_of_splice/acceptor_site_side_values.tsv.gz	1591105	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/side_of_splice/acceptor_side_summary.tsv	1049	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/side_of_splice/donor_side_summary.tsv	1044	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/side_of_splice/donor_site_side_values.tsv.gz	1625173	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/side_of_splice/acceptor_gene_side_values.tsv	1130931	Relevant source copied	True
+output/splicing_common_cpm_investigation/results/qc/sessionInfo.txt	1239	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/.DS_Store	6148	Outside CLIP/SMI scope or project metadata	False
+output/splicing_common_cpm_investigation/figures/transcript_3prime_ends/common_cpm_site_weighted_delta_delta.pdf	5396	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/transcript_3prime_ends/common_cpm_site_weighted_delta_delta.png	109080	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/transcript_3prime_ends/old_vs_common_cpm_delta_delta.pdf	5257	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/transcript_3prime_ends/common_cpm_site_weighted_enrichment.png	159134	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/transcript_3prime_ends/old_vs_common_cpm_delta_delta.png	109374	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/transcript_3prime_ends/common_cpm_site_weighted_enrichment.pdf	6087	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/transcript_3prime_ends/coverage_stratified_regional_delta_delta.pdf	7129	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/transcript_3prime_ends/coverage_stratified_regional_delta_delta.png	133352	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/transcript_3prime_ends/coverage_stratified_delta_delta_metaprofile.pdf	6208	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/transcript_3prime_ends/coverage_stratified_delta_delta_metaprofile.png	155182	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/transcript_3prime_ends/site_vs_read_weighted_delta_delta.png	118815	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/transcript_3prime_ends/site_vs_read_weighted_delta_delta.pdf	5254	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/donors/common_cpm_site_weighted_delta_delta.pdf	6108	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/donors/common_cpm_site_weighted_delta_delta.png	140509	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/donors/old_vs_common_cpm_delta_delta.pdf	5780	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/donors/common_cpm_site_weighted_enrichment.png	237815	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/donors/old_vs_common_cpm_delta_delta.png	144060	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/donors/common_cpm_site_weighted_enrichment.pdf	8135	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/donors/coverage_stratified_regional_delta_delta.pdf	7102	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/donors/coverage_stratified_regional_delta_delta.png	129795	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/donors/coverage_stratified_delta_delta_metaprofile.pdf	8537	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/donors/coverage_stratified_delta_delta_metaprofile.png	219493	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/donors/site_vs_read_weighted_delta_delta.png	145978	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/donors/site_vs_read_weighted_delta_delta.pdf	5733	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/acceptors/common_cpm_site_weighted_delta_delta.pdf	6144	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/acceptors/common_cpm_site_weighted_delta_delta.png	137546	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/acceptors/old_vs_common_cpm_delta_delta.pdf	5779	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/acceptors/common_cpm_site_weighted_enrichment.png	216379	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/acceptors/old_vs_common_cpm_delta_delta.png	137931	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/acceptors/common_cpm_site_weighted_enrichment.pdf	8106	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/acceptors/coverage_stratified_regional_delta_delta.pdf	7055	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/acceptors/coverage_stratified_regional_delta_delta.png	129988	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/acceptors/coverage_stratified_delta_delta_metaprofile.pdf	8591	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/acceptors/coverage_stratified_delta_delta_metaprofile.png	214042	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/acceptors/site_vs_read_weighted_delta_delta.png	148708	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/acceptors/site_vs_read_weighted_delta_delta.pdf	5757	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/replicate_regions/transcript_3prime_end_replicate_region_estimates.pdf	6530	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/replicate_regions/transcript_3prime_end_replicate_region_estimates.png	158992	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/replicate_regions/donor_replicate_region_estimates.png	171344	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/replicate_regions/donor_replicate_region_estimates.pdf	6516	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/replicate_regions/acceptor_replicate_region_estimates.png	171445	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/replicate_regions/acceptor_replicate_region_estimates.pdf	6555	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/side_of_splice/donor_exonic_vs_intronic.pdf	13716	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/side_of_splice/donor_exonic_vs_intronic.png	101475	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/side_of_splice/acceptor_exonic_vs_intronic.png	101591	Relevant source copied	True
+output/splicing_common_cpm_investigation/figures/side_of_splice/acceptor_exonic_vs_intronic.pdf	13861	Relevant source copied	True
+output/round2_comparisons/sessionInfo.txt	1215	Relevant source copied	True
+output/round2_comparisons/run.log	177	Outside CLIP/SMI scope or project metadata	False
+output/round2_comparisons/README.md	6008	Relevant source copied	True
+output/round2_comparisons/report.html	6548	Relevant source copied	True
+output/round2_comparisons/tables/continuous_region_summary.tsv	6277	Relevant source copied	True
+output/round2_comparisons/tables/paired_metaprofile_construct_differences.tsv	1759060	Relevant source copied	True
+output/round2_comparisons/tables/metaprofile_group_means.tsv	3352760	Relevant source copied	True
+output/round2_comparisons/tables/metaprofiles_all_samples.tsv	18136660	Relevant source copied	True
+output/round2_comparisons/tables/paired_metaprofile_clip_minus_smi.tsv	3559017	Relevant source copied	True
+output/round2_comparisons/tables/metaprofile_changes_from_matching_full_genome.tsv	21641	Relevant source copied	True
+output/round2_comparisons/tables/library_sizes.tsv	16306	Relevant source copied	True
+output/round2_comparisons/tables/continuous_supported_region_summary.tsv	2434	Relevant source copied	True
+output/round2_comparisons/tables/preference_change_from_all_genome_full.tsv	1051	Relevant source copied	True
+output/round2_comparisons/tables/continuous_peak_preference.tsv	41070241	Relevant source copied	True
+output/round2_comparisons/figures/3UTR_construct_difference.pdf	22178	Relevant source copied	True
+output/round2_comparisons/figures/3UTR_raw.pdf	59905	Relevant source copied	True
+output/round2_comparisons/figures/intron_normalized.png	1256052	Relevant source copied	True
+output/round2_comparisons/figures/intron_normalized.pdf	63431	Relevant source copied	True
+output/round2_comparisons/figures/3UTR_raw.png	490386	Relevant source copied	True
+output/round2_comparisons/figures/3UTR_construct_difference.png	585271	Relevant source copied	True
+output/round2_comparisons/figures/splice_donor_raw.pdf	96995	Relevant source copied	True
+output/round2_comparisons/figures/splice_acceptor_raw.png	238167	Relevant source copied	True
+output/round2_comparisons/figures/splice_donor_raw.png	221584	Relevant source copied	True
+output/round2_comparisons/figures/splice_acceptor_raw.pdf	99363	Relevant source copied	True
+output/round2_comparisons/figures/transcript_end_normalized.pdf	61008	Relevant source copied	True
+output/round2_comparisons/figures/3UTR_normalized.pdf	62178	Relevant source copied	True
+output/round2_comparisons/figures/intron_construct_difference.png	740015	Relevant source copied	True
+output/round2_comparisons/figures/3UTR_normalized.png	923465	Relevant source copied	True
+output/round2_comparisons/figures/transcript_end_normalized.png	687231	Relevant source copied	True
+output/round2_comparisons/figures/intron_construct_difference.pdf	22552	Relevant source copied	True
+output/round2_comparisons/figures/selected_library_sizes.pdf	9062	Relevant source copied	True
+output/round2_comparisons/figures/splice_donor_normalized.pdf	114244	Relevant source copied	True
+output/round2_comparisons/figures/selected_library_sizes.png	251760	Relevant source copied	True
+output/round2_comparisons/figures/splice_donor_normalized.png	503985	Relevant source copied	True
+output/round2_comparisons/figures/intron_raw.png	305872	Relevant source copied	True
+output/round2_comparisons/figures/splice_acceptor_normalized.png	603381	Relevant source copied	True
+output/round2_comparisons/figures/continuous_preference_supported_peaks.png	538039	Relevant source copied	True
+output/round2_comparisons/figures/splice_acceptor_construct_difference.png	732360	Relevant source copied	True
+output/round2_comparisons/figures/intron_raw.pdf	55467	Relevant source copied	True
+output/round2_comparisons/figures/splice_acceptor_normalized.pdf	115422	Relevant source copied	True
+output/round2_comparisons/figures/continuous_preference_supported_peaks.pdf	266279	Relevant source copied	True
+output/round2_comparisons/figures/splice_acceptor_construct_difference.pdf	37609	Relevant source copied	True
+output/round2_comparisons/figures/transcript_end_raw.pdf	55964	Relevant source copied	True
+output/round2_comparisons/figures/continuous_preference_median_changes.pdf	7664	Relevant source copied	True
+output/round2_comparisons/figures/transcript_end_construct_difference.pdf	22013	Relevant source copied	True
+output/round2_comparisons/figures/splice_donor_construct_difference.png	641870	Relevant source copied	True
+output/round2_comparisons/figures/transcript_end_construct_difference.png	552004	Relevant source copied	True
+output/round2_comparisons/figures/splice_donor_construct_difference.pdf	37106	Relevant source copied	True
+output/round2_comparisons/figures/transcript_end_raw.png	328761	Relevant source copied	True
+output/round2_comparisons/figures/continuous_preference_median_changes.png	218212	Relevant source copied	True
+output/round2_comparisons/figures/continuous_preference_all_variants.pdf	265044	Relevant source copied	True
+output/round2_comparisons/figures/continuous_preference_all_variants.png	549161	Relevant source copied	True
+output/splicing_first_pass/.DS_Store	6148	Outside CLIP/SMI scope or project metadata	False
+output/splicing_first_pass/README.md	3734	Relevant source copied	True
+output/splicing_first_pass/FIRST_PASS_SUMMARY.md	3869	Relevant source copied	True
+output/splicing_first_pass/results/metaprofiles/donor_replicate_enrichment_profiles.tsv	16098	Relevant source copied	True
+output/splicing_first_pass/results/metaprofiles/acceptor_read_weighted_aggregate_metaprofile.tsv	11745	Relevant source copied	True
+output/splicing_first_pass/results/metaprofiles/acceptor_site_weighted_metaprofile.tsv	12281	Relevant source copied	True
+output/splicing_first_pass/results/metaprofiles/donor_read_weighted_aggregate_metaprofile.tsv	11555	Relevant source copied	True
+output/splicing_first_pass/results/metaprofiles/first_pass_pattern_summary.tsv	557	Relevant source copied	True
+output/splicing_first_pass/results/metaprofiles/transcript_3prime_end_replicate_enrichment_profiles.tsv	3660	Relevant source copied	True
+output/splicing_first_pass/results/metaprofiles/acceptor_replicate_enrichment_profiles.tsv	16693	Relevant source copied	True
+output/splicing_first_pass/results/metaprofiles/transcript_3prime_end_site_weighted_metaprofile.tsv	2728	Relevant source copied	True
+output/splicing_first_pass/results/metaprofiles/transcript_3prime_end_read_weighted_aggregate_metaprofile.tsv	2552	Relevant source copied	True
+output/splicing_first_pass/results/metaprofiles/donor_site_weighted_metaprofile.tsv	12135	Relevant source copied	True
+output/splicing_first_pass/results/normalized/acceptor_normalized_coverage_qc.tsv	46821	Relevant source copied	True
+output/splicing_first_pass/results/normalized/donor_normalized_coverage_qc.tsv	45599	Relevant source copied	True
+output/splicing_first_pass/results/normalized/transcript_3prime_end_normalized_coverage_qc.tsv	9955	Relevant source copied	True
+output/splicing_first_pass/results/normalized/analysis_parameters.tsv	741	Relevant source copied	True
+output/splicing_first_pass/results/qc/site_gene_counts.tsv	487	Relevant source copied	True
+output/splicing_first_pass/results/qc/aggregate_metaprofile_reconciliation.tsv	66051	Relevant source copied	True
+output/splicing_first_pass/results/qc/sessionInfo.txt	1220	Relevant source copied	True
+output/splicing_first_pass/results/qc/normalization_qc.tsv	1945	Relevant source copied	True
+output/splicing_first_pass/results/qc/transcript_3prime_end_replicate_consistency.tsv	1696	Relevant source copied	True
+output/splicing_first_pass/results/qc/pseudocount_sensitivity_summary.tsv	433	Relevant source copied	True
+output/splicing_first_pass/results/qc/replicate_consistency_summary.tsv	761	Relevant source copied	True
+output/splicing_first_pass/results/qc/donor_replicate_consistency.tsv	9230	Relevant source copied	True
+output/splicing_first_pass/results/qc/pseudocount_sensitivity.tsv	20553	Relevant source copied	True
+output/splicing_first_pass/results/qc/acceptor_replicate_consistency.tsv	9225	Relevant source copied	True
+output/splicing_first_pass/figures/.DS_Store	8196	Outside CLIP/SMI scope or project metadata	False
+output/splicing_first_pass/figures/transcript_3prime_ends/read_weighted_aggregate_delta_delta_metaprofile.png	112544	Relevant source copied	True
+output/splicing_first_pass/figures/transcript_3prime_ends/read_weighted_aggregate_delta_delta_metaprofile.pdf	5012	Relevant source copied	True
+output/splicing_first_pass/figures/transcript_3prime_ends/raw_normalized_coverage_QC.pdf	6115	Relevant source copied	True
+output/splicing_first_pass/figures/transcript_3prime_ends/raw_normalized_coverage_QC.png	227724	Relevant source copied	True
+output/splicing_first_pass/figures/transcript_3prime_ends/site_weighted_enrichment_metaprofile.png	160752	Relevant source copied	True
+output/splicing_first_pass/figures/transcript_3prime_ends/read_weighted_aggregate_enrichment_metaprofile.pdf	5227	Relevant source copied	True
+output/splicing_first_pass/figures/transcript_3prime_ends/read_weighted_aggregate_enrichment_metaprofile.png	122106	Relevant source copied	True
+output/splicing_first_pass/figures/transcript_3prime_ends/site_weighted_enrichment_metaprofile.pdf	6066	Relevant source copied	True
+output/splicing_first_pass/figures/transcript_3prime_ends/site_weighted_delta_delta_metaprofile.png	111366	Relevant source copied	True
+output/splicing_first_pass/figures/transcript_3prime_ends/site_weighted_delta_delta_metaprofile.pdf	5430	Relevant source copied	True
+output/splicing_first_pass/figures/transcript_3prime_ends/replicate_consistency.pdf	6775	Relevant source copied	True
+output/splicing_first_pass/figures/transcript_3prime_ends/replicate_consistency.png	110375	Relevant source copied	True
+output/splicing_first_pass/figures/donors/read_weighted_aggregate_delta_delta_metaprofile.png	143873	Relevant source copied	True
+output/splicing_first_pass/figures/donors/read_weighted_aggregate_delta_delta_metaprofile.pdf	5302	Relevant source copied	True
+output/splicing_first_pass/figures/donors/raw_normalized_coverage_QC.pdf	8426	Relevant source copied	True
+output/splicing_first_pass/figures/donors/raw_normalized_coverage_QC.png	245862	Relevant source copied	True
+output/splicing_first_pass/figures/donors/site_weighted_enrichment_metaprofile.png	240952	Relevant source copied	True
+output/splicing_first_pass/figures/donors/read_weighted_aggregate_enrichment_metaprofile.pdf	5763	Relevant source copied	True
+output/splicing_first_pass/figures/donors/read_weighted_aggregate_enrichment_metaprofile.png	171905	Relevant source copied	True
+output/splicing_first_pass/figures/donors/site_weighted_enrichment_metaprofile.pdf	8152	Relevant source copied	True
+output/splicing_first_pass/figures/donors/site_weighted_delta_delta_metaprofile.png	139902	Relevant source copied	True
+output/splicing_first_pass/figures/donors/site_weighted_delta_delta_metaprofile.pdf	6082	Relevant source copied	True
+output/splicing_first_pass/figures/donors/replicate_consistency.pdf	11458	Relevant source copied	True
+output/splicing_first_pass/figures/donors/replicate_consistency.png	137633	Relevant source copied	True
+output/splicing_first_pass/figures/acceptors/read_weighted_aggregate_delta_delta_metaprofile.png	139592	Relevant source copied	True
+output/splicing_first_pass/figures/acceptors/read_weighted_aggregate_delta_delta_metaprofile.pdf	5294	Relevant source copied	True
+output/splicing_first_pass/figures/acceptors/raw_normalized_coverage_QC.pdf	8347	Relevant source copied	True
+output/splicing_first_pass/figures/acceptors/raw_normalized_coverage_QC.png	260285	Relevant source copied	True
+output/splicing_first_pass/figures/acceptors/site_weighted_enrichment_metaprofile.png	221268	Relevant source copied	True
+output/splicing_first_pass/figures/acceptors/read_weighted_aggregate_enrichment_metaprofile.pdf	5747	Relevant source copied	True
+output/splicing_first_pass/figures/acceptors/read_weighted_aggregate_enrichment_metaprofile.png	180941	Relevant source copied	True
+output/splicing_first_pass/figures/acceptors/site_weighted_enrichment_metaprofile.pdf	8178	Relevant source copied	True
+output/splicing_first_pass/figures/acceptors/site_weighted_delta_delta_metaprofile.png	134264	Relevant source copied	True
+output/splicing_first_pass/figures/acceptors/site_weighted_delta_delta_metaprofile.pdf	6096	Relevant source copied	True
+output/splicing_first_pass/figures/acceptors/replicate_consistency.pdf	11588	Relevant source copied	True
+output/splicing_first_pass/figures/acceptors/replicate_consistency.png	141048	Relevant source copied	True
+output/presentation/~$MSI2_CLIP_peak_analysis_progression_2026-09-10_v2.pptx	165	Reviewed auxiliary/orphan artifact	False
+output/presentation/MSI2_CLIP_peak_analysis_progression_2026-09-10_v2.pptx	8588773	Relevant source copied	True
+output/presentation/MSI2_CLIP_peak_analysis_progression_2026-09-10.pptx	8588882	Relevant source copied	True
+code/DualLuciferase.knit.md	6330	Outside CLIP/SMI scope or project metadata	False
+code/Proetomics.Rmd	39143	Outside CLIP/SMI scope or project metadata	False
+code/SpliceAnalysis.Rmd	16668	Outside CLIP/SMI scope or project metadata	False
+code/IsoformCLIP.Rmd	736	Relevant source copied	True
+code/DualLuciferase.Rmd	31387	Outside CLIP/SMI scope or project metadata	False
+code/DualLuciferase_files/figure-html/unnamed-chunk-1-1.png	73088	Outside CLIP/SMI scope or project metadata	False
+code/DualLuciferase_files/figure-html/unnamed-chunk-1-2.png	77654	Outside CLIP/SMI scope or project metadata	False
+code/DualLuciferase_files/figure-html/unnamed-chunk-2-1.png	88962	Outside CLIP/SMI scope or project metadata	False
+code/clip_peak_analysis/deseq_samples.tsv	509	Relevant source copied	True
+code/clip_peak_analysis/config.yaml	979	Relevant source copied	True
+code/clip_peak_analysis/README.md	2540	Relevant source copied	True
+code/clip_peak_analysis/Snakefile	9476	Outside CLIP/SMI scope or project metadata	False
+code/clip_peak_analysis/scripts/audit_results.R	10769	Relevant source copied	True
+code/clip_peak_analysis/scripts/run_peak_deseq2.R	8501	Relevant source copied	True
+code/clip_peak_analysis/scripts/prepare_peaks.py	7160	Relevant source copied	True
+code/clip_peak_analysis/scripts/featurecounts_to_matrix.py	2999	Relevant source copied	True
+code/clip_peak_analysis/scripts/combine_library_sizes.py	2498	Relevant source copied	True
+code/clip_peak_analysis/profiles/slurm/config.yaml	571	Relevant source copied	True
+code/clip_peak_analysis/envs/deseq2.yaml	114	Relevant source copied	True
+code/clip_peak_analysis/envs/snakemake.yaml	178	Relevant source copied	True
+code/clip_peak_analysis/envs/counting.yaml	120	Relevant source copied	True
+.snakemake/iocache/latest.pkl	5778	Outside CLIP/SMI scope or project metadata	False
+.snakemake/log/2026-09-04T100426.136009.snakemake.log	4136	Outside CLIP/SMI scope or project metadata	False
+.snakemake/log/2026-09-04T100632.227432.snakemake.log	55	Outside CLIP/SMI scope or project metadata	False
+.snakemake/log/2026-09-04T100453.027151.snakemake.log	55	Outside CLIP/SMI scope or project metadata	False
+figures/fig1C_DLmethodProof.pdf	4769	Outside CLIP/SMI scope or project metadata	False
+figures/fig2G_DLpabpKD.pdf	5104	Outside CLIP/SMI scope or project metadata	False
+figures/fig6E_TCGAsplice.pdf	556883	Outside CLIP/SMI scope or project metadata	False
+figures/fig2E_DL328sufficiency.pdf	4760	Outside CLIP/SMI scope or project metadata	False
+figures/Fig6F_TCGAvGTExcombo.pdf	6587	Outside CLIP/SMI scope or project metadata	False
+figures/fig2C_DL328mutants.pdf	4988	Outside CLIP/SMI scope or project metadata	False
+figures/fig6D_GTExSplice.pdf	6540	Outside CLIP/SMI scope or project metadata	False
+figures/fig1D_qPCRmethodProof.pdf	4747	Outside CLIP/SMI scope or project metadata	False
+figures/fig6B_DL_328_delPBD_celllines.pdf	5057	Outside CLIP/SMI scope or project metadata	False
+figures/suppfig2B_DL328mutantsALL.pdf	5488	Outside CLIP/SMI scope or project metadata	False
+figures/suppfig2F_qPCRpabpKD.pdf	5101	Outside CLIP/SMI scope or project metadata	False
+figures/fig4E_324DLassay.pdf	4836	Outside CLIP/SMI scope or project metadata	False
+figures/fig6C_DL_324_delN_celllines.pdf	5044	Outside CLIP/SMI scope or project metadata	False
+.codex-pptx-build/build_msi2_analysis_deck.mjs	35318	Relevant source copied	True
+.codex-pptx-build/renders/slide-22.png	174442	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-21.png	167916	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-09.png	132122	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-08.png	221144	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-20.png	107576	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-18.png	300957	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-19.png	155728	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/montage.webp	45808	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-17.png	151418	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-03.png	115406	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-02.png	122307	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-16.png	228256	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-14.png	154209	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-15.png	181219	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-01.png	65219	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-05.png	129534	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-11.png	102833	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-10.png	243194	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-04.png	156514	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-12.png	169523	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-06.png	91600	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-07.png	95529	Reviewed auxiliary/orphan artifact	False
+.codex-pptx-build/renders/slide-13.png	135122	Reviewed auxiliary/orphan artifact	False
+data/.DS_Store	6148	Outside CLIP/SMI scope or project metadata	False
+data/MSI2_donor_all_junctions.tsv	681644	Reviewed auxiliary/orphan artifact	False
+data/FredHutchProteomics.xlsx	590359	Outside CLIP/SMI scope or project metadata	False
+data/KAB165_qPCRII.xlsx	18555	Outside CLIP/SMI scope or project metadata	False
+data/GTEx_Analysis_v11_Annotations_SampleAttributesDS.txt	38497961	Outside CLIP/SMI scope or project metadata	False
+data/MSI2_peaks_omniCLIP.bed	5986933	Reviewed auxiliary/orphan artifact	False
+data/MSI2_two_junctions_with_header.tsv	600969	Reviewed auxiliary/orphan artifact	False
+data/KAB152_Reps2-3.csv	16302	Outside CLIP/SMI scope or project metadata	False
+data/DLAssay_ALLData.xlsx	108035	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_KIRC.txt	48396	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_THYM.txt	11287	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_BLCA.txt	36808	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_PAAD.txt	15714	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_THCA.txt	46391	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_READ.txt	15476	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_LIHC.txt	34275	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_GBM.txt	13888	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_KIRP.txt	26721	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_COAD.txt	41778	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_KICH.txt	7363	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_UCEC.txt	52496	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_UCS.txt	6110	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_OV.txt	38663	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_STAD.txt	37039	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_CHOL.txt	4312	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_MESO.txt	7981	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_DLBC.txt	5190	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_SKCM.txt	9985	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_BRCA.txt	100330	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_PCPG.txt	15960	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_LUSC.txt	44497	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_UVM.txt	7914	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_CESC.txt	23608	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_LAML.txt	14552	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_TGCT.txt	12153	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_LGG.txt	43518	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_LUAD.txt	46263	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_ACC.txt	7897	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_SARC.txt	22365	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_PRAD.txt	42125	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_HNSC.txt	44531	Outside CLIP/SMI scope or project metadata	False
+data/TCGA/PSI_download_ESCA.txt	16884	Outside CLIP/SMI scope or project metadata	False
+data/results_round2/analysis_config.yaml	360	Relevant source copied	True
+data/results_round2/features.tsv.gz	36398057	Relevant source copied	True
+data/results_round2/README.md	12433	Relevant source copied	True
+data/results_round2/sampling_targets.json	48795	Relevant source copied	True
+data/results_round2/sample_metadata.tsv	1290	Relevant source copied	True
+data/results_round2/reference_peaks/peak_members.tsv	10453532	Relevant source copied	True
+data/results_round2/reference_peaks/peaks.bed	2621898	Relevant source copied	True
+data/results_round2/reference_peaks/peaks.tsv	5076251	Relevant source copied	True
+data/results_round2/reference_peaks/peak_metaprofiles.tsv	33586	Relevant source copied	True
+data/results_round2/reference_peaks/peak_feature_bins.tsv.gz	5136346	Relevant source copied	True
+data/results_round2/reference_peaks/peak_annotations.tsv.gz	503261	Relevant source copied	True
+data/results_round2/NM2026_0083/read_annotations.tsv.gz	2308126	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0083/feature_bin_counts.tsv.gz	11929733	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0083/metaprofiles.tsv	1061102	Relevant source copied	True
+data/results_round2/NM2026_0083/category_counts.tsv	4682	Relevant source copied	True
+data/results_round2/NM2026_0083/peak_counts.tsv.gz	1180321	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0083/QC.json	987	Relevant source copied	True
+data/results_round2/NM2026_0084/read_annotations.tsv.gz	4175692	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0084/feature_bin_counts.tsv.gz	16125226	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0084/metaprofiles.tsv	1059658	Relevant source copied	True
+data/results_round2/NM2026_0084/category_counts.tsv	4675	Relevant source copied	True
+data/results_round2/NM2026_0084/peak_counts.tsv.gz	1149308	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0084/QC.json	987	Relevant source copied	True
+data/results_round2/NM2026_0085/read_annotations.tsv.gz	1219094	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0085/feature_bin_counts.tsv.gz	5076040	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0085/metaprofiles.tsv	1058027	Relevant source copied	True
+data/results_round2/NM2026_0085/category_counts.tsv	4634	Relevant source copied	True
+data/results_round2/NM2026_0085/peak_counts.tsv.gz	1132877	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0085/QC.json	979	Relevant source copied	True
+data/results_round2/NM2026_0082/read_annotations.tsv.gz	3445668	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0082/feature_bin_counts.tsv.gz	14937466	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0082/metaprofiles.tsv	1059385	Relevant source copied	True
+data/results_round2/NM2026_0082/category_counts.tsv	4662	Relevant source copied	True
+data/results_round2/NM2026_0082/peak_counts.tsv.gz	1149038	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0082/QC.json	985	Relevant source copied	True
+data/results_round2/NM2026_0087/read_annotations.tsv.gz	1373084	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0087/feature_bin_counts.tsv.gz	6247605	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0087/metaprofiles.tsv	1059955	Relevant source copied	True
+data/results_round2/NM2026_0087/category_counts.tsv	4659	Relevant source copied	True
+data/results_round2/NM2026_0087/peak_counts.tsv.gz	1137697	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0087/QC.json	984	Relevant source copied	True
+data/results_round2/NM2026_0088/read_annotations.tsv.gz	7248582	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0088/feature_bin_counts.tsv.gz	25910346	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0088/metaprofiles.tsv	1060034	Relevant source copied	True
+data/results_round2/NM2026_0088/category_counts.tsv	4665	Relevant source copied	True
+data/results_round2/NM2026_0088/peak_counts.tsv.gz	1159476	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0088/QC.json	987	Relevant source copied	True
+data/results_round2/NM2026_0081/read_annotations.tsv.gz	2241946	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0081/feature_bin_counts.tsv.gz	13466601	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0081/metaprofiles.tsv	1061110	Relevant source copied	True
+data/results_round2/NM2026_0081/category_counts.tsv	4680	Relevant source copied	True
+data/results_round2/NM2026_0081/peak_counts.tsv.gz	1180813	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0081/QC.json	987	Relevant source copied	True
+data/results_round2/NM2026_0086/read_annotations.tsv.gz	8002055	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0086/feature_bin_counts.tsv.gz	27710076	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0086/metaprofiles.tsv	1060105	Relevant source copied	True
+data/results_round2/NM2026_0086/category_counts.tsv	4673	Relevant source copied	True
+data/results_round2/NM2026_0086/peak_counts.tsv.gz	1158693	Upstream/raw provenance; not all large input tables copied	False
+data/results_round2/NM2026_0086/QC.json	987	Relevant source copied	True
+data/results/.DS_Store	6148	Upstream/raw provenance; not all large input tables copied	False
+data/results/junction_support.tsv.gz	91553281	Upstream/raw provenance; not all large input tables copied	False
+data/results/landmark_bin_counts.tsv.gz	14667781	Upstream/raw provenance; not all large input tables copied	False
+data/results/landmark_sites.tsv.gz	19816333	Relevant source copied	True
+data/results/landmark_site_summary.tsv.gz	79736979	Upstream/raw provenance; not all large input tables copied	False
+data/results/landmark_metaprofile_raw.tsv.gz	12043	Upstream/raw provenance; not all large input tables copied	False
+data/results/README.md	10380	Relevant source copied	True
+data/results/sample_metadata.tsv	6821	Relevant source copied	True
+data/results/landmark_extraction_QC.tsv	22863	Relevant source copied	True
+data/results/peak_analysis/peak_members.tsv	10453532	Relevant source copied	True
+data/results/peak_analysis/bam_library_sizes.tsv	184	Relevant source copied	True
+data/results/peak_analysis/peaks.filtered_merged.tsv	5076250	Relevant source copied	True
+data/results/peak_analysis/.DS_Store	6148	Upstream/raw provenance; not all large input tables copied	False
+data/results/peak_analysis/peaks.filtered_merged.bed	2621898	Relevant source copied	True
+data/results/peak_analysis/README.md	4076	Relevant source copied	True
+data/results/peak_analysis/featurecounts.tsv.summary	1483	Upstream/raw provenance; not all large input tables copied	False
+data/results/peak_analysis/peak_count_matrix.tsv	1448386	Relevant source copied	True
+data/results/peak_analysis/featurecounts.tsv	2737808	Relevant source copied	True
+data/results/peak_analysis/peaks.filtered_merged.saf	1882241	Relevant source copied	True
+data/results/peak_analysis/deseq2/.DS_Store	6148	Upstream/raw provenance; not all large input tables copied	False
+data/results/peak_analysis/deseq2/MSI2_328WT/sessionInfo.txt	1834	Relevant source copied	True
+data/results/peak_analysis/deseq2/MSI2_328WT/size_factors.tsv	257	Relevant source copied	True
+data/results/peak_analysis/deseq2/MSI2_328WT/IP_vs_input.all.tsv	592420	Relevant source copied	True
+data/results/peak_analysis/deseq2/MSI2_328WT/normalized_counts.tsv	1401848	Relevant source copied	True
+data/results/peak_analysis/deseq2/MSI2_328WT/QC.pdf	599542	Relevant source copied	True
+data/results/peak_analysis/deseq2/MSI2_328WT/IP_vs_input.significant.tsv	110817	Relevant source copied	True
+data/results/peak_analysis/deseq2/MSI2_324WT/sessionInfo.txt	1834	Relevant source copied	True
+data/results/peak_analysis/deseq2/MSI2_324WT/size_factors.tsv	255	Relevant source copied	True
+data/results/peak_analysis/deseq2/MSI2_324WT/IP_vs_input.all.tsv	326200	Relevant source copied	True
+data/results/peak_analysis/deseq2/MSI2_324WT/normalized_counts.tsv	1371326	Relevant source copied	True
+data/results/peak_analysis/deseq2/MSI2_324WT/QC.pdf	327600	Relevant source copied	True
+data/results/peak_analysis/deseq2/MSI2_324WT/IP_vs_input.significant.tsv	32579	Relevant source copied	True
+data/results/peak_analysis/audit/sample_qc.tsv	1151	Relevant source copied	True
+data/results/peak_analysis/audit/dataset_summary.tsv	237	Relevant source copied	True
+data/results/peak_analysis/audit/comparison_summary.tsv	441	Relevant source copied	True
+data/results/peak_analysis/audit/construct_comparison.common_tested.tsv	106538	Relevant source copied	True
+data/results/peak_analysis/figures/.DS_Store	6148	Upstream/raw provenance; not all large input tables copied	False
+data/results/peak_analysis/figures/sessionInfo.txt	2512	Relevant source copied	True
+data/results/peak_analysis/figures/visualization_summary.tsv	625	Relevant source copied	True
+data/results/peak_analysis/figures/README.md	6263	Relevant source copied	True
+data/results/peak_analysis/figures/analysis_parameters.tsv	202	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/enrichment_category_summary.tsv	229	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/enrichment_category_summary.png	94830	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/enrichment_category_summary.pdf	4965	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/omniCLIP_score_correlations.tsv	114	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/328_vs_324_log2FC_scatter.png	558284	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/omniCLIP_score_vs_328_enrichment.png	806602	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/omniCLIP_score_vs_328_enrichment.pdf	164818	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/328_vs_324_log2FC_scatter.pdf	69076	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/combined_effect_size_heatmap_peaks.tsv	11889	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/omniCLIP_score_vs_324_enrichment.pdf	94090	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/328_vs_324_peak_comparison.tsv	243864	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/omniCLIP_score_vs_324_enrichment.png	566895	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/omniCLIP_score_validation.tsv	1068719	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/combined_effect_size_heatmap.pdf	7142	Relevant source copied	True
+data/results/peak_analysis/figures/construct_comparison/combined_effect_size_heatmap.png	309938	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_328WT/deseq_plot_data.tsv	888983	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_328WT/MA_IP_vs_input.png	678528	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_328WT/heatmap_peaks.tsv	32691	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_328WT/MA_IP_vs_input.pdf	130226	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_328WT/heatmap_values.row_z.tsv	7152	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_328WT/pair_reproducibility.tsv	10386310	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_328WT/volcano_IP_vs_input.pdf	115018	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_328WT/volcano_IP_vs_input.png	295596	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_328WT/enriched_peak_heatmap.png	74854	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_328WT/pair_reproducibility.png	640793	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_328WT/enriched_peak_heatmap.pdf	9040	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_328WT/pair_reproducibility.pdf	456662	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_324WT/deseq_plot_data.tsv	486408	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_324WT/MA_IP_vs_input.png	459899	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_324WT/heatmap_peaks.tsv	32621	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_324WT/MA_IP_vs_input.pdf	72827	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_324WT/heatmap_values.row_z.tsv	7146	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_324WT/pair_reproducibility.tsv	10275728	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_324WT/volcano_IP_vs_input.pdf	61889	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_324WT/volcano_IP_vs_input.png	256997	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_324WT/enriched_peak_heatmap.png	75666	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_324WT/pair_reproducibility.png	459963	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_324WT/enriched_peak_heatmap.pdf	9142	Relevant source copied	True
+data/results/peak_analysis/figures/MSI2_324WT/pair_reproducibility.pdf	339572	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/.DS_Store	6148	Upstream/raw provenance; not all large input tables copied	False
+data/results/peak_analysis/figures/all_nonzero_peaks/sessionInfo.txt	2370	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/CLIP_SMI_pseudocount_LFC_scatter.pdf	554987	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/CLIP_SMI_pseudocount_LFC_scatter.png	715838	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/heatmap_16046_nonzero_peaks.pdf	89059	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/heatmap_16046_nonzero_peaks.png	186680	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/analysis_parameters.tsv	688	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/heatmap_cluster_assignments.tsv	1045196	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/heatmap_values.row_z.tsv	3197773	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/PCA_16046_nonzero_peaks.png	112507	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/PCA_16046_nonzero_peaks.pdf	5690	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/CLIP_SMI_pseudocount_LFC.tsv	4692570	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/PCA_16046_nonzero_peaks.tsv	1928	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/summary.tsv	412	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/delta_LFC_by_transcript_region.tsv	1245	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/three_group_overall_chisquare.tsv	421	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/source_background_goodness_of_fit_chisquare.tsv	749	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/sessionInfo.txt	3414	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/jointly_CLIP_enriched_overall_paired_test.tsv	262	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/delta_LFC_by_transcript_region.png	278986	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/delta_LFC_by_transcript_region.pdf	32989	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/delta_group_peak_selection.pdf	952830	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/construct_bias_transcript_region_enrichment.pdf	5976	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/peak_transcript_region_annotations.tsv	8035495	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/source_peak_transcript_region_annotations.tsv	7941686	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/construct_bias_transcript_region_enrichment.png	138761	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/delta_group_peak_selection.png	1013669	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/README.md	10733	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/overall_region_distribution_chisquare.tsv	887	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/relaxed_filter_continuous_delta_delta_peaks.tsv	1212703	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/strict_quadrant_peak_selection.pdf	707682	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/direct_324_vs_328_region_fisher.tsv	1274	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/strict_quadrant_peak_selection.png	729647	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/construct_bias_peak_groups.tsv	8002527	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/analysis_parameters.tsv	2077	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/relaxed_filter_overall_paired_test.tsv	278	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/selection_summary.tsv	345	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/pairwise_group_region_fisher.tsv	3308	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/transcript_region_enrichment.tsv	6030	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/pairwise_group_overall_chisquare.tsv	1003	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/jointly_CLIP_enriched_delta_delta_peaks.tsv	263461	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/delta_group_vs_source_background_tests.tsv	3410	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/transcript_region_background.tsv	2032	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/delta_group_vs_merged_background_tests.tsv	3119	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/direct_324_vs_328_overall_chisquare.tsv	495	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/continuous_delta_delta_peaks.tsv	3408976	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/continuous_delta_delta_by_region.png	264774	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/delta_delta_region_summary.tsv	873	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/continuous_delta_delta_by_region.pdf	32782	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/sessionInfo.txt	1343	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/delta_delta_3UTR_vs_intron_density.pdf	13287	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/delta_delta_region_pairwise_tests.tsv	3438	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/delta_delta_3UTR_vs_intron_density.png	167396	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/README.md	2983	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/delta_delta_region_overall_tests.tsv	417	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/delta_delta_3UTR_vs_intron_ecdf.pdf	30102	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/delta_delta_3UTR_vs_intron_ecdf.png	129845	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/construct_enrichment_scatter_by_region.pdf	16296	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/construct_enrichment_scatter_by_region.png	183972	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/continuous_delta_delta_peaks.tsv	3995033	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/continuous_delta_delta_by_region.png	259277	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/delta_delta_region_summary.tsv	870	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/continuous_delta_delta_by_region.pdf	31810	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/sessionInfo.txt	1398	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/normalization_comparison_to_primary.tsv	236	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/quantile_normalized_log2_cpm.tsv	1251915	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/delta_delta_3UTR_vs_intron_density.pdf	12804	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/delta_delta_region_pairwise_tests.tsv	3434	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/delta_delta_3UTR_vs_intron_density.png	162346	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/README.md	2911	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/delta_delta_region_overall_tests.tsv	342	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/delta_delta_3UTR_vs_intron_ecdf.pdf	25584	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/delta_delta_3UTR_vs_intron_ecdf.png	127689	Relevant source copied	True
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/continuous_construct_preference/quantile_normalized_log2cpm/normalization_sample_summary.tsv	1086	Relevant source copied	True
+data/results/peak_analysis/figures/QC/PCA_all_samples.pdf	5673	Relevant source copied	True
+data/results/peak_analysis/figures/QC/PCA_all_samples.png	95749	Relevant source copied	True
+data/results/peak_analysis/figures/QC/sample_correlation_heatmap.pdf	6876	Relevant source copied	True
+data/results/peak_analysis/figures/QC/sample_correlation_matrix.tsv	1317	Relevant source copied	True
+data/results/peak_analysis/figures/QC/sample_correlation_heatmap.png	134298	Relevant source copied	True
+data/results/peak_analysis/figures/QC/PCA_all_samples.tsv	870	Relevant source copied	True
+data/results/peak_analysis/figures/QC/sample_count_summary.tsv	1201	Relevant source copied	True
+data/results/peak_analysis/figures/QC/library_count_summary.png	193810	Relevant source copied	True
+data/results/peak_analysis/figures/QC/VST_counts_for_QC.tsv	751037	Relevant source copied	True
+data/results/peak_analysis/figures/QC/library_count_summary.pdf	6557	Relevant source copied	True
+data/results/peak_analysis/figures/peak_examples/selected_peak_examples.tsv	2794	Relevant source copied	True
+data/results/peak_analysis/figures/peak_examples/paired_peak_counts.tsv	6693	Relevant source copied	True
+data/results/peak_analysis/figures/peak_examples/paired_peak_counts.png	357004	Relevant source copied	True
+data/results/peak_analysis/figures/peak_examples/paired_peak_counts.pdf	9483	Relevant source copied	True
+tmp/pdfs/delta-relaxed-system.png	72946	Reviewed auxiliary/orphan artifact	False
+.Rproj.user/shared/notebooks/paths	546	IDE cache, not independent analysis	False
+.Rproj.user/shared/notebooks/patch-chunk-names	0	IDE cache, not independent analysis	False
+.Rproj.user/shared/notebooks/194927E5-Proetomics/1/s/chunks.json	52	IDE cache, not independent analysis	False
+.Rproj.user/shared/notebooks/BADF4D84-IsoformCLIP/1/s/chunks.json	483	IDE cache, not independent analysis	False
+.Rproj.user/shared/notebooks/BADF4D84-IsoformCLIP/1/s/cx0mw8b5p277x/00000f.csv	98	IDE cache, not independent analysis	False
+.Rproj.user/shared/notebooks/BADF4D84-IsoformCLIP/1/s/c2suzz2ixvzoj/000011.csv	403	IDE cache, not independent analysis	False
+.Rproj.user/shared/notebooks/BADF4D84-IsoformCLIP/1/s/c2suzz2ixvzoj/000012.error	2692	IDE cache, not independent analysis	False
+.Rproj.user/shared/notebooks/20EE8892-SpliceAnalysis/1/5A90265Fce562175/chunks.json	52	IDE cache, not independent analysis	False
+.Rproj.user/shared/notebooks/20EE8892-SpliceAnalysis/1/s/chunks.json	52	IDE cache, not independent analysis	False
+.Rproj.user/shared/notebooks/8B8E7D75-DualLuciferase/1/5A90265Fce562175/chunks.json	52	IDE cache, not independent analysis	False
+.Rproj.user/shared/notebooks/8B8E7D75-DualLuciferase/1/s/chunks.json	52	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/saved_source_markers	27	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/rmd-outputs	5	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/pcs/source-pane.pper	22	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/pcs/windowlayoutstate.pper	285	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/pcs/workbench-pane.pper	57	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/pcs/files-pane.pper	203	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/prop/E4B3B1D4	109	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/prop/29A8819C	173	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/prop/C5AEDCAA	203	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/prop/INDEX	520	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/prop/A4DAA15E	204	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/prop/57AB3E68	136	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/per/t/2FA894A7	792	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/per/t/50D4C22D	827	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/per/t/50D4C22D-contents	31387	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/per/t/2FA894A7-contents	16668	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/per/t/4377F5C8	818	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/per/t/FC17BD87	744	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/per/t/4377F5C8-contents	39143	IDE cache, not independent analysis	False
+.Rproj.user/5A90265F/sources/per/t/FC17BD87-contents	736	IDE cache, not independent analysis	False

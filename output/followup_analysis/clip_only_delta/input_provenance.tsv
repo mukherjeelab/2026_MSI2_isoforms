@@ -1,0 +1,6 @@
+path	md5
+data/results/peak_analysis/peak_count_matrix.tsv	dfa2c91de3d3343934a5de5f8c288968
+data/results/sample_metadata.tsv	d9febfe4a6aefe43e9f4a822c27dccec
+data/results/peak_analysis/bam_library_sizes.tsv	4adffffccb87375622831bece3477048
+data/results/peak_analysis/figures/QC/VST_counts_for_QC.tsv	d3b3952bb252b8a6175eb3de46418348
+data/results/peak_analysis/figures/all_nonzero_peaks/transcript_region_bias/peak_transcript_region_annotations.tsv	2ced8b41cdfab81dbb5bd7afa3ae0737

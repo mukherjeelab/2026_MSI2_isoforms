@@ -1,0 +1,4 @@
+site_type	delta_profile_pearson_r	delta_profile_spearman_rho	sign_agreement_fraction	mean_absolute_delta_difference	maximum_absolute_delta_difference
+splice_donor_5prime	0.999933227465606	0.998655462184874	1	0.0643427638424534	0.167679800468403
+splice_acceptor_3prime	0.999518613503901	0.997887154861945	1	0.0680548538306373	0.172520139718594
+annotated_transcript_3prime_end	0.996583758568609	1	1	0.208480779622839	0.241812039429016

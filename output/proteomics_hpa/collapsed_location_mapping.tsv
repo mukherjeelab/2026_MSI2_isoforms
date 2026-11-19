@@ -1,0 +1,50 @@
+localization	collapsed_localization	hpa_parent	source_url	GO term
+Nuclear membrane	Nuclear membrane	nuclear membrane	https://www.proteinatlas.org/humanproteome/subcellular/nuclear+membrane	GO:0031965
+Nucleoli	Nucleoli	nucleoli	https://www.proteinatlas.org/humanproteome/subcellular/nucleoli	GO:0005730
+Nucleoli fibrillar center	Nucleoli	nucleoli	https://www.proteinatlas.org/humanproteome/subcellular/nucleoli	GO:0001650
+Nucleoli rim	Nucleoli	nucleoli	https://www.proteinatlas.org/humanproteome/subcellular/nucleoli	GO:0005730
+Kinetochore	Nucleoplasm	nucleoplasm	https://www.proteinatlas.org/humanproteome/subcellular/nucleoplasm	GO:0000776
+Mitotic chromosome	Nucleoplasm	nucleoplasm	https://www.proteinatlas.org/humanproteome/subcellular/nucleoplasm	GO:0005694
+Nuclear bodies	Nucleoplasm	nucleoplasm	https://www.proteinatlas.org/humanproteome/subcellular/nucleoplasm	GO:0016604
+Nuclear speckles	Nucleoplasm	nucleoplasm	https://www.proteinatlas.org/humanproteome/subcellular/nucleoplasm	GO:0016607
+Nucleoplasm	Nucleoplasm	nucleoplasm	https://www.proteinatlas.org/humanproteome/subcellular/nucleoplasm	GO:0005654
+Actin filaments	Actin-filament associated	actin filaments	https://www.proteinatlas.org/humanproteome/subcellular/actin+filaments	GO:0015629
+Cleavage furrow	Actin-filament associated	actin filaments	https://www.proteinatlas.org/humanproteome/subcellular/actin+filaments	GO:0032154
+Focal adhesion sites	Actin-filament associated	actin filaments	https://www.proteinatlas.org/humanproteome/subcellular/actin+filaments	GO:0005925
+Centriolar satellite	Centrosome	centrosome	https://www.proteinatlas.org/humanproteome/subcellular/centrosome	GO:0034451
+Centrosome	Centrosome	centrosome	https://www.proteinatlas.org/humanproteome/subcellular/centrosome	GO:0005813
+Aggresome	Cytosol	cytosol	https://www.proteinatlas.org/humanproteome/subcellular/cytosol	GO:0016235
+Cytoplasmic bodies	Cytosol	cytosol	https://www.proteinatlas.org/humanproteome/subcellular/cytosol	GO:0036464
+Cytosol	Cytosol	cytosol	https://www.proteinatlas.org/humanproteome/subcellular/cytosol	GO:0005829
+Rods & Rings	Cytosol	cytosol	https://www.proteinatlas.org/humanproteome/subcellular/cytosol	NA
+Intermediate filaments	Intermediate filaments	intermediate filaments	https://www.proteinatlas.org/humanproteome/subcellular/intermediate+filaments	GO:0045111
+Cytokinetic bridge	Microtubule associated	microtubules	https://www.proteinatlas.org/humanproteome/subcellular/microtubules	GO:0045171
+Microtubule ends	Microtubule associated	microtubules	https://www.proteinatlas.org/humanproteome/subcellular/microtubules	GO:1990752
+Microtubules	Microtubule associated	microtubules	https://www.proteinatlas.org/humanproteome/subcellular/microtubules	GO:0015630
+Midbody	Microtubule associated	microtubules	https://www.proteinatlas.org/humanproteome/subcellular/microtubules	GO:0030496
+Midbody ring	Microtubule associated	microtubules	https://www.proteinatlas.org/humanproteome/subcellular/microtubules	GO:0090543
+Mitotic spindle	Microtubule associated	microtubules	https://www.proteinatlas.org/humanproteome/subcellular/microtubules	GO:0072686
+Mitochondria	Mitochondria	mitochondria	https://www.proteinatlas.org/humanproteome/subcellular/mitochondria	GO:0005739
+Endoplasmic reticulum	Endoplasmic reticulum	endoplasmic reticulum	https://www.proteinatlas.org/humanproteome/subcellular/endoplasmic+reticulum	GO:0005783
+Golgi apparatus	Golgi apparatus	golgi apparatus	https://www.proteinatlas.org/humanproteome/subcellular/golgi+apparatus	GO:0005794
+Cell Junctions	Plasma membrane/cell junctions	plasma membrane	https://www.proteinatlas.org/humanproteome/subcellular/plasma+membrane	GO:0030054
+Plasma membrane	Plasma membrane/cell junctions	plasma membrane	https://www.proteinatlas.org/humanproteome/subcellular/plasma+membrane	GO:0005886
+Endosomes	Vesicular system	vesicles	https://www.proteinatlas.org/humanproteome/subcellular/vesicles	GO:0005768
+Lipid droplets	Vesicular system	vesicles	https://www.proteinatlas.org/humanproteome/subcellular/vesicles	GO:0005811
+Lysosomes	Vesicular system	vesicles	https://www.proteinatlas.org/humanproteome/subcellular/vesicles	GO:0005764
+Peroxisomes	Vesicular system	vesicles	https://www.proteinatlas.org/humanproteome/subcellular/vesicles	GO:0005777
+Vesicles	Vesicular system	vesicles	https://www.proteinatlas.org/humanproteome/subcellular/vesicles	GO:0043231
+Basal body	Primary cilium	primary cilium	https://www.proteinatlas.org/humanproteome/subcellular/primary+cilium	GO:0036064
+Primary cilium	Primary cilium	primary cilium	https://www.proteinatlas.org/humanproteome/subcellular/primary+cilium	GO:0005929
+Primary cilium tip	Primary cilium	primary cilium	https://www.proteinatlas.org/humanproteome/subcellular/primary+cilium	GO:0097542
+Primary cilium transition zone	Primary cilium	primary cilium	https://www.proteinatlas.org/humanproteome/subcellular/primary+cilium	GO:0035869
+Acrosome	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0001669
+Annulus	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0097227
+Calyx	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0120238
+Connecting piece	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0120212
+End piece	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0097229
+Equatorial segment	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	NA
+Flagellar centriole	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0005814
+Mid piece	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0097225
+Perinuclear theca	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0033011
+Principal piece	Sperm structures	sperm	https://www.proteinatlas.org/humanproteome/subcellular/sperm	GO:0097228

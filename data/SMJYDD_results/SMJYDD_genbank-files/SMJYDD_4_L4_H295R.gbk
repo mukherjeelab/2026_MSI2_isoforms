@@ -1,0 +1,43 @@
+LOCUS       L4_H295R                1015 bp    DNA     linear   SYN 16-OCT-2026
+DEFINITION  L4_H295R.
+ACCESSION   L4_H295R
+VERSION     L4_H295R
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+            .
+COMMENT     Annotated with pLannotate v1.2.5
+FEATURES             Location/Qualifiers
+     CDS             complement(3..890)
+                     /note="pLannotate"
+                     /label="MSI2H_HUMAN (fragment)"
+                     /database="swissprot"
+                     /identity="100.0"
+                     /match_length="90.0"
+                     /fragment="True"
+                     /other="CDS"
+                     /description="Protein evidence at protein level: Swiss-Prot
+                     protein existence level 1. RNA binding protein that
+                     regulates the expression of target mRNAs at the translation
+                     level. May play a role in the proliferation and maintenance
+                     of stem cells in the central nervous system (By
+                     similarity). From Homo sapiens (Human)."
+ORIGIN
+        1 aaaggtccag ctatgccgtg gccgaagccc gagcccggct gtgggctggc cgcacttatg
+       61 taattcccca ctccggagtc ctggctggca gggccgtaga gatcggcgac aggtcctggg
+      121 ctgttggccc ccgggaagcc tccgggccgc gccgggttgg agcctgatcc tcttgctgcc
+      181 gccaccgccg ctgctgccac tggtccataa gccgctgctg ggaagcctgg gaactgatag
+      241 ccatagcttg gagcaaatcc ggggtagcca cggccatagg tcgccacgaa gttgggatat
+      301 cccagcatcc ccatgccaag catgaacgcg tccatggtgt aaggcagtcc ccgggcccgg
+      361 cctcttgtcc caggtgggaa catgacttct ttcggctgag ctttcttaca ttctaccatt
+      421 ttattattga tttcatggaa atgaatctca cagactttct ccacaacatc ttcattctca
+      481 aaagtgacaa agccaaaccc tctgtgcctg ttggtagttt tatcaaacat cagcattgca
+      541 tcttccacct tgccaaactg ctcgaaatat tgctttacat cttccactac tgtgttcgca
+      601 gataacccgc ctacaaatat tttctttgtt cttgtgacca tcttgggttg cgctcgacga
+      661 ggaaatgcaa ctttggggtc aatcgtcttg gaatctaact catggtgggg ctgacctaat
+      721 actttatcta cacttgctgg gtctgcgaac gtgacgaaac cgaagcctct ggagcgtttc
+      781 gtagtgggat ctctcatgac catacattct ctaatttctc caaatttgct aaaatagtct
+      841 ctaaggctat ctggtgaggt ctgccagctc agtccaccga taaacatttt aacctggcgc
+      901 tcctttggcg gcccccgaga cgccccagga tcggggggct tcaggatggc ggagaccctc
+      961 ctgcacaaac accagccaca agttttattt tccttttgcg ctggaagttc tctct
+//

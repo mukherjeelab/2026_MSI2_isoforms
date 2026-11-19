@@ -1,0 +1,3 @@
+model	n_features	n_summits	outside_null_margin	observed_first20_fraction	null_mean_first20_fraction
+position_matched	3799	14598	15	0.297917522948349	0.292110563090834
+first20_uniform	1089	3475	4	1	1

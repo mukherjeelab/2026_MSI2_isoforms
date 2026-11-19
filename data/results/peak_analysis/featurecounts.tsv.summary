@@ -1,0 +1,15 @@
+Status	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0081.mapped.sorted.bam	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0082.mapped.sorted.bam	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0083.mapped.sorted.bam	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0084.mapped.sorted.bam	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0085.mapped.sorted.bam	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0086.mapped.sorted.bam	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0087.mapped.sorted.bam	/beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/results/alignment/NM2026_0088.mapped.sorted.bam
+Assigned	33722	13439	39630	15064	8288	20971	10736	21110
+Unassigned_Unmapped	0	0	0	0	0	0	0	0
+Unassigned_Read_Type	0	0	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0	0	0	0	0
+Unassigned_Secondary	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	113208	243651	132964	304606	85156	549837	92674	490967
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	1124	367	1258	344	215	498	402	488

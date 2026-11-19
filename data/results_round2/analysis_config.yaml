@@ -1,0 +1,12 @@
+bin_size: 10
+gtf: /beevol/home/bartholk/2026_MSI2_CLIP_iso/clip-preprocessing/gencode.v26.primary_assembly.annotation.gtf
+minimum_mapping_quality: 10
+minimum_peak_score: 1
+output_dir: results
+peak_bed: resources/MSI2_peaks_omniCLIP.bed
+samples: config/samples.tsv
+sampling_group_by: all
+scaled_bins: 100
+seed: 1729
+splice_flank: 1000
+transcript_end_flank: 500

@@ -1,0 +1,5 @@
+check	passed
+45 correction families represented	TRUE
+All family minimum FDRs exceed 0.10	TRUE
+All 24 direct confidence intervals include 1	TRUE
+All 24 direct FDRs exceed 0.10	TRUE

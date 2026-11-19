@@ -1,0 +1,17 @@
+metric	count	percent_of_tested_rows
+input_protein_rows	1677	100
+tested_protein_rows	1677	100
+mapped_to_hpa_rows	1654	98.62850327966608
+rows_with_any_hpa_localization	1473	87.83542039355993
+rows_without_any_hpa_localization	204	12.164579606440071
+rows_with_primary_localization	1452	86.58318425760287
+rows_with_high_confidence_localization	1026	61.180679785330945
+input_multiple_id_rows	85	5.068574836016697
+input_multiple_human_id_rows	82	4.889683959451402
+unresolved_ambiguous_rows	3	0.17889087656529518
+unmapped_rows	23	1.3714967203339297
+duplicate_genes_after_mapping	13	0.7751937984496124
+redundant_rows_collapsed	13	0.7751937984496124
+unique_ranked_genes	1641	97.85330948121646
+zero_ranked_genes	579	34.52593917710197
+unique_hpa_mapped_background_genes	1641	97.85330948121646

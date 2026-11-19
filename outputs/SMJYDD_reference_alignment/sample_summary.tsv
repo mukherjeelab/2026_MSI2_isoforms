@@ -1,0 +1,7 @@
+sample	total_reads	median_read_length	reads_at_least_700nt	target_present_spanning	target_absent_spanning	other_locus_sequence	conflicting_locus_calls	not_callable	exact_target	exact_target_not_callable	present_percent_of_present_or_absent	strict_target_present_spanning	strict_target_absent_spanning	strict_not_callable	strict_other_locus_sequence	strict_conflicting_locus_calls	expected_324_altUTR	expected_328_ref	expected_346_MSI2	expected_251_Exon1	expected_ambiguous	expected_no_qualifying_alignment	augmented_324_altUTR	augmented_328_ref	augmented_346_MSI2	augmented_251_Exon1	augmented_observed_L4_H295R_consensus	augmented_ambiguous	augmented_no_qualifying_alignment
+SMJYDD_1_L2_HEK	5332	143.0	1361	75	1192	7	1	4057	59	3	5.919	76	1179	4071	6	0	0	1286	74	1	58	3913	0	1185	74	1	0	159	3913
+SMJYDD_2_L2_H295R	5427	161	851	4	555	4	1	4863	3	0	0.716	4	549	4869	4	1	0	744	7	0	96	4580	0	707	7	0	0	133	4580
+SMJYDD_3_L4_HEK	4524	138.0	9	0	0	0	0	4524	0	0	NA	0	0	4524	0	0	0	0	0	0	0	4524	0	0	0	0	0	0	4524
+SMJYDD_4_L4_H295R	4216	153.0	317	30	237	0	0	3949	22	1	11.236	30	234	3952	0	0	293	3	0	1	1	3918	32	0	0	1	253	12	3918
+SMJYDD_5_L8_HEK	5476	744.0	4402	0	0	0	0	5476	0	0	NA	0	0	5476	0	0	5	0	0	4731	49	691	0	0	0	4731	0	54	691
+SMJYDD_6_L8_H295R	5047	728	2592	0	0	0	0	5047	0	0	NA	0	0	5047	0	0	1	0	0	2686	13	2347	0	0	0	2686	0	14	2347

@@ -1,0 +1,30 @@
+{
+  "SMJYDD_1_L2_HEK": {
+    "not_callable": 4058,
+    "target_absent_spanning": 1191,
+    "target_present_spanning": 75,
+    "other_locus_sequence": 7,
+    "conflicting_locus_calls": 1
+  },
+  "SMJYDD_2_L2_H295R": {
+    "not_callable": 4864,
+    "target_absent_spanning": 555,
+    "other_locus_sequence": 3,
+    "target_present_spanning": 4,
+    "conflicting_locus_calls": 1
+  },
+  "SMJYDD_3_L4_HEK": {
+    "not_callable": 4524
+  },
+  "SMJYDD_4_L4_H295R": {
+    "not_callable": 3949,
+    "target_absent_spanning": 237,
+    "target_present_spanning": 30
+  },
+  "SMJYDD_5_L8_HEK": {
+    "not_callable": 5476
+  },
+  "SMJYDD_6_L8_H295R": {
+    "not_callable": 5047
+  }
+}

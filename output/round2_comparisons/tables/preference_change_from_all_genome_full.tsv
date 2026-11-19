@@ -1,0 +1,11 @@
+variant	motif	mode	spearman	median_absolute_change	fraction_sign_changed	n_unsupported
+all__genome_equal	All reads	Equal genome	0.829827092924805	1.4596285753156	0.321165699240022	4032
+all__genome_full	All reads	Full genome	1	0	0	0
+all__peaks_after_genome_equal	All reads	Peaks after equal genome	0.745129695843361	2.6945891537477	0.348453114714858	4032
+all__peaks_equal	All reads	Equal peaks	0.762766323153632	3.42110540297402	0.326491532523488	3442
+all__peaks_full	All reads	Full peaks	0.931128862883913	2.77720234714601	0.0513434264855484	0
+uag__genome_equal	UAG reads	Equal genome	0.677071975654605	2.1679466626162	0.463167973191311	6357
+uag__genome_full	UAG reads	Full genome	0.793936558939348	1.16633765715312	0.23278080306385	2985
+uag__peaks_after_genome_equal	UAG reads	Peaks after equal genome	0.616696473392729	2.95499512868847	0.480940697744001	6357
+uag__peaks_equal	UAG reads	Equal peaks	0.622226207676171	3.66134273342444	0.47441804799234	5950
+uag__peaks_full	UAG reads	Full peaks	0.744766081159081	3.13814083896819	0.26156423912393	2985

@@ -1,0 +1,3 @@
+kind	features	summits	iterations_checked	check	result
+intron	3799	14598	observed;1;250;500	Independent pairwise NN and sorted-gap reconstruction; all 500 position bounds and exact feature counts	PASS
+3UTR	5317	22952	observed;1;250;500	Independent pairwise NN and sorted-gap reconstruction; all 500 position bounds and exact feature counts	PASS

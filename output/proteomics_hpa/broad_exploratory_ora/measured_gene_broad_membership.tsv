@@ -1,0 +1,2210 @@
+ENTREZID	hpa_gene_id	hpa_symbol	broad_category	contributing_fine_terms
+1000	ENSG00000170558	CDH2	Plasma membrane/junctional	Cell Junctions;Plasma membrane
+100101490	ENSG00000101898	MCTS2	Cytosolic	Cytosol
+100101490	ENSG00000101898	MCTS2	Plasma membrane/junctional	Plasma membrane
+10011	ENSG00000213523	SRA1	Cytoskeletal	Cytokinetic bridge;Microtubules
+10011	ENSG00000213523	SRA1	Cytosolic	Cytosol
+10011	ENSG00000213523	SRA1	Nuclear/nucleoplasmic	Nucleoplasm
+100129271	ENSG00000198854	C1orf68	Cytosolic	Cytosol
+100129271	ENSG00000198854	C1orf68	Plasma membrane/junctional	Plasma membrane
+10015	ENSG00000170248	PDCD6IP	Cytoskeletal	Centrosome
+10015	ENSG00000170248	PDCD6IP	Vesicular/endolysosomal	Vesicles
+10016	ENSG00000249915	PDCD6	Cytosolic	Cytosol
+10016	ENSG00000249915	PDCD6	Nuclear/nucleoplasmic	Nucleoplasm
+10048	ENSG00000010017	RANBP9	Cytosolic	Cytosol
+10048	ENSG00000010017	RANBP9	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+100526740	ENSG00000248919	ATP5MF-PTCD1	Mitochondrial	Mitochondria
+100526842	ENSG00000215472	RPL17-C18orf32	Cytosolic	Cytosol
+100526842	ENSG00000215472	RPL17-C18orf32	ER/Golgi	Endoplasmic reticulum
+10055	ENSG00000142230	SAE1	Cytosolic	Cytosol
+10055	ENSG00000142230	SAE1	Nuclear/nucleoplasmic	Nucleoplasm
+10056	ENSG00000116120	FARSB	Cytosolic	Cytosol
+10056	ENSG00000116120	FARSB	Nuclear/nucleoplasmic	Nucleoplasm
+10058	ENSG00000115657	ABCB6	Cytosolic	Cytosol
+10058	ENSG00000115657	ABCB6	ER/Golgi	Golgi apparatus
+10058	ENSG00000115657	ABCB6	Mitochondrial	Mitochondria
+10058	ENSG00000115657	ABCB6	Nuclear/nucleoplasmic	Nucleoplasm
+10058	ENSG00000115657	ABCB6	Plasma membrane/junctional	Plasma membrane
+10059	ENSG00000087470	DNM1L	Cytosolic	Cytosol
+10059	ENSG00000087470	DNM1L	Vesicular/endolysosomal	Vesicles
+10061	ENSG00000033050	ABCF2	Cytosolic	Cytosol
+10075	ENSG00000086758	HUWE1	Cytosolic	Cytosol
+10075	ENSG00000086758	HUWE1	Nuclear/nucleoplasmic	Nuclear membrane;Nucleoplasm
+10105	ENSG00000108179	PPIF	Mitochondrial	Mitochondria
+10109	ENSG00000163466	ARPC2	Nuclear/nucleoplasmic	Nucleoplasm
+10111	ENSG00000113522	RAD50	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+10128	ENSG00000138095	LRPPRC	Mitochondrial	Mitochondria
+10130	ENSG00000143870	PDIA6	ER/Golgi	Endoplasmic reticulum
+10131	ENSG00000126602	TRAP1	Mitochondrial	Mitochondria
+10134	ENSG00000185825	BCAP31	ER/Golgi	Endoplasmic reticulum
+10146	ENSG00000145907	G3BP1	Cytosolic	Cytosol
+10155	ENSG00000130726	TRIM28	Nuclear/nucleoplasmic	Nucleoplasm
+10157	ENSG00000008311	AASS	Mitochondrial	Mitochondria
+10157	ENSG00000008311	AASS	Nuclear/nucleoplasmic	Nucleoplasm
+10157	ENSG00000008311	AASS	Vesicular/endolysosomal	Vesicles
+10160	ENSG00000152767	FARP1	Cytosolic	Cytosol
+10169	ENSG00000140264	SERF2	Nuclear/nucleoplasmic	Nucleoplasm
+10169	ENSG00000140264	SERF2	Nucleolus	Nucleoli
+10171	ENSG00000120158	RCL1	Nuclear/nucleoplasmic	Nucleoplasm
+10179	ENSG00000076053	RBM7	Nuclear/nucleoplasmic	Nucleoplasm
+10180	ENSG00000004534	RBM6	Cytosolic	Cytoplasmic bodies
+10180	ENSG00000004534	RBM6	Nuclear/nucleoplasmic	Nuclear speckles
+10189	ENSG00000183684	ALYREF	Nuclear/nucleoplasmic	Nuclear speckles;Nucleoplasm
+10190	ENSG00000115514	TXNDC9	Cytosolic	Cytosol
+10212	ENSG00000123136	DDX39A	Nuclear/nucleoplasmic	Nuclear speckles
+10213	ENSG00000115233	PSMD14	Nuclear/nucleoplasmic	Nucleoplasm
+10226	ENSG00000105355	PLIN3	Vesicular/endolysosomal	Lipid droplets
+10236	ENSG00000125944	HNRNPR	Nuclear/nucleoplasmic	Nucleoplasm
+1025	ENSG00000136807	CDK9	Nuclear/nucleoplasmic	Nucleoplasm
+10262	ENSG00000143368	SF3B4	Nuclear/nucleoplasmic	Nuclear speckles
+10283	ENSG00000153015	CWC27	Nuclear/nucleoplasmic	Nucleoplasm
+10284	ENSG00000150459	SAP18	Cytosolic	Cytosol
+10284	ENSG00000150459	SAP18	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+10285	ENSG00000119953	SMNDC1	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+10286	ENSG00000116752	BCAS2	Cytoskeletal	Centrosome
+10286	ENSG00000116752	BCAS2	Nuclear/nucleoplasmic	Nuclear speckles
+10291	ENSG00000099995	SF3A1	Nuclear/nucleoplasmic	Nuclear speckles;Nucleoplasm
+10294	ENSG00000069345	DNAJA2	Cytosolic	Cytosol
+10294	ENSG00000069345	DNAJA2	Nucleolus	Nucleoli
+10296	ENSG00000090316	MAEA	Nuclear/nucleoplasmic	Nucleoplasm
+103	ENSG00000160710	ADAR	Nuclear/nucleoplasmic	Nucleoplasm
+103	ENSG00000160710	ADAR	Nucleolus	Nucleoli
+1031	ENSG00000123080	CDKN2C	Cytosolic	Cytosol
+1031	ENSG00000123080	CDKN2C	Nuclear/nucleoplasmic	Nucleoplasm
+10342	ENSG00000114354	TFG	Vesicular/endolysosomal	Vesicles
+10367	ENSG00000107745	MICU1	Mitochondrial	Mitochondria
+10376	ENSG00000123416	TUBA1B	Cytoskeletal	Microtubules;Primary cilium
+10380	ENSG00000162813	BPNT1	Nuclear/nucleoplasmic	Nuclear speckles
+10382	ENSG00000104833	TUBB4A	Cytoskeletal	Basal body;Cytokinetic bridge;Microtubules;Mitotic spindle;Primary cilium;Primary cilium tip
+10383	ENSG00000188229	TUBB4B	Cytoskeletal	Basal body;Cytokinetic bridge;Microtubules;Mitotic spindle;Primary cilium;Primary cilium tip
+10399	ENSG00000204628	RACK1	Cytosolic	Cytosol
+10399	ENSG00000204628	RACK1	Nuclear/nucleoplasmic	Nucleoplasm
+10409	ENSG00000176788	BASP1	Plasma membrane/junctional	Plasma membrane
+10413	ENSG00000137693	YAP1	Cytosolic	Cytosol
+10413	ENSG00000137693	YAP1	Nuclear/nucleoplasmic	Nucleoplasm
+10413	ENSG00000137693	YAP1	Nucleolus	Nucleoli
+10419	ENSG00000100462	PRMT5	Cytosolic	Cytosol
+10419	ENSG00000100462	PRMT5	Nuclear/nucleoplasmic	Nucleoplasm
+10421	ENSG00000169217	CD2BP2	Cytosolic	Cytosol
+10421	ENSG00000169217	CD2BP2	Nuclear/nucleoplasmic	Nuclear speckles
+10423	ENSG00000103502	CDIPT	Nuclear/nucleoplasmic	Nuclear membrane;Nucleoplasm
+10423	ENSG00000103502	CDIPT	Plasma membrane/junctional	Plasma membrane
+10424	ENSG00000164040	PGRMC2	Cytosolic	Cytosol
+10424	ENSG00000164040	PGRMC2	Nuclear/nucleoplasmic	Nuclear bodies
+10424	ENSG00000164040	PGRMC2	Plasma membrane/junctional	Plasma membrane
+10447	ENSG00000196937	FAM3C	ER/Golgi	Golgi apparatus
+10452	ENSG00000130204	TOMM40	Cytosolic	Cytosol
+10452	ENSG00000130204	TOMM40	Mitochondrial	Mitochondria
+10455	ENSG00000198721	ECI2	Mitochondrial	Mitochondria
+10455	ENSG00000198721	ECI2	Vesicular/endolysosomal	Peroxisomes
+10460	ENSG00000013810	TACC3	Cytoskeletal	Basal body;Centriolar satellite
+10469	ENSG00000104980	TIMM44	Mitochondrial	Mitochondria
+10473	ENSG00000182952	HMGN4	Nuclear/nucleoplasmic	Nucleoplasm
+10473	ENSG00000182952	HMGN4	Nucleolus	Nucleoli
+10476	ENSG00000167863	ATP5PD	Mitochondrial	Mitochondria
+10480	ENSG00000149100	EIF3M	Cytosolic	Cytosol
+10482	ENSG00000162231	NXF1	Nuclear/nucleoplasmic	Nucleoplasm
+10484	ENSG00000100934	SEC23A	Cytosolic	Cytosol
+10484	ENSG00000100934	SEC23A	ER/Golgi	Endoplasmic reticulum
+10486	ENSG00000112186	CAP2	Cytosolic	Cytosol
+10486	ENSG00000112186	CAP2	Nuclear/nucleoplasmic	Nucleoplasm
+10486	ENSG00000112186	CAP2	Plasma membrane/junctional	Plasma membrane
+10487	ENSG00000131236	CAP1	Cytosolic	Cytosol
+10492	ENSG00000135316	SYNCRIP	Cytosolic	Cytosol
+10492	ENSG00000135316	SYNCRIP	Vesicular/endolysosomal	Vesicles
+10514	ENSG00000132382	MYBBP1A	Nucleolus	Nucleoli
+10521	ENSG00000100201	DDX17	Nuclear/nucleoplasmic	Nuclear speckles
+10526	ENSG00000133704	IPO8	Nuclear/nucleoplasmic	Nucleoplasm
+10526	ENSG00000133704	IPO8	Vesicular/endolysosomal	Vesicles
+10533	ENSG00000197548	ATG7	Cytosolic	Cytosol
+10533	ENSG00000197548	ATG7	Nuclear/nucleoplasmic	Nucleoplasm
+10533	ENSG00000197548	ATG7	Plasma membrane/junctional	Plasma membrane
+10540	ENSG00000175203	DCTN2	Cytoskeletal	Basal body;Centrosome
+10541	ENSG00000136938	ANP32B	Cytoskeletal	Centrosome
+10541	ENSG00000136938	ANP32B	Cytosolic	Cytosol
+10541	ENSG00000136938	ANP32B	Nuclear/nucleoplasmic	Nucleoplasm
+10550	ENSG00000144746	ARL6IP5	ER/Golgi	Endoplasmic reticulum
+10558	ENSG00000090054	SPTLC1	ER/Golgi	Endoplasmic reticulum
+10570	ENSG00000151640	DPYSL4	Mitochondrial	Mitochondria
+10570	ENSG00000151640	DPYSL4	Vesicular/endolysosomal	Vesicles
+10574	ENSG00000135624	CCT7	Cytosolic	Cytosol
+10575	ENSG00000115484	CCT4	Cytosolic	Cytosol
+10576	ENSG00000166226	CCT2	Cytosolic	Cytosol
+10587	ENSG00000184470	TXNRD2	Mitochondrial	Mitochondria
+10589	ENSG00000175550	DRAP1	Cytosolic	Cytosol
+10591	ENSG00000112667	DNPH1	Cytosolic	Cytosol
+10591	ENSG00000112667	DNPH1	Nuclear/nucleoplasmic	Nucleoplasm
+10594	ENSG00000174231	PRPF8	Nuclear/nucleoplasmic	Nuclear speckles;Nucleoplasm
+10606	ENSG00000128050	PAICS	Cytosolic	Cytosol
+10611	ENSG00000163110	PDLIM5	Cytoskeletal	Focal adhesion sites
+10611	ENSG00000163110	PDLIM5	Plasma membrane/junctional	Plasma membrane
+10617	ENSG00000124356	STAMBP	Cytosolic	Cytosol
+10617	ENSG00000124356	STAMBP	Nuclear/nucleoplasmic	Nucleoplasm
+10617	ENSG00000124356	STAMBP	Plasma membrane/junctional	Plasma membrane
+10618	ENSG00000152291	TGOLN2	ER/Golgi	Golgi apparatus
+10625	ENSG00000116679	IVNS1ABP	Cytosolic	Cytosol
+10642	ENSG00000159217	IGF2BP1	Cytosolic	Cytosol
+10643	ENSG00000136231	IGF2BP3	Cytosolic	Cytosol
+10652	ENSG00000106636	YKT6	Cytosolic	Cytosol
+10652	ENSG00000106636	YKT6	Mitochondrial	Mitochondria
+10656	ENSG00000131773	KHDRBS3	Nuclear/nucleoplasmic	Nucleoplasm
+10657	ENSG00000121774	KHDRBS1	Nuclear/nucleoplasmic	Nucleoplasm
+10658	ENSG00000149187	CELF1	Nuclear/nucleoplasmic	Nucleoplasm
+10671	ENSG00000104671	DCTN6	Cytosolic	Cytosol
+10694	ENSG00000156261	CCT8	Cytosolic	Cytosol
+10713	ENSG00000168883	USP39	Nuclear/nucleoplasmic	Nucleoplasm
+10715	ENSG00000223802	CERS1	ER/Golgi	Endoplasmic reticulum
+1072	ENSG00000172757	CFL1	Plasma membrane/junctional	Plasma membrane
+1073	ENSG00000165410	CFL2	Cytosolic	Cytosol
+1073	ENSG00000165410	CFL2	Nuclear/nucleoplasmic	Nucleoplasm
+1073	ENSG00000165410	CFL2	Plasma membrane/junctional	Plasma membrane
+10776	ENSG00000128989	ARPP19	Cytoskeletal	Basal body
+10776	ENSG00000128989	ARPP19	Cytosolic	Cytosol
+10776	ENSG00000128989	ARPP19	Nucleolus	Nucleoli
+10776	ENSG00000128989	ARPP19	Vesicular/endolysosomal	Vesicles
+10788	ENSG00000145703	IQGAP2	Plasma membrane/junctional	Plasma membrane
+10788	ENSG00000145703	IQGAP2	Vesicular/endolysosomal	Vesicles
+10801	ENSG00000184640	SEPTIN9	Cytoskeletal	Actin filaments;Cytokinetic bridge;Microtubules;Primary cilium
+10845	ENSG00000166855	CLPX	Mitochondrial	Mitochondria
+10856	ENSG00000183207	RUVBL2	Cytoskeletal	Centrosome
+10856	ENSG00000183207	RUVBL2	Cytosolic	Cytosol
+10856	ENSG00000183207	RUVBL2	Nuclear/nucleoplasmic	Nucleoplasm
+10857	ENSG00000101856	PGRMC1	ER/Golgi	Endoplasmic reticulum
+10857	ENSG00000101856	PGRMC1	Nucleolus	Nucleoli
+10916	ENSG00000102316	MAGED2	Cytosolic	Cytosol
+10916	ENSG00000102316	MAGED2	Nuclear/nucleoplasmic	Nucleoplasm
+10916	ENSG00000102316	MAGED2	Nucleolus	Nucleoli
+10923	ENSG00000113387	SUB1	Nuclear/nucleoplasmic	Nucleoplasm
+10923	ENSG00000113387	SUB1	Nucleolus	Nucleoli
+10927	ENSG00000106723	SPIN1	Nuclear/nucleoplasmic	Nucleoplasm
+10929	ENSG00000263465	SRSF8	Cytosolic	Cytosol
+10929	ENSG00000263465	SRSF8	Nuclear/nucleoplasmic	Nucleoplasm
+10939	ENSG00000141385	AFG3L2	Mitochondrial	Mitochondria
+10946	ENSG00000183431	SF3A3	Nuclear/nucleoplasmic	Nuclear speckles;Nucleoplasm
+10949	ENSG00000177733	HNRNPA0	Nuclear/nucleoplasmic	Nucleoplasm
+10959	ENSG00000086598	TMED2	Vesicular/endolysosomal	Vesicles
+10960	ENSG00000169223	LMAN2	ER/Golgi	Golgi apparatus
+10963	ENSG00000168439	STIP1	Cytosolic	Cytosol
+10963	ENSG00000168439	STIP1	Nuclear/nucleoplasmic	Nucleoplasm
+10963	ENSG00000168439	STIP1	Plasma membrane/junctional	Plasma membrane
+10970	ENSG00000136026	CKAP4	ER/Golgi	Endoplasmic reticulum
+10970	ENSG00000136026	CKAP4	Mitochondrial	Mitochondria
+10971	ENSG00000134308	YWHAQ	Cytosolic	Cytosol
+10978	ENSG00000172409	CLP1	Nuclear/nucleoplasmic	Nucleoplasm
+10979	ENSG00000073712	FERMT2	Cytoskeletal	Focal adhesion sites
+10979	ENSG00000073712	FERMT2	Cytosolic	Cytosol
+10979	ENSG00000073712	FERMT2	Nuclear/nucleoplasmic	Nucleoplasm
+10985	ENSG00000089154	GCN1	Cytosolic	Cytosol
+10989	ENSG00000132305	IMMT	Mitochondrial	Mitochondria
+10992	ENSG00000087365	SF3B2	Nuclear/nucleoplasmic	Nuclear speckles
+1104	ENSG00000180198	RCC1	Nuclear/nucleoplasmic	Nucleoplasm
+11047	ENSG00000130706	ADRM1	Cytosolic	Cytosol
+11047	ENSG00000130706	ADRM1	Nuclear/nucleoplasmic	Nucleoplasm
+11051	ENSG00000167005	NUDT21	Nuclear/nucleoplasmic	Nuclear bodies
+1108	ENSG00000111642	CHD4	Nuclear/nucleoplasmic	Nucleoplasm
+11083	ENSG00000101191	DIDO1	Cytosolic	Cytosol
+11083	ENSG00000101191	DIDO1	Nuclear/nucleoplasmic	Nucleoplasm
+11083	ENSG00000101191	DIDO1	Vesicular/endolysosomal	Vesicles
+11100	ENSG00000105323	HNRNPUL1	Nuclear/nucleoplasmic	Nucleoplasm
+11124	ENSG00000185104	FAF1	Nuclear/nucleoplasmic	Nucleoplasm
+11127	ENSG00000131437	KIF3A	Cytoskeletal	Basal body;Primary cilium
+11140	ENSG00000105401	CDC37	Cytosolic	Cytosol
+11164	ENSG00000165609	NUDT5	Cytoskeletal	Centrosome
+11164	ENSG00000165609	NUDT5	Nuclear/nucleoplasmic	Nucleoplasm
+11164	ENSG00000165609	NUDT5	Vesicular/endolysosomal	Vesicles
+11169	ENSG00000198554	WDHD1	Nuclear/nucleoplasmic	Nucleoplasm
+11190	ENSG00000126001	CEP250	Cytoskeletal	Basal body;Centrosome
+11196	ENSG00000107651	SEC23IP	Vesicular/endolysosomal	Vesicles
+1121	ENSG00000188419	CHM	Cytosolic	Cytosol
+11231	ENSG00000025796	SEC63	ER/Golgi	Endoplasmic reticulum
+11258	ENSG00000137100	DCTN3	Cytosolic	Cytosol
+112724	ENSG00000160439	RDH13	Cytosolic	Cytosol
+112724	ENSG00000160439	RDH13	Mitochondrial	Mitochondria
+112970	ENSG00000198841	KTI12	Cytosolic	Cytoplasmic bodies
+112970	ENSG00000198841	KTI12	Nuclear/nucleoplasmic	Nuclear speckles
+11311	ENSG00000136631	VPS45	Cytoskeletal	Microtubules
+113201	ENSG00000166734	GOLM2	ER/Golgi	Golgi apparatus
+11321	ENSG00000198522	GPN1	Cytosolic	Cytosol
+11321	ENSG00000198522	GPN1	Mitochondrial	Mitochondria
+11321	ENSG00000198522	GPN1	Nuclear/nucleoplasmic	Nucleoplasm
+11329	ENSG00000112079	STK38	Cytosolic	Cytosol
+11331	ENSG00000215021	PHB2	Mitochondrial	Mitochondria
+11333	ENSG00000106244	PDAP1	Cytosolic	Cytosol
+11333	ENSG00000106244	PDAP1	Plasma membrane/junctional	Plasma membrane
+11338	ENSG00000063244	U2AF2	Nuclear/nucleoplasmic	Nuclear speckles;Nucleoplasm
+114984	ENSG00000162076	FLYWCH2	Nuclear/nucleoplasmic	Nucleoplasm
+1153	ENSG00000099622	CIRBP	Nuclear/nucleoplasmic	Nucleoplasm
+1155	ENSG00000105254	TBCB	Cytosolic	Cytosol
+116028	ENSG00000175643	RMI2	Nuclear/nucleoplasmic	Nuclear speckles
+116228	ENSG00000203667	COX20	Mitochondrial	Mitochondria
+116540	ENSG00000204822	MRPL53	Mitochondrial	Mitochondria
+1173	ENSG00000161203	AP2M1	Plasma membrane/junctional	Plasma membrane
+1176	ENSG00000177879	AP3S1	Vesicular/endolysosomal	Vesicles
+118	ENSG00000087274	ADD1	Nuclear/nucleoplasmic	Nucleoplasm
+118	ENSG00000087274	ADD1	Plasma membrane/junctional	Plasma membrane
+118487	ENSG00000172586	CHCHD1	Mitochondrial	Mitochondria
+118487	ENSG00000172586	CHCHD1	Nuclear/nucleoplasmic	Nucleoplasm
+118487	ENSG00000172586	CHCHD1	Nucleolus	Nucleoli fibrillar center
+1192	ENSG00000213719	CLIC1	Cytosolic	Cytosol
+119559	ENSG00000183605	SFXN4	Mitochondrial	Mitochondria
+1207	ENSG00000074201	CLNS1A	Cytoskeletal	Microtubules;Primary cilium
+1207	ENSG00000074201	CLNS1A	Cytosolic	Cytosol
+1207	ENSG00000074201	CLNS1A	Nuclear/nucleoplasmic	Nucleoplasm
+1209	ENSG00000104853	CLPTM1	ER/Golgi	Endoplasmic reticulum
+1211	ENSG00000122705	CLTA	Plasma membrane/junctional	Plasma membrane
+1211	ENSG00000122705	CLTA	Vesicular/endolysosomal	Endosomes;Lysosomes
+1212	ENSG00000175416	CLTB	Cytosolic	Cytosol
+1212	ENSG00000175416	CLTB	Plasma membrane/junctional	Plasma membrane
+1212	ENSG00000175416	CLTB	Vesicular/endolysosomal	Vesicles
+1213	ENSG00000141367	CLTC	Cytoskeletal	Mitotic spindle
+1213	ENSG00000141367	CLTC	Vesicular/endolysosomal	Endosomes;Lysosomes
+121391	ENSG00000170484	KRT74	Cytoskeletal	Intermediate filaments
+121391	ENSG00000170484	KRT74	Cytosolic	Cytosol
+123169	ENSG00000166477	LEO1	Cytoskeletal	Centrosome
+123169	ENSG00000166477	LEO1	Nuclear/nucleoplasmic	Nucleoplasm
+123169	ENSG00000166477	LEO1	Nucleolus	Nucleoli fibrillar center
+124245	ENSG00000158545	ZC3H18	Nuclear/nucleoplasmic	Nuclear speckles
+124454	ENSG00000103356	EARS2	Mitochondrial	Mitochondria
+124454	ENSG00000103356	EARS2	Nuclear/nucleoplasmic	Nucleoplasm
+124540	ENSG00000153944	MSI2	Cytosolic	Cytosol
+125950	ENSG00000161847	RAVER1	Nuclear/nucleoplasmic	Nucleoplasm
+126208	ENSG00000142409	ZNF787	Mitochondrial	Mitochondria
+126208	ENSG00000142409	ZNF787	Nuclear/nucleoplasmic	Nucleoplasm
+126208	ENSG00000142409	ZNF787	Nucleolus	Nucleoli
+126298	ENSG00000167378	IRGQ	Vesicular/endolysosomal	Vesicles
+1266	ENSG00000117519	CNN3	Cytoskeletal	Actin filaments
+1266	ENSG00000117519	CNN3	Cytosolic	Cytosol
+127018	ENSG00000143353	LYPLAL1	Cytosolic	Cytosol
+1277	ENSG00000108821	COL1A1	ER/Golgi	Endoplasmic reticulum
+1277	ENSG00000108821	COL1A1	Vesicular/endolysosomal	Vesicles
+1278	ENSG00000164692	COL1A2	ER/Golgi	Endoplasmic reticulum
+128312	ENSG00000196890	H2BC26	Cytosolic	Cytosol
+128312	ENSG00000196890	H2BC26	Nuclear/nucleoplasmic	Nucleoplasm
+129138	ENSG00000100124	ANKRD54	Cytoskeletal	Microtubules;Midbody
+129138	ENSG00000100124	ANKRD54	Nuclear/nucleoplasmic	Nucleoplasm
+1301	ENSG00000060718	COL11A1	ER/Golgi	Endoplasmic reticulum
+1312	ENSG00000093010	COMT	ER/Golgi	Endoplasmic reticulum
+1312	ENSG00000093010	COMT	Vesicular/endolysosomal	Vesicles
+1314	ENSG00000122218	COPA	Cytosolic	Cytosol
+1314	ENSG00000122218	COPA	ER/Golgi	Golgi apparatus
+1314	ENSG00000122218	COPA	Nuclear/nucleoplasmic	Nucleoplasm
+1315	ENSG00000129083	COPB1	Cytosolic	Cytosol
+1315	ENSG00000129083	COPB1	ER/Golgi	Golgi apparatus
+1315	ENSG00000129083	COPB1	Vesicular/endolysosomal	Vesicles
+1327	ENSG00000131143	COX4I1	Mitochondrial	Mitochondria
+132954	ENSG00000163440	PDCL2	Cytoskeletal	Centrosome;Microtubules
+134353	ENSG00000155858	LSM11	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+1362	ENSG00000108582	CPD	Cytosolic	Cytosol
+1362	ENSG00000108582	CPD	Nucleolus	Nucleoli
+136319	ENSG00000105887	MTPN	Cytosolic	Cytosol
+136319	ENSG00000105887	MTPN	Plasma membrane/junctional	Plasma membrane
+136647	ENSG00000168303	MPLKIP	ER/Golgi	Golgi apparatus
+136647	ENSG00000168303	MPLKIP	Nuclear/nucleoplasmic	Nucleoplasm
+136647	ENSG00000168303	MPLKIP	Vesicular/endolysosomal	Vesicles
+1384	ENSG00000095321	CRAT	Cytosolic	Cytosol
+1384	ENSG00000095321	CRAT	ER/Golgi	Golgi apparatus
+139324	ENSG00000165259	HDX	Cytosolic	Cytosol
+1398	ENSG00000167193	CRK	Cytoskeletal	Actin filaments;Basal body
+1398	ENSG00000167193	CRK	Plasma membrane/junctional	Plasma membrane
+1399	ENSG00000099942	CRKL	Cytosolic	Cytosol
+1399	ENSG00000099942	CRKL	Nuclear/nucleoplasmic	Nucleoplasm
+1400	ENSG00000072832	CRMP1	Cytoskeletal	Centrosome
+1400	ENSG00000072832	CRMP1	Cytosolic	Cytosol
+140690	ENSG00000124092	CTCFL	Cytosolic	Cytosol
+140690	ENSG00000124092	CTCFL	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+140707	ENSG00000184992	BRI3BP	Mitochondrial	Mitochondria
+140707	ENSG00000184992	BRI3BP	Nuclear/nucleoplasmic	Nucleoplasm
+140890	ENSG00000153914	SREK1	Nuclear/nucleoplasmic	Nuclear speckles;Nucleoplasm
+1431	ENSG00000062485	CS	Mitochondrial	Mitochondria
+143187	ENSG00000151532	VTI1A	ER/Golgi	Golgi apparatus
+143187	ENSG00000151532	VTI1A	Vesicular/endolysosomal	Vesicles
+1434	ENSG00000124207	CSE1L	Cytosolic	Cytosol
+1434	ENSG00000124207	CSE1L	Nuclear/nucleoplasmic	Nucleoplasm
+144097	ENSG00000168005	SPINDOC	Nuclear/nucleoplasmic	Nuclear speckles
+144455	ENSG00000165891	E2F7	Nuclear/nucleoplasmic	Nucleoplasm
+144501	ENSG00000167767	KRT80	Cytoskeletal	Intermediate filaments
+1474	ENSG00000175315	CST6	Cytosolic	Cytosol
+1474	ENSG00000175315	CST6	Plasma membrane/junctional	Plasma membrane
+1475	ENSG00000121552	CSTA	Cytosolic	Cytosol
+1475	ENSG00000121552	CSTA	Nuclear/nucleoplasmic	Nucleoplasm
+1488	ENSG00000175029	CTBP2	Nuclear/nucleoplasmic	Nucleoplasm
+1495	ENSG00000044115	CTNNA1	Plasma membrane/junctional	Cell Junctions;Plasma membrane
+1499	ENSG00000168036	CTNNB1	Cytoskeletal	Basal body;Primary cilium
+1499	ENSG00000168036	CTNNB1	Plasma membrane/junctional	Cell Junctions;Plasma membrane
+149986	ENSG00000149657	LSM14B	Vesicular/endolysosomal	Vesicles
+1500	ENSG00000198561	CTNND1	Cytoskeletal	Basal body
+1500	ENSG00000198561	CTNND1	Plasma membrane/junctional	Plasma membrane
+152137	ENSG00000152492	CCDC50	Cytosolic	Cytosol
+153443	ENSG00000151304	SRFBP1	Nucleolus	Nucleoli rim
+158471	ENSG00000106772	PRUNE2	Cytosolic	Cytosol
+1586	ENSG00000148795	CYP17A1	Vesicular/endolysosomal	Vesicles
+16	ENSG00000090861	AARS1	Cytosolic	Cytosol
+160	ENSG00000196961	AP2A1	Vesicular/endolysosomal	Vesicles
+1601	ENSG00000153071	DAB2	Nucleolus	Nucleoli fibrillar center
+1601	ENSG00000153071	DAB2	Plasma membrane/junctional	Plasma membrane
+1601	ENSG00000153071	DAB2	Vesicular/endolysosomal	Vesicles
+1603	ENSG00000129562	DAD1	ER/Golgi	Endoplasmic reticulum
+1615	ENSG00000115866	DARS1	Cytosolic	Cytosol
+162	ENSG00000100280	AP1B1	Cytosolic	Cytosol
+162	ENSG00000100280	AP1B1	ER/Golgi	Golgi apparatus
+162	ENSG00000100280	AP1B1	Vesicular/endolysosomal	Vesicles
+162427	ENSG00000141699	RETREG3	Cytosolic	Cytosol
+162427	ENSG00000141699	RETREG3	Nuclear/nucleoplasmic	Nuclear membrane;Nucleoplasm
+1627	ENSG00000113758	DBN1	Cytoskeletal	Actin filaments
+1627	ENSG00000113758	DBN1	Plasma membrane/junctional	Plasma membrane
+1632	ENSG00000167969	ECI1	Mitochondrial	Mitochondria
+1639	ENSG00000204843	DCTN1	Cytoskeletal	Cytokinetic bridge;Microtubules
+1642	ENSG00000167986	DDB1	Nuclear/nucleoplasmic	Nucleoplasm
+1653	ENSG00000079785	DDX1	Cytosolic	Cytosol
+1653	ENSG00000079785	DDX1	Nuclear/nucleoplasmic	Nucleoplasm
+1654	ENSG00000215301	DDX3X	Cytosolic	Cytosol
+1654	ENSG00000215301	DDX3X	Plasma membrane/junctional	Plasma membrane
+1655	ENSG00000108654	DDX5	Nuclear/nucleoplasmic	Nucleoplasm
+1655	ENSG00000108654	DDX5	Nucleolus	Nucleoli
+1656	ENSG00000110367	DDX6	Cytosolic	Cytoplasmic bodies;Cytosol
+1660	ENSG00000135829	DHX9	Nuclear/nucleoplasmic	Nucleoplasm
+1660	ENSG00000135829	DHX9	Nucleolus	Nucleoli
+1665	ENSG00000109606	DHX15	Nuclear/nucleoplasmic	Nuclear speckles
+1666	ENSG00000104325	DECR1	Mitochondrial	Mitochondria
+1719	ENSG00000228716	DHFR	Mitochondrial	Mitochondria
+1725	ENSG00000095059	DHPS	Cytosolic	Cytosol
+1725	ENSG00000095059	DHPS	Nuclear/nucleoplasmic	Nucleoplasm
+1736	ENSG00000130826	DKC1	Nuclear/nucleoplasmic	Nucleoplasm
+1736	ENSG00000130826	DKC1	Nucleolus	Nucleoli fibrillar center
+1738	ENSG00000091140	DLD	Mitochondrial	Mitochondria
+1738	ENSG00000091140	DLD	Nuclear/nucleoplasmic	Nucleoplasm
+1739	ENSG00000075711	DLG1	Plasma membrane/junctional	Plasma membrane
+1739	ENSG00000075711	DLG1	Vesicular/endolysosomal	Vesicles
+1743	ENSG00000119689	DLST	Nuclear/nucleoplasmic	Nucleoplasm
+1778	ENSG00000197102	DYNC1H1	Cytoskeletal	Centrosome
+1778	ENSG00000197102	DYNC1H1	Cytosolic	Cytosol
+1781	ENSG00000077380	DYNC1I2	Cytoskeletal	Centrosome;Microtubules
+1781	ENSG00000077380	DYNC1I2	Cytosolic	Cytosol
+1783	ENSG00000135720	DYNC1LI2	Cytoskeletal	Centrosome
+1783	ENSG00000135720	DYNC1LI2	Cytosolic	Cytosol
+1785	ENSG00000079805	DNM2	Cytosolic	Cytosol
+1785	ENSG00000079805	DNM2	ER/Golgi	Golgi apparatus
+1810	ENSG00000117505	DR1	Nuclear/nucleoplasmic	Nucleoplasm
+1832	ENSG00000096696	DSP	Plasma membrane/junctional	Cell Junctions
+1854	ENSG00000128951	DUT	Nuclear/nucleoplasmic	Nucleoplasm
+1891	ENSG00000104823	ECH1	Mitochondrial	Mitochondria
+191	ENSG00000101444	AHCY	Cytosolic	Cytosol
+1915	ENSG00000156508	EEF1A1	Cytosolic	Cytosol
+192111	ENSG00000247077	PGAM5	Mitochondrial	Mitochondria
+1933	ENSG00000114942	EEF1B2	Cytosolic	Cytosol
+1933	ENSG00000114942	EEF1B2	Nucleolus	Nucleoli fibrillar center
+1937	ENSG00000254772	EEF1G	Cytosolic	Cytosol
+1937	ENSG00000254772	EEF1G	ER/Golgi	Golgi apparatus
+1938	ENSG00000167658	EEF2	Cytosolic	Cytosol
+1965	ENSG00000134001	EIF2S1	Cytosolic	Cytosol
+1967	ENSG00000111361	EIF2B1	Cytosolic	Cytosol
+1973	ENSG00000161960	EIF4A1	Cytosolic	Cytosol
+1974	ENSG00000156976	EIF4A2	Cytosolic	Cytosol
+1975	ENSG00000063046	EIF4B	Cytosolic	Cytosol
+1975	ENSG00000063046	EIF4B	ER/Golgi	Endoplasmic reticulum
+1975	ENSG00000063046	EIF4B	Plasma membrane/junctional	Plasma membrane
+1977	ENSG00000151247	EIF4E	Cytosolic	Cytoplasmic bodies;Cytosol
+1977	ENSG00000151247	EIF4E	Nuclear/nucleoplasmic	Nucleoplasm
+1978	ENSG00000187840	EIF4EBP1	Cytosolic	Cytosol
+1978	ENSG00000187840	EIF4EBP1	Nuclear/nucleoplasmic	Nucleoplasm
+1981	ENSG00000114867	EIF4G1	Cytosolic	Cytosol
+1982	ENSG00000110321	EIF4G2	Cytosolic	Cytosol
+1983	ENSG00000100664	EIF5	Cytoskeletal	Primary cilium;Primary cilium tip
+1983	ENSG00000100664	EIF5	Cytosolic	Cytosol
+1983	ENSG00000100664	EIF5	Plasma membrane/junctional	Plasma membrane
+1984	ENSG00000132507	EIF5A	Cytosolic	Cytosol
+1984	ENSG00000132507	EIF5A	Nuclear/nucleoplasmic	Nucleoplasm
+2010	ENSG00000102119	EMD	ER/Golgi	Endoplasmic reticulum
+2010	ENSG00000102119	EMD	Nuclear/nucleoplasmic	Nuclear membrane
+201475	ENSG00000206418	RAB12	Vesicular/endolysosomal	Vesicles
+2017	ENSG00000085733	CTTN	ER/Golgi	Golgi apparatus
+2017	ENSG00000085733	CTTN	Plasma membrane/junctional	Plasma membrane
+2017	ENSG00000085733	CTTN	Vesicular/endolysosomal	Vesicles
+201965	ENSG00000182552	RWDD4	Cytoskeletal	Intermediate filaments
+2023	ENSG00000074800	ENO1	Cytosolic	Cytosol
+2023	ENSG00000074800	ENO1	Plasma membrane/junctional	Plasma membrane
+2029	ENSG00000143420	ENSA	Cytoskeletal	Microtubules
+2029	ENSG00000143420	ENSA	Cytosolic	Cytosol
+2029	ENSG00000143420	ENSA	Nuclear/nucleoplasmic	Nucleoplasm
+2029	ENSG00000143420	ENSA	Nucleolus	Nucleoli
+203	ENSG00000106992	AK1	Cytosolic	Cytosol
+203068	ENSG00000196230	TUBB	Cytoskeletal	Basal body;Cytokinetic bridge;Microtubules;Mitotic spindle;Primary cilium;Primary cilium tip
+2035	ENSG00000159023	EPB41	Cytoskeletal	Cytokinetic bridge;Mitotic spindle
+2035	ENSG00000159023	EPB41	Cytosolic	Cytosol
+2035	ENSG00000159023	EPB41	Plasma membrane/junctional	Cell Junctions;Plasma membrane
+2036	ENSG00000088367	EPB41L1	Plasma membrane/junctional	Plasma membrane
+2037	ENSG00000079819	EPB41L2	Nuclear/nucleoplasmic	Nucleoplasm
+2037	ENSG00000079819	EPB41L2	Plasma membrane/junctional	Cell Junctions;Plasma membrane
+204	ENSG00000004455	AK2	Mitochondrial	Mitochondria
+2040	ENSG00000148175	STOM	Plasma membrane/junctional	Plasma membrane
+2040	ENSG00000148175	STOM	Vesicular/endolysosomal	Vesicles
+2058	ENSG00000136628	EPRS1	Cytosolic	Cytosol
+2072	ENSG00000175595	ERCC4	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+2079	ENSG00000100632	ERH	Cytosolic	Cytosol
+2079	ENSG00000100632	ERH	Nuclear/nucleoplasmic	Nucleoplasm
+2091	ENSG00000105202	FBL	Nuclear/nucleoplasmic	Nucleoplasm
+2091	ENSG00000105202	FBL	Nucleolus	Nucleoli fibrillar center
+2108	ENSG00000140374	ETFA	Mitochondrial	Mitochondria
+2109	ENSG00000105379	ETFB	Mitochondrial	Mitochondria
+2130	ENSG00000182944	EWSR1	Nuclear/nucleoplasmic	Nucleoplasm
+2130	ENSG00000182944	EWSR1	Nucleolus	Nucleoli
+216	ENSG00000165092	ALDH1A1	Cytosolic	Cytosol
+2171	ENSG00000164687	FABP5	Cytosolic	Cytosol
+2171	ENSG00000164687	FABP5	Plasma membrane/junctional	Plasma membrane
+2201	ENSG00000138829	FBN2	Cytoskeletal	Primary cilium
+2201	ENSG00000138829	FBN2	Cytosolic	Cytosol
+2201	ENSG00000138829	FBN2	Nuclear/nucleoplasmic	Nucleoplasm
+220134	ENSG00000154839	SKA1	Cytoskeletal	Basal body;Centriolar satellite;Cytokinetic bridge;Microtubules;Primary cilium
+220988	ENSG00000170144	HNRNPA3	Nuclear/nucleoplasmic	Nucleoplasm
+221092	ENSG00000214753	HNRNPUL2	Nuclear/nucleoplasmic	Nucleoplasm
+221496	ENSG00000161904	LEMD2	Nuclear/nucleoplasmic	Nuclear membrane
+221937	ENSG00000164916	FOXK1	Nuclear/nucleoplasmic	Nucleoplasm
+221937	ENSG00000164916	FOXK1	Nucleolus	Nucleoli fibrillar center
+2224	ENSG00000160752	FDPS	Cytosolic	Cytosol
+2224	ENSG00000160752	FDPS	Nuclear/nucleoplasmic	Nucleoplasm
+223	ENSG00000143149	ALDH9A1	Cytosolic	Cytosol
+2230	ENSG00000137714	FDX1	Mitochondrial	Mitochondria
+2232	ENSG00000161513	FDXR	Mitochondrial	Mitochondria
+2237	ENSG00000168496	FEN1	Nuclear/nucleoplasmic	Nucleoplasm
+2237	ENSG00000168496	FEN1	Nucleolus	Nucleoli
+224	ENSG00000072210	ALDH3A2	Cytosolic	Cytosol
+224	ENSG00000072210	ALDH3A2	ER/Golgi	Endoplasmic reticulum
+226	ENSG00000149925	ALDOA	Cytosolic	Cytosol
+2271	ENSG00000091483	FH	Mitochondrial	Mitochondria
+2280	ENSG00000088832	FKBP1A	Cytosolic	Cytosol
+2280	ENSG00000088832	FKBP1A	ER/Golgi	Golgi apparatus
+22803	ENSG00000088930	XRN2	Nuclear/nucleoplasmic	Nucleoplasm
+22803	ENSG00000088930	XRN2	Nucleolus	Nucleoli
+22820	ENSG00000181789	COPG1	Cytosolic	Cytosol
+22820	ENSG00000181789	COPG1	ER/Golgi	Golgi apparatus
+22820	ENSG00000181789	COPG1	Nuclear/nucleoplasmic	Nucleoplasm
+22826	ENSG00000126698	DNAJC8	Nuclear/nucleoplasmic	Nucleoplasm
+22827	ENSG00000179950	PUF60	Nuclear/nucleoplasmic	Nucleoplasm
+22841	ENSG00000107560	RAB11FIP2	Vesicular/endolysosomal	Vesicles
+22868	ENSG00000118246	FASTKD2	Mitochondrial	Mitochondria
+2287	ENSG00000100442	FKBP3	Cytosolic	Cytosol
+2288	ENSG00000004478	FKBP4	Cytosolic	Cytosol
+22880	ENSG00000133422	MORC2	Cytosolic	Cytosol
+22880	ENSG00000133422	MORC2	Nuclear/nucleoplasmic	Nucleoplasm
+22908	ENSG00000211456	SACM1L	ER/Golgi	Golgi apparatus
+22908	ENSG00000211456	SACM1L	Nuclear/nucleoplasmic	Nucleoplasm
+22913	ENSG00000125970	RALY	Nuclear/nucleoplasmic	Nucleoplasm
+22913	ENSG00000125970	RALY	Vesicular/endolysosomal	Vesicles
+22916	ENSG00000114503	NCBP2	Cytoskeletal	Basal body
+22916	ENSG00000114503	NCBP2	Cytosolic	Cytosol
+22916	ENSG00000114503	NCBP2	Nuclear/nucleoplasmic	Nucleoplasm
+22919	ENSG00000101367	MAPRE1	Cytoskeletal	Basal body;Centrosome
+22919	ENSG00000101367	MAPRE1	Cytosolic	Cytosol
+22930	ENSG00000115839	RAB3GAP1	Cytosolic	Cytosol
+22930	ENSG00000115839	RAB3GAP1	Nuclear/nucleoplasmic	Nucleoplasm
+22950	ENSG00000163798	SLC4A1AP	Nuclear/nucleoplasmic	Nucleoplasm
+22950	ENSG00000163798	SLC4A1AP	Vesicular/endolysosomal	Vesicles
+23012	ENSG00000211455	STK38L	Cytosolic	Cytosol
+23016	ENSG00000075914	EXOSC7	Nuclear/nucleoplasmic	Nuclear speckles
+23020	ENSG00000144028	SNRNP200	Nuclear/nucleoplasmic	Nucleoplasm
+23028	ENSG00000004487	KDM1A	Nuclear/nucleoplasmic	Nucleoplasm
+23035	ENSG00000040199	PHLPP2	Cytoskeletal	Cytokinetic bridge;Mitotic spindle
+23035	ENSG00000040199	PHLPP2	Cytosolic	Cytosol
+23035	ENSG00000040199	PHLPP2	Vesicular/endolysosomal	Vesicles
+23042	ENSG00000179889	PDXDC1	ER/Golgi	Golgi apparatus
+23042	ENSG00000179889	PDXDC1	Vesicular/endolysosomal	Vesicles
+23070	ENSG00000137200	CMTR1	Nuclear/nucleoplasmic	Nucleoplasm
+23070	ENSG00000137200	CMTR1	Vesicular/endolysosomal	Vesicles
+23085	ENSG00000082805	ERC1	Cytoskeletal	Centrosome
+23085	ENSG00000082805	ERC1	Plasma membrane/junctional	Plasma membrane
+23107	ENSG00000113048	MRPS27	Mitochondrial	Mitochondria
+2312	ENSG00000143631	FLG	Cytosolic	Cytoplasmic bodies
+23122	ENSG00000163539	CLASP2	Cytosolic	Cytosol
+23122	ENSG00000163539	CLASP2	ER/Golgi	Golgi apparatus
+23155	ENSG00000121940	CLCC1	ER/Golgi	Endoplasmic reticulum
+2316	ENSG00000196924	FLNA	Cytoskeletal	Actin filaments
+2316	ENSG00000196924	FLNA	Cytosolic	Cytosol
+2316	ENSG00000196924	FLNA	Plasma membrane/junctional	Plasma membrane
+23176	ENSG00000164402	SEPTIN8	Cytoskeletal	Actin filaments;Primary cilium
+23176	ENSG00000164402	SEPTIN8	Cytosolic	Cytosol
+23184	ENSG00000117899	MESD	Cytosolic	Cytosol
+23184	ENSG00000117899	MESD	ER/Golgi	Endoplasmic reticulum
+23184	ENSG00000117899	MESD	Nuclear/nucleoplasmic	Nuclear bodies
+23190	ENSG00000144224	UBXN4	ER/Golgi	Endoplasmic reticulum
+23193	ENSG00000089597	GANAB	ER/Golgi	Endoplasmic reticulum
+23196	ENSG00000048828	FAM120A	Cytosolic	Cytosol
+23203	ENSG00000165688	PMPCA	Mitochondrial	Mitochondria
+23215	ENSG00000117523	PRRC2C	Cytosolic	Cytosol
+23223	ENSG00000052749	RRP12	Cytosolic	Cytosol
+23223	ENSG00000052749	RRP12	Nucleolus	Nucleoli
+23223	ENSG00000052749	RRP12	Plasma membrane/junctional	Plasma membrane
+23223	ENSG00000052749	RRP12	Vesicular/endolysosomal	Vesicles
+23244	ENSG00000121892	PDS5A	Nuclear/nucleoplasmic	Nucleoplasm
+23248	ENSG00000163125	RPRD2	Nuclear/nucleoplasmic	Nucleoplasm
+23248	ENSG00000163125	RPRD2	Vesicular/endolysosomal	Vesicles
+23269	ENSG00000174197	MGA	Cytosolic	Cytosol
+23269	ENSG00000174197	MGA	Nuclear/nucleoplasmic	Nucleoplasm
+23291	ENSG00000072803	FBXW11	Nuclear/nucleoplasmic	Nucleoplasm
+23291	ENSG00000072803	FBXW11	Plasma membrane/junctional	Plasma membrane
+23291	ENSG00000072803	FBXW11	Vesicular/endolysosomal	Vesicles
+23304	ENSG00000024048	UBR2	Nuclear/nucleoplasmic	Nucleoplasm
+23304	ENSG00000024048	UBR2	Plasma membrane/junctional	Plasma membrane
+23307	ENSG00000119321	FKBP15	Cytosolic	Cytosol
+23307	ENSG00000119321	FKBP15	Nucleolus	Nucleoli
+23317	ENSG00000138246	DNAJC13	Cytosolic	Cytosol
+23317	ENSG00000138246	DNAJC13	Vesicular/endolysosomal	Vesicles
+2332	ENSG00000102081	FMR1	Cytosolic	Cytosol
+23350	ENSG00000163714	U2SURP	Nuclear/nucleoplasmic	Nucleoplasm
+23352	ENSG00000127481	UBR4	Cytoskeletal	Centrosome
+23352	ENSG00000127481	UBR4	Cytosolic	Cytosol
+23352	ENSG00000127481	UBR4	Nuclear/nucleoplasmic	Nucleoplasm
+23367	ENSG00000155506	LARP1	Cytosolic	Cytosol
+23367	ENSG00000155506	LARP1	ER/Golgi	Endoplasmic reticulum
+23367	ENSG00000155506	LARP1	Nuclear/nucleoplasmic	Nucleoplasm
+23376	ENSG00000014123	UFL1	ER/Golgi	Endoplasmic reticulum
+23386	ENSG00000015676	NUDCD3	Cytoskeletal	Primary cilium;Primary cilium tip
+23386	ENSG00000015676	NUDCD3	Cytosolic	Cytosol
+23386	ENSG00000015676	NUDCD3	Plasma membrane/junctional	Plasma membrane
+23392	ENSG00000136813	ECPAS	Nuclear/nucleoplasmic	Nucleoplasm
+23394	ENSG00000101126	ADNP	Cytoskeletal	Basal body;Centrosome;Primary cilium;Primary cilium tip
+23394	ENSG00000101126	ADNP	Nuclear/nucleoplasmic	Nucleoplasm
+23398	ENSG00000113593	PPWD1	Nuclear/nucleoplasmic	Nuclear bodies
+23404	ENSG00000130713	EXOSC2	Nuclear/nucleoplasmic	Nucleoplasm
+23404	ENSG00000130713	EXOSC2	Nucleolus	Nucleoli
+23406	ENSG00000103187	COTL1	Cytosolic	Cytosol
+23408	ENSG00000124523	SIRT5	Mitochondrial	Mitochondria
+23420	ENSG00000103512	NOMO1	ER/Golgi	Endoplasmic reticulum
+23435	ENSG00000120948	TARDBP	Nuclear/nucleoplasmic	Nucleoplasm
+23450	ENSG00000189091	SF3B3	Nuclear/nucleoplasmic	Nucleoplasm
+23450	ENSG00000189091	SF3B3	Nucleolus	Nucleoli;Nucleoli rim
+23451	ENSG00000115524	SF3B1	Nuclear/nucleoplasmic	Nuclear speckles
+23466	ENSG00000183741	CBX6	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+23478	ENSG00000140612	SEC11A	ER/Golgi	Golgi apparatus
+23478	ENSG00000140612	SEC11A	Nuclear/nucleoplasmic	Nuclear membrane
+23479	ENSG00000136003	ISCU	Cytosolic	Cytosol
+23479	ENSG00000136003	ISCU	Mitochondrial	Mitochondria
+23499	ENSG00000127603	MACF1	Cytoskeletal	Actin filaments
+23499	ENSG00000127603	MACF1	Plasma membrane/junctional	Plasma membrane
+23513	ENSG00000180900	SCRIB	Cytosolic	Rods & Rings
+23513	ENSG00000180900	SCRIB	Nuclear/nucleoplasmic	Nucleoplasm
+23513	ENSG00000180900	SCRIB	Plasma membrane/junctional	Cell Junctions;Plasma membrane
+23521	ENSG00000142541	RPL13A	Cytosolic	Cytosol
+23521	ENSG00000142541	RPL13A	Nucleolus	Nucleoli
+23527	ENSG00000114331	ACAP2	Vesicular/endolysosomal	Endosomes
+23530	ENSG00000112992	NNT	Mitochondrial	Mitochondria
+23545	ENSG00000185344	ATP6V0A2	Plasma membrane/junctional	Plasma membrane
+23557	ENSG00000143553	SNAPIN	ER/Golgi	Golgi apparatus
+23581	ENSG00000105141	CASP14	Cytosolic	Cytosol
+23581	ENSG00000105141	CASP14	Mitochondrial	Mitochondria
+23581	ENSG00000105141	CASP14	Nuclear/nucleoplasmic	Nucleoplasm
+23588	ENSG00000165516	KLHDC2	Nuclear/nucleoplasmic	Nuclear bodies;Nuclear membrane;Nucleoplasm
+23607	ENSG00000198087	CD2AP	Plasma membrane/junctional	Plasma membrane
+23637	ENSG00000011454	RABGAP1	Cytosolic	Cytosol
+23640	ENSG00000133265	HSPBP1	Cytoskeletal	Centrosome
+23640	ENSG00000133265	HSPBP1	Cytosolic	Cytosol
+23640	ENSG00000133265	HSPBP1	Vesicular/endolysosomal	Vesicles
+23708	ENSG00000189369	GSPT2	Cytosolic	Cytosol
+23760	ENSG00000180957	PITPNB	Cytosolic	Cytosol
+23760	ENSG00000180957	PITPNB	Vesicular/endolysosomal	Vesicles
+24148	ENSG00000101161	PRPF6	Nuclear/nucleoplasmic	Nuclear speckles;Nucleoplasm
+24149	ENSG00000171467	ZNF318	Nuclear/nucleoplasmic	Nucleoplasm
+242	ENSG00000179477	ALOX12B	Cytosolic	Cytosol
+242	ENSG00000179477	ALOX12B	Vesicular/endolysosomal	Vesicles
+249	ENSG00000162551	ALPL	Cytosolic	Cytosol
+2495	ENSG00000167996	FTH1	Cytosolic	Cytosol
+2495	ENSG00000167996	FTH1	Vesicular/endolysosomal	Vesicles
+2521	ENSG00000089280	FUS	Nuclear/nucleoplasmic	Nucleoplasm
+2539	ENSG00000160211	G6PD	Cytoskeletal	Centriolar satellite
+2539	ENSG00000160211	G6PD	Cytosolic	Cytosol
+2547	ENSG00000196419	XRCC6	Nuclear/nucleoplasmic	Nucleoplasm
+257397	ENSG00000157625	TAB3	Cytosolic	Cytosol
+257397	ENSG00000157625	TAB3	Nuclear/nucleoplasmic	Nuclear speckles
+25764	ENSG00000242028	HYPK	Cytoskeletal	Microtubules
+25764	ENSG00000242028	HYPK	Nuclear/nucleoplasmic	Nucleoplasm
+25777	ENSG00000100242	SUN2	Nuclear/nucleoplasmic	Nuclear membrane
+25797	ENSG00000115828	QPCT	Cytosolic	Cytosol
+2580	ENSG00000178950	GAK	ER/Golgi	Golgi apparatus
+2580	ENSG00000178950	GAK	Vesicular/endolysosomal	Vesicles
+25804	ENSG00000130520	LSM4	Vesicular/endolysosomal	Vesicles
+25844	ENSG00000137207	YIPF3	ER/Golgi	Golgi apparatus
+25844	ENSG00000137207	YIPF3	Nuclear/nucleoplasmic	Nucleoplasm
+25920	ENSG00000188986	NELFB	Nuclear/nucleoplasmic	Nucleoplasm
+25940	ENSG00000119812	FAM98A	Vesicular/endolysosomal	Vesicles
+25942	ENSG00000169375	SIN3A	Nuclear/nucleoplasmic	Nucleoplasm
+25962	ENSG00000164944	VIRMA	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+2597	ENSG00000111640	GAPDH	Cytosolic	Cytosol
+2597	ENSG00000111640	GAPDH	Plasma membrane/junctional	Plasma membrane
+2597	ENSG00000111640	GAPDH	Vesicular/endolysosomal	Vesicles
+25980	ENSG00000131043	AAR2	Cytosolic	Cytosol
+25984	ENSG00000108244	KRT23	Cytoskeletal	Intermediate filaments
+25984	ENSG00000108244	KRT23	Cytosolic	Cytosol
+25994	ENSG00000181061	HIGD1A	Mitochondrial	Mitochondria
+25994	ENSG00000181061	HIGD1A	Nuclear/nucleoplasmic	Nucleoplasm
+26001	ENSG00000108523	RNF167	Cytoskeletal	Centriolar satellite;Mitotic spindle
+26001	ENSG00000108523	RNF167	Cytosolic	Cytosol
+26001	ENSG00000108523	RNF167	Vesicular/endolysosomal	Vesicles
+26007	ENSG00000149476	TKFC	Cytosolic	Cytosol
+26007	ENSG00000149476	TKFC	Nuclear/nucleoplasmic	Nucleoplasm
+26017	ENSG00000105058	FAM32A	Nuclear/nucleoplasmic	Nucleoplasm
+26017	ENSG00000105058	FAM32A	Nucleolus	Nucleoli
+26064	ENSG00000039560	RAI14	Cytoskeletal	Actin filaments
+26064	ENSG00000039560	RAI14	Nuclear/nucleoplasmic	Nucleoplasm
+26065	ENSG00000257103	LSM14A	Cytosolic	Cytoplasmic bodies;Cytosol
+26073	ENSG00000004142	POLDIP2	Mitochondrial	Mitochondria
+26097	ENSG00000160679	CHTOP	Nuclear/nucleoplasmic	Nuclear speckles
+26121	ENSG00000105618	PRPF31	Nuclear/nucleoplasmic	Nucleoplasm
+26122	ENSG00000135999	EPC2	Nuclear/nucleoplasmic	Nuclear speckles
+26135	ENSG00000142864	SERBP1	Cytosolic	Cytosol
+26145	ENSG00000170604	IRF2BP1	Nuclear/nucleoplasmic	Nucleoplasm
+26156	ENSG00000171490	RSL1D1	Nucleolus	Nucleoli rim
+2617	ENSG00000106105	GARS1	Cytosolic	Cytosol
+26173	ENSG00000164880	INTS1	Nuclear/nucleoplasmic	Nucleoplasm
+26227	ENSG00000092621	PHGDH	Cytoskeletal	Mitotic spindle;Primary cilium
+26227	ENSG00000092621	PHGDH	Cytosolic	Cytosol
+26227	ENSG00000092621	PHGDH	Nuclear/nucleoplasmic	Nucleoplasm
+26227	ENSG00000092621	PHGDH	Plasma membrane/junctional	Plasma membrane
+26284	ENSG00000132591	ERAL1	Cytosolic	Cytosol
+26284	ENSG00000132591	ERAL1	Mitochondrial	Mitochondria
+2632	ENSG00000114480	GBE1	Cytosolic	Cytosol
+26517	ENSG00000099800	TIMM13	Mitochondrial	Mitochondria
+26520	ENSG00000100575	TIMM9	Mitochondrial	Mitochondria
+26589	ENSG00000259494	MRPL46	Mitochondrial	Mitochondria
+26986	ENSG00000070756	PABPC1	Cytosolic	Cytosol
+27044	ENSG00000197157	SND1	Cytosolic	Cytosol
+27069	ENSG00000165678	GHITM	Mitochondrial	Mitochondria
+271	ENSG00000116337	AMPD2	Cytosolic	Cytosol
+27131	ENSG00000089006	SNX5	Cytosolic	Cytosol
+27131	ENSG00000089006	SNX5	Vesicular/endolysosomal	Vesicles
+27158	ENSG00000188566	NDOR1	Cytoskeletal	Intermediate filaments
+27158	ENSG00000188566	NDOR1	Cytosolic	Cytosol
+27158	ENSG00000188566	NDOR1	Nuclear/nucleoplasmic	Nucleoplasm
+27166	ENSG00000169230	PRELID1	Mitochondrial	Mitochondria
+27250	ENSG00000150593	PDCD4	Nuclear/nucleoplasmic	Nucleoplasm
+27258	ENSG00000170860	LSM3	Nuclear/nucleoplasmic	Nucleoplasm
+27258	ENSG00000170860	LSM3	Nucleolus	Nucleoli
+27316	ENSG00000147274	RBMX	Nuclear/nucleoplasmic	Nucleoplasm
+27333	ENSG00000173905	GOLIM4	ER/Golgi	Golgi apparatus
+27335	ENSG00000178982	EIF3K	Cytosolic	Cytosol
+27336	ENSG00000102241	HTATSF1	Nuclear/nucleoplasmic	Nucleoplasm
+27338	ENSG00000108106	UBE2S	Nuclear/nucleoplasmic	Nucleoplasm
+27338	ENSG00000108106	UBE2S	Plasma membrane/junctional	Plasma membrane
+27339	ENSG00000110107	PRPF19	Nuclear/nucleoplasmic	Nuclear speckles
+2734	ENSG00000090863	GLG1	ER/Golgi	Golgi apparatus
+27436	ENSG00000143924	EML4	Cytoskeletal	Cytokinetic bridge;Microtubules;Primary cilium
+27436	ENSG00000143924	EML4	Cytosolic	Cytosol
+2744	ENSG00000115419	GLS	Mitochondrial	Mitochondria
+2746	ENSG00000148672	GLUD1	Mitochondrial	Mitochondria
+2760	ENSG00000196743	GM2A	Vesicular/endolysosomal	Vesicles
+2764	ENSG00000197045	GMFB	Cytosolic	Cytosol
+2764	ENSG00000197045	GMFB	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+2768	ENSG00000146535	GNA12	Cytosolic	Cytosol
+2778	ENSG00000087460	GNAS	Plasma membrane/junctional	Plasma membrane
+2783	ENSG00000172354	GNB2	Plasma membrane/junctional	Plasma membrane
+2804	ENSG00000173230	GOLGB1	ER/Golgi	Golgi apparatus
+2810	ENSG00000175793	SFN	Cytosolic	Cytosol
+2820	ENSG00000115159	GPD2	Mitochondrial	Mitochondria
+2821	ENSG00000105220	GPI	Cytosolic	Cytosol
+2821	ENSG00000105220	GPI	Plasma membrane/junctional	Plasma membrane
+283489	ENSG00000198824	CHAMP1	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+283871	ENSG00000184207	PGP	Nuclear/nucleoplasmic	Nuclear bodies
+284110	ENSG00000167914	GSDMA	Cytosolic	Cytosol
+284110	ENSG00000167914	GSDMA	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+284110	ENSG00000167914	GSDMA	Plasma membrane/junctional	Plasma membrane
+284695	ENSG00000162664	ZNF326	ER/Golgi	Golgi apparatus
+284695	ENSG00000162664	ZNF326	Nuclear/nucleoplasmic	Nucleoplasm
+284695	ENSG00000162664	ZNF326	Vesicular/endolysosomal	Vesicles
+285367	ENSG00000156990	RPUSD3	Nuclear/nucleoplasmic	Nucleoplasm
+285636	ENSG00000205765	RIMOC1	Cytosolic	Cytosol
+285636	ENSG00000205765	RIMOC1	Nuclear/nucleoplasmic	Nucleoplasm
+286257	ENSG00000148362	PAXX	Nuclear/nucleoplasmic	Nucleoplasm
+2873	ENSG00000169727	GPS1	Cytosolic	Cytosol
+2873	ENSG00000169727	GPS1	Nuclear/nucleoplasmic	Nucleoplasm
+2876	ENSG00000233276	GPX1	Cytosolic	Cytosol
+28958	ENSG00000183978	COA3	Mitochondrial	Mitochondria
+28960	ENSG00000110063	DCPS	Cytosolic	Cytosol
+28960	ENSG00000110063	DCPS	Nuclear/nucleoplasmic	Nucleoplasm
+28973	ENSG00000204568	MRPS18B	Mitochondrial	Mitochondria
+28973	ENSG00000204568	MRPS18B	Plasma membrane/junctional	Cell Junctions
+28974	ENSG00000104979	C19orf53	Nuclear/nucleoplasmic	Nucleoplasm
+28974	ENSG00000104979	C19orf53	Nucleolus	Nucleoli
+28988	ENSG00000136279	DBNL	Plasma membrane/junctional	Plasma membrane
+28988	ENSG00000136279	DBNL	Vesicular/endolysosomal	Vesicles
+28989	ENSG00000148335	NTMT1	Cytosolic	Cytosol
+28989	ENSG00000148335	NTMT1	Nuclear/nucleoplasmic	Nucleoplasm
+29074	ENSG00000112110	MRPL18	Mitochondrial	Mitochondria
+29080	ENSG00000133773	CCDC59	Nuclear/nucleoplasmic	Nucleoplasm
+29080	ENSG00000133773	CCDC59	Nucleolus	Nucleoli;Nucleoli rim
+29080	ENSG00000133773	CCDC59	Plasma membrane/junctional	Plasma membrane
+29085	ENSG00000054148	PHPT1	Cytosolic	Cytosol
+29085	ENSG00000054148	PHPT1	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+29085	ENSG00000054148	PHPT1	Plasma membrane/junctional	Plasma membrane
+29086	ENSG00000105393	BABAM1	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+29088	ENSG00000137547	MRPL15	Mitochondrial	Mitochondria
+29089	ENSG00000077152	UBE2T	Nuclear/nucleoplasmic	Nucleoplasm
+29089	ENSG00000077152	UBE2T	Nucleolus	Nucleoli
+29093	ENSG00000082515	MRPL22	Mitochondrial	Mitochondria
+29094	ENSG00000119862	LGALSL	Nuclear/nucleoplasmic	Nucleoplasm
+29105	ENSG00000070761	CFAP20	Nuclear/nucleoplasmic	Nucleoplasm
+292	ENSG00000005022	SLC25A5	Mitochondrial	Mitochondria
+2923	ENSG00000167004	PDIA3	ER/Golgi	Endoplasmic reticulum
+2926	ENSG00000132463	GRSF1	Mitochondrial	Mitochondria
+293	ENSG00000169100	SLC25A6	Mitochondrial	Mitochondria
+2931	ENSG00000105723	GSK3A	Cytosolic	Cytosol
+2931	ENSG00000105723	GSK3A	Nuclear/nucleoplasmic	Nucleoplasm
+2937	ENSG00000100983	GSS	Nuclear/nucleoplasmic	Nucleoplasm
+2938	ENSG00000243955	GSTA1	Cytosolic	Cytosol
+2944	ENSG00000134184	GSTM1	Cytoskeletal	Microtubules
+2944	ENSG00000134184	GSTM1	Cytosolic	Cytosol
+2956	ENSG00000116062	MSH6	Nuclear/nucleoplasmic	Nucleoplasm
+2957	ENSG00000165417	GTF2A1	Nuclear/nucleoplasmic	Nucleoplasm
+2969	ENSG00000263001	GTF2I	Nuclear/nucleoplasmic	Nucleoplasm
+29766	ENSG00000138594	TMOD3	Cytoskeletal	Actin filaments
+29766	ENSG00000138594	TMOD3	Cytosolic	Cytosol
+29894	ENSG00000071894	CPSF1	Nuclear/nucleoplasmic	Nucleoplasm
+29914	ENSG00000120942	UBIAD1	Vesicular/endolysosomal	Vesicles
+29959	ENSG00000115216	NRBP1	Cytosolic	Cytosol
+29979	ENSG00000135018	UBQLN1	Cytosolic	Cytosol
+29979	ENSG00000135018	UBQLN1	Nuclear/nucleoplasmic	Nucleoplasm
+29988	ENSG00000136856	SLC2A8	Vesicular/endolysosomal	Vesicles
+29997	ENSG00000105373	NOP53	Nucleolus	Nucleoli
+30	ENSG00000060971	ACAA1	Vesicular/endolysosomal	Peroxisomes
+3006	ENSG00000187837	H1-2	Nuclear/nucleoplasmic	Nucleoplasm
+3006	ENSG00000187837	H1-2	Nucleolus	Nucleoli rim
+3008	ENSG00000168298	H1-4	Nuclear/nucleoplasmic	Nuclear speckles
+3009	ENSG00000184357	H1-5	Nuclear/nucleoplasmic	Nucleoplasm
+301	ENSG00000135046	ANXA1	Cytosolic	Cytosol
+301	ENSG00000135046	ANXA1	Nuclear/nucleoplasmic	Nucleoplasm
+301	ENSG00000135046	ANXA1	Plasma membrane/junctional	Plasma membrane
+3014	ENSG00000188486	H2AX	Nuclear/nucleoplasmic	Nuclear speckles;Nucleoplasm
+3015	ENSG00000164032	H2AZ1	Nuclear/nucleoplasmic	Nucleoplasm
+302	ENSG00000182718	ANXA2	Cytosolic	Cytosol
+302	ENSG00000182718	ANXA2	Plasma membrane/junctional	Plasma membrane
+3021	ENSG00000132475	H3-3B	Nuclear/nucleoplasmic	Nucleoplasm
+3030	ENSG00000084754	HADHA	Mitochondrial	Mitochondria
+3032	ENSG00000138029	HADHB	Mitochondrial	Mitochondria
+3033	ENSG00000138796	HADH	Mitochondrial	Mitochondria
+3054	ENSG00000172534	HCFC1	Nuclear/nucleoplasmic	Nucleoplasm
+3064	ENSG00000197386	HTT	Cytosolic	Cytosol
+3064	ENSG00000197386	HTT	Nuclear/nucleoplasmic	Nucleoplasm
+3065	ENSG00000116478	HDAC1	Nuclear/nucleoplasmic	Nucleoplasm
+3066	ENSG00000196591	HDAC2	Nuclear/nucleoplasmic	Nucleoplasm
+3068	ENSG00000143321	HDGF	Nuclear/nucleoplasmic	Nucleoplasm
+308	ENSG00000164111	ANXA5	Nuclear/nucleoplasmic	Nuclear membrane
+309	ENSG00000197043	ANXA6	Cytoskeletal	Basal body
+309	ENSG00000197043	ANXA6	Cytosolic	Cytosol
+3093	ENSG00000078140	UBE2K	Cytosolic	Cytosol
+3093	ENSG00000078140	UBE2K	Plasma membrane/junctional	Plasma membrane
+30968	ENSG00000165283	STOML2	Cytosolic	Cytosol
+30968	ENSG00000165283	STOML2	Plasma membrane/junctional	Plasma membrane
+3098	ENSG00000156515	HK1	Mitochondrial	Mitochondria
+3146	ENSG00000189403	HMGB1	Nuclear/nucleoplasmic	Nucleoplasm
+3150	ENSG00000205581	HMGN1	Nuclear/nucleoplasmic	Nucleoplasm
+3151	ENSG00000198830	HMGN2	Nuclear/nucleoplasmic	Nucleoplasm
+3151	ENSG00000198830	HMGN2	Nucleolus	Nucleoli
+3163	ENSG00000103415	HMOX2	Cytosolic	Cytosol
+3163	ENSG00000103415	HMOX2	Vesicular/endolysosomal	Vesicles
+3178	ENSG00000135486	HNRNPA1	Nuclear/nucleoplasmic	Nucleoplasm
+3181	ENSG00000122566	HNRNPA2B1	Nuclear/nucleoplasmic	Nucleoplasm
+3182	ENSG00000197451	HNRNPAB	Nuclear/nucleoplasmic	Nucleoplasm
+3183	ENSG00000092199	HNRNPC	Nuclear/nucleoplasmic	Nucleoplasm
+3184	ENSG00000138668	HNRNPD	Nuclear/nucleoplasmic	Nucleoplasm
+3185	ENSG00000169813	HNRNPF	Nuclear/nucleoplasmic	Nucleoplasm
+3187	ENSG00000169045	HNRNPH1	Nuclear/nucleoplasmic	Nucleoplasm
+3188	ENSG00000126945	HNRNPH2	Nuclear/nucleoplasmic	Nucleoplasm
+3190	ENSG00000165119	HNRNPK	Nuclear/nucleoplasmic	Nucleoplasm
+3191	ENSG00000104824	HNRNPL	Nuclear/nucleoplasmic	Nucleoplasm
+3192	ENSG00000153187	HNRNPU	Nuclear/nucleoplasmic	Nucleoplasm
+324	ENSG00000134982	APC	ER/Golgi	Golgi apparatus
+324	ENSG00000134982	APC	Plasma membrane/junctional	Plasma membrane
+3276	ENSG00000126457	PRMT1	Nuclear/nucleoplasmic	Nucleoplasm
+328	ENSG00000100823	APEX1	Cytoskeletal	Centrosome
+328	ENSG00000100823	APEX1	Nuclear/nucleoplasmic	Nucleoplasm
+3295	ENSG00000133835	HSD17B4	Vesicular/endolysosomal	Peroxisomes
+3301	ENSG00000086061	DNAJA1	Cytoskeletal	Microtubules
+3301	ENSG00000086061	DNAJA1	Cytosolic	Cytosol
+3304	ENSG00000204388	HSPA1B	Cytosolic	Cytosol
+3304	ENSG00000204388	HSPA1B	Vesicular/endolysosomal	Vesicles
+3306	ENSG00000126803	HSPA2	Vesicular/endolysosomal	Vesicles
+3308	ENSG00000170606	HSPA4	Cytosolic	Cytosol
+3308	ENSG00000170606	HSPA4	Nuclear/nucleoplasmic	Nucleoplasm
+3312	ENSG00000109971	HSPA8	Vesicular/endolysosomal	Vesicles
+3313	ENSG00000113013	HSPA9	Mitochondrial	Mitochondria
+3315	ENSG00000106211	HSPB1	Cytosolic	Cytosol
+3315	ENSG00000106211	HSPB1	Plasma membrane/junctional	Plasma membrane
+3320	ENSG00000080824	HSP90AA1	Cytosolic	Cytosol
+3326	ENSG00000096384	HSP90AB1	Cytosolic	Cytosol
+3326	ENSG00000096384	HSP90AB1	Plasma membrane/junctional	Plasma membrane
+3329	ENSG00000144381	HSPD1	Mitochondrial	Mitochondria
+3337	ENSG00000132002	DNAJB1	Cytosolic	Cytosol
+3337	ENSG00000132002	DNAJB1	Nuclear/nucleoplasmic	Nucleoplasm
+3376	ENSG00000196305	IARS1	Cytosolic	Cytosol
+3396	ENSG00000167862	MRPL58	Mitochondrial	Mitochondria
+340543	ENSG00000204065	TCEAL5	Nuclear/nucleoplasmic	Nucleoplasm
+3417	ENSG00000138413	IDH1	Cytosolic	Cytosol
+3418	ENSG00000182054	IDH2	Mitochondrial	Mitochondria
+345	ENSG00000110245	APOC3	Nuclear/nucleoplasmic	Nucleoplasm
+345	ENSG00000110245	APOC3	Nucleolus	Nucleoli
+345	ENSG00000110245	APOC3	Plasma membrane/junctional	Cell Junctions
+3476	ENSG00000089289	IGBP1	Cytoskeletal	Basal body;Cytokinetic bridge;Microtubules;Primary cilium
+347734	ENSG00000157593	SLC35B2	Vesicular/endolysosomal	Vesicles
+3482	ENSG00000197081	IGF2R	ER/Golgi	Golgi apparatus
+3482	ENSG00000197081	IGF2R	Vesicular/endolysosomal	Vesicles
+3514	ENSG00000211592	IGKC	Cytosolic	Cytosol
+3514	ENSG00000211592	IGKC	Vesicular/endolysosomal	Vesicles
+353	ENSG00000198931	APRT	Cytosolic	Cytosol
+3608	ENSG00000143621	ILF2	Cytosolic	Cytosol
+3608	ENSG00000143621	ILF2	Nuclear/nucleoplasmic	Nucleoplasm
+3609	ENSG00000129351	ILF3	Mitochondrial	Mitochondria
+3609	ENSG00000129351	ILF3	Nuclear/nucleoplasmic	Nucleoplasm
+3609	ENSG00000129351	ILF3	Nucleolus	Nucleoli
+3646	ENSG00000104408	EIF3E	Cytosolic	Cytosol
+3688	ENSG00000150093	ITGB1	Cytoskeletal	Focal adhesion sites
+3688	ENSG00000150093	ITGB1	ER/Golgi	Endoplasmic reticulum
+3688	ENSG00000150093	ITGB1	Plasma membrane/junctional	Plasma membrane
+37	ENSG00000072778	ACADVL	Mitochondrial	Mitochondria
+3712	ENSG00000128928	IVD	Mitochondrial	Mitochondria
+3712	ENSG00000128928	IVD	Nuclear/nucleoplasmic	Nucleoplasm
+372	ENSG00000095139	ARCN1	Cytosolic	Cytosol
+372	ENSG00000095139	ARCN1	ER/Golgi	Golgi apparatus
+372	ENSG00000095139	ARCN1	Vesicular/endolysosomal	Vesicles
+3728	ENSG00000173801	JUP	Plasma membrane/junctional	Cell Junctions;Plasma membrane
+3728	ENSG00000173801	JUP	Vesicular/endolysosomal	Vesicles
+3735	ENSG00000065427	KARS1	Cytosolic	Cytosol
+3735	ENSG00000065427	KARS1	Plasma membrane/junctional	Plasma membrane
+374454	ENSG00000189182	KRT77	Nuclear/nucleoplasmic	Nuclear membrane
+374454	ENSG00000189182	KRT77	Plasma membrane/junctional	Plasma membrane
+374897	ENSG00000189001	SBSN	Vesicular/endolysosomal	Vesicles
+3799	ENSG00000170759	KIF5B	Cytoskeletal	Centriolar satellite
+3799	ENSG00000170759	KIF5B	Cytosolic	Cytosol
+38	ENSG00000075239	ACAT1	Mitochondrial	Mitochondria
+3832	ENSG00000138160	KIF11	Cytosolic	Cytosol
+3832	ENSG00000138160	KIF11	Vesicular/endolysosomal	Vesicles
+3838	ENSG00000182481	KPNA2	Cytosolic	Cytosol
+3838	ENSG00000182481	KPNA2	Nuclear/nucleoplasmic	Nucleoplasm
+3842	ENSG00000083312	TNPO1	Cytosolic	Cytosol
+3842	ENSG00000083312	TNPO1	Nuclear/nucleoplasmic	Nucleoplasm
+3842	ENSG00000083312	TNPO1	Nucleolus	Nucleoli
+3843	ENSG00000065150	IPO5	Cytosolic	Cytosol
+3843	ENSG00000065150	IPO5	ER/Golgi	Golgi apparatus
+3843	ENSG00000065150	IPO5	Nuclear/nucleoplasmic	Nuclear membrane;Nucleoplasm
+3849	ENSG00000172867	KRT2	Cytoskeletal	Intermediate filaments
+3849	ENSG00000172867	KRT2	Cytosolic	Cytosol
+3851	ENSG00000170477	KRT4	Cytoskeletal	Intermediate filaments
+3852	ENSG00000186081	KRT5	Cytoskeletal	Intermediate filaments
+3853	ENSG00000205420	KRT6A	Cytoskeletal	Intermediate filaments
+3854	ENSG00000185479	KRT6B	Cytoskeletal	Intermediate filaments
+3860	ENSG00000171401	KRT13	Cytoskeletal	Intermediate filaments
+3861	ENSG00000186847	KRT14	Cytoskeletal	Intermediate filaments
+3866	ENSG00000171346	KRT15	Cytoskeletal	Intermediate filaments
+3868	ENSG00000186832	KRT16	Cytoskeletal	Intermediate filaments
+3872	ENSG00000128422	KRT17	Cytoskeletal	Intermediate filaments
+387597	ENSG00000143195	ILDR2	Plasma membrane/junctional	Plasma membrane
+387680	ENSG00000099290	WASHC2A	Nucleolus	Nucleoli
+387680	ENSG00000099290	WASHC2A	Vesicular/endolysosomal	Vesicles
+388963	ENSG00000284308	C2orf81	Nuclear/nucleoplasmic	Nucleoplasm
+388963	ENSG00000284308	C2orf81	Nucleolus	Nucleoli;Nucleoli fibrillar center
+3895	ENSG00000126777	KTN1	ER/Golgi	Endoplasmic reticulum
+389541	ENSG00000188186	LAMTOR4	Vesicular/endolysosomal	Lysosomes
+389898	ENSG00000276380	UBE2NL	Nuclear/nucleoplasmic	Nucleoplasm
+389898	ENSG00000276380	UBE2NL	Nucleolus	Nucleoli fibrillar center
+392	ENSG00000175220	ARHGAP1	Cytosolic	Cytosol
+392	ENSG00000175220	ARHGAP1	Vesicular/endolysosomal	Vesicles
+3921	ENSG00000168028	RPSA	Cytosolic	Cytosol
+3921	ENSG00000168028	RPSA	Plasma membrane/junctional	Plasma membrane
+3925	ENSG00000117632	STMN1	Cytosolic	Cytosol
+3927	ENSG00000002834	LASP1	Cytoskeletal	Focal adhesion sites
+3927	ENSG00000002834	LASP1	Cytosolic	Cytosol
+3927	ENSG00000002834	LASP1	ER/Golgi	Golgi apparatus
+3927	ENSG00000002834	LASP1	Plasma membrane/junctional	Plasma membrane
+3939	ENSG00000134333	LDHA	Cytosolic	Cytosol
+3945	ENSG00000111716	LDHB	Cytosolic	Cytosol
+3954	ENSG00000168924	LETM1	Mitochondrial	Mitochondria
+3956	ENSG00000100097	LGALS1	Cytosolic	Cytosol
+396	ENSG00000141522	ARHGDIA	Cytosolic	Cytosol
+3978	ENSG00000105486	LIG1	ER/Golgi	Golgi apparatus
+3978	ENSG00000105486	LIG1	Nuclear/nucleoplasmic	Nucleoplasm
+3978	ENSG00000105486	LIG1	Vesicular/endolysosomal	Vesicles
+3998	ENSG00000074695	LMAN1	ER/Golgi	Endoplasmic reticulum
+3998	ENSG00000074695	LMAN1	Vesicular/endolysosomal	Vesicles
+4000	ENSG00000160789	LMNA	Nuclear/nucleoplasmic	Nuclear speckles
+4001	ENSG00000113368	LMNB1	Nuclear/nucleoplasmic	Nuclear membrane
+400569	ENSG00000161920	MED11	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+4008	ENSG00000136153	LMO7	Cytoskeletal	Actin filaments
+4008	ENSG00000136153	LMO7	Cytosolic	Cytosol
+401466	ENSG00000176731	RBIS	Cytosolic	Cytosol
+401466	ENSG00000176731	RBIS	Nuclear/nucleoplasmic	Nucleoplasm
+401466	ENSG00000176731	RBIS	Nucleolus	Nucleoli
+401551	ENSG00000136918	WDR38	Vesicular/endolysosomal	Vesicles
+4048	ENSG00000111144	LTA4H	Cytosolic	Cytosol
+4076	ENSG00000135387	CAPRIN1	Cytoskeletal	Centriolar satellite;Centrosome
+4076	ENSG00000135387	CAPRIN1	Cytosolic	Cytosol
+4082	ENSG00000277443	MARCKS	Plasma membrane/junctional	Plasma membrane
+4085	ENSG00000164109	MAD2L1	Nuclear/nucleoplasmic	Nucleoplasm
+4131	ENSG00000131711	MAP1B	Cytosolic	Cytosol
+4134	ENSG00000047849	MAP4	Cytoskeletal	Basal body;Microtubules;Primary cilium
+4141	ENSG00000166986	MARS1	Cytosolic	Cytosol
+4144	ENSG00000168906	MAT2A	Cytosolic	Cytosol
+4144	ENSG00000168906	MAT2A	Nuclear/nucleoplasmic	Nucleoplasm
+4154	ENSG00000152601	MBNL1	Cytosolic	Cytosol
+4154	ENSG00000152601	MBNL1	Nuclear/nucleoplasmic	Nucleoplasm
+4171	ENSG00000073111	MCM2	Nuclear/nucleoplasmic	Nucleoplasm
+4172	ENSG00000112118	MCM3	Nuclear/nucleoplasmic	Nucleoplasm
+4173	ENSG00000104738	MCM4	Nuclear/nucleoplasmic	Nucleoplasm
+4174	ENSG00000100297	MCM5	Nuclear/nucleoplasmic	Nucleoplasm
+4175	ENSG00000076003	MCM6	Nuclear/nucleoplasmic	Nucleoplasm
+4176	ENSG00000166508	MCM7	Cytoskeletal	Basal body
+4176	ENSG00000166508	MCM7	Cytosolic	Cytosol
+4176	ENSG00000166508	MCM7	Nuclear/nucleoplasmic	Nucleoplasm
+4190	ENSG00000014641	MDH1	Cytoskeletal	Centrosome
+4190	ENSG00000014641	MDH1	Cytosolic	Cytosol
+4191	ENSG00000146701	MDH2	Mitochondrial	Mitochondria
+4199	ENSG00000065833	ME1	Cytosolic	Cytosol
+4236	ENSG00000140259	MFAP1	Nuclear/nucleoplasmic	Nucleoplasm
+4240	ENSG00000140545	MFGE8	Cytosolic	Cytosol
+4253	ENSG00000150527	MIA2	ER/Golgi	Endoplasmic reticulum
+4282	ENSG00000240972	MIF	Cytosolic	Cytosol
+4338	ENSG00000164172	MOCS2	Cytosolic	Cytosol
+4343	ENSG00000155363	MOV10	Cytosolic	Cytosol
+4351	ENSG00000178802	MPI	Cytosolic	Cytosol
+4351	ENSG00000178802	MPI	Plasma membrane/junctional	Plasma membrane
+4361	ENSG00000020922	MRE11	Nuclear/nucleoplasmic	Nucleoplasm
+440574	ENSG00000173436	MICOS10	Mitochondrial	Mitochondria
+4436	ENSG00000095002	MSH2	Nuclear/nucleoplasmic	Nucleoplasm
+444	ENSG00000198363	ASPH	ER/Golgi	Endoplasmic reticulum
+4478	ENSG00000147065	MSN	Plasma membrane/junctional	Plasma membrane
+4507	ENSG00000099810	MTAP	Cytosolic	Cytosol
+4522	ENSG00000100714	MTHFD1	Cytosolic	Cytosol
+4594	ENSG00000146085	MMUT	Cytosolic	Cytosol
+4594	ENSG00000146085	MMUT	Mitochondrial	Mitochondria
+4627	ENSG00000100345	MYH9	Cytoskeletal	Actin filaments
+4627	ENSG00000100345	MYH9	Cytosolic	Cytosol
+4627	ENSG00000100345	MYH9	Plasma membrane/junctional	Plasma membrane
+4641	ENSG00000197879	MYO1C	Nuclear/nucleoplasmic	Nuclear bodies
+4641	ENSG00000197879	MYO1C	Plasma membrane/junctional	Plasma membrane
+4642	ENSG00000176658	MYO1D	Cytosolic	Cytosol
+4643	ENSG00000157483	MYO1E	Cytosolic	Cytosol
+4643	ENSG00000157483	MYO1E	Nuclear/nucleoplasmic	Nucleoplasm
+4643	ENSG00000157483	MYO1E	Plasma membrane/junctional	Plasma membrane
+4644	ENSG00000197535	MYO5A	Cytoskeletal	Basal body;Centriolar satellite;Focal adhesion sites;Primary cilium
+4644	ENSG00000197535	MYO5A	Cytosolic	Cytosol
+4645	ENSG00000167306	MYO5B	Plasma membrane/junctional	Plasma membrane
+4659	ENSG00000058272	PPP1R12A	Cytoskeletal	Actin filaments
+4659	ENSG00000058272	PPP1R12A	Cytosolic	Cytosol
+4666	ENSG00000196531	NACA	Cytosolic	Cytosol
+4670	ENSG00000099783	HNRNPM	Nuclear/nucleoplasmic	Nucleoplasm
+4676	ENSG00000205531	NAP1L4	Nuclear/nucleoplasmic	Nucleoplasm
+4677	ENSG00000134440	NARS1	Cytosolic	Cytosol
+4678	ENSG00000132780	NASP	Nuclear/nucleoplasmic	Nucleoplasm
+4691	ENSG00000115053	NCL	Nuclear/nucleoplasmic	Mitotic chromosome;Nucleoplasm
+4691	ENSG00000115053	NCL	Nucleolus	Nucleoli;Nucleoli rim
+4697	ENSG00000189043	NDUFA4	Mitochondrial	Mitochondria
+47	ENSG00000131473	ACLY	Cytosolic	Cytosol
+4712	ENSG00000165264	NDUFB6	Mitochondrial	Mitochondria
+4712	ENSG00000165264	NDUFB6	Nuclear/nucleoplasmic	Nucleoplasm
+4724	ENSG00000164258	NDUFS4	Mitochondrial	Mitochondria
+4731	ENSG00000160194	NDUFV3	Mitochondrial	Mitochondria
+4836	ENSG00000136448	NMT1	Cytosolic	Cytosol
+4836	ENSG00000136448	NMT1	Plasma membrane/junctional	Plasma membrane
+4841	ENSG00000147140	NONO	Nuclear/nucleoplasmic	Nucleoplasm
+4841	ENSG00000147140	NONO	Nucleolus	Nucleoli;Nucleoli fibrillar center
+4869	ENSG00000181163	NPM1	Nuclear/nucleoplasmic	Nucleoplasm
+4869	ENSG00000181163	NPM1	Nucleolus	Nucleoli rim
+4898	ENSG00000078618	NRDC	Nuclear/nucleoplasmic	Nucleoplasm
+4904	ENSG00000065978	YBX1	Cytosolic	Cytosol
+4904	ENSG00000065978	YBX1	ER/Golgi	Endoplasmic reticulum
+4904	ENSG00000065978	YBX1	Vesicular/endolysosomal	Vesicles
+4905	ENSG00000073969	NSF	Cytosolic	Cytosol
+4905	ENSG00000073969	NSF	ER/Golgi	Golgi apparatus
+4924	ENSG00000104805	NUCB1	Cytoskeletal	Microtubules
+4924	ENSG00000104805	NUCB1	ER/Golgi	Golgi apparatus
+4924	ENSG00000104805	NUCB1	Vesicular/endolysosomal	Vesicles
+4926	ENSG00000137497	NUMA1	Nuclear/nucleoplasmic	Nucleoplasm
+4942	ENSG00000065154	OAT	Mitochondrial	Mitochondria
+4942	ENSG00000065154	OAT	Nuclear/nucleoplasmic	Nucleoplasm
+4967	ENSG00000105953	OGDH	Mitochondrial	Mitochondria
+498	ENSG00000152234	ATP5F1A	Mitochondrial	Mitochondria
+5019	ENSG00000083720	OXCT1	Mitochondrial	Mitochondria
+5033	ENSG00000122884	P4HA1	ER/Golgi	Endoplasmic reticulum
+5034	ENSG00000185624	P4HB	ER/Golgi	Endoplasmic reticulum
+5036	ENSG00000170515	PA2G4	Cytosolic	Cytosol
+5037	ENSG00000089220	PEBP1	Cytosolic	Cytosol
+5037	ENSG00000089220	PEBP1	Plasma membrane/junctional	Plasma membrane
+5049	ENSG00000168092	PAFAH1B2	Cytosolic	Cytosol
+5050	ENSG00000079462	PAFAH1B3	Cytoskeletal	Intermediate filaments
+506	ENSG00000110955	ATP5F1B	Mitochondrial	Mitochondria
+5062	ENSG00000180370	PAK2	Cytoskeletal	Focal adhesion sites
+5062	ENSG00000180370	PAK2	Cytosolic	Cytosol
+5062	ENSG00000180370	PAK2	Nuclear/nucleoplasmic	Nuclear speckles;Nucleoplasm
+5066	ENSG00000145730	PAM	Cytosolic	Cytosol
+5066	ENSG00000145730	PAM	ER/Golgi	Golgi apparatus
+50808	ENSG00000147853	AK3	Mitochondrial	Mitochondria
+50814	ENSG00000147383	NSDHL	ER/Golgi	Endoplasmic reticulum
+50814	ENSG00000147383	NSDHL	Vesicular/endolysosomal	Lipid droplets
+5093	ENSG00000169564	PCBP1	Cytosolic	Cytoplasmic bodies;Cytosol
+5093	ENSG00000169564	PCBP1	Nuclear/nucleoplasmic	Nuclear speckles;Nucleoplasm
+5094	ENSG00000197111	PCBP2	Cytosolic	Cytosol
+5094	ENSG00000197111	PCBP2	Nuclear/nucleoplasmic	Nucleoplasm
+51001	ENSG00000156469	MTERF3	Mitochondrial	Mitochondria
+51003	ENSG00000108590	MED31	Nuclear/nucleoplasmic	Nucleoplasm
+51021	ENSG00000182180	MRPS16	Mitochondrial	Mitochondria
+51026	ENSG00000111711	GOLT1B	Vesicular/endolysosomal	Vesicles
+51035	ENSG00000162191	UBXN1	Cytosolic	Cytosol
+51056	ENSG00000002549	LAP3	Cytosolic	Cytosol
+51068	ENSG00000169251	NMD3	Nuclear/nucleoplasmic	Nucleoplasm
+51068	ENSG00000169251	NMD3	Nucleolus	Nucleoli
+51069	ENSG00000112651	MRPL2	Mitochondrial	Mitochondria
+51070	ENSG00000142546	NOSIP	Nuclear/nucleoplasmic	Nucleoplasm
+51082	ENSG00000186184	POLR1D	ER/Golgi	Golgi apparatus
+51082	ENSG00000186184	POLR1D	Nuclear/nucleoplasmic	Nucleoplasm
+51099	ENSG00000011198	ABHD5	Cytosolic	Cytosol
+51099	ENSG00000011198	ABHD5	Vesicular/endolysosomal	Vesicles
+51101	ENSG00000104427	ZC2HC1A	Cytoskeletal	Actin filaments
+51101	ENSG00000104427	ZC2HC1A	Cytosolic	Cytosol
+51116	ENSG00000122140	MRPS2	Mitochondrial	Mitochondria
+51119	ENSG00000126524	SBDS	Cytosolic	Cytosol
+51123	ENSG00000120963	ZNF706	Plasma membrane/junctional	Plasma membrane
+51155	ENSG00000189159	JPT1	Cytoskeletal	Cytokinetic bridge;Microtubules
+51155	ENSG00000189159	JPT1	Cytosolic	Cytosol
+51155	ENSG00000189159	JPT1	Nuclear/nucleoplasmic	Nucleoplasm
+51203	ENSG00000137804	NUSAP1	Nuclear/nucleoplasmic	Nucleoplasm
+51203	ENSG00000137804	NUSAP1	Nucleolus	Nucleoli;Nucleoli fibrillar center
+5121	ENSG00000183036	PCP4	Nuclear/nucleoplasmic	Nucleoplasm
+5121	ENSG00000183036	PCP4	Nucleolus	Nucleoli fibrillar center
+51253	ENSG00000116221	MRPL37	Mitochondrial	Mitochondria
+51280	ENSG00000135052	GOLM1	ER/Golgi	Golgi apparatus
+51322	ENSG00000095787	WAC	Nuclear/nucleoplasmic	Nucleoplasm
+51335	ENSG00000182768	NGRN	Cytoskeletal	Cytokinetic bridge
+51335	ENSG00000182768	NGRN	Mitochondrial	Mitochondria
+51335	ENSG00000182768	NGRN	Nuclear/nucleoplasmic	Nucleoplasm
+51372	ENSG00000232112	TMA7	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+51372	ENSG00000232112	TMA7	Nucleolus	Nucleoli;Nucleoli rim
+5138	ENSG00000186642	PDE2A	Cytosolic	Cytosol
+51386	ENSG00000100129	EIF3L	Nuclear/nucleoplasmic	Nucleoplasm
+51386	ENSG00000100129	EIF3L	Nucleolus	Nucleoli
+51406	ENSG00000225921	NOL7	Nuclear/nucleoplasmic	Mitotic chromosome
+51406	ENSG00000225921	NOL7	Nucleolus	Nucleoli
+51428	ENSG00000183258	DDX41	Nuclear/nucleoplasmic	Nucleoplasm
+51428	ENSG00000183258	DDX41	Nucleolus	Nucleoli
+5143	ENSG00000105650	PDE4C	Cytoskeletal	Basal body;Centrosome;Midbody ring
+5143	ENSG00000105650	PDE4C	Cytosolic	Cytosol
+51474	ENSG00000050405	LIMA1	Cytoskeletal	Actin filaments;Focal adhesion sites
+51474	ENSG00000050405	LIMA1	Cytosolic	Cytosol
+51479	ENSG00000185722	ANKFY1	Vesicular/endolysosomal	Endosomes
+51493	ENSG00000100220	RTCB	Cytosolic	Cytosol
+51493	ENSG00000100220	RTCB	Nuclear/nucleoplasmic	Nucleoplasm
+51493	ENSG00000100220	RTCB	Vesicular/endolysosomal	Vesicles
+515	ENSG00000116459	ATP5PB	Mitochondrial	Mitochondria
+51504	ENSG00000173113	TRMT112	Cytoskeletal	Microtubules
+51504	ENSG00000173113	TRMT112	Nuclear/nucleoplasmic	Nucleoplasm
+51507	ENSG00000022277	RTF2	Nuclear/nucleoplasmic	Nucleoplasm
+51507	ENSG00000022277	RTF2	Nucleolus	Nucleoli
+51510	ENSG00000086065	CHMP5	Cytoskeletal	Microtubules;Midbody
+51510	ENSG00000086065	CHMP5	Cytosolic	Cytosol
+51520	ENSG00000133706	LARS1	Cytosolic	Cytosol
+51520	ENSG00000133706	LARS1	Nuclear/nucleoplasmic	Nuclear bodies
+51535	ENSG00000134283	PPHLN1	ER/Golgi	Golgi apparatus
+51535	ENSG00000134283	PPHLN1	Nuclear/nucleoplasmic	Nucleoplasm
+51552	ENSG00000119396	RAB14	Vesicular/endolysosomal	Vesicles
+51571	ENSG00000153310	CYRIB	Cytosolic	Cytosol
+51571	ENSG00000153310	CYRIB	Nuclear/nucleoplasmic	Nucleoplasm
+51574	ENSG00000174720	LARP7	Cytosolic	Cytosol
+51574	ENSG00000174720	LARP7	Nuclear/nucleoplasmic	Nucleoplasm
+51593	ENSG00000087087	SRRT	Nuclear/nucleoplasmic	Nucleoplasm
+5160	ENSG00000131828	PDHA1	Mitochondrial	Mitochondria
+51602	ENSG00000055044	NOP58	Nuclear/nucleoplasmic	Nucleoplasm
+51602	ENSG00000055044	NOP58	Nucleolus	Nucleoli fibrillar center
+51608	ENSG00000239857	GET4	Cytosolic	Cytosol
+51631	ENSG00000146963	LUC7L2	Nuclear/nucleoplasmic	Nucleoplasm
+51637	ENSG00000087302	RTRAF	Nuclear/nucleoplasmic	Nucleoplasm
+51639	ENSG00000115128	SF3B6	Nuclear/nucleoplasmic	Nucleoplasm
+51649	ENSG00000181610	MRPS23	Mitochondrial	Mitochondria
+51649	ENSG00000181610	MRPS23	Nuclear/nucleoplasmic	Nuclear membrane
+51663	ENSG00000056097	ZFR	Nuclear/nucleoplasmic	Nucleoplasm
+51691	ENSG00000128534	LSM8	Nuclear/nucleoplasmic	Nucleoplasm
+51691	ENSG00000128534	LSM8	Vesicular/endolysosomal	Vesicles
+51726	ENSG00000090520	DNAJB11	ER/Golgi	Endoplasmic reticulum
+51727	ENSG00000162368	CMPK1	Nuclear/nucleoplasmic	Nucleoplasm
+51780	ENSG00000120733	KDM3B	Nuclear/nucleoplasmic	Nucleoplasm
+51806	ENSG00000178372	CALML5	Cytosolic	Cytosol
+51806	ENSG00000178372	CALML5	Plasma membrane/junctional	Plasma membrane
+5195	ENSG00000142655	PEX14	Nucleolus	Nucleoli fibrillar center
+5195	ENSG00000142655	PEX14	Vesicular/endolysosomal	Peroxisomes
+5202	ENSG00000143256	PFDN2	Cytosolic	Cytosol
+5202	ENSG00000143256	PFDN2	Mitochondrial	Mitochondria
+5202	ENSG00000143256	PFDN2	Nuclear/nucleoplasmic	Nucleoplasm
+5208	ENSG00000123836	PFKFB2	Nuclear/nucleoplasmic	Nucleoplasm
+5213	ENSG00000152556	PFKM	ER/Golgi	Endoplasmic reticulum
+5216	ENSG00000108518	PFN1	Cytosolic	Cytosol
+522	ENSG00000154723	ATP5PF	Mitochondrial	Mitochondria
+5223	ENSG00000171314	PGAM1	Nuclear/nucleoplasmic	Nucleoplasm
+5226	ENSG00000142657	PGD	Cytosolic	Cytosol
+5226	ENSG00000142657	PGD	Mitochondrial	Mitochondria
+5226	ENSG00000142657	PGD	Nuclear/nucleoplasmic	Nucleoplasm
+5226	ENSG00000142657	PGD	Plasma membrane/junctional	Plasma membrane
+523	ENSG00000114573	ATP6V1A	Cytosolic	Cytosol
+523	ENSG00000114573	ATP6V1A	Nuclear/nucleoplasmic	Nucleoplasm
+523	ENSG00000114573	ATP6V1A	Vesicular/endolysosomal	Vesicles
+5236	ENSG00000079739	PGM1	Cytosolic	Cytosol
+5243	ENSG00000085563	ABCB1	Plasma membrane/junctional	Plasma membrane
+5245	ENSG00000167085	PHB1	Mitochondrial	Mitochondria
+5250	ENSG00000075415	SLC25A3	Mitochondrial	Mitochondria
+528	ENSG00000155097	ATP6V1C1	Cytosolic	Cytosol
+528	ENSG00000155097	ATP6V1C1	Nuclear/nucleoplasmic	Nucleoplasm
+5315	ENSG00000067225	PKM	Cytosolic	Cytosol
+5315	ENSG00000067225	PKM	Vesicular/endolysosomal	Vesicles
+5317	ENSG00000081277	PKP1	Nuclear/nucleoplasmic	Nucleoplasm
+5317	ENSG00000081277	PKP1	Plasma membrane/junctional	Plasma membrane
+5332	ENSG00000101333	PLCB4	Plasma membrane/junctional	Plasma membrane
+535	ENSG00000033627	ATP6V0A1	Vesicular/endolysosomal	Vesicles
+5358	ENSG00000102024	PLS3	Cytosolic	Cytosol
+53615	ENSG00000071655	MBD3	Nuclear/nucleoplasmic	Nucleoplasm
+53616	ENSG00000008277	ADAM22	Plasma membrane/junctional	Cell Junctions
+53938	ENSG00000240344	PPIL3	Nuclear/nucleoplasmic	Nucleoplasm
+53938	ENSG00000240344	PPIL3	Nucleolus	Nucleoli
+5394	ENSG00000171824	EXOSC10	Cytosolic	Cytosol
+5394	ENSG00000171824	EXOSC10	Nuclear/nucleoplasmic	Nucleoplasm
+5394	ENSG00000171824	EXOSC10	Nucleolus	Nucleoli;Nucleoli rim
+53981	ENSG00000165934	CPSF2	Nuclear/nucleoplasmic	Nucleoplasm
+53981	ENSG00000165934	CPSF2	Vesicular/endolysosomal	Vesicles
+54107	ENSG00000148229	POLE3	Cytosolic	Cytosol
+54107	ENSG00000148229	POLE3	Nuclear/nucleoplasmic	Nucleoplasm
+54107	ENSG00000148229	POLE3	Nucleolus	Nucleoli
+54148	ENSG00000154719	MRPL39	Mitochondrial	Mitochondria
+54205	ENSG00000172115	CYCS	Mitochondrial	Mitochondria
+54331	ENSG00000186469	GNG2	Plasma membrane/junctional	Plasma membrane
+54331	ENSG00000186469	GNG2	Vesicular/endolysosomal	Vesicles
+5434	ENSG00000099817	POLR2E	Nuclear/nucleoplasmic	Nucleoplasm
+54433	ENSG00000109534	GAR1	Nucleolus	Nucleoli fibrillar center
+54439	ENSG00000091009	RBM27	Nuclear/nucleoplasmic	Nuclear speckles
+54466	ENSG00000147059	SPIN2A	Nuclear/nucleoplasmic	Nucleoplasm
+5447	ENSG00000127948	POR	Cytosolic	Cytosol
+5447	ENSG00000127948	POR	Nuclear/nucleoplasmic	Nucleoplasm
+5447	ENSG00000127948	POR	Vesicular/endolysosomal	Vesicles
+54472	ENSG00000078902	TOLLIP	Cytosolic	Cytosol
+54497	ENSG00000008869	HEATR5B	Cytosolic	Cytosol
+54497	ENSG00000008869	HEATR5B	ER/Golgi	Golgi apparatus
+54497	ENSG00000008869	HEATR5B	Nuclear/nucleoplasmic	Nucleoplasm
+54497	ENSG00000008869	HEATR5B	Vesicular/endolysosomal	Vesicles
+54502	ENSG00000163694	RBM47	Cytosolic	Cytosol
+54502	ENSG00000163694	RBM47	Nuclear/nucleoplasmic	Nucleoplasm
+54505	ENSG00000067248	DHX29	Cytosolic	Cytosol
+54606	ENSG00000136271	DDX56	Nuclear/nucleoplasmic	Mitotic chromosome
+54606	ENSG00000136271	DDX56	Nucleolus	Nucleoli
+54623	ENSG00000006712	PAF1	Nuclear/nucleoplasmic	Nucleoplasm
+54623	ENSG00000006712	PAF1	Nucleolus	Nucleoli fibrillar center
+5464	ENSG00000180817	PPA1	Vesicular/endolysosomal	Vesicles
+54726	ENSG00000164164	OTUD4	Cytosolic	Cytosol
+5479	ENSG00000166794	PPIB	ER/Golgi	Endoplasmic reticulum
+5479	ENSG00000166794	PPIB	Nuclear/nucleoplasmic	Nucleoplasm
+54790	ENSG00000168769	TET2	Nuclear/nucleoplasmic	Nucleoplasm
+54814	ENSG00000011478	QPCTL	ER/Golgi	Golgi apparatus
+54815	ENSG00000167491	GATAD2A	Nuclear/nucleoplasmic	Nucleoplasm
+54843	ENSG00000137501	SYTL2	ER/Golgi	Golgi apparatus
+54843	ENSG00000137501	SYTL2	Plasma membrane/junctional	Plasma membrane
+54884	ENSG00000042445	RETSAT	Cytosolic	Cytosol
+54890	ENSG00000091542	ALKBH5	Nuclear/nucleoplasmic	Nucleoplasm
+54927	ENSG00000106554	CHCHD3	Mitochondrial	Mitochondria
+54931	ENSG00000174173	TRMT10C	Mitochondrial	Mitochondria
+5494	ENSG00000100614	PPM1A	Cytosolic	Cytosol
+5494	ENSG00000100614	PPM1A	Plasma membrane/junctional	Plasma membrane
+5495	ENSG00000138032	PPM1B	Cytosolic	Cytosol
+54953	ENSG00000157181	ODR4	Nuclear/nucleoplasmic	Nucleoplasm
+54953	ENSG00000157181	ODR4	Plasma membrane/junctional	Plasma membrane
+5496	ENSG00000115241	PPM1G	Nuclear/nucleoplasmic	Nucleoplasm
+54978	ENSG00000213699	SLC35F6	Cytosolic	Cytosol
+54978	ENSG00000213699	SLC35F6	Nuclear/nucleoplasmic	Nucleoplasm
+54978	ENSG00000213699	SLC35F6	Vesicular/endolysosomal	Vesicles
+5500	ENSG00000213639	PPP1CB	Cytosolic	Cytosol
+5500	ENSG00000213639	PPP1CB	Nuclear/nucleoplasmic	Nucleoplasm
+55003	ENSG00000111845	PAK1IP1	Nucleolus	Nucleoli
+5504	ENSG00000184203	PPP1R2	Cytosolic	Cytosol
+5504	ENSG00000184203	PPP1R2	Nuclear/nucleoplasmic	Nucleoplasm
+55074	ENSG00000164830	OXR1	Vesicular/endolysosomal	Vesicles
+55090	ENSG00000141026	MED9	Cytoskeletal	Midbody
+55090	ENSG00000141026	MED9	Nuclear/nucleoplasmic	Nucleoplasm
+55131	ENSG00000106344	RBM28	Nucleolus	Nucleoli
+55148	ENSG00000012963	UBR7	Nuclear/nucleoplasmic	Nucleoplasm
+55177	ENSG00000137824	RMDN3	Cytoskeletal	Cytokinetic bridge
+55177	ENSG00000137824	RMDN3	Mitochondrial	Mitochondria
+55178	ENSG00000171861	MRM3	Mitochondrial	Mitochondria
+5518	ENSG00000105568	PPP2R1A	Cytosolic	Cytosol
+55183	ENSG00000080345	RIF1	Nuclear/nucleoplasmic	Nuclear membrane;Nucleoplasm
+55193	ENSG00000163939	PBRM1	Nuclear/nucleoplasmic	Nucleoplasm
+55234	ENSG00000122692	SMU1	Vesicular/endolysosomal	Vesicles
+55236	ENSG00000033178	UBA6	Cytosolic	Cytosol
+55236	ENSG00000033178	UBA6	Nuclear/nucleoplasmic	Nucleoplasm
+5524	ENSG00000119383	PTPA	Cytosolic	Cytosol
+5524	ENSG00000119383	PTPA	Nuclear/nucleoplasmic	Nucleoplasm
+55257	ENSG00000101189	MRGBP	Nuclear/nucleoplasmic	Nucleoplasm
+55269	ENSG00000121390	PSPC1	Nuclear/nucleoplasmic	Nucleoplasm
+55269	ENSG00000121390	PSPC1	Nucleolus	Nucleoli fibrillar center
+55274	ENSG00000130024	PHF10	Nuclear/nucleoplasmic	Nucleoplasm
+55276	ENSG00000169299	PGM2	Cytoskeletal	Intermediate filaments
+55276	ENSG00000169299	PGM2	Cytosolic	Cytosol
+5528	ENSG00000112640	PPP2R5D	Cytosolic	Cytosol
+5528	ENSG00000112640	PPP2R5D	Nuclear/nucleoplasmic	Nucleoplasm
+5531	ENSG00000149923	PPP4C	Cytosolic	Cytosol
+5531	ENSG00000149923	PPP4C	Nuclear/nucleoplasmic	Nucleoplasm
+553115	ENSG00000162517	PEF1	Cytosolic	Cytosol
+553115	ENSG00000162517	PEF1	Nuclear/nucleoplasmic	Nucleoplasm
+553115	ENSG00000162517	PEF1	Vesicular/endolysosomal	Vesicles
+55320	ENSG00000129534	MIS18BP1	Nucleolus	Nucleoli
+55339	ENSG00000136709	WDR33	Nuclear/nucleoplasmic	Nucleoplasm
+55339	ENSG00000136709	WDR33	Nucleolus	Nucleoli fibrillar center
+55352	ENSG00000172301	COPRS	Nuclear/nucleoplasmic	Nucleoplasm
+5536	ENSG00000011485	PPP5C	Cytosolic	Cytosol
+5536	ENSG00000011485	PPP5C	Vesicular/endolysosomal	Vesicles
+55379	ENSG00000108829	LRRC59	ER/Golgi	Endoplasmic reticulum
+55572	ENSG00000110074	FOXRED1	Mitochondrial	Mitochondria
+55577	ENSG00000124357	NAGK	Cytosolic	Cytosol
+55577	ENSG00000124357	NAGK	Nuclear/nucleoplasmic	Nucleoplasm
+55602	ENSG00000168564	CDKN2AIP	Nuclear/nucleoplasmic	Nucleoplasm
+55611	ENSG00000167770	OTUB1	Cytosolic	Cytoplasmic bodies;Cytosol
+55623	ENSG00000066654	THUMPD1	Cytosolic	Cytosol
+55677	ENSG00000163166	IWS1	Nuclear/nucleoplasmic	Nucleoplasm
+55696	ENSG00000086589	RBM22	Nuclear/nucleoplasmic	Nucleoplasm
+55697	ENSG00000103043	VAC14	Cytosolic	Cytosol
+55697	ENSG00000103043	VAC14	Vesicular/endolysosomal	Vesicles
+55701	ENSG00000165801	ARHGEF40	Cytosolic	Cytosol
+55701	ENSG00000165801	ARHGEF40	Plasma membrane/junctional	Plasma membrane
+55704	ENSG00000115355	CCDC88A	Cytoskeletal	Basal body;Centrosome
+55704	ENSG00000115355	CCDC88A	Plasma membrane/junctional	Plasma membrane
+55705	ENSG00000198700	IPO9	Cytosolic	Cytosol
+55705	ENSG00000198700	IPO9	Nuclear/nucleoplasmic	Nucleoplasm
+55717	ENSG00000120008	WDR11	Cytoskeletal	Microtubules;Primary cilium
+55717	ENSG00000120008	WDR11	Cytosolic	Cytosol
+55717	ENSG00000120008	WDR11	Vesicular/endolysosomal	Vesicles
+5573	ENSG00000108946	PRKAR1A	Cytosolic	Cytosol
+55740	ENSG00000154380	ENAH	Cytoskeletal	Focal adhesion sites
+55740	ENSG00000154380	ENAH	Cytosolic	Cytosol
+55740	ENSG00000154380	ENAH	Plasma membrane/junctional	Plasma membrane
+55746	ENSG00000069248	NUP133	Nuclear/nucleoplasmic	Nuclear membrane
+55748	ENSG00000133313	CNDP2	Cytosolic	Cytosol
+55748	ENSG00000133313	CNDP2	Nuclear/nucleoplasmic	Nucleoplasm
+55751	ENSG00000164168	TMEM184C	Nuclear/nucleoplasmic	Nucleoplasm
+55751	ENSG00000164168	TMEM184C	Vesicular/endolysosomal	Vesicles
+5576	ENSG00000114302	PRKAR2A	Cytosolic	Cytosol
+5576	ENSG00000114302	PRKAR2A	Vesicular/endolysosomal	Vesicles
+55763	ENSG00000090989	EXOC1	Cytoskeletal	Microtubules
+55763	ENSG00000090989	EXOC1	Cytosolic	Cytosol
+55794	ENSG00000182810	DDX28	Mitochondrial	Mitochondria
+55794	ENSG00000182810	DDX28	Nucleolus	Nucleoli
+55795	ENSG00000126226	PCID2	Nuclear/nucleoplasmic	Nucleoplasm
+55832	ENSG00000111530	CAND1	Cytosolic	Cytosol
+55832	ENSG00000111530	CAND1	ER/Golgi	Golgi apparatus
+55832	ENSG00000111530	CAND1	Nuclear/nucleoplasmic	Nucleoplasm
+55845	ENSG00000254999	BRK1	Nuclear/nucleoplasmic	Nuclear speckles
+55845	ENSG00000254999	BRK1	Plasma membrane/junctional	Cell Junctions
+55847	ENSG00000122873	CISD1	Mitochondrial	Mitochondria
+5585	ENSG00000123143	PKN1	Cytoskeletal	Cytokinetic bridge
+5585	ENSG00000123143	PKN1	Plasma membrane/junctional	Plasma membrane
+55852	ENSG00000136478	TEX2	Nuclear/nucleoplasmic	Nucleoplasm
+55856	ENSG00000112304	ACOT13	Plasma membrane/junctional	Cell Junctions
+5589	ENSG00000130175	PRKCSH	ER/Golgi	Endoplasmic reticulum
+55898	ENSG00000140553	UNC45A	Cytosolic	Cytosol
+55898	ENSG00000140553	UNC45A	Nuclear/nucleoplasmic	Nuclear speckles
+55907	ENSG00000111726	CMAS	Nucleolus	Nucleoli
+5591	ENSG00000253729	PRKDC	Nuclear/nucleoplasmic	Nucleoplasm
+55929	ENSG00000178028	DMAP1	Cytosolic	Cytosol
+55929	ENSG00000178028	DMAP1	Nuclear/nucleoplasmic	Nucleoplasm
+55930	ENSG00000128833	MYO5C	Cytosolic	Cytosol
+55930	ENSG00000128833	MYO5C	Nuclear/nucleoplasmic	Nucleoplasm
+5594	ENSG00000100030	MAPK1	Cytoskeletal	Basal body;Microtubules;Primary cilium;Primary cilium tip
+5594	ENSG00000100030	MAPK1	Cytosolic	Cytosol
+5594	ENSG00000100030	MAPK1	Nuclear/nucleoplasmic	Nucleoplasm
+5595	ENSG00000102882	MAPK3	Nuclear/nucleoplasmic	Nucleoplasm
+55970	ENSG00000172380	GNG12	Mitochondrial	Mitochondria
+55971	ENSG00000006453	BAIAP2L1	Cytosolic	Cytosol
+55971	ENSG00000006453	BAIAP2L1	Plasma membrane/junctional	Plasma membrane
+5604	ENSG00000169032	MAP2K1	Cytoskeletal	Basal body
+5604	ENSG00000169032	MAP2K1	Cytosolic	Cytosol
+5604	ENSG00000169032	MAP2K1	Plasma membrane/junctional	Plasma membrane
+56255	ENSG00000125827	TMX4	Nuclear/nucleoplasmic	Nuclear membrane
+56257	ENSG00000146834	MEPCE	Nuclear/nucleoplasmic	Nucleoplasm
+56257	ENSG00000146834	MEPCE	Plasma membrane/junctional	Cell Junctions
+563	ENSG00000160862	AZGP1	Vesicular/endolysosomal	Vesicles
+5631	ENSG00000147224	PRPS1	Vesicular/endolysosomal	Vesicles
+5634	ENSG00000101911	PRPS2	Cytoskeletal	Basal body
+5634	ENSG00000101911	PRPS2	Nuclear/nucleoplasmic	Nuclear speckles
+5634	ENSG00000101911	PRPS2	Vesicular/endolysosomal	Vesicles
+5635	ENSG00000161542	PRPSAP1	Cytosolic	Cytosol
+5636	ENSG00000141127	PRPSAP2	Cytosolic	Cytosol
+5636	ENSG00000141127	PRPSAP2	Nuclear/nucleoplasmic	Nucleoplasm
+5646	ENSG00000010438	PRSS3	ER/Golgi	Endoplasmic reticulum
+5646	ENSG00000010438	PRSS3	Vesicular/endolysosomal	Vesicles
+56616	ENSG00000184047	DIABLO	Mitochondrial	Mitochondria
+56655	ENSG00000115350	POLE4	Cytosolic	Cytosol
+56655	ENSG00000115350	POLE4	Nuclear/nucleoplasmic	Nucleoplasm
+56681	ENSG00000079332	SAR1A	ER/Golgi	Endoplasmic reticulum
+5682	ENSG00000129084	PSMA1	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+56829	ENSG00000105939	ZC3HAV1	Cytosolic	Cytosol
+56829	ENSG00000105939	ZC3HAV1	ER/Golgi	Golgi apparatus
+5685	ENSG00000041357	PSMA4	Cytosolic	Cytosol
+5685	ENSG00000041357	PSMA4	Nuclear/nucleoplasmic	Nucleoplasm
+5685	ENSG00000041357	PSMA4	Vesicular/endolysosomal	Vesicles
+56850	ENSG00000068400	GRIPAP1	Cytosolic	Cytosol
+56850	ENSG00000068400	GRIPAP1	Vesicular/endolysosomal	Vesicles
+5687	ENSG00000100902	PSMA6	Cytoskeletal	Primary cilium;Primary cilium tip
+5687	ENSG00000100902	PSMA6	Cytosolic	Cytosol
+5687	ENSG00000100902	PSMA6	Nuclear/nucleoplasmic	Nucleoplasm
+56893	ENSG00000160803	UBQLN4	Nuclear/nucleoplasmic	Nucleoplasm
+5690	ENSG00000126067	PSMB2	Nuclear/nucleoplasmic	Nucleoplasm
+5694	ENSG00000142507	PSMB6	Cytosolic	Cytosol
+5694	ENSG00000142507	PSMB6	Mitochondrial	Mitochondria
+5694	ENSG00000142507	PSMB6	Nuclear/nucleoplasmic	Nucleoplasm
+56945	ENSG00000175110	MRPS22	Mitochondrial	Mitochondria
+56949	ENSG00000076924	XAB2	Nuclear/nucleoplasmic	Nucleoplasm
+56949	ENSG00000076924	XAB2	Vesicular/endolysosomal	Vesicles
+5695	ENSG00000136930	PSMB7	Cytosolic	Cytosol
+5695	ENSG00000136930	PSMB7	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+56954	ENSG00000114021	NIT2	Cytoskeletal	Centrosome
+56954	ENSG00000114021	NIT2	Cytosolic	Cytosol
+56987	ENSG00000114439	BBX	Cytosolic	Cytosol
+56987	ENSG00000114439	BBX	Nuclear/nucleoplasmic	Nucleoplasm
+56993	ENSG00000100216	TOMM22	Mitochondrial	Mitochondria
+56994	ENSG00000111666	CHPT1	Vesicular/endolysosomal	Vesicles
+5700	ENSG00000100764	PSMC1	Cytosolic	Cytosol
+5700	ENSG00000100764	PSMC1	Nuclear/nucleoplasmic	Nucleoplasm
+57003	ENSG00000108588	CCDC47	ER/Golgi	Endoplasmic reticulum
+5701	ENSG00000161057	PSMC2	Cytosolic	Cytoplasmic bodies;Cytosol
+57019	ENSG00000005194	CIAPIN1	Mitochondrial	Mitochondria
+57019	ENSG00000005194	CIAPIN1	Nuclear/nucleoplasmic	Nucleoplasm
+5702	ENSG00000165916	PSMC3	Cytosolic	Cytosol
+5702	ENSG00000165916	PSMC3	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+5705	ENSG00000087191	PSMC5	Cytosolic	Cytosol
+5705	ENSG00000087191	PSMC5	Plasma membrane/junctional	Plasma membrane
+5706	ENSG00000100519	PSMC6	Cytosolic	Cytosol
+5706	ENSG00000100519	PSMC6	Nuclear/nucleoplasmic	Nucleoplasm
+5706	ENSG00000100519	PSMC6	Plasma membrane/junctional	Plasma membrane
+57062	ENSG00000089737	DDX24	Cytosolic	Cytosol
+57062	ENSG00000089737	DDX24	Nucleolus	Nucleoli
+5707	ENSG00000173692	PSMD1	Cytoskeletal	Actin filaments
+5707	ENSG00000173692	PSMD1	Nuclear/nucleoplasmic	Nucleoplasm
+5708	ENSG00000175166	PSMD2	Cytoskeletal	Centriolar satellite;Cytokinetic bridge
+5708	ENSG00000175166	PSMD2	Cytosolic	Cytosol
+5708	ENSG00000175166	PSMD2	Nuclear/nucleoplasmic	Nucleoplasm
+5709	ENSG00000108344	PSMD3	Cytosolic	Cytosol
+5709	ENSG00000108344	PSMD3	Nuclear/nucleoplasmic	Nucleoplasm
+57092	ENSG00000081154	PCNP	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+5710	ENSG00000159352	PSMD4	Cytosolic	Cytosol
+5710	ENSG00000159352	PSMD4	Nuclear/nucleoplasmic	Nucleoplasm
+57129	ENSG00000136522	MRPL47	Mitochondrial	Mitochondria
+57136	ENSG00000101474	APMAP	Plasma membrane/junctional	Plasma membrane
+5714	ENSG00000099341	PSMD8	Cytosolic	Cytosol
+5714	ENSG00000099341	PSMD8	Nuclear/nucleoplasmic	Nuclear speckles
+5716	ENSG00000101843	PSMD10	Cytosolic	Cytosol
+5717	ENSG00000108671	PSMD11	ER/Golgi	Golgi apparatus
+5717	ENSG00000108671	PSMD11	Nuclear/nucleoplasmic	Nucleoplasm
+5718	ENSG00000197170	PSMD12	Cytoskeletal	Microtubules
+5718	ENSG00000197170	PSMD12	Cytosolic	Cytosol
+5718	ENSG00000197170	PSMD12	Nuclear/nucleoplasmic	Nucleoplasm
+5720	ENSG00000092010	PSME1	Cytosolic	Cytosol
+5720	ENSG00000092010	PSME1	Nuclear/nucleoplasmic	Nuclear bodies
+5721	ENSG00000100911	PSME2	Nuclear/nucleoplasmic	Nucleoplasm
+5725	ENSG00000011304	PTBP1	Nuclear/nucleoplasmic	Nucleoplasm
+57402	ENSG00000189334	S100A14	Cytosolic	Cytosol
+57402	ENSG00000189334	S100A14	Nuclear/nucleoplasmic	Nuclear bodies
+57402	ENSG00000189334	S100A14	Plasma membrane/junctional	Cell Junctions;Plasma membrane
+57410	ENSG00000142186	SCYL1	Cytosolic	Cytosol
+57459	ENSG00000143614	GATAD2B	Nuclear/nucleoplasmic	Nucleoplasm
+57466	ENSG00000156304	SCAF4	Nuclear/nucleoplasmic	Nucleoplasm
+57505	ENSG00000124608	AARS2	Mitochondrial	Mitochondria
+57510	ENSG00000124571	XPO5	Cytosolic	Cytosol
+57510	ENSG00000124571	XPO5	Nuclear/nucleoplasmic	Nucleoplasm
+57532	ENSG00000108256	NUFIP2	Cytosolic	Cytosol
+57532	ENSG00000108256	NUFIP2	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+5756	ENSG00000151239	TWF1	Cytosolic	Cytosol
+5757	ENSG00000187514	PTMA	Cytosolic	Cytosol
+5757	ENSG00000187514	PTMA	Nuclear/nucleoplasmic	Nucleoplasm
+57584	ENSG00000107863	ARHGAP21	Cytoskeletal	Actin filaments
+57584	ENSG00000107863	ARHGAP21	Plasma membrane/junctional	Cell Junctions
+57606	ENSG00000109171	SLAIN2	Cytoskeletal	Basal body;Centrosome;Primary cilium tip
+57606	ENSG00000109171	SLAIN2	Cytosolic	Cytosol
+5763	ENSG00000159335	PTMS	Nuclear/nucleoplasmic	Nucleoplasm
+5763	ENSG00000159335	PTMS	Nucleolus	Nucleoli;Nucleoli rim
+57670	ENSG00000122778	KIAA1549	Cytoskeletal	Intermediate filaments
+57670	ENSG00000122778	KIAA1549	Nuclear/nucleoplasmic	Nuclear membrane
+57683	ENSG00000204186	ZDBF2	Cytosolic	Cytosol
+57683	ENSG00000204186	ZDBF2	Nuclear/nucleoplasmic	Nucleoplasm
+5770	ENSG00000196396	PTPN1	ER/Golgi	Endoplasmic reticulum
+57700	ENSG00000151553	FHIP2A	Cytosolic	Cytosol
+57700	ENSG00000151553	FHIP2A	Nuclear/nucleoplasmic	Nuclear speckles
+57707	ENSG00000140950	MEAK7	Cytosolic	Cytosol
+57805	ENSG00000158941	CCAR2	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+5805	ENSG00000150787	PTS	Cytosolic	Cytosol
+581	ENSG00000087088	BAX	Plasma membrane/junctional	Plasma membrane
+581	ENSG00000087088	BAX	Vesicular/endolysosomal	Vesicles
+5814	ENSG00000146676	PURB	Nuclear/nucleoplasmic	Nucleoplasm
+5825	ENSG00000117528	ABCD3	Vesicular/endolysosomal	Peroxisomes
+5832	ENSG00000059573	ALDH18A1	Mitochondrial	Mitochondria
+5834	ENSG00000100994	PYGB	Cytosolic	Cytosol
+58490	ENSG00000101413	RPRD1B	Nuclear/nucleoplasmic	Nucleoplasm
+58493	ENSG00000148153	INIP	Nuclear/nucleoplasmic	Nucleoplasm
+58513	ENSG00000127527	EPS15L1	Vesicular/endolysosomal	Vesicles
+58533	ENSG00000129515	SNX6	Vesicular/endolysosomal	Endosomes;Lysosomes
+5859	ENSG00000172053	QARS1	Cytosolic	Cytosol
+5860	ENSG00000151552	QDPR	Mitochondrial	Mitochondria
+5861	ENSG00000138069	RAB1A	Cytosolic	Cytosol
+5861	ENSG00000138069	RAB1A	ER/Golgi	Endoplasmic reticulum
+5865	ENSG00000169213	RAB3B	Plasma membrane/junctional	Cell Junctions
+5870	ENSG00000175582	RAB6A	ER/Golgi	Golgi apparatus
+5878	ENSG00000108774	RAB5C	Vesicular/endolysosomal	Endosomes
+5886	ENSG00000179262	RAD23A	Nuclear/nucleoplasmic	Nucleoplasm
+5887	ENSG00000119318	RAD23B	Cytosolic	Cytosol
+5887	ENSG00000119318	RAD23B	Nuclear/nucleoplasmic	Nucleoplasm
+5901	ENSG00000132341	RAN	Nuclear/nucleoplasmic	Nucleoplasm
+5903	ENSG00000153201	RANBP2	Nuclear/nucleoplasmic	Nuclear membrane;Nucleoplasm
+5928	ENSG00000162521	RBBP4	Nuclear/nucleoplasmic	Nucleoplasm
+5929	ENSG00000117222	RBBP5	Nuclear/nucleoplasmic	Nucleoplasm
+5929	ENSG00000117222	RBBP5	Nucleolus	Nucleoli
+59344	ENSG00000179148	ALOXE3	Cytosolic	Cytosol
+59344	ENSG00000179148	ALOXE3	Plasma membrane/junctional	Plasma membrane
+5935	ENSG00000102317	RBM3	Nuclear/nucleoplasmic	Nucleoplasm
+5962	ENSG00000137710	RDX	Plasma membrane/junctional	Plasma membrane
+5965	ENSG00000004700	RECQL	Nuclear/nucleoplasmic	Nucleoplasm
+5970	ENSG00000173039	RELA	Cytosolic	Cytosol
+5976	ENSG00000005007	UPF1	Cytosolic	Cytosol
+5976	ENSG00000005007	UPF1	Nuclear/nucleoplasmic	Nucleoplasm
+5978	ENSG00000084093	REST	Cytosolic	Cytosol
+5978	ENSG00000084093	REST	Nuclear/nucleoplasmic	Nucleoplasm
+5981	ENSG00000035928	RFC1	Nuclear/nucleoplasmic	Nucleoplasm
+5982	ENSG00000049541	RFC2	ER/Golgi	Golgi apparatus
+5982	ENSG00000049541	RFC2	Nuclear/nucleoplasmic	Nucleoplasm
+5983	ENSG00000133119	RFC3	Nuclear/nucleoplasmic	Nucleoplasm
+5983	ENSG00000133119	RFC3	Vesicular/endolysosomal	Vesicles
+5984	ENSG00000163918	RFC4	Nuclear/nucleoplasmic	Nucleoplasm
+5985	ENSG00000111445	RFC5	Nuclear/nucleoplasmic	Nucleoplasm
+6045	ENSG00000121481	RNF2	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+6048	ENSG00000204308	RNF5	ER/Golgi	Endoplasmic reticulum
+60488	ENSG00000061794	MRPS35	Mitochondrial	Mitochondria
+6050	ENSG00000023191	RNH1	Cytosolic	Cytosol
+6050	ENSG00000023191	RNH1	Nuclear/nucleoplasmic	Nucleoplasm
+60625	ENSG00000101452	DHX35	Cytoskeletal	Centrosome
+60625	ENSG00000101452	DHX35	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+6117	ENSG00000132383	RPA1	Nuclear/nucleoplasmic	Nucleoplasm
+6118	ENSG00000117748	RPA2	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+6122	ENSG00000100316	RPL3	Cytosolic	Cytosol
+6122	ENSG00000100316	RPL3	Nucleolus	Nucleoli
+6124	ENSG00000174444	RPL4	Cytosolic	Cytosol
+6124	ENSG00000174444	RPL4	ER/Golgi	Endoplasmic reticulum
+6125	ENSG00000122406	RPL5	Cytosolic	Cytosol
+6125	ENSG00000122406	RPL5	ER/Golgi	Endoplasmic reticulum
+6125	ENSG00000122406	RPL5	Nucleolus	Nucleoli;Nucleoli rim
+6130	ENSG00000148303	RPL7A	Nucleolus	Nucleoli
+6130	ENSG00000148303	RPL7A	Vesicular/endolysosomal	Vesicles
+6137	ENSG00000167526	RPL13	Cytosolic	Cytosol
+6137	ENSG00000167526	RPL13	ER/Golgi	Endoplasmic reticulum
+6137	ENSG00000167526	RPL13	Nucleolus	Nucleoli
+6142	ENSG00000105640	RPL18A	Cytosolic	Cytosol
+6142	ENSG00000105640	RPL18A	Nucleolus	Nucleoli
+6143	ENSG00000108298	RPL19	Cytosolic	Cytosol
+6143	ENSG00000108298	RPL19	Nucleolus	Nucleoli
+6147	ENSG00000198242	RPL23A	Cytosolic	Cytosol
+6147	ENSG00000198242	RPL23A	ER/Golgi	Endoplasmic reticulum
+6147	ENSG00000198242	RPL23A	Nucleolus	Nucleoli fibrillar center
+6154	ENSG00000161970	RPL26	Cytosolic	Cytosol
+6154	ENSG00000161970	RPL26	ER/Golgi	Endoplasmic reticulum
+6154	ENSG00000161970	RPL26	Nucleolus	Nucleoli
+6156	ENSG00000156482	RPL30	Cytosolic	Cytosol
+6156	ENSG00000156482	RPL30	ER/Golgi	Endoplasmic reticulum
+6157	ENSG00000166441	RPL27A	Cytosolic	Cytosol
+6157	ENSG00000166441	RPL27A	ER/Golgi	Endoplasmic reticulum
+6158	ENSG00000108107	RPL28	Cytosolic	Cytosol
+6158	ENSG00000108107	RPL28	ER/Golgi	Endoplasmic reticulum
+6159	ENSG00000162244	RPL29	Cytosolic	Cytosol
+6159	ENSG00000162244	RPL29	ER/Golgi	Endoplasmic reticulum
+6159	ENSG00000162244	RPL29	Nucleolus	Nucleoli
+6166	ENSG00000165502	RPL36AL	Cytosolic	Cytosol
+6166	ENSG00000165502	RPL36AL	ER/Golgi	Endoplasmic reticulum
+6166	ENSG00000165502	RPL36AL	Plasma membrane/junctional	Plasma membrane
+6168	ENSG00000197756	RPL37A	Cytosolic	Cytosol
+6168	ENSG00000197756	RPL37A	ER/Golgi	Endoplasmic reticulum
+6169	ENSG00000172809	RPL38	Cytosolic	Cytosol
+6169	ENSG00000172809	RPL38	ER/Golgi	Endoplasmic reticulum
+6173	ENSG00000241343	RPL36A	Cytosolic	Cytosol
+6173	ENSG00000241343	RPL36A	ER/Golgi	Endoplasmic reticulum
+6175	ENSG00000089157	RPLP0	Cytosolic	Cytosol
+6175	ENSG00000089157	RPLP0	ER/Golgi	Endoplasmic reticulum
+6181	ENSG00000177600	RPLP2	Cytoskeletal	Mitotic spindle
+6181	ENSG00000177600	RPLP2	Cytosolic	Cytosol
+6181	ENSG00000177600	RPLP2	Nuclear/nucleoplasmic	Nuclear speckles
+6182	ENSG00000262814	MRPL12	Mitochondrial	Mitochondria
+6184	ENSG00000163902	RPN1	Cytosolic	Cytosol
+6184	ENSG00000163902	RPN1	ER/Golgi	Endoplasmic reticulum
+6185	ENSG00000118705	RPN2	ER/Golgi	Endoplasmic reticulum
+6188	ENSG00000149273	RPS3	Cytosolic	Cytosol
+6188	ENSG00000149273	RPS3	ER/Golgi	Endoplasmic reticulum
+6189	ENSG00000145425	RPS3A	Cytosolic	Cytosol
+6189	ENSG00000145425	RPS3A	ER/Golgi	Endoplasmic reticulum
+6189	ENSG00000145425	RPS3A	Nucleolus	Nucleoli
+6193	ENSG00000083845	RPS5	Cytosolic	Cytosol
+6193	ENSG00000083845	RPS5	ER/Golgi	Endoplasmic reticulum
+6194	ENSG00000137154	RPS6	Cytosolic	Cytosol
+6194	ENSG00000137154	RPS6	ER/Golgi	Endoplasmic reticulum
+6201	ENSG00000171863	RPS7	Cytosolic	Cytosol
+6201	ENSG00000171863	RPS7	ER/Golgi	Endoplasmic reticulum
+6202	ENSG00000142937	RPS8	Cytosolic	Cytosol
+6202	ENSG00000142937	RPS8	ER/Golgi	Endoplasmic reticulum
+6204	ENSG00000124614	RPS10	Cytosolic	Cytosol
+6205	ENSG00000142534	RPS11	Cytosolic	Cytosol
+6205	ENSG00000142534	RPS11	ER/Golgi	Endoplasmic reticulum
+6205	ENSG00000142534	RPS11	Nucleolus	Nucleoli
+6206	ENSG00000112306	RPS12	Cytosolic	Cytosol
+6206	ENSG00000112306	RPS12	ER/Golgi	Golgi apparatus
+6206	ENSG00000112306	RPS12	Vesicular/endolysosomal	Vesicles
+6207	ENSG00000110700	RPS13	ER/Golgi	Endoplasmic reticulum
+6208	ENSG00000164587	RPS14	Cytosolic	Cytosol
+6208	ENSG00000164587	RPS14	ER/Golgi	Endoplasmic reticulum
+6217	ENSG00000105193	RPS16	Cytosolic	Cytosol
+6217	ENSG00000105193	RPS16	ER/Golgi	Endoplasmic reticulum
+6222	ENSG00000231500	RPS18	Cytosolic	Cytosol
+6223	ENSG00000105372	RPS19	Nuclear/nucleoplasmic	Nucleoplasm
+6227	ENSG00000171858	RPS21	Cytosolic	Cytosol
+6227	ENSG00000171858	RPS21	ER/Golgi	Endoplasmic reticulum
+6229	ENSG00000138326	RPS24	Cytosolic	Cytosol
+6229	ENSG00000138326	RPS24	ER/Golgi	Endoplasmic reticulum
+6230	ENSG00000118181	RPS25	Cytosolic	Cytosol
+6230	ENSG00000118181	RPS25	ER/Golgi	Endoplasmic reticulum
+6234	ENSG00000233927	RPS28	Cytosolic	Cytosol
+6238	ENSG00000125844	RRBP1	ER/Golgi	Endoplasmic reticulum
+6240	ENSG00000167325	RRM1	Cytosolic	Cytosol
+6249	ENSG00000130779	CLIP1	Cytoskeletal	Microtubule ends
+6249	ENSG00000130779	CLIP1	Cytosolic	Cytosol
+6251	ENSG00000148484	RSU1	Vesicular/endolysosomal	Vesicles
+6252	ENSG00000139970	RTN1	ER/Golgi	Endoplasmic reticulum
+6261	ENSG00000196218	RYR1	Cytosolic	Cytosol
+6261	ENSG00000196218	RYR1	ER/Golgi	Golgi apparatus
+6261	ENSG00000196218	RYR1	Vesicular/endolysosomal	Vesicles
+6277	ENSG00000197956	S100A6	Cytosolic	Cytosol
+6277	ENSG00000197956	S100A6	Plasma membrane/junctional	Plasma membrane
+6278	ENSG00000143556	S100A7	Cytosolic	Cytosol
+6280	ENSG00000163220	S100A9	Cytoskeletal	Intermediate filaments
+6280	ENSG00000163220	S100A9	Cytosolic	Cytosol
+6280	ENSG00000163220	S100A9	Plasma membrane/junctional	Plasma membrane
+6282	ENSG00000163191	S100A11	Cytosolic	Cytosol
+6282	ENSG00000163191	S100A11	Nuclear/nucleoplasmic	Nuclear speckles;Nucleoplasm
+6294	ENSG00000160633	SAFB	Cytoskeletal	Midbody
+6294	ENSG00000160633	SAFB	Nuclear/nucleoplasmic	Nucleoplasm
+6311	ENSG00000204842	ATXN2	Cytosolic	Cytosol
+6318	ENSG00000206073	SERPINB4	Cytosolic	Cytosol
+6389	ENSG00000073578	SDHA	Mitochondrial	Mitochondria
+63905	ENSG00000101363	MANBAL	Mitochondrial	Mitochondria
+63905	ENSG00000101363	MANBAL	Nuclear/nucleoplasmic	Nucleoplasm
+6396	ENSG00000157020	SEC13	Nuclear/nucleoplasmic	Nucleoplasm
+6396	ENSG00000157020	SEC13	Vesicular/endolysosomal	Vesicles
+64087	ENSG00000131844	MCCC2	Mitochondrial	Mitochondria
+64131	ENSG00000103489	XYLT1	ER/Golgi	Endoplasmic reticulum
+64131	ENSG00000103489	XYLT1	Plasma membrane/junctional	Plasma membrane
+64175	ENSG00000117385	P3H1	Nucleolus	Nucleoli
+64175	ENSG00000117385	P3H1	Vesicular/endolysosomal	Vesicles
+6418	ENSG00000119335	SET	Nuclear/nucleoplasmic	Nucleoplasm
+6418	ENSG00000119335	SET	Vesicular/endolysosomal	Lipid droplets
+642	ENSG00000108578	BLMH	Cytosolic	Cytosol
+642	ENSG00000108578	BLMH	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+64207	ENSG00000119669	IRF2BPL	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+6421	ENSG00000116560	SFPQ	Nuclear/nucleoplasmic	Nucleoplasm
+64215	ENSG00000136770	DNAJC1	ER/Golgi	Endoplasmic reticulum
+6426	ENSG00000136450	SRSF1	Cytosolic	Cytosol
+6426	ENSG00000136450	SRSF1	Nuclear/nucleoplasmic	Nucleoplasm
+6427	ENSG00000161547	SRSF2	Cytosolic	Cytosol
+6427	ENSG00000161547	SRSF2	Nuclear/nucleoplasmic	Nucleoplasm
+6428	ENSG00000112081	SRSF3	Nuclear/nucleoplasmic	Nucleoplasm
+6430	ENSG00000100650	SRSF5	Cytosolic	Cytosol
+6430	ENSG00000100650	SRSF5	Nuclear/nucleoplasmic	Nucleoplasm
+6430	ENSG00000100650	SRSF5	Nucleolus	Nucleoli
+6432	ENSG00000115875	SRSF7	Nuclear/nucleoplasmic	Nucleoplasm
+64422	ENSG00000144848	ATG3	Cytosolic	Cytosol
+64422	ENSG00000144848	ATG3	Plasma membrane/junctional	Plasma membrane
+64425	ENSG00000137054	POLR1E	Nuclear/nucleoplasmic	Nucleoplasm
+64425	ENSG00000137054	POLR1E	Nucleolus	Nucleoli fibrillar center
+6449	ENSG00000104969	SGTA	Nuclear/nucleoplasmic	Nucleoplasm
+645	ENSG00000090013	BLVRB	Cytosolic	Cytosol
+645	ENSG00000090013	BLVRB	Nuclear/nucleoplasmic	Nucleoplasm
+645	ENSG00000090013	BLVRB	Plasma membrane/junctional	Plasma membrane
+645	ENSG00000090013	BLVRB	Vesicular/endolysosomal	Vesicles
+64710	ENSG00000069275	NUCKS1	Nuclear/nucleoplasmic	Nucleoplasm
+64710	ENSG00000069275	NUCKS1	Nucleolus	Nucleoli
+6472	ENSG00000182199	SHMT2	Cytoskeletal	Microtubules
+6472	ENSG00000182199	SHMT2	Mitochondrial	Mitochondria
+64746	ENSG00000182827	ACBD3	ER/Golgi	Golgi apparatus
+64759	ENSG00000136205	TNS3	Cytoskeletal	Focal adhesion sites
+64785	ENSG00000181938	GINS3	Nuclear/nucleoplasmic	Nucleoplasm
+64786	ENSG00000121749	TBC1D15	Cytosolic	Cytosol
+64786	ENSG00000121749	TBC1D15	Mitochondrial	Mitochondria
+64949	ENSG00000125901	MRPS26	Mitochondrial	Mitochondria
+64965	ENSG00000135972	MRPS9	Mitochondrial	Mitochondria
+64969	ENSG00000144029	MRPS5	Mitochondrial	Mitochondria
+64979	ENSG00000171421	MRPL36	Mitochondrial	Mitochondria
+64981	ENSG00000130312	MRPL34	Mitochondrial	Mitochondria
+65003	ENSG00000174547	MRPL11	Mitochondrial	Mitochondria
+65005	ENSG00000143436	MRPL9	Mitochondrial	Mitochondria
+65008	ENSG00000169288	MRPL1	Mitochondrial	Mitochondria
+65080	ENSG00000135900	MRPL44	Mitochondrial	Mitochondria
+65108	ENSG00000175130	MARCKSL1	Cytoskeletal	Cytokinetic bridge;Mitotic spindle;Primary cilium
+65108	ENSG00000175130	MARCKSL1	ER/Golgi	Endoplasmic reticulum
+65108	ENSG00000175130	MARCKSL1	Plasma membrane/junctional	Plasma membrane
+65125	ENSG00000060237	WNK1	Cytosolic	Cytosol
+6520	ENSG00000168003	SLC3A2	Plasma membrane/junctional	Plasma membrane
+65260	ENSG00000162377	COA7	Mitochondrial	Mitochondria
+65260	ENSG00000162377	COA7	Nuclear/nucleoplasmic	Nucleoplasm
+65263	ENSG00000104524	PYCR3	Cytosolic	Cytosol
+65264	ENSG00000159202	UBE2Z	Cytosolic	Cytosol
+65264	ENSG00000159202	UBE2Z	Nuclear/nucleoplasmic	Nucleoplasm
+654364	ENSG00000011052	NME1-NME2	Cytosolic	Cytosol
+6597	ENSG00000127616	SMARCA4	Nuclear/nucleoplasmic	Nucleoplasm
+6597	ENSG00000127616	SMARCA4	Nucleolus	Nucleoli fibrillar center;Nucleoli rim
+6598	ENSG00000099956	SMARCB1	Nuclear/nucleoplasmic	Nucleoplasm
+6598	ENSG00000099956	SMARCB1	Nucleolus	Nucleoli fibrillar center
+65981	ENSG00000110888	CAPRIN2	Cytoskeletal	Centrosome
+65981	ENSG00000110888	CAPRIN2	Cytosolic	Cytosol
+65982	ENSG00000121413	ZSCAN18	Cytoskeletal	Basal body;Primary cilium
+65982	ENSG00000121413	ZSCAN18	Cytosolic	Cytosol
+65982	ENSG00000121413	ZSCAN18	Nuclear/nucleoplasmic	Nucleoplasm
+6599	ENSG00000173473	SMARCC1	Nuclear/nucleoplasmic	Nucleoplasm
+65993	ENSG00000074071	MRPS34	Mitochondrial	Mitochondria
+6601	ENSG00000139613	SMARCC2	Nuclear/nucleoplasmic	Nucleoplasm
+6602	ENSG00000066117	SMARCD1	Nuclear/nucleoplasmic	Nucleoplasm
+6602	ENSG00000066117	SMARCD1	Vesicular/endolysosomal	Vesicles
+6603	ENSG00000108604	SMARCD2	Nuclear/nucleoplasmic	Nucleoplasm
+6604	ENSG00000082014	SMARCD3	Nuclear/nucleoplasmic	Nucleoplasm
+6605	ENSG00000073584	SMARCE1	Nuclear/nucleoplasmic	Nucleoplasm
+6606	ENSG00000172062	SMN1	Cytosolic	Cytosol
+6606	ENSG00000172062	SMN1	Nuclear/nucleoplasmic	Nuclear bodies
+6611	ENSG00000102172	SMS	Cytosolic	Cytosol
+6611	ENSG00000102172	SMS	Nuclear/nucleoplasmic	Nuclear bodies
+6624	ENSG00000075618	FSCN1	Cytosolic	Cytosol
+6626	ENSG00000077312	SNRPA	Nuclear/nucleoplasmic	Nucleoplasm
+6627	ENSG00000131876	SNRPA1	Nuclear/nucleoplasmic	Nuclear bodies;Nuclear speckles;Nucleoplasm
+6628	ENSG00000125835	SNRPB	Nuclear/nucleoplasmic	Nucleoplasm
+6629	ENSG00000125870	SNRPB2	Cytosolic	Cytoplasmic bodies
+6629	ENSG00000125870	SNRPB2	Nuclear/nucleoplasmic	Nuclear speckles
+6631	ENSG00000124562	SNRPC	Nuclear/nucleoplasmic	Nucleoplasm
+6633	ENSG00000125743	SNRPD2	Cytosolic	Cytosol
+6634	ENSG00000100028	SNRPD3	Cytosolic	Cytosol
+6634	ENSG00000100028	SNRPD3	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+6643	ENSG00000205302	SNX2	Vesicular/endolysosomal	Endosomes;Lysosomes
+6646	ENSG00000057252	SOAT1	ER/Golgi	Endoplasmic reticulum
+6647	ENSG00000142168	SOD1	Cytosolic	Cytosol
+6647	ENSG00000142168	SOD1	Nuclear/nucleoplasmic	Nucleoplasm
+6651	ENSG00000159140	SON	Nuclear/nucleoplasmic	Nuclear speckles
+6652	ENSG00000140263	SORD	Cytosolic	Cytosol
+6678	ENSG00000113140	SPARC	Vesicular/endolysosomal	Vesicles
+6709	ENSG00000197694	SPTAN1	Cytoskeletal	Microtubules
+6727	ENSG00000140319	SRP14	Nuclear/nucleoplasmic	Nucleoplasm
+6727	ENSG00000140319	SRP14	Nucleolus	Nucleoli
+6728	ENSG00000153037	SRP19	Cytosolic	Cytosol
+6729	ENSG00000100883	SRP54	Cytosolic	Cytosol
+6737	ENSG00000132109	TRIM21	Nuclear/nucleoplasmic	Nucleoplasm
+6738	ENSG00000116747	RO60	Cytosolic	Cytosol
+6741	ENSG00000138385	SSB	Nuclear/nucleoplasmic	Nucleoplasm
+6742	ENSG00000106028	SSBP1	Mitochondrial	Mitochondria
+675	ENSG00000139618	BRCA2	Cytosolic	Cytosol
+675	ENSG00000139618	BRCA2	Nuclear/nucleoplasmic	Nucleoplasm
+6760	ENSG00000141380	SS18	Cytosolic	Cytosol
+6760	ENSG00000141380	SS18	Nuclear/nucleoplasmic	Nucleoplasm
+6772	ENSG00000115415	STAT1	Cytosolic	Cytosol
+6772	ENSG00000115415	STAT1	Nuclear/nucleoplasmic	Nucleoplasm
+6774	ENSG00000168610	STAT3	Cytosolic	Cytosol
+6774	ENSG00000168610	STAT3	Nuclear/nucleoplasmic	Nucleoplasm
+6811	ENSG00000162236	STX5	ER/Golgi	Golgi apparatus
+6811	ENSG00000162236	STX5	Nuclear/nucleoplasmic	Nucleoplasm
+6814	ENSG00000116266	STXBP3	Cytosolic	Cytosol
+6814	ENSG00000116266	STXBP3	Nuclear/nucleoplasmic	Nucleoplasm
+682	ENSG00000172270	BSG	Vesicular/endolysosomal	Vesicles
+6822	ENSG00000105398	SULT2A1	Cytosolic	Cytosol
+6829	ENSG00000196235	SUPT5H	Nuclear/nucleoplasmic	Nucleoplasm
+684	ENSG00000130303	BST2	ER/Golgi	Golgi apparatus
+684	ENSG00000130303	BST2	Vesicular/endolysosomal	Vesicles
+6867	ENSG00000147526	TACC1	Cytosolic	Cytosol
+6874	ENSG00000130699	TAF4	Nuclear/nucleoplasmic	Nucleoplasm
+6876	ENSG00000149591	TAGLN	Cytoskeletal	Microtubules
+6876	ENSG00000149591	TAGLN	Cytosolic	Cytosol
+6876	ENSG00000149591	TAGLN	Mitochondrial	Mitochondria
+6876	ENSG00000149591	TAGLN	Nuclear/nucleoplasmic	Nucleoplasm
+6877	ENSG00000148835	TAF5	Nuclear/nucleoplasmic	Nucleoplasm
+6885	ENSG00000135341	MAP3K7	Cytosolic	Cytosol
+6885	ENSG00000135341	MAP3K7	Plasma membrane/junctional	Plasma membrane
+6888	ENSG00000177156	TALDO1	Cytosolic	Cytosol
+689	ENSG00000145741	BTF3	Cytosolic	Cytosol
+6897	ENSG00000113407	TARS1	Cytoskeletal	Actin filaments
+6897	ENSG00000113407	TARS1	Cytosolic	Cytosol
+6902	ENSG00000171530	TBCA	Cytoskeletal	Microtubules
+6917	ENSG00000187735	TCEA1	Nuclear/nucleoplasmic	Nucleoplasm
+6917	ENSG00000187735	TCEA1	Nucleolus	Nucleoli
+6949	ENSG00000070814	TCOF1	Nucleolus	Nucleoli fibrillar center
+7001	ENSG00000167815	PRDX2	Cytosolic	Cytosol
+7014	ENSG00000132604	TERF2	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+7019	ENSG00000108064	TFAM	Mitochondrial	Mitochondria
+7037	ENSG00000072274	TFRC	Vesicular/endolysosomal	Endosomes;Lysosomes
+7051	ENSG00000092295	TGM1	Plasma membrane/junctional	Plasma membrane
+7051	ENSG00000092295	TGM1	Vesicular/endolysosomal	Vesicles
+7064	ENSG00000172009	THOP1	Cytosolic	Cytosol
+7082	ENSG00000104067	TJP1	Plasma membrane/junctional	Cell Junctions
+7086	ENSG00000163931	TKT	Nuclear/nucleoplasmic	Nuclear bodies;Nuclear speckles;Nucleoplasm
+7094	ENSG00000137076	TLN1	Cytoskeletal	Centriolar satellite;Focal adhesion sites
+7094	ENSG00000137076	TLN1	Cytosolic	Cytosol
+7094	ENSG00000137076	TLN1	Plasma membrane/junctional	Plasma membrane
+7095	ENSG00000008952	SEC62	Cytoskeletal	Intermediate filaments
+7095	ENSG00000008952	SEC62	ER/Golgi	Endoplasmic reticulum
+7110	ENSG00000144747	TMF1	ER/Golgi	Golgi apparatus
+7112	ENSG00000120802	TMPO	Nuclear/nucleoplasmic	Nuclear membrane
+7128	ENSG00000118503	TNFAIP3	Cytoskeletal	Centrosome
+7128	ENSG00000118503	TNFAIP3	Cytosolic	Cytosol
+7162	ENSG00000146242	TPBG	Nuclear/nucleoplasmic	Nucleoplasm
+7167	ENSG00000111669	TPI1	Nuclear/nucleoplasmic	Nucleoplasm
+7170	ENSG00000143549	TPM3	Cytoskeletal	Actin filaments
+7170	ENSG00000143549	TPM3	Cytosolic	Cytosol
+7171	ENSG00000167460	TPM4	Cytoskeletal	Actin filaments
+7171	ENSG00000167460	TPM4	Cytosolic	Cytosol
+7175	ENSG00000047410	TPR	Nuclear/nucleoplasmic	Nuclear membrane
+7184	ENSG00000166598	HSP90B1	ER/Golgi	Endoplasmic reticulum
+7203	ENSG00000163468	CCT3	Cytosolic	Cytosol
+7203	ENSG00000163468	CCT3	Plasma membrane/junctional	Plasma membrane
+7203	ENSG00000163468	CCT3	Vesicular/endolysosomal	Vesicles
+7257	ENSG00000116918	TSNAX	Cytosolic	Cytosol
+7257	ENSG00000116918	TSNAX	ER/Golgi	Golgi apparatus
+7257	ENSG00000116918	TSNAX	Nuclear/nucleoplasmic	Nucleoplasm
+7280	ENSG00000137267	TUBB2A	Cytoskeletal	Basal body;Cytokinetic bridge;Microtubules;Mitotic spindle;Primary cilium;Primary cilium tip
+7284	ENSG00000178952	TUFM	Mitochondrial	Mitochondria
+728689	ENSG00000205609	EIF3CL	Cytosolic	Cytosol
+7295	ENSG00000136810	TXN	Cytosolic	Cytosol
+7295	ENSG00000136810	TXN	Nuclear/nucleoplasmic	Nucleoplasm
+7296	ENSG00000198431	TXNRD1	Nuclear/nucleoplasmic	Nucleoplasm
+7317	ENSG00000130985	UBA1	Cytosolic	Cytosol
+7317	ENSG00000130985	UBA1	Nuclear/nucleoplasmic	Nucleoplasm
+7320	ENSG00000119048	UBE2B	Cytosolic	Cytosol
+7320	ENSG00000119048	UBE2B	Nuclear/nucleoplasmic	Nucleoplasm
+7320	ENSG00000119048	UBE2B	Plasma membrane/junctional	Plasma membrane
+7320	ENSG00000119048	UBE2B	Vesicular/endolysosomal	Vesicles
+7332	ENSG00000185651	UBE2L3	Cytosolic	Cytosol
+7332	ENSG00000185651	UBE2L3	Nuclear/nucleoplasmic	Nucleoplasm
+7335	ENSG00000244687	UBE2V1	Nuclear/nucleoplasmic	Nucleoplasm
+7336	ENSG00000169139	UBE2V2	Nuclear/nucleoplasmic	Nucleoplasm
+7360	ENSG00000169764	UGP2	Cytoskeletal	Centrosome
+7360	ENSG00000169764	UGP2	Mitochondrial	Mitochondria
+7360	ENSG00000169764	UGP2	Nuclear/nucleoplasmic	Nucleoplasm
+738	ENSG00000149823	VPS51	ER/Golgi	Golgi apparatus
+738	ENSG00000149823	VPS51	Vesicular/endolysosomal	Vesicles
+7384	ENSG00000010256	UQCRC1	Mitochondrial	Mitochondria
+7385	ENSG00000140740	UQCRC2	Mitochondrial	Mitochondria
+7407	ENSG00000204394	VARS1	Cytosolic	Cytosol
+7407	ENSG00000204394	VARS1	ER/Golgi	Endoplasmic reticulum
+7412	ENSG00000162692	VCAM1	Plasma membrane/junctional	Cell Junctions
+7414	ENSG00000035403	VCL	Cytoskeletal	Focal adhesion sites
+7415	ENSG00000165280	VCP	Cytosolic	Cytosol
+7415	ENSG00000165280	VCP	Nuclear/nucleoplasmic	Nucleoplasm
+7417	ENSG00000165637	VDAC2	Mitochondrial	Mitochondria
+7431	ENSG00000026025	VIM	Cytoskeletal	Intermediate filaments
+7453	ENSG00000140105	WARS1	Cytosolic	Cytosol
+7458	ENSG00000106682	EIF4H	Cytosolic	Cytosol
+7458	ENSG00000106682	EIF4H	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+746	ENSG00000134825	TMEM258	Cytosolic	Cytosol
+746	ENSG00000134825	TMEM258	Plasma membrane/junctional	Plasma membrane
+7515	ENSG00000073050	XRCC1	Nuclear/nucleoplasmic	Nucleoplasm
+7520	ENSG00000079246	XRCC5	Nuclear/nucleoplasmic	Nucleoplasm
+7528	ENSG00000100811	YY1	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+7528	ENSG00000100811	YY1	Nucleolus	Nucleoli fibrillar center
+7529	ENSG00000166913	YWHAB	Cytosolic	Cytosol
+7531	ENSG00000108953	YWHAE	Cytosolic	Cytosol
+7532	ENSG00000170027	YWHAG	Cytosolic	Cytosol
+7533	ENSG00000128245	YWHAH	Cytosolic	Cytosol
+7533	ENSG00000128245	YWHAH	Nuclear/nucleoplasmic	Nucleoplasm
+7533	ENSG00000128245	YWHAH	Nucleolus	Nucleoli rim
+7534	ENSG00000164924	YWHAZ	Cytosolic	Cytosol
+7536	ENSG00000168066	SF1	Nuclear/nucleoplasmic	Nucleoplasm
+776	ENSG00000157388	CACNA1D	Nuclear/nucleoplasmic	Nuclear membrane
+7818	ENSG00000132676	DAP3	Mitochondrial	Mitochondria
+7818	ENSG00000132676	DAP3	Nuclear/nucleoplasmic	Nucleoplasm
+7874	ENSG00000187555	USP7	Cytosolic	Cytosol
+7874	ENSG00000187555	USP7	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+7879	ENSG00000075785	RAB7A	Vesicular/endolysosomal	Lysosomes
+79001	ENSG00000167397	VKORC1	ER/Golgi	Endoplasmic reticulum
+79026	ENSG00000124942	AHNAK	Cytosolic	Cytosol
+79026	ENSG00000124942	AHNAK	Plasma membrane/junctional	Plasma membrane
+7905	ENSG00000129625	REEP5	ER/Golgi	Endoplasmic reticulum
+79050	ENSG00000184967	NOC4L	Nuclear/nucleoplasmic	Nucleoplasm
+79050	ENSG00000184967	NOC4L	Nucleolus	Nucleoli
+79068	ENSG00000140718	FTO	Cytosolic	Cytosol
+79068	ENSG00000140718	FTO	Vesicular/endolysosomal	Vesicles
+79073	ENSG00000110108	TMEM109	Cytoskeletal	Actin filaments
+79073	ENSG00000110108	TMEM109	ER/Golgi	Endoplasmic reticulum
+79073	ENSG00000110108	TMEM109	Nuclear/nucleoplasmic	Nuclear membrane
+79073	ENSG00000110108	TMEM109	Vesicular/endolysosomal	Vesicles
+79077	ENSG00000179958	DCTPP1	Cytosolic	Cytosol
+79077	ENSG00000179958	DCTPP1	Nuclear/nucleoplasmic	Nucleoplasm
+79084	ENSG00000116455	WDR77	Cytosolic	Cytosol
+79084	ENSG00000116455	WDR77	ER/Golgi	Golgi apparatus
+79084	ENSG00000116455	WDR77	Nuclear/nucleoplasmic	Nucleoplasm
+79086	ENSG00000214046	SMIM7	ER/Golgi	Golgi apparatus
+7916	ENSG00000204469	PRRC2A	Cytosolic	Cytosol
+7916	ENSG00000204469	PRRC2A	Nuclear/nucleoplasmic	Nucleoplasm
+7917	ENSG00000204463	BAG6	Cytosolic	Cytosol
+7917	ENSG00000204463	BAG6	Nuclear/nucleoplasmic	Nucleoplasm
+7917	ENSG00000204463	BAG6	Vesicular/endolysosomal	Vesicles
+79171	ENSG00000126254	RBM42	Cytosolic	Cytosol
+79171	ENSG00000126254	RBM42	Nuclear/nucleoplasmic	Nucleoplasm
+79180	ENSG00000142634	EFHD2	Cytosolic	Cytosol
+7919	ENSG00000198563	DDX39B	Nuclear/nucleoplasmic	Nuclear speckles
+79228	ENSG00000131652	THOC6	Nuclear/nucleoplasmic	Nuclear speckles;Nucleoplasm
+7936	ENSG00000204356	NELFE	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+79366	ENSG00000198157	HMGN5	Nuclear/nucleoplasmic	Nucleoplasm
+79596	ENSG00000152193	OBI1	Cytosolic	Cytosol
+79596	ENSG00000152193	OBI1	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+7965	ENSG00000106305	AIMP2	Cytosolic	Cytosol
+79676	ENSG00000111325	OGFOD2	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+79718	ENSG00000177565	TBL1XR1	Nuclear/nucleoplasmic	Nucleoplasm
+79745	ENSG00000115295	CLIP4	Vesicular/endolysosomal	Vesicles
+79801	ENSG00000171241	SHCBP1	Cytoskeletal	Microtubules;Midbody;Mitotic spindle
+79801	ENSG00000171241	SHCBP1	Nuclear/nucleoplasmic	Nuclear bodies
+79813	ENSG00000181090	EHMT1	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+79837	ENSG00000166908	PIP4K2C	Cytosolic	Cytosol
+79837	ENSG00000166908	PIP4K2C	Plasma membrane/junctional	Plasma membrane
+79869	ENSG00000149532	CPSF7	Cytosolic	Cytosol
+79869	ENSG00000149532	CPSF7	Nuclear/nucleoplasmic	Nucleoplasm
+79874	ENSG00000177548	RABEP2	Cytosolic	Cytosol
+79874	ENSG00000177548	RABEP2	ER/Golgi	Golgi apparatus
+79874	ENSG00000177548	RABEP2	Vesicular/endolysosomal	Vesicles
+79888	ENSG00000153395	LPCAT1	ER/Golgi	Endoplasmic reticulum
+79888	ENSG00000153395	LPCAT1	Vesicular/endolysosomal	Lipid droplets
+800	ENSG00000122786	CALD1	Cytoskeletal	Actin filaments
+800	ENSG00000122786	CALD1	Plasma membrane/junctional	Plasma membrane
+80017	ENSG00000133943	DGLUCY	Cytosolic	Cytosol
+80097	ENSG00000152082	MZT2B	Cytoskeletal	Centrosome
+80124	ENSG00000175073	VCPIP1	Cytoskeletal	Centrosome
+80124	ENSG00000175073	VCPIP1	Cytosolic	Cytosol
+80145	ENSG00000163634	THOC7	Cytosolic	Cytosol
+80145	ENSG00000163634	THOC7	Nuclear/nucleoplasmic	Nuclear speckles
+80208	ENSG00000104133	SPG11	Cytosolic	Cytosol
+80208	ENSG00000104133	SPG11	Nucleolus	Nucleoli
+80208	ENSG00000104133	SPG11	Plasma membrane/junctional	Plasma membrane
+80209	ENSG00000120685	PROSER1	Cytosolic	Cytosol
+80209	ENSG00000120685	PROSER1	Nuclear/nucleoplasmic	Nucleoplasm
+80218	ENSG00000121579	NAA50	Nucleolus	Nucleoli
+80223	ENSG00000156675	RAB11FIP1	Vesicular/endolysosomal	Vesicles
+80232	ENSG00000162923	WDR26	Cytosolic	Cytosol
+80232	ENSG00000162923	WDR26	Mitochondrial	Mitochondria
+80232	ENSG00000162923	WDR26	Nuclear/nucleoplasmic	Nucleoplasm
+80273	ENSG00000109519	GRPEL1	Mitochondrial	Mitochondria
+80321	ENSG00000114107	CEP70	Cytoskeletal	Basal body;Centrosome;Primary cilium
+80347	ENSG00000068120	COASY	Mitochondrial	Mitochondria
+80349	ENSG00000140395	SKIC8	Cytosolic	Cytosol
+80349	ENSG00000140395	SKIC8	Nuclear/nucleoplasmic	Nucleoplasm
+80777	ENSG00000103018	CYB5B	Cytoskeletal	Centriolar satellite
+80777	ENSG00000103018	CYB5B	Cytosolic	Cytosol
+80777	ENSG00000103018	CYB5B	ER/Golgi	Endoplasmic reticulum
+8078	ENSG00000111667	USP5	Cytosolic	Cytosol
+8078	ENSG00000111667	USP5	Nuclear/nucleoplasmic	Nucleoplasm
+80852	ENSG00000144596	GRIP2	Cytosolic	Cytosol
+8087	ENSG00000114416	FXR1	Cytosolic	Cytosol
+81	ENSG00000130402	ACTN4	Cytoskeletal	Actin filaments;Focal adhesion sites;Primary cilium;Primary cilium transition zone
+81	ENSG00000130402	ACTN4	Cytosolic	Cytosol
+811	ENSG00000179218	CALR	ER/Golgi	Endoplasmic reticulum
+8120	ENSG00000103723	AP3B2	Cytosolic	Cytosol
+8120	ENSG00000103723	AP3B2	ER/Golgi	Golgi apparatus
+8120	ENSG00000103723	AP3B2	Nuclear/nucleoplasmic	Nucleoplasm
+8125	ENSG00000140350	ANP32A	Cytoskeletal	Centrosome
+8125	ENSG00000140350	ANP32A	Cytosolic	Cytosol
+8125	ENSG00000140350	ANP32A	Nuclear/nucleoplasmic	Nucleoplasm
+813	ENSG00000128595	CALU	ER/Golgi	Endoplasmic reticulum
+8148	ENSG00000270647	TAF15	Nuclear/nucleoplasmic	Nucleoplasm
+81502	ENSG00000101294	HM13	ER/Golgi	Endoplasmic reticulum
+81532	ENSG00000182208	MOB2	Cytosolic	Cytosol
+81532	ENSG00000182208	MOB2	Nuclear/nucleoplasmic	Nucleoplasm
+81532	ENSG00000182208	MOB2	Nucleolus	Nucleoli
+81608	ENSG00000145216	FIP1L1	Nuclear/nucleoplasmic	Nucleoplasm
+81611	ENSG00000143401	ANP32E	Cytoskeletal	Centrosome
+81611	ENSG00000143401	ANP32E	Cytosolic	Cytosol
+81611	ENSG00000143401	ANP32E	Nuclear/nucleoplasmic	Nucleoplasm
+8175	ENSG00000104897	SF3A2	Nuclear/nucleoplasmic	Nucleoplasm
+81876	ENSG00000174903	RAB1B	ER/Golgi	Endoplasmic reticulum;Golgi apparatus
+8189	ENSG00000125755	SYMPK	Cytosolic	Cytosol
+8189	ENSG00000125755	SYMPK	Nuclear/nucleoplasmic	Nucleoplasm
+8189	ENSG00000125755	SYMPK	Plasma membrane/junctional	Plasma membrane
+8192	ENSG00000125656	CLPP	Mitochondrial	Mitochondria
+821	ENSG00000127022	CANX	ER/Golgi	Endoplasmic reticulum
+823	ENSG00000014216	CAPN1	Cytosolic	Cytosol
+8241	ENSG00000182872	RBM10	Nuclear/nucleoplasmic	Nuclear speckles
+8243	ENSG00000072501	SMC1A	Cytosolic	Cytosol
+8243	ENSG00000072501	SMC1A	Nuclear/nucleoplasmic	Nucleoplasm
+826	ENSG00000126247	CAPNS1	Cytosolic	Cytosol
+826	ENSG00000126247	CAPNS1	Nuclear/nucleoplasmic	Nucleoplasm
+8260	ENSG00000102030	NAA10	Cytosolic	Cytosol
+8260	ENSG00000102030	NAA10	Nucleolus	Nucleoli
+8289	ENSG00000117713	ARID1A	Nuclear/nucleoplasmic	Nucleoplasm
+830	ENSG00000198898	CAPZA2	Cytosolic	Cytosol
+8301	ENSG00000073921	PICALM	Vesicular/endolysosomal	Vesicles
+8318	ENSG00000093009	CDC45	Cytoskeletal	Centrosome
+8318	ENSG00000093009	CDC45	Cytosolic	Cytosol
+8318	ENSG00000093009	CDC45	Nuclear/nucleoplasmic	Nucleoplasm
+832	ENSG00000077549	CAPZB	Cytosolic	Cytosol
+832	ENSG00000077549	CAPZB	Nuclear/nucleoplasmic	Nucleoplasm
+832	ENSG00000077549	CAPZB	Vesicular/endolysosomal	Vesicles
+8341	ENSG00000233822	H2BC15	Cytosolic	Cytosol
+8341	ENSG00000233822	H2BC15	Nuclear/nucleoplasmic	Nucleoplasm
+83442	ENSG00000142669	SH3BGRL3	Nuclear/nucleoplasmic	Nuclear bodies
+836	ENSG00000164305	CASP3	Mitochondrial	Mitochondria
+83604	ENSG00000147027	TMEM47	Nuclear/nucleoplasmic	Nuclear membrane
+83640	ENSG00000169612	RAMAC	Nuclear/nucleoplasmic	Nucleoplasm
+83693	ENSG00000103160	HSDL1	Mitochondrial	Mitochondria
+83732	ENSG00000124784	RIOK1	Cytosolic	Cytosol
+83743	ENSG00000105447	GRWD1	Nuclear/nucleoplasmic	Nucleoplasm
+83743	ENSG00000105447	GRWD1	Nucleolus	Nucleoli;Nucleoli rim
+83858	ENSG00000160072	ATAD3B	Mitochondrial	Mitochondria
+83903	ENSG00000177602	HASPIN	Nuclear/nucleoplasmic	Nucleoplasm
+83985	ENSG00000169682	SPNS1	Vesicular/endolysosomal	Vesicles
+8411	ENSG00000102189	EEA1	Vesicular/endolysosomal	Vesicles
+8417	ENSG00000079950	STX7	Vesicular/endolysosomal	Lysosomes
+84263	ENSG00000119471	HSDL2	Mitochondrial	Mitochondria
+84271	ENSG00000100227	POLDIP3	Cytosolic	Cytoplasmic bodies
+84271	ENSG00000100227	POLDIP3	Nuclear/nucleoplasmic	Nuclear speckles
+84273	ENSG00000084092	NOA1	Mitochondrial	Mitochondria
+84292	ENSG00000123154	WDR83	Cytoskeletal	Basal body;Centriolar satellite
+84292	ENSG00000123154	WDR83	Cytosolic	Cytosol
+84292	ENSG00000123154	WDR83	Nuclear/nucleoplasmic	Nucleoplasm
+84292	ENSG00000123154	WDR83	Vesicular/endolysosomal	Vesicles
+84299	ENSG00000141741	MIEN1	Cytosolic	Cytosol
+84299	ENSG00000141741	MIEN1	Plasma membrane/junctional	Plasma membrane
+84305	ENSG00000170473	PYM1	Cytosolic	Cytosol
+84305	ENSG00000170473	PYM1	Nuclear/nucleoplasmic	Nucleoplasm
+84305	ENSG00000170473	PYM1	Nucleolus	Nucleoli
+84305	ENSG00000170473	PYM1	Plasma membrane/junctional	Cell Junctions
+84311	ENSG00000278845	MRPL45	Mitochondrial	Mitochondria
+8437	ENSG00000111344	RASAL1	Cytosolic	Cytosol
+8437	ENSG00000111344	RASAL1	Plasma membrane/junctional	Cell Junctions;Plasma membrane
+8450	ENSG00000158290	CUL4B	Nuclear/nucleoplasmic	Nucleoplasm
+8451	ENSG00000139842	CUL4A	Nuclear/nucleoplasmic	Nucleoplasm
+84516	ENSG00000166847	DCTN5	Nuclear/nucleoplasmic	Nuclear membrane;Nucleoplasm
+84619	ENSG00000197114	ZGPAT	Nuclear/nucleoplasmic	Nucleoplasm
+84619	ENSG00000197114	ZGPAT	Plasma membrane/junctional	Plasma membrane
+84656	ENSG00000140632	GLYR1	Cytosolic	Cytosol
+84656	ENSG00000140632	GLYR1	Nuclear/nucleoplasmic	Nucleoplasm
+84681	ENSG00000137133	HINT2	Mitochondrial	Mitochondria
+847	ENSG00000121691	CAT	Vesicular/endolysosomal	Vesicles
+84709	ENSG00000137463	MGARP	Mitochondrial	Mitochondria
+84726	ENSG00000288701	PRRC2B	Cytosolic	Cytosol
+84726	ENSG00000288701	PRRC2B	Nuclear/nucleoplasmic	Nuclear bodies
+8473	ENSG00000147162	OGT	Nuclear/nucleoplasmic	Nucleoplasm
+8473	ENSG00000147162	OGT	Plasma membrane/junctional	Plasma membrane
+84790	ENSG00000167553	TUBA1C	Cytoskeletal	Microtubules;Primary cilium
+84833	ENSG00000173915	ATP5MK	Mitochondrial	Mitochondria
+84836	ENSG00000114779	ABHD14B	Cytosolic	Cytosol
+84836	ENSG00000114779	ABHD14B	Nuclear/nucleoplasmic	Nucleoplasm
+84836	ENSG00000114779	ABHD14B	Nucleolus	Nucleoli
+84844	ENSG00000100410	PHF5A	Nuclear/nucleoplasmic	Nucleoplasm
+84886	ENSG00000119280	C1orf198	Cytosolic	Cytosol
+84898	ENSG00000120594	PLXDC2	Nuclear/nucleoplasmic	Nuclear bodies
+84908	ENSG00000035141	FAM136A	Mitochondrial	Mitochondria
+84952	ENSG00000128849	CGNL1	Plasma membrane/junctional	Cell Junctions
+8498	ENSG00000031823	RANBP3	Nuclear/nucleoplasmic	Nucleoplasm
+84986	ENSG00000213390	ARHGAP19	Plasma membrane/junctional	Plasma membrane
+85021	ENSG00000135597	REPS1	Plasma membrane/junctional	Plasma membrane
+8520	ENSG00000128708	HAT1	Nuclear/nucleoplasmic	Nucleoplasm
+8531	ENSG00000060138	YBX3	Cytosolic	Cytosol
+8533	ENSG00000141030	COPS3	Cytosolic	Cytosol
+8533	ENSG00000141030	COPS3	Nuclear/nucleoplasmic	Nucleoplasm
+8535	ENSG00000141582	CBX4	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+85364	ENSG00000247315	ZCCHC3	Vesicular/endolysosomal	Vesicles
+85395	ENSG00000160256	SLX9	Nuclear/nucleoplasmic	Nucleoplasm
+85395	ENSG00000160256	SLX9	Nucleolus	Nucleoli
+8540	ENSG00000018510	AGPS	Vesicular/endolysosomal	Peroxisomes
+85476	ENSG00000168827	GFM1	Mitochondrial	Mitochondria
+85476	ENSG00000168827	GFM1	Nuclear/nucleoplasmic	Nucleoplasm
+8562	ENSG00000139726	DENR	Cytosolic	Cytosol
+8563	ENSG00000100296	THOC5	Nuclear/nucleoplasmic	Nucleoplasm
+8565	ENSG00000134684	YARS1	Cytosolic	Cytosol
+8565	ENSG00000134684	YARS1	Nuclear/nucleoplasmic	Nuclear bodies
+8570	ENSG00000088247	KHSRP	Nuclear/nucleoplasmic	Nucleoplasm
+8574	ENSG00000053371	AKR7A2	Cytosolic	Cytosol
+8574	ENSG00000053371	AKR7A2	ER/Golgi	Golgi apparatus
+86	ENSG00000136518	ACTL6A	Cytosolic	Cytosol
+86	ENSG00000136518	ACTL6A	Nuclear/nucleoplasmic	Nucleoplasm
+8602	ENSG00000087269	NOP14	Nuclear/nucleoplasmic	Nucleoplasm
+8602	ENSG00000087269	NOP14	Nucleolus	Nucleoli
+8607	ENSG00000175792	RUVBL1	Cytoskeletal	Basal body
+8607	ENSG00000175792	RUVBL1	Cytosolic	Cytosol
+8607	ENSG00000175792	RUVBL1	Nuclear/nucleoplasmic	Nuclear speckles;Nucleoplasm
+8615	ENSG00000138768	USO1	ER/Golgi	Golgi apparatus
+8615	ENSG00000138768	USO1	Nucleolus	Nucleoli fibrillar center
+8661	ENSG00000107581	EIF3A	Cytosolic	Cytosol
+8662	ENSG00000106263	EIF3B	Cytosolic	Cytosol
+8664	ENSG00000100353	EIF3D	Cytosolic	Cytosol
+8666	ENSG00000130811	EIF3G	Cytosolic	Cytosol
+8667	ENSG00000147677	EIF3H	Cytosolic	Cytosol
+8668	ENSG00000084623	EIF3I	Cytosolic	Cytosol
+8669	ENSG00000104131	EIF3J	Cytosolic	Cytosol
+8682	ENSG00000162734	PEA15	Cytosolic	Cytosol
+8683	ENSG00000111786	SRSF9	Nuclear/nucleoplasmic	Nucleoplasm
+8683	ENSG00000111786	SRSF9	Nucleolus	Nucleoli
+87	ENSG00000072110	ACTN1	Cytoskeletal	Actin filaments;Focal adhesion sites;Primary cilium;Primary cilium transition zone
+87	ENSG00000072110	ACTN1	Cytosolic	Cytosol
+87	ENSG00000072110	ACTN1	Plasma membrane/junctional	Plasma membrane
+871	ENSG00000149257	SERPINH1	ER/Golgi	Endoplasmic reticulum
+87178	ENSG00000138035	PNPT1	Cytosolic	Cytosol
+87178	ENSG00000138035	PNPT1	Mitochondrial	Mitochondria
+8731	ENSG00000101654	RNMT	Nuclear/nucleoplasmic	Nucleoplasm
+8731	ENSG00000101654	RNMT	Nucleolus	Nucleoli fibrillar center
+8761	ENSG00000090621	PABPC4	Cytosolic	Cytosol
+8801	ENSG00000172340	SUCLG2	Mitochondrial	Mitochondria
+8801	ENSG00000172340	SUCLG2	Plasma membrane/junctional	Plasma membrane
+8802	ENSG00000163541	SUCLG1	Cytosolic	Cytosol
+8802	ENSG00000163541	SUCLG1	Mitochondrial	Mitochondria
+8802	ENSG00000163541	SUCLG1	Plasma membrane/junctional	Plasma membrane
+8803	ENSG00000136143	SUCLA2	Mitochondrial	Mitochondria
+8812	ENSG00000090061	CCNK	Nuclear/nucleoplasmic	Nucleoplasm
+8826	ENSG00000140575	IQGAP1	Plasma membrane/junctional	Cell Junctions;Plasma membrane
+8833	ENSG00000163655	GMPS	Cytosolic	Cytosol
+8833	ENSG00000163655	GMPS	Mitochondrial	Mitochondria
+8836	ENSG00000137563	GGH	ER/Golgi	Endoplasmic reticulum
+8836	ENSG00000137563	GGH	Vesicular/endolysosomal	Vesicles
+8853	ENSG00000151693	ASAP2	Cytosolic	Cytosol
+8853	ENSG00000151693	ASAP2	Plasma membrane/junctional	Plasma membrane
+8880	ENSG00000162613	FUBP1	Nuclear/nucleoplasmic	Nucleoplasm
+8886	ENSG00000088205	DDX18	Nuclear/nucleoplasmic	Mitotic chromosome
+8886	ENSG00000088205	DDX18	Nucleolus	Nucleoli;Nucleoli rim
+8887	ENSG00000106052	TAX1BP1	Cytosolic	Cytosol
+8887	ENSG00000106052	TAX1BP1	Nuclear/nucleoplasmic	Nucleoplasm
+8894	ENSG00000125977	EIF2S2	Cytosolic	Cytosol
+8894	ENSG00000125977	EIF2S2	ER/Golgi	Endoplasmic reticulum
+8971	ENSG00000184897	H1-10	Nuclear/nucleoplasmic	Mitotic chromosome;Nucleoplasm
+8971	ENSG00000184897	H1-10	Nucleolus	Nucleoli;Nucleoli rim
+8976	ENSG00000106299	WASL	Cytosolic	Cytosol
+8976	ENSG00000106299	WASL	Nucleolus	Nucleoli
+90121	ENSG00000158526	TSR2	Cytosolic	Cytosol
+90121	ENSG00000158526	TSR2	Nuclear/nucleoplasmic	Nucleoplasm
+90121	ENSG00000158526	TSR2	Nucleolus	Nucleoli
+90390	ENSG00000164758	MED30	Nuclear/nucleoplasmic	Nucleoplasm
+904	ENSG00000129315	CCNT1	Nuclear/nucleoplasmic	Nucleoplasm
+9043	ENSG00000008294	SPAG9	Cytoskeletal	Centriolar satellite
+9043	ENSG00000008294	SPAG9	Cytosolic	Cytosol
+90480	ENSG00000179271	GADD45GIP1	Mitochondrial	Mitochondria
+9049	ENSG00000110711	AIP	Cytosolic	Cytosol
+905	ENSG00000082258	CCNT2	Cytosolic	Cytosol
+905	ENSG00000082258	CCNT2	Nuclear/nucleoplasmic	Nucleoplasm
+905	ENSG00000082258	CCNT2	Plasma membrane/junctional	Plasma membrane
+9053	ENSG00000135525	MAP7	Cytoskeletal	Microtubules
+9053	ENSG00000135525	MAP7	Cytosolic	Cytosol
+9055	ENSG00000198901	PRC1	Cytoskeletal	Cytokinetic bridge;Microtubules;Midbody
+9055	ENSG00000198901	PRC1	Nuclear/nucleoplasmic	Nucleoplasm
+908	ENSG00000146731	CCT6A	Cytosolic	Cytosol
+90850	ENSG00000167962	ZNF598	Cytosolic	Cytosol
+90850	ENSG00000167962	ZNF598	Plasma membrane/junctional	Plasma membrane
+9086	ENSG00000198692	EIF1AY	Cytosolic	Cytosol
+90861	ENSG00000206053	JPT2	Cytosolic	Cytosol
+90861	ENSG00000206053	JPT2	Plasma membrane/junctional	Plasma membrane
+9092	ENSG00000175467	SART1	ER/Golgi	Golgi apparatus
+9092	ENSG00000175467	SART1	Nuclear/nucleoplasmic	Nuclear speckles
+9097	ENSG00000101557	USP14	Cytosolic	Cytosol
+9097	ENSG00000101557	USP14	ER/Golgi	Endoplasmic reticulum
+9097	ENSG00000101557	USP14	Plasma membrane/junctional	Plasma membrane
+91039	ENSG00000142002	DPP9	Cytosolic	Cytosol
+9125	ENSG00000144580	CNOT9	Cytosolic	Cytoplasmic bodies
+9126	ENSG00000108055	SMC3	Nuclear/nucleoplasmic	Nucleoplasm
+9131	ENSG00000156709	AIFM1	Mitochondrial	Mitochondria
+9135	ENSG00000029725	RABEP1	Cytosolic	Cytosol
+9135	ENSG00000029725	RABEP1	Vesicular/endolysosomal	Vesicles
+9138	ENSG00000076928	ARHGEF1	Cytosolic	Cytosol
+9138	ENSG00000076928	ARHGEF1	Plasma membrane/junctional	Plasma membrane
+9141	ENSG00000105185	PDCD5	Cytosolic	Cytosol
+9141	ENSG00000105185	PDCD5	Nuclear/nucleoplasmic	Nucleoplasm
+9146	ENSG00000185359	HGS	Cytosolic	Cytosol
+9146	ENSG00000185359	HGS	Vesicular/endolysosomal	Endosomes
+91582	ENSG00000187051	RPS19BP1	Nucleolus	Nucleoli
+9169	ENSG00000139218	SCAF11	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+9169	ENSG00000139218	SCAF11	Nucleolus	Nucleoli
+9184	ENSG00000154473	BUB3	Nuclear/nucleoplasmic	Nucleoplasm
+9188	ENSG00000165732	DDX21	Nuclear/nucleoplasmic	Mitotic chromosome;Nucleoplasm
+9188	ENSG00000165732	DDX21	Nucleolus	Nucleoli rim
+9209	ENSG00000093167	LRRFIP2	Cytoskeletal	Actin filaments
+9209	ENSG00000093167	LRRFIP2	Plasma membrane/junctional	Plasma membrane
+92140	ENSG00000147649	MTDH	ER/Golgi	Endoplasmic reticulum
+9217	ENSG00000124164	VAPB	ER/Golgi	Endoplasmic reticulum
+9218	ENSG00000101558	VAPA	ER/Golgi	Endoplasmic reticulum
+9219	ENSG00000149480	MTA2	Nuclear/nucleoplasmic	Nucleoplasm
+9221	ENSG00000166197	NOLC1	Nucleolus	Nucleoli fibrillar center
+9230	ENSG00000185236	RAB11B	Cytoskeletal	Basal body;Centriolar satellite;Primary cilium
+9230	ENSG00000185236	RAB11B	Cytosolic	Cytosol
+9230	ENSG00000185236	RAB11B	Vesicular/endolysosomal	Vesicles
+9255	ENSG00000164022	AIMP1	Cytosolic	Cytosol
+92609	ENSG00000105197	TIMM50	Mitochondrial	Mitochondria
+92609	ENSG00000105197	TIMM50	Nuclear/nucleoplasmic	Nucleoplasm
+92689	ENSG00000197712	FAM114A1	Cytosolic	Cytosol
+92689	ENSG00000197712	FAM114A1	ER/Golgi	Golgi apparatus
+92689	ENSG00000197712	FAM114A1	Nuclear/nucleoplasmic	Nucleoplasm
+9276	ENSG00000184432	COPB2	ER/Golgi	Endoplasmic reticulum;Golgi apparatus
+9321	ENSG00000100815	TRIP11	ER/Golgi	Golgi apparatus
+9342	ENSG00000099940	SNAP29	Cytoskeletal	Centrosome
+9342	ENSG00000099940	SNAP29	Cytosolic	Cytosol
+9349	ENSG00000125691	RPL23	Cytosolic	Cytosol
+9352	ENSG00000091164	TXNL1	Cytosolic	Cytosol
+9354	ENSG00000110344	UBE4A	Nuclear/nucleoplasmic	Nuclear speckles
+9361	ENSG00000196365	LONP1	Mitochondrial	Mitochondria
+93664	ENSG00000081803	CADPS2	Vesicular/endolysosomal	Vesicles
+9368	ENSG00000109062	SLC9A3R1	Plasma membrane/junctional	Plasma membrane
+9373	ENSG00000137055	PLAA	Cytosolic	Cytosol
+9373	ENSG00000137055	PLAA	Nuclear/nucleoplasmic	Nucleoplasm
+9373	ENSG00000137055	PLAA	Plasma membrane/junctional	Plasma membrane
+93974	ENSG00000130770	ATP5IF1	Mitochondrial	Mitochondria
+9406	ENSG00000132485	ZRANB2	Nuclear/nucleoplasmic	Nucleoplasm
+94081	ENSG00000164466	SFXN1	Mitochondrial	Mitochondria
+9410	ENSG00000060688	SNRNP40	Nuclear/nucleoplasmic	Nuclear speckles
+9419	ENSG00000119878	CRIPT	Nuclear/nucleoplasmic	Nucleoplasm
+9419	ENSG00000119878	CRIPT	Nucleolus	Nucleoli fibrillar center
+9451	ENSG00000172071	EIF2AK3	Cytosolic	Cytosol
+9451	ENSG00000172071	EIF2AK3	Mitochondrial	Mitochondria
+9451	ENSG00000172071	EIF2AK3	Nuclear/nucleoplasmic	Nucleoplasm
+9470	ENSG00000135930	EIF4E2	Cytosolic	Cytosol
+9470	ENSG00000135930	EIF4E2	Mitochondrial	Mitochondria
+9475	ENSG00000134318	ROCK2	Cytosolic	Cytosol
+950	ENSG00000138760	SCARB2	Cytosolic	Cytosol
+9500	ENSG00000179222	MAGED1	Cytosolic	Cytosol
+9521	ENSG00000124802	EEF1E1	Cytosolic	Cytosol
+9521	ENSG00000124802	EEF1E1	Nuclear/nucleoplasmic	Nucleoplasm
+9533	ENSG00000171453	POLR1C	Nuclear/nucleoplasmic	Nucleoplasm
+9533	ENSG00000171453	POLR1C	Nucleolus	Nucleoli fibrillar center
+9545	ENSG00000105514	RAB3D	Vesicular/endolysosomal	Vesicles
+9550	ENSG00000136888	ATP6V1G1	Nuclear/nucleoplasmic	Nucleoplasm
+9550	ENSG00000136888	ATP6V1G1	Nucleolus	Nucleoli
+9559	ENSG00000122958	VPS26A	Vesicular/endolysosomal	Endosomes;Lysosomes
+9588	ENSG00000117592	PRDX6	Cytosolic	Cytosol
+9588	ENSG00000117592	PRDX6	Plasma membrane/junctional	Plasma membrane
+9589	ENSG00000146457	WTAP	Nuclear/nucleoplasmic	Nuclear speckles
+9601	ENSG00000155660	PDIA4	ER/Golgi	Endoplasmic reticulum
+9632	ENSG00000176986	SEC24C	Vesicular/endolysosomal	Vesicles
+9643	ENSG00000123562	MORF4L2	Nuclear/nucleoplasmic	Nucleoplasm
+9647	ENSG00000100034	PPM1F	Nuclear/nucleoplasmic	Nucleoplasm
+9647	ENSG00000100034	PPM1F	Plasma membrane/junctional	Plasma membrane
+9667	ENSG00000130254	SAFB2	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+9667	ENSG00000130254	SAFB2	Vesicular/endolysosomal	Vesicles
+967	ENSG00000135404	CD63	Vesicular/endolysosomal	Vesicles
+9733	ENSG00000075856	SART3	Nuclear/nucleoplasmic	Nucleoplasm
+9747	ENSG00000198420	TCAF1	Plasma membrane/junctional	Cell Junctions
+9747	ENSG00000198420	TCAF1	Vesicular/endolysosomal	Vesicles
+9774	ENSG00000029363	BCLAF1	Nuclear/nucleoplasmic	Nuclear speckles
+9775	ENSG00000141543	EIF4A3	Nuclear/nucleoplasmic	Nucleoplasm
+9785	ENSG00000140829	DHX38	Nuclear/nucleoplasmic	Nucleoplasm
+9789	ENSG00000118363	SPCS2	Vesicular/endolysosomal	Vesicles
+9793	ENSG00000175216	CKAP5	Cytoskeletal	Centrosome
+98	ENSG00000170634	ACYP2	Nuclear/nucleoplasmic	Nucleoplasm
+9801	ENSG00000115364	MRPL19	Mitochondrial	Mitochondria
+9823	ENSG00000184867	ARMCX2	Mitochondrial	Mitochondria
+9823	ENSG00000184867	ARMCX2	Nuclear/nucleoplasmic	Nucleoplasm
+983	ENSG00000170312	CDK1	Cytosolic	Cytosol
+983	ENSG00000170312	CDK1	Nuclear/nucleoplasmic	Nucleoplasm
+9841	ENSG00000112365	ZBTB24	Cytoskeletal	Centrosome;Cytokinetic bridge
+9841	ENSG00000112365	ZBTB24	Nuclear/nucleoplasmic	Nucleoplasm
+9859	ENSG00000143702	CEP170	Cytoskeletal	Basal body;Centrosome
+9868	ENSG00000154174	TOMM70	Mitochondrial	Mitochondria
+987	ENSG00000198589	LRBA	ER/Golgi	Golgi apparatus
+989	ENSG00000122545	SEPTIN7	Cytoskeletal	Actin filaments;Cytokinetic bridge;Midbody;Primary cilium
+9898	ENSG00000143569	UBAP2L	Cytosolic	Cytosol
+9898	ENSG00000143569	UBAP2L	Nuclear/nucleoplasmic	Nuclear speckles
+9919	ENSG00000148396	SEC16A	ER/Golgi	Endoplasmic reticulum;Golgi apparatus
+9939	ENSG00000265241	RBM8A	Nuclear/nucleoplasmic	Nuclear speckles
+9941	ENSG00000157036	EXOG	Mitochondrial	Mitochondria
+9943	ENSG00000172939	OXSR1	Cytosolic	Cytosol
+9947	ENSG00000155495	MAGEC1	Cytosolic	Cytosol
+9947	ENSG00000155495	MAGEC1	Nuclear/nucleoplasmic	Nucleoplasm
+9948	ENSG00000071127	WDR1	Cytosolic	Cytosol
+9948	ENSG00000071127	WDR1	Plasma membrane/junctional	Cell Junctions
+9958	ENSG00000135655	USP15	Cytosolic	Cytosol
+9958	ENSG00000135655	USP15	Nuclear/nucleoplasmic	Nuclear bodies;Nucleoplasm
+9961	ENSG00000013364	MVP	Cytosolic	Cytosol
+9967	ENSG00000054118	THRAP3	Nuclear/nucleoplasmic	Nuclear speckles
+9972	ENSG00000124789	NUP153	Nuclear/nucleoplasmic	Nuclear membrane
+9978	ENSG00000100387	RBX1	Nuclear/nucleoplasmic	Nucleoplasm
+9987	ENSG00000152795	HNRNPDL	Nuclear/nucleoplasmic	Nucleoplasm

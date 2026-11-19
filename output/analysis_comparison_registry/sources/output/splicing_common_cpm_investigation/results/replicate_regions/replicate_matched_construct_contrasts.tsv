@@ -1,0 +1,19 @@
+site_type	landmark	region	region_start	region_end	replicate	324	328	construct_difference_324_minus_328
+annotated_transcript_3prime_end	annotated transcript 3' end	Downstream	0	50	A	-0.74129917219723	-0.131020187701001	-0.610278984496229
+annotated_transcript_3prime_end	annotated transcript 3' end	Downstream	0	50	B	-0.655461568012345	-0.215834052427168	-0.439627515585177
+annotated_transcript_3prime_end	annotated transcript 3' end	Full region	-50	50	A	-0.876513928108607	-0.184305974643318	-0.692207953465289
+annotated_transcript_3prime_end	annotated transcript 3' end	Full region	-50	50	B	-0.781649299118538	-0.283341714347209	-0.498307584771329
+annotated_transcript_3prime_end	annotated transcript 3' end	Upstream	-50	0	A	-1.01172868401986	-0.237591761585643	-0.774136922434219
+annotated_transcript_3prime_end	annotated transcript 3' end	Upstream	-50	0	B	-0.907837030224376	-0.350849376267417	-0.556987653956959
+splice_acceptor_3prime	3' splice acceptor	Exon side	0	50	A	-0.847469753613195	-0.3075326641163	-0.539937089496895
+splice_acceptor_3prime	3' splice acceptor	Exon side	0	50	B	-0.784513494087119	-0.401459048838309	-0.383054445248811
+splice_acceptor_3prime	3' splice acceptor	Full immediate	-50	50	A	-0.463649523579488	-0.160399278539063	-0.303250245040425
+splice_acceptor_3prime	3' splice acceptor	Full immediate	-50	50	B	-0.426865906466577	-0.213172620659959	-0.213693285806619
+splice_acceptor_3prime	3' splice acceptor	Intron side	-50	0	A	-0.0798292935458357	-0.0132658929618273	-0.0665634005840083
+splice_acceptor_3prime	3' splice acceptor	Intron side	-50	0	B	-0.0692183188459508	-0.0248861924816206	-0.0443321263643302
+splice_donor_5prime	5' splice donor	Exon side	-50	0	A	-0.795206967009322	-0.279886254485179	-0.515320712524143
+splice_donor_5prime	5' splice donor	Exon side	-50	0	B	-0.739339217385401	-0.380106960658722	-0.359232256726679
+splice_donor_5prime	5' splice donor	Full immediate	-50	50	A	-0.453494413406498	-0.147640720849595	-0.305853692556904
+splice_donor_5prime	5' splice donor	Full immediate	-50	50	B	-0.415926114403761	-0.205750798971272	-0.210175315432489
+splice_donor_5prime	5' splice donor	Intron side	0	50	A	-0.111781859803742	-0.0153951872140046	-0.0963866725897373
+splice_donor_5prime	5' splice donor	Intron side	0	50	B	-0.0925130114219794	-0.0313946372838389	-0.0611183741381405

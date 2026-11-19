@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>MSI2 round-two comparisons</title><style>body{font:17px/1.55 system-ui;max-width:1150px;margin:40px auto;padding:0 24px;color:#203042;background:#f7f9fb}h1,h2{line-height:1.2}nav{display:flex;gap:16px;flex-wrap:wrap}a{color:#126288}figure{margin:25px 0;background:white;padding:18px;border:1px solid #d7e0e7;border-radius:8px}img{width:100%;height:auto}figcaption{font-weight:600;margin-bottom:12px}.note{padding:20px;background:#e7eff5;border-left:4px solid #126288}</style><h1>MSI2 · Round-two comparisons</h1><p>Eight libraries · ten variants · expanded windows and standardized feature lengths</p><div class="note"><b>Interpretation:</b> equal-genome sampling broadly preserves normalized metaprofile shapes. Peak selection substantially changes them. Continuous peak preference is sensitive to denominator choice and loss of support; medians approaching zero do not establish equivalent binding.<p><a href="README.md">Full findings, methods and limitations</a></p></div><nav>
+<a href="#section0">Continuous preference</a>
+<a href="#section1">Expanded windows</a>
+<a href="#section2">Standardized frames</a>
+<a href="#section3">Construct differences</a>
+<a href="#section4">Raw depth and library sizes</a>
+</nav>
+<h2 id="section0">Continuous preference</h2>
+<figure><figcaption>Median changes across variants · <a href="figures/continuous_preference_median_changes.pdf">PDF</a> · <a href="figures/continuous_preference_median_changes.png">PNG</a></figcaption><img loading="lazy" src="figures/continuous_preference_median_changes.png" alt="Median changes across variants"></figure>
+<figure><figcaption>All ten variants: fixed peak universe · <a href="figures/continuous_preference_all_variants.pdf">PDF</a> · <a href="figures/continuous_preference_all_variants.png">PNG</a></figcaption><img loading="lazy" src="figures/continuous_preference_all_variants.png" alt="All ten variants: fixed peak universe"></figure>
+<figure><figcaption>Sensitivity: supported peaks only · <a href="figures/continuous_preference_supported_peaks.pdf">PDF</a> · <a href="figures/continuous_preference_supported_peaks.png">PNG</a></figcaption><img loading="lazy" src="figures/continuous_preference_supported_peaks.png" alt="Sensitivity: supported peaks only"></figure>
+<h2 id="section1">Expanded windows</h2>
+<figure><figcaption>Splice donor ±1,000 nt · <a href="figures/splice_donor_normalized.pdf">PDF</a> · <a href="figures/splice_donor_normalized.png">PNG</a></figcaption><img loading="lazy" src="figures/splice_donor_normalized.png" alt="Splice donor ±1,000 nt"></figure>
+<figure><figcaption>Splice acceptor ±1,000 nt · <a href="figures/splice_acceptor_normalized.pdf">PDF</a> · <a href="figures/splice_acceptor_normalized.png">PNG</a></figcaption><img loading="lazy" src="figures/splice_acceptor_normalized.png" alt="Splice acceptor ±1,000 nt"></figure>
+<figure><figcaption>Annotated transcript end ±500 nt · <a href="figures/transcript_end_normalized.pdf">PDF</a> · <a href="figures/transcript_end_normalized.png">PNG</a></figcaption><img loading="lazy" src="figures/transcript_end_normalized.png" alt="Annotated transcript end ±500 nt"></figure>
+<h2 id="section2">Standardized frames</h2>
+<figure><figcaption>Intron: 0–100% · <a href="figures/intron_normalized.pdf">PDF</a> · <a href="figures/intron_normalized.png">PNG</a></figcaption><img loading="lazy" src="figures/intron_normalized.png" alt="Intron: 0–100%"></figure>
+<figure><figcaption>Spliced 3′UTR: 0–100% · <a href="figures/3UTR_normalized.pdf">PDF</a> · <a href="figures/3UTR_normalized.png">PNG</a></figcaption><img loading="lazy" src="figures/3UTR_normalized.png" alt="Spliced 3′UTR: 0–100%"></figure>
+<h2 id="section3">Construct differences</h2>
+<figure><figcaption>Donor · <a href="figures/splice_donor_construct_difference.pdf">PDF</a> · <a href="figures/splice_donor_construct_difference.png">PNG</a></figcaption><img loading="lazy" src="figures/splice_donor_construct_difference.png" alt="Donor"></figure>
+<figure><figcaption>Acceptor · <a href="figures/splice_acceptor_construct_difference.pdf">PDF</a> · <a href="figures/splice_acceptor_construct_difference.png">PNG</a></figcaption><img loading="lazy" src="figures/splice_acceptor_construct_difference.png" alt="Acceptor"></figure>
+<figure><figcaption>Transcript end · <a href="figures/transcript_end_construct_difference.pdf">PDF</a> · <a href="figures/transcript_end_construct_difference.png">PNG</a></figcaption><img loading="lazy" src="figures/transcript_end_construct_difference.png" alt="Transcript end"></figure>
+<figure><figcaption>Intron · <a href="figures/intron_construct_difference.pdf">PDF</a> · <a href="figures/intron_construct_difference.png">PNG</a></figcaption><img loading="lazy" src="figures/intron_construct_difference.png" alt="Intron"></figure>
+<figure><figcaption>3′UTR · <a href="figures/3UTR_construct_difference.pdf">PDF</a> · <a href="figures/3UTR_construct_difference.png">PNG</a></figcaption><img loading="lazy" src="figures/3UTR_construct_difference.png" alt="3′UTR"></figure>
+<h2 id="section4">Raw depth and library sizes</h2>
+<figure><figcaption>Selected read counts · <a href="figures/selected_library_sizes.pdf">PDF</a> · <a href="figures/selected_library_sizes.png">PNG</a></figcaption><img loading="lazy" src="figures/selected_library_sizes.png" alt="Selected read counts"></figure>
+<figure><figcaption>splice donor · <a href="figures/splice_donor_raw.pdf">PDF</a> · <a href="figures/splice_donor_raw.png">PNG</a></figcaption><img loading="lazy" src="figures/splice_donor_raw.png" alt="splice donor"></figure>
+<figure><figcaption>splice acceptor · <a href="figures/splice_acceptor_raw.pdf">PDF</a> · <a href="figures/splice_acceptor_raw.png">PNG</a></figcaption><img loading="lazy" src="figures/splice_acceptor_raw.png" alt="splice acceptor"></figure>
+<figure><figcaption>transcript end · <a href="figures/transcript_end_raw.pdf">PDF</a> · <a href="figures/transcript_end_raw.png">PNG</a></figcaption><img loading="lazy" src="figures/transcript_end_raw.png" alt="transcript end"></figure>
+<figure><figcaption>intron · <a href="figures/intron_raw.pdf">PDF</a> · <a href="figures/intron_raw.png">PNG</a></figcaption><img loading="lazy" src="figures/intron_raw.png" alt="intron"></figure>
+<figure><figcaption>3UTR · <a href="figures/3UTR_raw.pdf">PDF</a> · <a href="figures/3UTR_raw.png">PNG</a></figcaption><img loading="lazy" src="figures/3UTR_raw.png" alt="3UTR"></figure>
+</html>

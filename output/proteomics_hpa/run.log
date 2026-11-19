@@ -1,0 +1,31 @@
+Warning messages:
+1: package ‘dplyr’ was built under R version 4.4.3 
+2: package ‘tidyr’ was built under R version 4.4.3 
+3: package ‘readr’ was built under R version 4.4.3 
+4: package ‘fgsea’ was built under R version 4.4.3 
+5: package ‘xml2’ was built under R version 4.4.3 
+# A tibble: 16 × 3
+   metric                                 count percent_of_tested_rows
+   <chr>                                  <dbl>                  <dbl>
+ 1 input_protein_rows                      1677                100    
+ 2 tested_protein_rows                     1677                100    
+ 3 mapped_to_hpa_rows                      1654                 98.6  
+ 4 rows_with_any_hpa_localization          1473                 87.8  
+ 5 rows_without_any_hpa_localization        204                 12.2  
+ 6 rows_with_primary_localization          1452                 86.6  
+ 7 rows_with_high_confidence_localization  1026                 61.2  
+ 8 input_multiple_id_rows                    85                  5.07 
+ 9 input_multiple_human_id_rows              82                  4.89 
+10 unresolved_ambiguous_rows                  3                  0.179
+11 unmapped_rows                             23                  1.37 
+12 duplicate_genes_after_mapping             13                  0.775
+13 redundant_rows_collapsed                  13                  0.775
+14 unique_ranked_genes                     1641                 97.9  
+15 zero_ranked_genes                        579                 34.5  
+16 unique_hpa_mapped_background_genes      1641                 97.9  
+# A tibble: 0 × 5
+# ℹ 5 variables: analysis <chr>, localization <chr>, measured_size <int>,
+#   NES <dbl>, padj <dbl>
+# A tibble: 0 × 5
+# ℹ 5 variables: analysis <chr>, isoform <chr>, localization <chr>,
+#   odds_ratio <dbl>, padj <dbl>

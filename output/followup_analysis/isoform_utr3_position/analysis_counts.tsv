@@ -1,0 +1,22 @@
+cohort	construct	replicate	sample_id	reads	features
+all_assigned	324	A	NM2026_0085	22879	3205
+all_assigned	324	B	NM2026_0087	29589	3679
+all_assigned	328	A	NM2026_0081	77976	7095
+all_assigned	328	B	NM2026_0083	88739	6534
+all_assigned	324	A+B union	combined	52468	5192
+all_assigned	328	A+B union	combined	166715	8906
+all_assigned	324+328	all four union	combined	219183	9844
+reference_utr3	324	A	NM2026_0085	18880	2403
+reference_utr3	324	B	NM2026_0087	24366	2713
+reference_utr3	328	A	NM2026_0081	69993	5182
+reference_utr3	328	B	NM2026_0083	80217	4892
+reference_utr3	324	A+B union	combined	43246	3662
+reference_utr3	328	A+B union	combined	150210	6125
+reference_utr3	324+328	all four union	combined	193456	6403
+common_four_libraries	324	A	NM2026_0085	14795	1474
+common_four_libraries	324	B	NM2026_0087	18343	1474
+common_four_libraries	328	A	NM2026_0081	44920	1474
+common_four_libraries	328	B	NM2026_0083	51481	1474
+common_four_libraries	324	A+B union	combined	33138	1474
+common_four_libraries	328	A+B union	combined	96401	1474
+common_four_libraries	324+328	all four union	combined	129539	1474
